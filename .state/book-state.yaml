@@ -825,8 +825,8 @@ ai:
 
 state:
   migration:
-    current_version: "v3.5"
-    source_version: "v3.4"
+    current_version: "v3.6"
+    source_version: "v3.5"
     progress:
       total_blueprints: 18
       drafted_chapters: 17
@@ -835,7 +835,7 @@ state:
       capabilities_defined: 8
       latam_cases_added: 7
       categories_in_appendix_a: 7
-      pages_pdf: 192
+      pages_pdf: 196
     revision_v32_changes:
       - "B1: +Caso OGX Brasil, +definicion fisica organizacional, -15% redundancia"
       - "B2: +Caso Odebrecht, +transicion mejorada a Coding Trance"
@@ -877,6 +877,24 @@ state:
       - "YAML: Agregados blueprints para B5.5, B5.6, APP-C, APP-D"
       - "YAML: Corregido feeds_into de B4 (B7 -> B5)"
       - "YAML: Actualizado total_blueprints a 18, appendices a 4"
+    revision_v36_changes:
+      - "Blindaje de vulnerabilidades argumentales (~1,250 palabras)"
+      - "B6: +Declaracion epistemologica casos de exito (~250 palabras)"
+      - "  Asimetria documental explicita: fracasos publicos vs exitos invisibles"
+      - "  Fuentes: experiencia directa, testimonios, reconstrucciones"
+      - "  Lector evalua por plausibilidad estructural, no verificabilidad externa"
+      - "B10: +Seccion 'Precondiciones politicas' (~650 palabras)"
+      - "  4 condiciones viabilidad: crisis, cambio liderazgo, presion externa, legado"
+      - "  Quien puede proponer (directorio, CEO nuevo, CFO/CRO)"
+      - "  Quien no puede (gerentes medios, consultores sin sponsor, perdedores politicos)"
+      - "  Tacticas: framing como proteccion, piloto acotado, coalicion previa"
+      - "  Que hacer cuando no hay condiciones (esperar, crear, aceptar)"
+      - "B5.6: +Seccion 'Cuando el poder decide no aceptar limites' (~350 palabras)"
+      - "  Destruccion activa vs captura gradual"
+      - "  Formas legales de eliminar gate (remocion, reconfiguracion, vaciado, ignorar)"
+      - "  Lo unico que puede hacer el gate: documentar"
+      - "  Limite explicito del mecanismo ante poder que rechaza limites"
+      - "PDF: 192 -> 196 paginas (+4)"
     next_actions:
       - "Regenerar libro completo PDF/EPUB"
       - "Validar coherencia post-edicion"
