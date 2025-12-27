@@ -16,9 +16,9 @@ La ausencia de estas capacidades no refleja negligencia ni incompetencia de quie
 
 Durante la mayor parte del siglo veinte, las decisiones que podían destruir una empresa eran fundamentalmente financieras. Una mala adquisición. Una inversión de capital mal calculada. Un endeudamiento excesivo. Los mecanismos de control para estas decisiones surgieron porque los fracasos fueron visibles, atribuibles y litigables. Las decisiones sobre sistemas, procesos y capacidades eran consideradas operativas, delegables, manejables sin oversight especial.
 
-Esta distinción fue razonable durante décadas. Ya no lo es. La transformación digital no es un proyecto de sistemas. Es una reconfiguración fundamental de cómo opera el negocio. Una iniciativa de datos mal ejecutada no es un inconveniente operativo. Es una fuente potencial de exposición regulatoria masiva. Un despliegue de inteligencia artificial sin governance adecuado puede afectar clientes, empleados y reputación de maneras que ningún departamento legal puede contener después del hecho.
+Esta distinción fue razonable durante décadas. Ya no lo es. La transformación digital no es un proyecto de sistemas. Es una reconfiguración fundamental de cómo opera el negocio. Una iniciativa de datos mal ejecutada no es un inconveniente operativo. Es una fuente potencial de exposición regulatoria masiva. Un despliegue de inteligencia artificial sin gobernanza adecuado puede afectar clientes, empleados y reputación de maneras que ningún departamento legal puede contener después del hecho.
 
-La escala de impacto de las decisiones no financieras creció exponencialmente. Los mecanismos de governance no crecieron con ella. El resultado es un gap que nadie diseñó intencionalmente pero que existe como propiedad emergente de estructuras que evolucionaron para un mundo que ya no existe. Reconocer este gap es el primer paso para cerrarlo. El segundo paso es entender que cerrarlo requiere capacidades específicas que operan como sistema, no como herramientas aisladas.
+La escala de impacto de las decisiones no financieras creció exponencialmente. Los mecanismos de gobernanza no crecieron con ella. El resultado es un gap que nadie diseñó intencionalmente pero que existe como propiedad emergente de estructuras que evolucionaron para un mundo que ya no existe. Reconocer este gap es el primer paso para cerrarlo. El segundo paso es entender que cerrarlo requiere capacidades específicas que operan como sistema, no como herramientas aisladas.
 
 <!-- block: causa -->
 
@@ -28,7 +28,7 @@ Estos factores no se resuelven con buenas intenciones ni con procesos adicionale
 
 La primera capacidad es la delimitacion explicita de que decisiones son estrategicas y cuales no.
 
-Que comportamiento habilita: permite identificar con anticipacion cuales iniciativas requieren escrutinio reforzado antes de comprometer recursos significativos. Los equipos saben desde el inicio si su propuesta entra en el perimetro de governance especial.
+Que comportamiento habilita: permite identificar con anticipacion cuales iniciativas requieren escrutinio reforzado antes de comprometer recursos significativos. Los equipos saben desde el inicio si su propuesta entra en el perimetro de gobernanza especial.
 
 Que comportamiento bloquea: impide que iniciativas de alto impacto avancen por canales informales, que se presenten como "proyectos piloto" para evadir revision, que se fragmenten artificialmente para mantenerse bajo los umbrales.
 
@@ -36,7 +36,7 @@ Que costo politico introduce: los sponsors de iniciativas grandes no pueden evit
 
 Que error estructural previene: amplificacion ciega. Sin delimitacion, iniciativas que comprometen capacidad organizacional significativa pueden avanzar sin que nadie con autoridad las evalúe formalmente, acumulando momentum hasta que detenerse es politicamente imposible.
 
-Los umbrales no son arbitrarios: se definen por exposicion potencial, irreversibilidad, consumo de recursos y afectacion de capacidad organizacional. Una iniciativa que supera cualquiera de estos umbrales entra en el perimetro de governance reforzado. Una que no los supera sigue los canales normales. La delimitacion no busca controlar todo. Busca asegurar que lo que debe controlarse no escape por indefinicion.
+Los umbrales no son arbitrarios: se definen por exposicion potencial, irreversibilidad, consumo de recursos y afectacion de capacidad organizacional. Una iniciativa que supera cualquiera de estos umbrales entra en el perimetro de gobernanza reforzado. Una que no los supera sigue los canales normales. La delimitacion no busca controlar todo. Busca asegurar que lo que debe controlarse no escape por indefinicion.
 
 La segunda capacidad es el criterio codificado no negociable.
 
@@ -60,7 +60,7 @@ Que costo politico introduce: alguien debe firmar el veredicto. El anonimato de 
 
 Que error estructural previene: aceleracion sin criterio. Sin gate vinculante, las iniciativas fluyen hacia ejecucion porque el costo de detener activamente es mayor que el costo de permitir que continuen pasivamente. El gate invierte esta asimetria.
 
-El DRG no es una metodologia ni un checklist ni un proceso de revision. Es un mecanismo que cambia el estatus institucional de una iniciativa. Produce veredicto explicito con consecuencias reales. Si el veredicto puede ignorarse sin dejar rastro, el DRG no existe. Si puede reinterpretarse segun el sponsor, es teatro institucional.
+El DRG no es una metodología ni una lista de verificación ni un proceso de revisión. Es un mecanismo que cambia el estatus institucional de una iniciativa. Produce veredicto explicito con consecuencias reales. Si el veredicto puede ignorarse sin dejar rastro, el DRG no existe. Si puede reinterpretarse segun el sponsor, es teatro institucional.
 
 La cuarta capacidad es la proteccion politica del NO.
 
@@ -128,7 +128,7 @@ Las ocho capacidades se resumen en la siguiente tabla:
 
 | Capacidad | Funcion | Error estructural que previene |
 |-----------|---------|-------------------------------|
-| 1. Delimitacion explicita | Define que decisiones requieren governance reforzado | Amplificacion ciega |
+| 1. Delimitacion explicita | Define que decisiones requieren gobernanza reforzado | Amplificacion ciega |
 | 2. Criterio codificado | Establece reglas observables con umbral y consecuencia | Neutralizacion del disenso |
 | 3. Gate vinculante (DRG) | Produce veredicto que cambia estatus institucional | Aceleracion sin criterio |
 | 4. Proteccion politica | Protege a operadores y sponsors de costo personal | Neutralizacion del disenso |
@@ -173,7 +173,7 @@ Cómo se protege políticamente tiene componentes formales e informales. Las pro
 
 Cómo se financia es menos complejo de lo que parece, aunque requiere estructura correcta para evitar conflictos de interés.
 
-Los costos fijos incluyen compensación parcial de los miembros internos del gate, que típicamente dedican entre diez y veinte por ciento de su tiempo a esta función. En organizaciones medianas, esto representa equivalente a un FTE distribuido entre tres a cinco personas. También incluyen sistemas de registro y documentación, que pueden integrarse en infraestructura existente de governance. Y honorarios fijos de observadores externos o firmas independientes cuando el modelo lo requiere, típicamente entre cincuenta y cien mil dólares anuales dependiendo de frecuencia de reuniones y complejidad de iniciativas.
+Los costos fijos incluyen compensación parcial de los miembros internos del gate, que típicamente dedican entre diez y veinte por ciento de su tiempo a esta función. En organizaciones medianas, esto representa equivalente a un FTE distribuido entre tres a cinco personas. También incluyen sistemas de registro y documentación, que pueden integrarse en infraestructura existente de gobernanza. Y honorarios fijos de observadores externos o firmas independientes cuando el modelo lo requiere, típicamente entre cincuenta y cien mil dólares anuales dependiendo de frecuencia de reuniones y complejidad de iniciativas.
 
 Los costos variables incluyen tiempo de evaluación por iniciativa, análisis externos específicos cuando los criterios lo requieren, y recursos de secretaría técnica para documentación y seguimiento.
 
@@ -181,13 +181,13 @@ El orden de magnitud típico para una organización que gestiona cincuenta millo
 
 El retorno se mide en pérdidas evitadas, que son inherentemente invisibles. Una iniciativa de diez millones que el gate detiene porque los supuestos no estaban validados no aparece en ningún reporte como ahorro. Solo aparece como ausencia de la pérdida que habría ocurrido. Esta invisibilidad del retorno hace que el financiamiento del gate sea políticamente vulnerable: es fácil cuestionar el costo de algo cuyo beneficio no puede mostrarse en un dashboard.
 
-La protección contra esta vulnerabilidad es estructural: el financiamiento viene del presupuesto de governance corporativa, no del presupuesto de las iniciativas evaluadas. Si las iniciativas financiaran su propia evaluación, habría incentivo a reducir la rigurosidad para reducir el costo. El gate se financia como se financia la auditoría interna o el compliance: como infraestructura de governance cuyo valor es protección sistémica, no retorno atribuible a transacciones específicas.
+La protección contra esta vulnerabilidad es estructural: el financiamiento viene del presupuesto de gobernanza corporativa, no del presupuesto de las iniciativas evaluadas. Si las iniciativas financiaran su propia evaluación, habría incentivo a reducir la rigurosidad para reducir el costo. El gate se financia como se financia la auditoría interna o el compliance: como infraestructura de gobernanza cuyo valor es protección sistémica, no retorno atribuible a transacciones específicas.
 
 Cómo se evita la captura requiere múltiples mitigantes porque no existe solución perfecta. La rotación obligatoria impide relaciones prolongadas de dependencia: los miembros rotan en ciclos escalonados y nadie sirve más de dos mandatos consecutivos. Las métricas de operación señalan captura potencial: si la tasa de aprobación supera noventa por ciento sostenidamente, el gate no está filtrando; si el tiempo promedio de evaluación es muy corto, no hay escrutinio real; si las iniciativas de ciertos sponsors siempre pasan, hay sesgo. La revisión externa periódica cada dos o tres años evalúa si los criterios se aplicaron consistentemente y si hubo presión documentable sobre los operadores. El canal de escalamiento protegido permite que cualquier miembro del gate escale a la junta si considera que hay presión indebida.
 
 Qué ocurre cuando el presidente o controlador se opone al veredicto es la prueba de fuego del diseño. Si el gate puede ignorarse cuando el sponsor es suficientemente poderoso, el gate no existe. Pero el diseño no pretende impedir que el poder máximo de la organización tome decisiones; pretende que tomarlas tenga costo visible. El mecanismo de override requiere decisión explícita documentada, registro en acta de junta con los argumentos, asunción explícita de responsabilidad, reporte al directorio completo. El presidente que quiere ignorar el veredicto puede hacerlo, pero debe hacerlo a la luz. La experiencia muestra que los overrides explícitos son raros precisamente porque la visibilidad cambia el cálculo político. El beneficio de impulsar una iniciativa contra el veredicto del gate rara vez supera el costo de quedar registrado haciéndolo.
 
-Cuándo no usar el gate es pregunta legítima que merece respuesta honesta. No todas las decisiones requieren este nivel de governance. Las iniciativas que no superan los umbrales de materialidad siguen canales normales. Las decisiones que son genuinamente reversibles a bajo costo pueden tomarse con menos fricción. Los contextos de exploración temprana donde el valor está en aprender rápido, no en comprometer recursos significativos, requieren velocidad que el gate no provee. El gate es para decisiones que comprometen recursos irreversibles, exponen a la organización a riesgos significativos, o consumen capacidad escasa que no estará disponible para otras iniciativas. Aplicar governance pesado a decisiones livianas es tan disfuncional como no tener governance para decisiones pesadas. La delimitación explícita que es la primera capacidad existe precisamente para resolver esta tensión.
+Cuándo no usar el gate es pregunta legítima que merece respuesta honesta. No todas las decisiones requieren este nivel de gobernanza. Las iniciativas que no superan los umbrales de materialidad siguen canales normales. Las decisiones que son genuinamente reversibles a bajo costo pueden tomarse con menos fricción. Los contextos de exploración temprana donde el valor está en aprender rápido, no en comprometer recursos significativos, requieren velocidad que el gate no provee. El gate es para decisiones que comprometen recursos irreversibles, exponen a la organización a riesgos significativos, o consumen capacidad escasa que no estará disponible para otras iniciativas. Aplicar gobernanza pesado a decisiones livianas es tan disfuncional como no tener gobernanza para decisiones pesadas. La delimitación explícita que es la primera capacidad existe precisamente para resolver esta tensión.
 
 Las capacidades de gerencia funcional no prometen infalibilidad. Prometen que las decisiones importantes se tomen con información adecuada, que los veredictos negativos sean posibles sin heroísmo individual, que los errores sean detectables antes de volverse irreversibles, y que el registro institucional permita aprender de lo que funcionó y de lo que no. Una organización que tiene estas capacidades puede equivocarse, pero no puede equivocarse por inercia. Una que carece de ellas se equivoca sistemáticamente porque el sistema no tiene forma de detenerse a sí mismo.
 

@@ -10,7 +10,7 @@ La evidencia de que el limite externo funciona existe. No en casos corporativos 
 
 La Superintendencia de Bancos de Panama opera como limite externo genuino sobre el sistema bancario del pais. Sus criterios de adecuacion de capital, exposicion crediticia y concentracion de cartera son codificados, no negociables por bancos individuales, y tienen consecuencias automaticas cuando se violan. El regulador puede intervenir instituciones sin necesidad de cooperacion del regulado. La autoridad sobrevive a rotacion de personas porque reside en el marco legal, no en individuos. El sistema bancario panameno ha sobrevivido crisis regionales que devastaron sistemas en paises con regulacion mas flexible.
 
-La Comision para el Mercado Financiero de Chile opera con estructura similar. Sus requisitos de solvencia y governance corporativa para instituciones financieras funcionan como gate con veredicto vinculante. Las empresas que no cumplen no operan, independientemente de quien las patrocine. La CMF tiene autoridad para investigar, sancionar y liquidar sin depender de la voluntad del regulado. Chile ha mantenido estabilidad financiera durante periodos donde paises vecinos enfrentaron crisis sistemicas.
+La Comision para el Mercado Financiero de Chile opera con estructura similar. Sus requisitos de solvencia y gobernanza corporativa para instituciones financieras funcionan como gate con veredicto vinculante. Las empresas que no cumplen no operan, independientemente de quien las patrocine. La CMF tiene autoridad para investigar, sancionar y liquidar sin depender de la voluntad del regulado. Chile ha mantenido estabilidad financiera durante periodos donde paises vecinos enfrentaron crisis sistemicas.
 
 El Banco Central de Brasil, a traves de sus regulaciones prudenciales, impone limites que los bancos brasilenhos no pueden negociar. Los requisitos de capital, las restricciones de exposicion cambiaria y los limites de apalancamiento operan como criterio codificado con consecuencia automatica. La crisis de 2008 afecto marginalmente al sistema bancario brasileno comparado con sistemas que operaban con regulacion mas laxa.
 
@@ -54,6 +54,6 @@ La evidencia de reguladores latinoamericanos muestra que el principio funciona c
 
 Si el lector implementa esto y funciona, deberia documentarlo internamente. El registro de veredictos negativos es la base de esa documentacion. Cada iniciativa detenida deberia tener registro del analisis, los criterios incumplidos, y el costo proyectado evitado. Ese registro deberia revisarse anualmente para confirmar que la decision fue correcta.
 
-En tres a cinco anos, el lector tendra evidencia propia. No evidencia publicable, pero suficiente para defender el mecanismo internamente, justificar su continuacion, y demostrar al directorio que la inversion en governance produce retorno medible en perdidas evitadas.
+En tres a cinco anos, el lector tendra evidencia propia. No evidencia publicable, pero suficiente para defender el mecanismo internamente, justificar su continuacion, y demostrar al directorio que la inversion en gobernanza produce retorno medible en perdidas evitadas.
 
 El caso publico que el lector buscaba al empezar este apendice quizas no exista. El caso que importa es el que el lector puede construir si decide implementar.
