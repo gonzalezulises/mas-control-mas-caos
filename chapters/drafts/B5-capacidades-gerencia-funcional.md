@@ -139,6 +139,8 @@ Las ocho capacidades se resumen en la siguiente tabla:
 
 Estas ocho capacidades no son opcionales ni intercambiables. Son componentes de un sistema donde cada uno depende de los otros. El gate sin criterio codificado es teatro. El criterio sin protección política se erosiona. La protección sin registro irreversible es promesa sin enforcement. El registro sin aprendizaje procedural acumula datos que nadie usa. El aprendizaje sin revisión periódica se cristaliza en el pasado. La delimitación sin gate permite evasión. La separación sin las otras permite captura. El sistema funciona como sistema o no funciona.
 
+El lector que desee verificar la lógica de estas capacidades contra evidencia histórica puede consultar el Apéndice F, donde se analizan cuatro casos públicos —Toyota, Johnson & Johnson, Boeing, Odebrecht— bajo este lente. Para evaluar el estado de estas capacidades en su propia organización, el Apéndice E ofrece un instrumento de diagnóstico con 32 preguntas observables.
+
 El gate cometerá errores. Esto no es defecto de diseño sino característica inherente de cualquier mecanismo de decisión. Hay dos tipos de error que deben anticiparse y gestionarse.
 
 Los falsos negativos ocurren cuando el gate rechaza una iniciativa que habría funcionado si se hubiera ejecutado. El costo de este error es oportunidad perdida: valor no capturado, ventaja competitiva no aprovechada, momentum organizacional frenado innecesariamente. Este tipo de error es invisible porque la iniciativa rechazada nunca demuestra su potencial. Solo puede inferirse cuando iniciativas similares funcionan en otras organizaciones o cuando análisis posterior sugiere que los criterios fueron excesivamente restrictivos.

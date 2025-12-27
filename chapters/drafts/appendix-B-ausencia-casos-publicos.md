@@ -46,7 +46,7 @@ La Introduccion de este libro declaro explicitamente este estatus: lo que sigue 
 
 El lector debe decidir basandose en la logica estructural. Si el costo politico de aprobar es estructuralmente menor que el de rechazar, los mecanismos internos produciran aprobacion sistematica. Si el criterio negociable colapsa bajo presion politica, solo el criterio codificado resiste. Si el gate sin veredicto vinculante produce recomendaciones que el sponsor ignora, solo el veredicto vinculante detiene.
 
-La evidencia de reguladores latinoamericanos muestra que el principio funciona cuando se implementa correctamente. La ausencia de casos corporativos voluntarios muestra que las organizaciones no publicitan sus exitos de no-ejecucion. Estas dos observaciones son consistentes, no contradictorias.
+La evidencia de reguladores latinoamericanos muestra que el principio funciona cuando se implementa correctamente. La ausencia de casos corporativos voluntarios muestra que las organizaciones no publicitan sus exitos de no-ejecucion. Estas dos observaciones son consistentes, no contradictorias. El Apéndice F ofrece reinterpretaciones de casos públicos —Toyota, Johnson & Johnson, Boeing, Odebrecht— bajo el lente del framework, como evidencia indirecta de cómo las capacidades presentes o ausentes determinan resultados.
 
 <!-- block: proteccion -->
 

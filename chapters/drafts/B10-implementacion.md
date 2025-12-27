@@ -114,6 +114,8 @@ Si ninguna de las condiciones de viabilidad existe y ninguna tactica es aplicabl
 
 Esto no es fracaso del libro. Es limite de cualquier mecanismo de gobernanza. Ningun sistema funciona donde el poder ha decidido que no tolerara limites a su discrecionalidad.
 
+Antes de diseñar intervenciones, conviene saber dónde está parado. El Apéndice E contiene un instrumento que permite evaluar el estado de cada capacidad en su organización. El diagnóstico no sustituye el diseño, pero evita invertir en capacidades que ya funcionan mientras se ignoran las que faltan.
+
 <!-- break -->
 
 El libro terminó de describir. Lo que sigue es decidir.
