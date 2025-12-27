@@ -68,6 +68,12 @@ book:
       "DRG": "esto no pasa a ejecución sin cobertura"
       "aprendizaje": "cambiar procedimientos; dejar de hacer lo peligroso"
       "IA": "capacidad que elimina fricción y acelera errores"
+    provocation:
+      rule: "Cada capítulo debe contener al menos 1 afirmación incómoda, no negociable, formulada como sentencia verificable (no retórica)."
+      examples:
+        - "Más control puede aumentar el caos."
+        - "Confiar en tu criterio no te protege."
+        - "La mayoría de las iniciativas fallidas nunca debieron iniciar."
   writing_tests:
     executive_sleep_test: >
       ¿Este texto ayuda a un CEO a no quedar expuesto frente a su junta y a dormir mejor
@@ -183,6 +189,7 @@ architecture_versions:
         exit_criteria:
           - "El lector puede describir el loop sin metáforas."
           - "Se explican señales de runaway dynamics."
+        loop_closure: "Instala el loop como dinámica inevitable; prepara el mito del control como respuesta típica."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -208,6 +215,7 @@ architecture_versions:
         exit_criteria:
           - "Quedan explícitos trade-offs de control."
           - "Se explica caos como respuesta emergente."
+        loop_closure: "Demuestra que el aumento de control alimenta fragilidad y acelera el loop; prepara el trance como normalización."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -233,6 +241,7 @@ architecture_versions:
         exit_criteria:
           - "Hay criterios observables del trance."
           - "Hay señales tempranas (leading indicators)."
+        loop_closure: "El trance es el loop normalizado; la organización ya no ve el loop porque está dentro de él."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -259,6 +268,7 @@ architecture_versions:
           - "Se distingue aprendizaje individual de aprendizaje organizacional."
           - "Se identifican mecanismos procedurales de retención de conocimiento."
           - "Se explica por qué capacitación individual no escala a cambio sistémico."
+        loop_closure: "Sin aprendizaje procedural, el loop reinicia tras cada intento de corrección; prepara la necesidad de un mecanismo externo."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -285,6 +295,7 @@ architecture_versions:
           - "Se demuestra la asimetría capacidad/límites con ejemplos concretos."
           - "Se evita discurso ético genérico o apocalíptico."
           - "Se conecta explícitamente con la necesidad de fricción deliberada."
+        loop_closure: "La IA acelera el loop sin añadir frenos; hace inevitable la necesidad de fricción deliberada externa."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -309,6 +320,7 @@ architecture_versions:
         exit_criteria:
           - "Se justifican límites como activos."
           - "Se proponen mecanismos concretos de fricción."
+        loop_closure: "Introduce la fricción como respuesta al loop; pero aún falta el mecanismo que la institucionalice."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -335,6 +347,7 @@ architecture_versions:
         exit_criteria:
           - "Se argumenta por qué el auto-control falla en sistemas de poder."
           - "Se prepara la necesidad de un mecanismo externo (DRG)."
+        loop_closure: "El loop no puede cortarse desde dentro; prepara la inevitabilidad del DRG como límite externo."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -359,6 +372,7 @@ architecture_versions:
         exit_criteria:
           - "Definición operativa: entrada/proceso/salida ✅⚠️⛔."
           - "Criterio codificado A-D con ejemplos."
+        loop_closure: "Introduce el límite externo que corta el loop; sin DRG, el sistema reinicia su auto-amplificación."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -385,6 +399,7 @@ architecture_versions:
         exit_criteria:
           - "Se define estructura del criterio A-D."
           - "Se muestran ejemplos de criterios mal codificados vs. bien codificados."
+        loop_closure: "Codifica las reglas que hacen al DRG efectivo; sin criterio explícito, el gate se vuelve ritual y el loop reinicia."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -409,6 +424,7 @@ architecture_versions:
         exit_criteria:
           - "Casos muestran capital político preservado."
           - "Se cuantifica costo evitado (aunque sea por rangos)."
+        loop_closure: "Cierra el libro mostrando que cortar el loop temprano preserva capital; el DRG funciona cuando produce ⛔ a tiempo."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -515,11 +531,11 @@ ai:
       - "Evitar narrativa lineal; privilegiar loops."
       - "Trade-offs explícitos, no consejos."
       - "DRG debe producir estatus ✅⚠️⛔, no recomendaciones."
-      - "Los capítulos de aprendizaje (B7) y de IA (B8) deben preparar el DRG. Evitar ética genérica, cultura tech superficial o humanismo abstracto."
+      - "Los capítulos de aprendizaje (B7) y de IA (B8) deben preparar la inevitabilidad del DRG; evitar ética genérica, cultura tech superficial o humanismo abstracto."
       - "No vender sofisticación; traducir a alivio/protección/cobertura."
       - "Aplicar mandatory_section_flow en capítulos y secciones clave."
       - "Pasar executive_sleep_test antes de entregar texto."
-      - "Evitar ética genérica, cultura superficial y moralina."
+      - "Cada capítulo debe incluir al menos una afirmación incómoda (sentencia verificable), sin moralina ni retórica."
     allowed_actions:
       - "proponer reordenamiento de blueprints"
       - "detectar incoherencias entre conceptos y capítulos"
