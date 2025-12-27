@@ -1,3 +1,4 @@
+<!-- stub -->
 # B1: El loop del poder
 
 > **Tesis**: Las organizaciones no progresan: se auto-amplifican.

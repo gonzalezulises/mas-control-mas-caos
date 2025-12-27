@@ -1,3 +1,4 @@
+<!-- stub -->
 # B2: Control ≠ estabilidad
 
 > **Tesis**: Más control reduce variedad y aumenta fragilidad.

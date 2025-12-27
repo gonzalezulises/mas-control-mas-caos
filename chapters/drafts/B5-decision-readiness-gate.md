@@ -1,3 +1,4 @@
+<!-- stub -->
 # B5: Decision Readiness Gate (DRG)
 
 > **Tesis**: Un gate externo decide si una iniciativa está lista para ejecución.

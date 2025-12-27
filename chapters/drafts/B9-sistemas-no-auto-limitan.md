@@ -1,3 +1,4 @@
+<!-- stub -->
 # B9: Los sistemas no pueden auto-limitarse
 
 > **Tesis**: Un sistema en runaway no puede frenarse a sí mismo; el límite debe ser externo.

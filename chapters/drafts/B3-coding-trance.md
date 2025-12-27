@@ -1,3 +1,4 @@
+<!-- stub -->
 # B3: Coding Trance
 
 > **Tesis**: La organización entra en trance cuando capacidad reemplaza contexto.

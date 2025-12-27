@@ -1,3 +1,4 @@
+<!-- stub -->
 # B7: El aprendizaje no es individual: es grupal y procedural
 
 > **Tesis**: Las organizaciones no aprenden porque las personas aprenden; aprenden cuando el conocimiento se embebe en procesos, no en cabezas.

@@ -1,3 +1,4 @@
+<!-- stub -->
 # B6: Casos donde decir NO fue éxito
 
 > **Tesis**: Evitar ejecución puede ser el mayor ROI.

@@ -1,3 +1,4 @@
+<!-- stub -->
 # B8: IA y los límites humanos
 
 > **Tesis**: La IA amplifica el poder técnico sin amplificar la capacidad humana de establecer límites; el resultado es aceleración sin gobernanza.

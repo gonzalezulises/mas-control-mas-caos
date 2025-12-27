@@ -1,3 +1,4 @@
+<!-- stub -->
 # B10: Criterio codificado
 
 > **Tesis**: El DRG funciona solo si el criterio de decisión es explícito, observable y no negociable.

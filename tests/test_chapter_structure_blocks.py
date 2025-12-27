@@ -12,6 +12,10 @@ Validates:
   4. <!-- block: riesgo -->
   5. <!-- block: proteccion -->
 
+Stub handling:
+- Files containing <!-- stub --> are skipped (not validated)
+- Skipped files print "SKIP: <file> is stub"
+
 Usage:
   python3 tests/test_chapter_structure_blocks.py
   python3 tests/test_chapter_structure_blocks.py path/to/chapters/
@@ -40,6 +44,18 @@ def ok(msg: str) -> None:
     print(f"OK: {msg}")
 
 
+def skip(msg: str) -> None:
+    print(f"SKIP: {msg}")
+
+
+STUB_MARKER = "<!-- stub -->"
+
+
+def is_stub(content: str) -> bool:
+    """Check if file contains stub marker."""
+    return STUB_MARKER in content
+
+
 def find_block_positions(content: str) -> dict:
     """Find positions of each block in content. Returns {block: position} or {block: -1} if not found."""
     positions = {}
@@ -66,10 +82,20 @@ def main():
     missing_blocks = []
     wrong_order = []
     duplicate_blocks = []
+    skipped_stubs = []
+    validated_files = []
 
     for md_file in md_files:
         content = md_file.read_text(encoding="utf-8")
         filename = md_file.name
+
+        # Check for stub marker
+        if is_stub(content):
+            skip(f"{filename} is stub")
+            skipped_stubs.append(filename)
+            continue
+
+        validated_files.append(filename)
 
         # Check for missing blocks
         positions = find_block_positions(content)
@@ -116,7 +142,8 @@ def main():
             print(f"    missing: {item['missing']}")
             print()
         sys.exit(1)
-    ok("All chapters have required structure blocks")
+    if validated_files:
+        ok("All chapters have required structure blocks")
 
     # Report duplicates
     if duplicate_blocks:
@@ -126,7 +153,8 @@ def main():
             print(f"    duplicates: {item['duplicates']}")
             print()
         sys.exit(1)
-    ok("No duplicate blocks found")
+    if validated_files:
+        ok("No duplicate blocks found")
 
     # Report wrong order
     if wrong_order:
@@ -138,9 +166,15 @@ def main():
             print(f"    found: {item['found_order']}")
             print()
         sys.exit(1)
-    ok("All blocks appear in correct order")
+    if validated_files:
+        ok("All blocks appear in correct order")
 
-    print(f"\nPASS: Chapter structure validated for {len(md_files)} file(s).")
+    # Summary
+    total = len(md_files)
+    stubs = len(skipped_stubs)
+    validated = len(validated_files)
+
+    print(f"\nPASS: Chapter structure validated ({validated} checked, {stubs} stubs skipped, {total} total).")
 
 
 if __name__ == "__main__":
