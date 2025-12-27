@@ -52,12 +52,15 @@ build_full_book() {
         "chapters/drafts/B1-el-loop-del-poder.md"
         "chapters/drafts/B2-control-no-es-estabilidad.md"
         "chapters/drafts/B3-coding-trance.md"
+        "chapters/drafts/B4-los-sistemas-no-se-auto-limitan.md"
         "chapters/drafts/B7-aprendizaje-grupal-procedural.md"
         "chapters/drafts/B8-ia-y-limites-humanos.md"
-        "chapters/drafts/B4-los-sistemas-no-se-auto-limitan.md"
         "chapters/drafts/B5-capacidades-gerencia-funcional.md"
         "chapters/drafts/B6-casos-donde-decir-no-fue-exito.md"
         "chapters/drafts/B09-criterio-codificado.md"
+        "chapters/drafts/B10-implementacion.md"
+        "chapters/drafts/appendix-A-criterios-readiness.md"
+        "chapters/drafts/appendix-B-ausencia-casos-publicos.md"
     )
 
     local existing_chapters=""

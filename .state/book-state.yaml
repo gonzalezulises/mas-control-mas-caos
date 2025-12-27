@@ -492,7 +492,7 @@ architecture_versions:
           - "El capítulo cierra el libro sin introducir conceptos nuevos."
         loop_closure: "El loop del poder no se rompe con conciencia, valores ni liderazgo individual. Se rompe cuando el criterio deja de ser negociable. Aquí termina la discusión conceptual."
         nonnegotiable_claim: "Sin criterio codificado, todo límite es político y por tanto frágil; solo el criterio explícito convierte el NO en una decisión institucional."
-        feeds_into: ["B1"]
+        feeds_into: ["B10"]
         executive_relief: "El criterio codificado te da cobertura política, trazabilidad y protección frente a la junta. Tu decisión está respaldada por reglas explícitas, no por juicio personal. Legitimidad para decir NO sin quedar expuesto."
         writing_guardrails:
           required_blocks:
@@ -517,6 +517,62 @@ architecture_versions:
             - "No introducir nuevos frameworks ni mecanismos"
             - "Hablar desde inevitabilidad institucional, no desde recomendación"
             - "Debe sentirse como: Aquí termina la discusión. A partir de aquí, solo queda decidir si se implementa o no."
+      - id: "B10"
+        sequence: 10
+        title: "Implementación"
+        role: "operational"
+        thesis: "La implementación es iterativa: un criterio, una decisión, un veredicto documentado."
+        required_concepts: ["C5-drg", "C6-learning-procedural"]
+        supports_capabilities: ["ALL"]
+        exit_criteria:
+          - "El lector sabe exactamente qué hacer el lunes."
+          - "Las resistencias predecibles están anticipadas con respuestas."
+          - "Las métricas de funcionamiento vs. teatro están explícitas."
+          - "La secuencia de 4 fases es concreta y verificable."
+        loop_closure: "El libro cierra con acción, no con reflexión. El lector tiene secuencia operativa."
+        nonnegotiable_claim: "El sistema se construye caso por caso, no de una vez; esperar el diseño perfecto es la forma más común de no implementar nada."
+        feeds_into: ["APP-A"]
+        executive_relief: "No necesitas permiso de toda la organización. Un criterio, una iniciativa, un veredicto documentado. Puedes empezar el lunes."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+          mandatory_tests:
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "APP-A"
+        sequence: 11
+        title: "Apéndice A: Criterios de Readiness por Tipo de Iniciativa"
+        role: "tool"
+        thesis: "El criterio codificado debe ser usable, no solo argumentable."
+        supports_capabilities: ["CAP-4"]
+        exit_criteria:
+          - "Cada tipo de iniciativa tiene criterios con las 4 propiedades (observable, umbral, consecuencia, anti-gaming)."
+          - "Los criterios son punto de partida calibrable, no checklist universal."
+          - "Se incluye guía de calibración y detección de manipulación."
+        nonnegotiable_claim: "Los criterios sin umbral explícito y consecuencia predefinida no son criterios; son invitaciones a negociar."
+        feeds_into: ["APP-B"]
+        executive_relief: "Tienes criterios operativos que puedes aplicar mañana, no solo argumentos de por qué deberías tenerlos."
+      - id: "APP-B"
+        sequence: 12
+        title: "Apéndice B: Por qué no hay casos públicos"
+        role: "meta-evidence"
+        thesis: "La ausencia de casos públicos es consecuencia del mecanismo funcionando, no evidencia de que no funciona."
+        supports_capabilities: []
+        exit_criteria:
+          - "La debilidad de ausencia de casos se aborda frontalmente."
+          - "Se explican las 3 razones estructurales de la invisibilidad."
+          - "Se presenta evidencia indirecta (HRO, reguladores)."
+          - "Se propone documentar el propio caso."
+        nonnegotiable_claim: "Las organizaciones que evitan errores no tienen historia que contar; el éxito del mecanismo produce ausencia de evidencia pública."
+        feeds_into: []
+        executive_relief: "La falta de casos públicos no es argumento en contra; es consecuencia predecible. El caso que importa es el que tú puedes construir."
 
 chapters:
   - chapter_id: "CH-001"
@@ -675,14 +731,15 @@ ai:
 
 state:
   migration:
-    current_version: "v3"
-    source_version: "v2"
+    current_version: "v3.1"
+    source_version: "v3"
     progress:
-      total_blueprints: 9
-      drafted_chapters: 8
-      chapters_with_content: 8
+      total_blueprints: 12
+      drafted_chapters: 11
+      chapters_with_content: 11
+      appendices: 2
       capabilities_defined: 8
     next_actions:
-      - "Expandir B09 con síntesis de capacidades"
-      - "Regenerar libro completo con nueva estructura"
-      - "Validar cobertura de capacidades en cada capítulo"
+      - "Validar estructura de nuevos capítulos y apéndices"
+      - "Regenerar libro completo con B10 y apéndices"
+      - "Revisar consistencia de feeds_into en blueprints"
