@@ -28,6 +28,50 @@ book:
     DRG: "Gate obligatorio previo a ejecución con veredicto ✅/⚠️/⛔."
     CodingTrance: "Estado cognitivo organizacional: capacidad sin contexto; lo medible reemplaza lo real."
     RunawayDynamics: "Realimentación positiva sin frenos; acelera hacia colapso o cambio de régimen."
+  narrative_contract:
+    reader_reality:
+      persona: "CEO / Comité Ejecutivo"
+      buys:
+        - "alivio"
+        - "protección"
+        - "legitimidad"
+        - "cobertura política"
+      does_not_buy:
+        - "sofisticación"
+        - "madurez"
+        - "frameworks"
+        - "evangelización"
+    core_promise: >
+      Este libro no busca hacerte "más maduro". Busca evitar que apruebes iniciativas
+      mal planteadas que quemen dinero, credibilidad y capital político frente a tu junta.
+    dual_language:
+      internal_thinking: ["estructuras", "causalidad", "loops", "efectos de segundo orden", "fragilidad sistémica"]
+      external_writing: ["tranquilidad ejecutiva", "riesgo evitado", "cobertura", "legitimidad", "protección"]
+    mandatory_section_flow:
+      - "reconocimiento: esto ya te pasó"
+      - "alivio: no fue incompetencia"
+      - "causa estructural breve"
+      - "riesgo invisible (segundo orden)"
+      - "protección: mecanismo/cobertura"
+    prohibitions:
+      - "vender sofisticación como beneficio"
+      - "moralizar (deberíamos / es importante)"
+      - "ética genérica o humanismo abstracto"
+      - "cultura tech superficial"
+      - "prometer performance sin trade-offs"
+    translation_dictionary:
+      "complejidad": "esto se descontrola sin avisar"
+      "feedback loop": "esto se acelera solo"
+      "efectos de segundo orden": "el problema aparece cuando ya es tarde"
+      "control excesivo": "fragilidad invisible"
+      "Coding Trance": "todo parecía correcto hasta que fue demasiado tarde"
+      "DRG": "esto no pasa a ejecución sin cobertura"
+      "aprendizaje": "cambiar procedimientos; dejar de hacer lo peligroso"
+      "IA": "capacidad que elimina fricción y acelera errores"
+  writing_tests:
+    executive_sleep_test: >
+      ¿Este texto ayuda a un CEO a no quedar expuesto frente a su junta y a dormir mejor
+      la noche previa? Si no, reescribir hasta que sí.
 
 concepts:
   nodes:
@@ -312,6 +356,10 @@ ai:
       - "Trade-offs explícitos, no consejos."
       - "DRG debe producir estatus ✅⚠️⛔, no recomendaciones."
       - "Los capítulos de aprendizaje (B7) y de IA (B8) deben preparar el DRG. Evitar ética genérica, cultura tech superficial o humanismo abstracto."
+      - "No vender sofisticación; traducir a alivio/protección/cobertura."
+      - "Aplicar mandatory_section_flow en capítulos y secciones clave."
+      - "Pasar executive_sleep_test antes de entregar texto."
+      - "Evitar ética genérica, cultura superficial y moralina."
     allowed_actions:
       - "proponer reordenamiento de blueprints"
       - "detectar incoherencias entre conceptos y capítulos"
