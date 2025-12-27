@@ -41,3 +41,13 @@ jobs:
 
       - name: Run test_executive_relief.py
         run: python3 tests/test_executive_relief.py .state/book-state.yaml
+
+      - name: Run test_chapter_structure_blocks.py
+        run: python3 tests/test_chapter_structure_blocks.py chapters/
+        continue-on-error: false
+        if: hashFiles('chapters/**/*.md') != ''
+
+      - name: Run test_forbidden_language.py
+        run: python3 tests/test_forbidden_language.py chapters/
+        continue-on-error: false
+        if: hashFiles('chapters/**/*.md') != ''
