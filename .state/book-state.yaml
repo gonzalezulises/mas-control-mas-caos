@@ -25,7 +25,7 @@ book:
     - "control ≠ estabilidad"
     - "fricción deliberada"
   glossary:
-    DRG: "Gate obligatorio previo a ejecución con veredicto ✅/⚠️/⛔."
+    DRG: "Gate obligatorio previo a ejecución con veredicto GO/ALERTA/RECHAZO."
     CodingTrance: "Estado cognitivo organizacional: capacidad sin contexto; lo medible reemplaza lo real."
     RunawayDynamics: "Realimentación positiva sin frenos; acelera hacia colapso o cambio de régimen."
   narrative_contract:
@@ -213,6 +213,7 @@ architecture_versions:
     status: "superseded"
     intent: "Primera reestructuración: de libro lineal a sistema de loops y capacidades."
     notes: "Evolucionó a v3 con sistema de 8 capacidades."
+    chapter_blueprints: []
   - version: "v3"
     created: "2025-12-27"
     updated: "2025-12-27"
@@ -397,7 +398,7 @@ architecture_versions:
         exit_criteria:
           - "Se demuestra por qué los comités internos no producen NO vinculante."
           - "Se expone la asimetría de costos políticos entre aprobar y rechazar."
-          - "Se justifica la necesidad de mecanismos externos."
+          - "Se justifica la necesidad de límites externos con autoridad independiente."
         loop_closure: "Explica por qué el diagnóstico no basta: el sistema que ve el problema no puede detenerse a sí mismo."
         nonnegotiable_claim: "Los sistemas organizacionales no pueden auto-limitarse; el costo político de decir NO supera estructuralmente al de aprobar."
         feeds_into: ["B5"]
@@ -533,7 +534,7 @@ architecture_versions:
           - "El lector sabe exactamente qué hacer el lunes."
           - "Las resistencias predecibles están anticipadas con respuestas."
           - "Las métricas de funcionamiento vs. teatro están explícitas."
-          - "La secuencia de 4 fases es concreta y verificable."
+          - "La secuencia de 4 fases produce veredicto documentado y protección política."
         loop_closure: "El libro cierra con acción, no con reflexión. El lector tiene secuencia operativa."
         nonnegotiable_claim: "El sistema se construye caso por caso, no de una vez; esperar el diseño perfecto es la forma más común de no implementar nada."
         feeds_into: ["APP-A"]
@@ -559,12 +560,12 @@ architecture_versions:
         supports_capabilities: ["CAP-4"]
         exit_criteria:
           - "Cada tipo de iniciativa tiene criterios con las 4 propiedades (observable, umbral, consecuencia, anti-gaming)."
-          - "Los criterios son punto de partida calibrable, no checklist universal."
+          - "Los criterios determinan veredicto del gate para cada categoría."
           - "Se incluye guía de calibración y detección de manipulación."
         loop_closure: "Convierte el criterio codificado abstracto en herramienta operativa; cierra el ciclo de implementación con artefactos usables."
         nonnegotiable_claim: "Los criterios sin umbral explícito y consecuencia predefinida no son criterios; son invitaciones a negociar."
         feeds_into: ["APP-B"]
-        executive_relief: "Tienes criterios operativos que puedes aplicar mañana, no solo argumentos de por qué deberías tenerlos."
+        executive_relief: "Tienes criterios operativos que reducen tu exposición y protegen tu estatus frente a la junta."
       - id: "APP-B"
         sequence: 12
         title: "Apéndice B: Por qué no hay casos públicos"
@@ -574,12 +575,12 @@ architecture_versions:
         exit_criteria:
           - "La debilidad de ausencia de casos se aborda frontalmente."
           - "Se explican las 3 razones estructurales de la invisibilidad."
-          - "Se presenta evidencia indirecta (HRO, reguladores)."
+          - "Se presenta evidencia indirecta de límites externos efectivos (HRO, reguladores)."
           - "Se propone documentar el propio caso."
         loop_closure: "Cierra la objeción epistemológica que el crítico podría usar; la ausencia de evidencia pública valida la tesis en lugar de refutarla."
         nonnegotiable_claim: "Las organizaciones que evitan errores no tienen historia que contar; el éxito del mecanismo produce ausencia de evidencia pública."
         feeds_into: []
-        executive_relief: "La falta de casos públicos no es argumento en contra; es consecuencia predecible. El caso que importa es el que tú puedes construir."
+        executive_relief: "La falta de casos públicos no es riesgo para tu cobertura; es consecuencia predecible del mecanismo funcionando."
       - id: "B5.5"
         sequence: 7.5
         title: "Anatomía del Gate"
@@ -596,7 +597,7 @@ architecture_versions:
         loop_closure: "Convierte el DRG conceptual en objeto organizacional operable; conecta capacidades abstractas con arquitectura concreta."
         nonnegotiable_claim: "Un comité que no puede producir un NO vinculante no es gate; es asesor."
         feeds_into: ["B5.6"]
-        executive_relief: "Tienes arquitectura específica para diseñar un gate que funcione, no solo principios abstractos."
+        executive_relief: "Tienes arquitectura específica que protege tu estatus con un gate que produce veredicto vinculante."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -619,7 +620,7 @@ architecture_versions:
         loop_closure: "Anticipa las objeciones sobre fragilidad del mecanismo; cierra el loop de diseño mostrando que las fallas son predecibles y detectables."
         nonnegotiable_claim: "El límite externo que depende del limitado para información, nombramiento o compensación será capturado; no hay excepción conocida."
         feeds_into: ["B6"]
-        executive_relief: "Conocer los modos de falla antes de que ocurran te permite diseñar contra ellos y detectarlos temprano."
+        executive_relief: "Conocer los modos de falla reduce tu exposición y te protege de riesgo invisible."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -636,12 +637,12 @@ architecture_versions:
         supports_capabilities: []
         exit_criteria:
           - "Se posiciona el libro frente a HRO, Cynefin, VSM, Normal Accidents, Agile Governance, Antifragilidad."
-          - "Para cada marco: dónde converge, dónde diverge, qué aporta este libro que ese marco no resuelve."
+          - "Para cada marco: dónde converge, dónde diverge, qué aporta este libro sobre límites externos."
           - "La convergencia se presenta como validación, no como argumento de autoridad."
         loop_closure: "Posiciona el libro en contexto teórico; la convergencia de tradiciones diversas valida que el problema es real y reconocido."
         nonnegotiable_claim: "El diagnóstico está hecho repetidamente desde múltiples ángulos; lo que falta es mecanismo operativo."
         feeds_into: ["APP-D"]
-        executive_relief: "El libro no contradice lo que se sabe sobre sistemas complejos; está fundamentado en tradiciones establecidas."
+        executive_relief: "El libro te da cobertura teórica; está fundamentado en tradiciones que protegen tu exposición."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -665,7 +666,7 @@ architecture_versions:
         loop_closure: "Cierra el libro con herramientas de auditoría; permite al lector verificar si su gate es funcional o ceremonial."
         nonnegotiable_claim: "Un gate sin las protecciones estructurales descritas será capturado o ceremonializado; el diseño determina el destino."
         feeds_into: []
-        executive_relief: "Tienes checklist de diagnóstico para verificar si tu gate funciona o es ceremonia."
+        executive_relief: "Tienes checklist que protege tu estatus al verificar si el gate reduce riesgo real."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -675,19 +676,63 @@ architecture_versions:
             - proteccion
       - id: "APP-E"
         sequence: 15
-        title: "Apéndice E: Bibliografía"
+        title: "Apéndice E: Instrumento de Diagnóstico"
+        role: "tool"
+        thesis: "La evaluación de capacidades requiere indicadores observables, no percepciones."
+        supports_capabilities: ["CAP-1", "CAP-2", "CAP-3", "CAP-4", "CAP-5", "CAP-6", "CAP-7", "CAP-8"]
+        exit_criteria:
+          - "32 preguntas cubren las 8 capacidades incluyendo gate y protección política."
+          - "Cada pregunta tiene escala 1-5 con descripciones observables."
+          - "Sistema de puntuación e interpretación incluido."
+          - "Identificación de brechas críticas."
+        loop_closure: "Convierte el diagnóstico conceptual en herramienta de auditoría; el lector puede evaluar su propia organización."
+        nonnegotiable_claim: "Sin medición observable, el diagnóstico es opinión; el instrumento convierte percepción en dato."
+        feeds_into: ["APP-F"]
+        executive_relief: "Tienes herramienta que te protege al medir riesgo de exposición en cada capacidad."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-F"
+        sequence: 16
+        title: "Apéndice F: Casos de Referencia"
+        role: "evidence"
+        thesis: "Los casos históricos validan la lógica del framework cuando se analizan bajo el lente de las 8 capacidades."
+        supports_capabilities: []
+        exit_criteria:
+          - "4 casos analizados: Toyota, J&J, Boeing, Odebrecht."
+          - "Cada caso evaluado contra las 8 capacidades incluyendo gate y protección."
+          - "Patrones de éxito y fracaso identificados."
+          - "Conexión explícita con capítulos del libro."
+        loop_closure: "Valida el framework con evidencia histórica; los casos demuestran que las capacidades presentes o ausentes determinan resultados."
+        nonnegotiable_claim: "Los casos no prueban el framework, lo ilustran; la lógica estructural es lo que valida, no la evidencia histórica."
+        feeds_into: ["APP-G"]
+        executive_relief: "Tienes casos que te dan cobertura y protección al demostrar que el mecanismo funciona."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-G"
+        sequence: 17
+        title: "Apéndice G: Bibliografía"
         role: "reference"
         thesis: "Las fuentes citadas validan el fundamento teórico y empírico del libro."
         supports_capabilities: []
         exit_criteria:
           - "Todas las referencias en references.yaml están listadas."
-          - "Formato APA 7 correcto."
+          - "Formato APA 7 correcto con cobertura de fuentes sobre límites y gate."
           - "URLs verificables donde disponible."
           - "Organización por categoría temática."
         loop_closure: "Cierra el libro con transparencia sobre fuentes; permite al lector profundizar en tradiciones teóricas citadas."
         nonnegotiable_claim: "Todo dato verificable tiene fuente; toda teoría citada tiene referencia completa."
         feeds_into: []
-        executive_relief: "Tienes respaldo documental para cada afirmación que requiera verificación externa."
+        executive_relief: "Tienes respaldo documental que te protege ante la junta cuando cuestionen las fuentes."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -777,7 +822,7 @@ ai:
       - "Mantener option B como tesis central."
       - "Evitar narrativa lineal; privilegiar loops."
       - "Trade-offs explícitos, no consejos."
-      - "DRG debe producir estatus ✅⚠️⛔, no recomendaciones."
+      - "DRG debe producir estatus GO/ALERTA/RECHAZO, no recomendaciones."
       - "El DRG es una capacidad crítica, no la solución única."
       - "Cada capítulo debe declarar qué capacidades habilita."
       - "El cierre debe sintetizar capacidades como sistema, no cerrar sobre una sola."
@@ -860,10 +905,10 @@ state:
     current_version: "v3.7"
     source_version: "v3.6"
     progress:
-      total_blueprints: 19
-      drafted_chapters: 18
-      chapters_with_content: 18
-      appendices: 5
+      total_blueprints: 21
+      drafted_chapters: 20
+      chapters_with_content: 20
+      appendices: 7
       capabilities_defined: 8
       latam_cases_added: 7
       categories_in_appendix_a: 7

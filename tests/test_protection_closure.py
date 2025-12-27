@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test: Protection Closure for chapter_blueprints in v2 architecture.
+Test: Protection Closure for chapter_blueprints in working architecture version.
 
 Validates:
 - Each blueprint has 'exit_criteria' (non-empty list)
@@ -50,20 +50,20 @@ def warn(msg: str) -> None:
     print(f"WARN: {msg}")
 
 
-def get_v2_blueprints(data: dict) -> list:
-    """Extract chapter_blueprints from architecture_versions[v2]."""
+def get_working_blueprints(data: dict) -> list:
+    """Extract chapter_blueprints from architecture_versions with status=working."""
     arch_versions = data.get("architecture_versions")
     if not isinstance(arch_versions, list):
         die("Missing architecture_versions list")
 
     for v in arch_versions:
-        if isinstance(v, dict) and v.get("version") == "v2":
+        if isinstance(v, dict) and v.get("status") == "working":
             blueprints = v.get("chapter_blueprints")
             if not isinstance(blueprints, list) or not blueprints:
-                die("architecture_versions[v2].chapter_blueprints missing or empty")
+                die(f"architecture_versions[{v.get('version')}].chapter_blueprints missing or empty")
             return blueprints
 
-    die("No architecture_versions entry found with version: v2")
+    die("No architecture_versions entry found with status: working")
 
 
 def has_protection_term(text: str) -> bool:
@@ -81,7 +81,7 @@ def main():
     if not isinstance(data, dict):
         die("Top-level YAML is not a mapping/dict")
 
-    blueprints = get_v2_blueprints(data)
+    blueprints = get_working_blueprints(data)
 
     missing_exit_criteria = []
     empty_exit_criteria = []

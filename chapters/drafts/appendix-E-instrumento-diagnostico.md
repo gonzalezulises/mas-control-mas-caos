@@ -140,7 +140,7 @@ Su respuesta: ____
 
 *¿El veredicto tiene consecuencias reales o es consultivo?*
 
-⚠️ **Nota crítica:** Si el puntaje de esta sección es menor a 10, las demás capacidades son irrelevantes. Un gate sin consecuencias no es un límite; es teatro organizacional.
+**Nota crítica:** Si el puntaje de esta sección es menor a 10, las demás capacidades son irrelevantes. Un gate sin consecuencias no es un límite; es teatro organizacional.
 
 **Pregunta 3.1**
 Cuando el gate dice NO, ¿se detienen los recursos asignados a la iniciativa?
