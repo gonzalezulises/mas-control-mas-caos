@@ -673,6 +673,28 @@ architecture_versions:
             - causa
             - riesgo
             - proteccion
+      - id: "APP-E"
+        sequence: 15
+        title: "Apéndice E: Bibliografía"
+        role: "reference"
+        thesis: "Las fuentes citadas validan el fundamento teórico y empírico del libro."
+        supports_capabilities: []
+        exit_criteria:
+          - "Todas las referencias en references.yaml están listadas."
+          - "Formato APA 7 correcto."
+          - "URLs verificables donde disponible."
+          - "Organización por categoría temática."
+        loop_closure: "Cierra el libro con transparencia sobre fuentes; permite al lector profundizar en tradiciones teóricas citadas."
+        nonnegotiable_claim: "Todo dato verificable tiene fuente; toda teoría citada tiene referencia completa."
+        feeds_into: []
+        executive_relief: "Tienes respaldo documental para cada afirmación que requiera verificación externa."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - referencias
+            - riesgo
+            - proteccion
 
 chapters:
   - chapter_id: "CH-001"
@@ -765,6 +787,10 @@ ai:
       - "Aplicar mandatory_section_flow en capítulos y secciones clave."
       - "Pasar executive_sleep_test antes de entregar texto."
       - "Cada capítulo debe incluir al menos una afirmación incómoda (sentencia verificable), sin moralina ni retórica."
+      - "Todo dato numérico específico (porcentajes, cantidades, fechas) debe tener entrada en .state/references.yaml"
+      - "Toda mención de autor/teoría académica debe incluir (Autor, año) en el texto"
+      - "Toda referencia en references.yaml debe aparecer en appendix-E-bibliografia.md"
+      - "Ejecutar python3 tests/test_references.py antes de commit con cambios en citas"
     allowed_actions:
       - "proponer reordenamiento de blueprints"
       - "detectar incoherencias entre conceptos y capítulos"
@@ -831,13 +857,13 @@ ai:
 
 state:
   migration:
-    current_version: "v3.6"
-    source_version: "v3.5"
+    current_version: "v3.7"
+    source_version: "v3.6"
     progress:
-      total_blueprints: 18
-      drafted_chapters: 17
-      chapters_with_content: 17
-      appendices: 4
+      total_blueprints: 19
+      drafted_chapters: 18
+      chapters_with_content: 18
+      appendices: 5
       capabilities_defined: 8
       latam_cases_added: 7
       categories_in_appendix_a: 7
@@ -901,6 +927,28 @@ state:
       - "  Lo unico que puede hacer el gate: documentar"
       - "  Limite explicito del mecanismo ante poder que rechaza limites"
       - "PDF: 192 -> 196 paginas (+4)"
+    revision_v37_changes:
+      - "Sistema integral de referencias implementado"
+      - "NUEVO: .state/references.yaml - Base de datos centralizada de referencias"
+      - "  16 referencias iniciales (libros, reportes, noticias, reguladores)"
+      - "  Estructura: id, type, citation_key, authors, title, year, url, verified, used_in, apa_formatted"
+      - "NUEVO: chapters/drafts/appendix-E-bibliografia.md - Bibliografia APA 7"
+      - "  Organizada por categoria tematica"
+      - "  URLs verificables donde disponible"
+      - "NUEVO: tests/test_references.py - Validacion automatica"
+      - "  Verifica estructura references.yaml"
+      - "  Valida formato APA"
+      - "  Cuenta referencias verificadas vs pendientes"
+      - "ACTUALIZADO: build-book.sh - Incluye appendix-E en orden de capitulos"
+      - "ACTUALIZADO: CLAUDE.md - Seccion 'Sistema de Referencias (OBLIGATORIO)'"
+      - "  Proceso para agregar nuevas citas"
+      - "  Formato de citas en texto"
+      - "  Criterios que citar vs no citar"
+      - "ACTUALIZADO: book-state.yaml"
+      - "  Blueprint APP-E agregado (sequence 15)"
+      - "  4 invariantes de referencias agregadas"
+      - "  total_blueprints: 18 -> 19"
+      - "  appendices: 4 -> 5"
     next_actions:
       - "Regenerar libro completo PDF/EPUB"
       - "Validar coherencia post-edicion"

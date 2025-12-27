@@ -154,3 +154,55 @@ Conservar inglés cuando:
 1. No existe equivalente natural
 2. El equivalente castellano suena forzado o pedante
 3. El término es universal en la industria
+
+## Sistema de Referencias (OBLIGATORIO)
+
+### Base de datos
+Las referencias se gestionan en `.state/references.yaml`. Cada referencia tiene:
+- `id`: identificador único (REF-XXX)
+- `citation_key`: clave corta para citas (apellido+año)
+- `type`: book | article | report | web | news | legal
+- `verified`: true/false (¿URL/datos confirmados?)
+- `used_in`: lista de archivos y contexto donde se usa
+- `apa_formatted`: cita completa en formato APA 7
+
+### Al agregar datos o citas nuevas
+1. **Verificar** si existe en `.state/references.yaml`
+2. **Si no existe**, agregar entrada completa:
+   - Buscar fuente primaria con WebSearch
+   - Verificar datos exactos
+   - Obtener URL si disponible
+   - Agregar a references.yaml con todos los campos
+3. **En el texto**, incluir cita: (Autor, año)
+4. **Actualizar** `appendix-E-bibliografia.md`
+5. **Ejecutar** `python3 tests/test_references.py`
+
+### Formato de citas en texto
+```markdown
+# Para teorías académicas:
+La Ley de Variedad Requerida (Ashby, 1956) establece que...
+
+# Para estadísticas:
+El 60% de las transformaciones fracasan (McKinsey & Company, 2021).
+
+# Para casos empresariales:
+El colapso de OGX en 2013 (Reuters, 2013) ilustra...
+```
+
+### Qué citar formalmente
+- Teorías académicas con autor identificable
+- Estadísticas específicas (porcentajes, cantidades monetarias)
+- Casos empresariales con datos verificables
+- Leyes o principios nombrados (Ashby, Goodhart)
+
+### Qué NO citar (conocimiento general)
+- "Las organizaciones tienden a..."
+- Umbrales propuestos por el libro (10-30% rechazo)
+- Experiencia directa del autor (declarada como tal)
+- Ejemplos hipotéticos marcados como tales
+
+### Validación
+```bash
+# Ejecutar antes de commit
+python3 tests/test_references.py
+```

@@ -66,6 +66,7 @@ build_full_book() {
         "chapters/drafts/appendix-B-ausencia-casos-publicos.md"
         "chapters/drafts/appendix-C-convergencias.md"
         "chapters/drafts/appendix-D-diseno-antipatrones.md"
+        "chapters/drafts/appendix-E-bibliografia.md"
     )
 
     local existing_chapters=""

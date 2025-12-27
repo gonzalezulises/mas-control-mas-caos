@@ -1,0 +1,364 @@
+# Referencias - Gerencia Funcional
+# Sistema de gestión de citas y bibliografía
+# Formato: APA 7ma edición
+
+metadata:
+  version: "1.0"
+  last_updated: "2025-12-27"
+  apa_edition: 7
+  total_references: 0  # Se actualiza automáticamente
+
+# Tipos válidos: book | article | report | web | news | legal
+# verified: true = URL/datos confirmados | false = pendiente verificar
+
+references:
+  # ============================================
+  # TEORÍA DE SISTEMAS Y CIBERNÉTICA
+  # ============================================
+
+  - id: REF-001
+    type: book
+    citation_key: ashby1956
+    authors:
+      - family: Ashby
+        given: W. Ross
+    title: "An Introduction to Cybernetics"
+    year: 1956
+    publisher: Chapman & Hall
+    location: London
+    url: "https://archive.org/details/introductiontocy00ashb"
+    isbn: null
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Ley de Variedad Requerida"
+      - file: appendix-C-convergencias.md
+        context: "VSM y variedad requerida"
+    apa_formatted: "Ashby, W. R. (1956). *An Introduction to Cybernetics*. Chapman & Hall."
+
+  - id: REF-002
+    type: book
+    citation_key: beer1972
+    authors:
+      - family: Beer
+        given: Stafford
+    title: "Brain of the Firm"
+    year: 1972
+    publisher: Allen Lane
+    location: London
+    url: null
+    isbn: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Viable System Model"
+    apa_formatted: "Beer, S. (1972). *Brain of the Firm*. Allen Lane."
+
+  # ============================================
+  # ORGANIZACIONES DE ALTA CONFIABILIDAD (HRO)
+  # ============================================
+
+  - id: REF-003
+    type: book
+    citation_key: weick2015
+    authors:
+      - family: Weick
+        given: Karl E.
+      - family: Sutcliffe
+        given: Kathleen M.
+    title: "Managing the Unexpected: Sustained Performance in a Complex World"
+    edition: 3
+    year: 2015
+    publisher: Wiley
+    location: Hoboken, NJ
+    url: null
+    isbn: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "High Reliability Organizations"
+    apa_formatted: "Weick, K. E., & Sutcliffe, K. M. (2015). *Managing the Unexpected: Sustained Performance in a Complex World* (3ra ed.). Wiley."
+
+  # ============================================
+  # ACCIDENTES Y SISTEMAS COMPLEJOS
+  # ============================================
+
+  - id: REF-004
+    type: book
+    citation_key: perrow1984
+    authors:
+      - family: Perrow
+        given: Charles
+    title: "Normal Accidents: Living with High-Risk Technologies"
+    year: 1984
+    publisher: Basic Books
+    location: New York
+    url: "https://press.princeton.edu/books/paperback/9780691004129/normal-accidents"
+    isbn: "978-0691004129"
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Teoría de accidentes normales"
+    apa_formatted: "Perrow, C. (1984). *Normal Accidents: Living with High-Risk Technologies*. Basic Books."
+
+  # ============================================
+  # ANTIFRAGILIDAD Y RIESGO
+  # ============================================
+
+  - id: REF-005
+    type: book
+    citation_key: taleb2012
+    authors:
+      - family: Taleb
+        given: Nassim Nicholas
+    title: "Antifragile: Things That Gain from Disorder"
+    year: 2012
+    publisher: Random House
+    location: New York
+    url: null
+    isbn: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Antifragilidad y skin in the game"
+    apa_formatted: "Taleb, N. N. (2012). *Antifragile: Things That Gain from Disorder*. Random House."
+
+  # ============================================
+  # FRAMEWORKS DE COMPLEJIDAD
+  # ============================================
+
+  - id: REF-006
+    type: article
+    citation_key: snowden2007
+    authors:
+      - family: Snowden
+        given: David J.
+      - family: Boone
+        given: Mary E.
+    title: "A Leader's Framework for Decision Making"
+    year: 2007
+    journal: "Harvard Business Review"
+    volume: 85
+    issue: 11
+    pages: "68-76"
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Cynefin Framework"
+    apa_formatted: "Snowden, D. J., & Boone, M. E. (2007). A Leader's Framework for Decision Making. *Harvard Business Review*, 85(11), 68-76."
+
+  # ============================================
+  # LEYES Y PRINCIPIOS
+  # ============================================
+
+  - id: REF-007
+    type: article
+    citation_key: goodhart1984
+    authors:
+      - family: Goodhart
+        given: Charles A. E.
+    title: "Problems of Monetary Management: The U.K. Experience"
+    year: 1984
+    journal: "Monetary Theory and Practice"
+    publisher: Macmillan
+    pages: "91-121"
+    url: null
+    note: "Formulación original de la Ley de Goodhart (1975, reformulada 1984)"
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Ley de Goodhart"
+    apa_formatted: "Goodhart, C. A. E. (1984). Problems of Monetary Management: The U.K. Experience. En *Monetary Theory and Practice* (pp. 91-121). Macmillan."
+
+  # ============================================
+  # REPORTES CORPORATIVOS
+  # ============================================
+
+  - id: REF-008
+    type: report
+    citation_key: mckinsey2019
+    authors:
+      - organization: McKinsey & Company
+    title: "Why do most transformations fail? A conversation with Harry Robinson"
+    year: 2019
+    url: "https://www.mckinsey.com/capabilities/transformation/our-insights/why-do-most-transformations-fail-a-conversation-with-harry-robinson"
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: B0-introduccion.md
+        context: "60-70% de iniciativas fracasan"
+    apa_formatted: "McKinsey & Company. (2019). *Why do most transformations fail? A conversation with Harry Robinson*. https://www.mckinsey.com/capabilities/transformation/our-insights/why-do-most-transformations-fail-a-conversation-with-harry-robinson"
+
+  # ============================================
+  # CASOS EMPRESARIALES - FRACASOS
+  # ============================================
+
+  - id: REF-009
+    type: news
+    citation_key: reuters2013ogx
+    authors:
+      - organization: Reuters
+    title: "OGX files for Brazil's largest-ever bankruptcy protection"
+    year: 2013
+    date: "2013-10-30"
+    publication: "Reuters"
+    url: null  # Pendiente verificar
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Caso OGX Brasil"
+    apa_formatted: "Reuters. (2013, 30 de octubre). OGX files for Brazil's largest-ever bankruptcy protection. *Reuters*. URL"
+
+  - id: REF-010
+    type: legal
+    citation_key: doj2016odebrecht
+    authors:
+      - organization: U.S. Department of Justice
+    title: "Odebrecht and Braskem Plead Guilty and Agree to Pay at Least $3.5 Billion in Global Penalties"
+    year: 2016
+    date: "2016-12-21"
+    url: "https://www.justice.gov/archives/opa/pr/odebrecht-and-braskem-plead-guilty-and-agree-pay-least-35-billion-global-penalties-resolve"
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Caso Odebrecht"
+    apa_formatted: "U.S. Department of Justice. (2016, 21 de diciembre). *Odebrecht and Braskem Plead Guilty and Agree to Pay at Least $3.5 Billion in Global Penalties*. https://www.justice.gov/archives/opa/pr/odebrecht-and-braskem-plead-guilty-and-agree-pay-least-35-billion-global-penalties-resolve"
+
+  - id: REF-011
+    type: report
+    citation_key: superfinanciera2012
+    authors:
+      - organization: Superintendencia Financiera de Colombia
+    title: "Resolución de intervención Interbolsa S.A."
+    year: 2012
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B6-casos-donde-decir-no-fue-exito.md
+        context: "Caso Interbolsa Colombia"
+      - file: appendix-B-ausencia-casos-publicos.md
+        context: "Falla regulador Colombia"
+    apa_formatted: "Superintendencia Financiera de Colombia. (2012). *Resolución de intervención Interbolsa S.A.* URL"
+
+  # ============================================
+  # CASOS EMPRESARIALES - ÉXITOS
+  # ============================================
+
+  - id: REF-012
+    type: report
+    citation_key: copa2023
+    authors:
+      - organization: Copa Holdings, S.A.
+    title: "Annual Report 2023"
+    year: 2023
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B6-casos-donde-decir-no-fue-exito.md
+        context: "Copa Airlines margen operativo"
+    apa_formatted: "Copa Holdings, S.A. (2023). *Annual Report 2023*. URL"
+
+  # ============================================
+  # CASOS HISTÓRICOS
+  # ============================================
+
+  - id: REF-013
+    type: news
+    citation_key: nyt1982tylenol
+    authors:
+      - family: Carvajal
+        given: Doreen
+    title: "Tylenol Maker Recalls Capsules After New Deaths"
+    year: 1982
+    date: "1982-10-01"
+    publication: "The New York Times"
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B4-los-sistemas-no-se-auto-limitan.md
+        context: "J&J Tylenol 31 millones de frascos"
+    apa_formatted: "The New York Times. (1982, 1 de octubre). Tylenol Maker Recalls Capsules After New Deaths. URL"
+
+  - id: REF-014
+    type: report
+    citation_key: fda2020
+    authors:
+      - organization: U.S. Food and Drug Administration
+    title: "The Drug Development Process"
+    year: 2020
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B4-los-sistemas-no-se-auto-limitan.md
+        context: "FDA costo y tiempo desarrollo medicamentos"
+    apa_formatted: "U.S. Food and Drug Administration. (2020). *The Drug Development Process*. URL"
+
+  # ============================================
+  # REGULADORES LATAM
+  # ============================================
+
+  - id: REF-015
+    type: web
+    citation_key: sbp2024
+    authors:
+      - organization: Superintendencia de Bancos de Panamá
+    title: "Marco regulatorio bancario"
+    year: 2024
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-B-ausencia-casos-publicos.md
+        context: "Regulador Panamá como límite externo"
+    apa_formatted: "Superintendencia de Bancos de Panamá. (2024). *Marco regulatorio bancario*. URL"
+
+  - id: REF-016
+    type: web
+    citation_key: cmf2024
+    authors:
+      - organization: Comisión para el Mercado Financiero de Chile
+    title: "Normativa y regulación"
+    year: 2024
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-B-ausencia-casos-publicos.md
+        context: "CMF Chile como límite externo"
+    apa_formatted: "Comisión para el Mercado Financiero de Chile. (2024). *Normativa y regulación*. URL"
+
+# ============================================
+# ÍNDICE DE VERIFICACIÓN
+# ============================================
+#
+# Pendientes de verificar (verified: false):
+# - REF-001: Ashby 1956 - buscar URL archive.org
+# - REF-002: Beer 1972 - verificar editorial
+# - REF-003: Weick 2015 - confirmar edición
+# - REF-004: Perrow 1984 - verificar ISBN
+# - REF-005: Taleb 2012 - verificar editorial
+# - REF-006: Snowden 2007 - buscar URL HBR
+# - REF-007: Goodhart 1984 - verificar fuente original
+# - REF-008: McKinsey 2021 - encontrar URL exacta
+# - REF-009: Reuters 2013 OGX - buscar URL
+# - REF-010: DOJ 2016 Odebrecht - buscar URL
+# - REF-011: Superfinanciera 2012 - buscar URL
+# - REF-012: Copa 2023 - buscar reporte anual
+# - REF-013: NYT 1982 Tylenol - buscar URL archivo
+# - REF-014: FDA 2020 - buscar URL oficial
+# - REF-015: SBP 2024 - buscar URL
+# - REF-016: CMF 2024 - buscar URL
