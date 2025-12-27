@@ -49,6 +49,7 @@ build_full_book() {
 
     # Orden de capítulos según book-state.yaml (sequence order)
     local chapters=(
+        "chapters/drafts/B0-introduccion.md"
         "chapters/drafts/B1-el-loop-del-poder.md"
         "chapters/drafts/B2-control-no-es-estabilidad.md"
         "chapters/drafts/B3-coding-trance.md"
@@ -56,6 +57,8 @@ build_full_book() {
         "chapters/drafts/B7-aprendizaje-grupal-procedural.md"
         "chapters/drafts/B8-ia-y-limites-humanos.md"
         "chapters/drafts/B5-capacidades-gerencia-funcional.md"
+        "chapters/drafts/B5.5-anatomia-del-gate.md"
+        "chapters/drafts/B5.6-cuando-el-limite-falla.md"
         "chapters/drafts/B6-casos-donde-decir-no-fue-exito.md"
         "chapters/drafts/B09-criterio-codificado.md"
         "chapters/drafts/B10-implementacion.md"

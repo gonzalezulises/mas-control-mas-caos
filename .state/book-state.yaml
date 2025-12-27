@@ -731,16 +731,17 @@ ai:
 
 state:
   migration:
-    current_version: "v3.3"
-    source_version: "v3.2"
+    current_version: "v3.4"
+    source_version: "v3.3"
     progress:
-      total_blueprints: 12
-      drafted_chapters: 12
-      chapters_with_content: 12
+      total_blueprints: 14
+      drafted_chapters: 14
+      chapters_with_content: 14
       appendices: 2
       capabilities_defined: 8
       latam_cases_added: 7
       categories_in_appendix_a: 7
+      pages_pdf: 250
     revision_v32_changes:
       - "B1: +Caso OGX Brasil, +definicion fisica organizacional, -15% redundancia"
       - "B2: +Caso Odebrecht, +transicion mejorada a Coding Trance"
@@ -761,6 +762,19 @@ state:
       - "B3: +Aclaracion terminologica Coding Trance al inicio, +Ley de Goodhart (1975), +senales movidas al primer tercio"
       - "B4: +Ejemplos tempranos limites externos que funcionan (FAA, FDA, ingenieria civil), +recuadro 4 condiciones"
       - "B5: 8 capacidades reestructuradas con formato obligatorio (habilita/bloquea/costo politico/error estructural)"
+    revision_v34_changes:
+      - "B5.5-Anatomia del Gate (NUEVO): Operacionalizacion del gate como objeto organizacional"
+      - "  Composicion, nombramiento, mandato, protecciones formales"
+      - "  Mecanica deliberacion, tipos veredicto, protocolo override"
+      - "  Integracion governance existente, metricas operacion"
+      - "  Modelos segun contexto (nucleo interno, hibrido, externalizado)"
+      - "  4,223 palabras"
+      - "B5.6-Cuando el limite falla (NUEVO): Modos de falla del limite externo"
+      - "  Honestidad epistemologica: DRG es propuesta sin casos implementados"
+      - "  6 patrones falla: captura, ceremonializacion, paralisis, volatilidad, divorcio, atrofia"
+      - "  Casos analogos: FAA/Boeing 737 MAX, comites auditoria pre-Enron, Interbolsa Colombia"
+      - "  Senales alerta observables"
+      - "  4,046 palabras"
     next_actions:
       - "Regenerar libro completo PDF/EPUB"
       - "Validar coherencia post-edicion"
