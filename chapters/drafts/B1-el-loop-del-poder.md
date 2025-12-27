@@ -12,6 +12,8 @@ La información fluye hacia arriba filtrada por cada capa. Lo que llega al comit
 
 Boeing lo vivió con el 737 MAX. No fue un error puntual de un ingeniero distraído o un gerente corrupto. No fue un acto de negligencia criminal ni una conspiración para engañar al regulador. Fue una secuencia que cualquier ejecutivo reconocería si la mirara sin el filtro de la distancia: presión competitiva real y legítima frente a Airbus, una decisión estratégica de acelerar que parecía razonable en su momento dado el contexto de mercado, equipos de ingeniería forzados a cumplir plazos que no habían definido y sobre los cuales no tenían control, señales internas de alerta que fueron ignoradas o minimizadas porque contradecían el momentum organizacional, y una organización entera —desde la línea de producción hasta el directorio— convencida de que los controles internos eran suficientes para capturar cualquier problema antes de que fuera serio.
 
+La escala de Boeing es mayor. La dinámica no lo es.
+
 Nadie en Boeing pensó que estaba tomando un riesgo catastrófico. Todos pensaron que estaban haciendo su trabajo de la mejor manera posible dadas las circunstancias. El sistema funcionaba según sus propias métricas. Los aviones salían de la línea de producción. Las entregas se cumplían dentro de los rangos aceptables. Los números del trimestre cerraban. La acción subía.
 
 Cuando el problema se hizo visible ante el mundo, ya era demasiado tarde para corregir sin costo masivo. No porque faltara talento técnico o porque sobrara maldad individual, sino porque la estructura misma de la organización había convertido la aceleración en virtud y la pausa en defecto. El sistema había premiado consistentemente a quienes empujaban hacia adelante y había penalizado —sutilmente pero efectivamente— a quienes pedían detenerse a verificar.
@@ -60,6 +62,8 @@ El loop no distingue entre momentum productivo que lleva hacia resultados genuin
 
 Esta es la afirmación incómoda que sostiene todo lo que sigue en este libro: tu organización no progresa linealmente hacia objetivos definidos. Se auto-amplifica en la dirección en que ya se está moviendo, sea cual sea esa dirección. Si esa dirección resulta ser correcta, el loop produce resultados extraordinarios que justifican retrospectivamente todas las decisiones tomadas. Si esa dirección tiene defectos ocultos que no son visibles hasta que es tarde, el loop produce catástrofes extraordinarias que parecen inexplicables en retrospectiva. Y desde adentro del loop, mientras está operando, ambos escenarios se sienten exactamente igual: como progreso.
 
+Cuando una iniciativa acelera sin frenos visibles, no demuestra viabilidad: acumula exposición.
+
 <!-- block: riesgo -->
 
 El problema fundamental con los loops de poder es que el caos aparece tarde, mucho después de que las decisiones que lo causaron fueron tomadas y celebradas. Las señales tempranas de problema existen invariablemente, pero el sistema las absorbe, las reinterpreta benignamente, o las silencia activamente.
@@ -103,6 +107,8 @@ Boeing tenía controles internos extensos y documentados. Tenía procesos formal
 Esto no es pesimismo organizacional. Es cobertura ejecutiva real.
 
 Entender profundamente que las iniciativas estratégicas se aceleran sin control visible interno reduce tu exposición personal frente a la junta directiva. No porque vayas a evitar todos los errores —nadie puede hacer eso, y pretenderlo sería deshonesto—, sino porque dejas de confiar ciegamente en que el sistema se auto-regulará cuando sea necesario. Esa confianza en la auto-regulación sistémica es precisamente el riesgo que no estás viendo en tus reportes. Es el supuesto invisible y no examinado que hace vulnerables a ejecutivos experimentados, inteligentes y bien intencionados.
+
+Reconocer esta dinámica estructural te permite frenar o cuestionar una iniciativa sin que el cuestionamiento se lea como falta de visión o de compromiso personal.
 
 Tus iniciativas estratégicas actuales tienen loops de amplificación operando. Todas las organizaciones con capacidad real de acción en el mundo los tienen. Es una característica estructural, no un defecto corregible. Lo que determina el resultado final es si existen mecanismos genuinamente externos a esos loops —no capturados por ellos, no neutralizados por su inercia— con capacidad real y vinculante de producir un alto cuando sea necesario.
 
