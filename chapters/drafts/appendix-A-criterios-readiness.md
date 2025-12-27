@@ -4,6 +4,10 @@
 
 Este apéndice contiene criterios operativos para evaluar iniciativas antes de autorizar ejecución. No son checklists universales. Son puntos de partida que cada organización debe calibrar según su contexto, tolerancia al riesgo y capacidad de absorber fracaso. Un criterio que es umbral mínimo para una organización con historial de fracasos puede ser excesivo para otra con capacidad probada de corrección en vuelo. La calibración es responsabilidad del comité que opera el gate, no del libro.
 
+La calibración correcta depende de tres factores que varían por organización. El primero es la tolerancia al riesgo: una empresa en industria regulada con riesgo reputacional alto necesita umbrales más estrictos que una startup en fase de experimentación. El segundo es la capacidad de corrección: una organización con ciclos de feedback rápidos y cultura de iteración puede operar con menos validación previa porque corrige en vuelo. El tercero es el costo de oportunidad: en mercados donde la velocidad es ventaja competitiva decisiva, criterios excesivamente estrictos destruyen más valor del que protegen.
+
+El rango saludable de tasa de rechazo es entre diez y treinta por ciento. Por debajo del diez por ciento, el gate probablemente aprueba todo y no está filtrando. Por encima del treinta por ciento, el gate probablemente está bloqueando iniciativas legítimas y generará bypass. Si la tasa de rechazo está consistentemente fuera de este rango, la calibración requiere ajuste.
+
 Cada criterio está formulado con cuatro propiedades. Observabilidad significa que un tercero puede verificar el cumplimiento sin depender de interpretación subjetiva. Umbral explícito significa que hay un número, porcentaje, duración o condición binaria que separa cumplimiento de incumplimiento. Consecuencia predefinida significa que el incumplimiento dispara un veredicto específico, no una conversación. Anti-gaming significa que el criterio anticipa cómo alguien podría cumplirlo mecánicamente sin cumplir el espíritu, y cierra esa vía.
 
 Los criterios de GO deben cumplirse todos para autorizar ejecución. Los criterios de RECHAZO automático disparan veredicto negativo si cualquiera de ellos aplica, sin importar cuántos criterios de GO se cumplan. Las señales de CONDICIONAL requieren resolución específica antes de poder emitir veredicto de GO; no impiden el avance permanentemente, pero sí lo suspenden hasta que la condición se resuelva.
@@ -107,6 +111,22 @@ El cuarto criterio de GO es métricas de éxito definidas pre-implementación. E
 Los criterios de rechazo automático para reestructuración organizacional son tres. Primero, ausencia de sponsor con autoridad sobre todas las áreas afectadas. Segundo, reestructuración motivada principalmente por reducción de costos sin diagnóstico de problema estructural. Tercero, tercera reestructuración en cinco años sin evaluación de por qué las anteriores no funcionaron.
 
 Las señales de condicional son tres. Primera, proceso de negociación sindical activo. Segunda, rotación de CEO, CHRO o equivalente en los últimos seis meses. Tercera, fusión o adquisición en curso que afecta el perímetro de la reestructuración.
+
+<!-- block: transformacion_cultural -->
+
+Las transformaciones culturales son las iniciativas con mayor tasa de fracaso y menor capacidad de medición. El patrón típico es declarar intención de cambio cultural, lanzar comunicaciones y programas, y asumir que el cambio ocurrirá porque fue anunciado. La realidad es que la cultura cambia como resultado de cambios en sistemas, incentivos y comportamientos visibles de líderes, no como resultado de iniciativas de cambio cultural.
+
+El primer criterio de GO es definición operativa de la cultura objetivo. Es observable cuando existe documentación que describe la cultura deseada en términos de comportamientos observables, no de valores abstractos. El umbral es que cada dimensión cultural tenga al menos tres comportamientos específicos que cualquier observador pueda verificar. La consecuencia de incumplimiento es rechazo automático. El anti-gaming requiere que los comportamientos sean verificables por terceros, no autoreportados, y que incluyan comportamientos de líderes, no solo de empleados.
+
+El segundo criterio de GO es diagnóstico de barreras estructurales. Es observable cuando existe análisis de qué sistemas, procesos, incentivos y estructuras actuales producen la cultura actual y resistirán el cambio. El umbral es identificación de al menos cinco barreras estructurales con plan de intervención para cada una. La consecuencia de incumplimiento es condicional hasta completar. El anti-gaming requiere que el diagnóstico incluya entrevistas con empleados de diferentes niveles, no solo perspectiva de liderazgo.
+
+El tercer criterio de GO es sponsor con autoridad para modificar sistemas. Es observable cuando el sponsor tiene capacidad de cambiar los sistemas de compensación, promoción, evaluación y reconocimiento que refuerzan la cultura actual. El umbral es autoridad documentada sobre al menos el ochenta por ciento de los sistemas que afectan comportamiento. La consecuencia de incumplimiento es rechazo hasta asegurar sponsor adecuado. El anti-gaming requiere que la autoridad incluya presupuesto para modificar sistemas, no solo autoridad nominal.
+
+El cuarto criterio de GO es timeline realista. Es observable cuando el plan reconoce que el cambio cultural toma años, no meses, y tiene hitos intermedios verificables. El umbral es plan a tres años mínimo con métricas de progreso cada seis meses. La consecuencia de incumplimiento es condicional hasta ajustar timeline. El anti-gaming requiere que los hitos intermedios midan cambio de comportamiento, no actividades de comunicación o capacitación.
+
+Los criterios de rechazo automático para transformación cultural son tres. Primero, ausencia de comportamiento visible del CEO que modele la cultura deseada. Segundo, inconsistencia entre cultura declarada y sistema de incentivos vigente. Tercero, iniciativa de cambio cultural lanzada en los últimos tres años que no logró sus objetivos, sin análisis de por qué.
+
+Las señales de condicional son tres. Primera, proceso de reducción de personal en curso que contradice mensajes de la transformación. Segunda, rotación de más del veinte por ciento del equipo ejecutivo en los últimos doce meses. Tercera, adquisición o fusión en proceso que introducirá cultura diferente.
 
 <!-- block: calibracion -->
 

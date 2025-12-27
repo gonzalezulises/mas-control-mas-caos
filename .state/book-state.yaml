@@ -731,15 +731,37 @@ ai:
 
 state:
   migration:
-    current_version: "v3.1"
-    source_version: "v3"
+    current_version: "v3.3"
+    source_version: "v3.2"
     progress:
       total_blueprints: 12
-      drafted_chapters: 11
-      chapters_with_content: 11
+      drafted_chapters: 12
+      chapters_with_content: 12
       appendices: 2
       capabilities_defined: 8
+      latam_cases_added: 7
+      categories_in_appendix_a: 7
+    revision_v32_changes:
+      - "B1: +Caso OGX Brasil, +definicion fisica organizacional, -15% redundancia"
+      - "B2: +Caso Odebrecht, +transicion mejorada a Coding Trance"
+      - "B3: +Ejemplo retail no-tech, +anticipacion capitulo IA"
+      - "B4: -20% condensado, +4 caracteristicas limite externo"
+      - "B5: +Seccion errores gate, +financiamiento expandido, +tabla 8 capacidades"
+      - "B6: +5 casos LATAM exito (Copa Airlines, Bimbo, Interbolsa, SBP)"
+      - "B7: +Ejemplo ciclo completo aprendizaje e-commerce"
+      - "B8: +Referencia Apendice A, +seccion visibilidad IA expandida"
+      - "B09: +Ejemplo criterio con 4 propiedades, +transicion mejorada a B10"
+      - "B10: +Resistencias LATAM especificas, +recuperacion piloto fallido"
+      - "Apendice A: +Notas calibracion, +categoria transformacion cultural"
+      - "Apendice B: Estructura invertida, +reguladores LATAM (Panama, Chile, Brasil)"
+    revision_v33_changes:
+      - "B0-Introduccion: Metafora reducida a 2.5 paginas, +dato duro McKinsey/BCG 60-70% fracaso, +mapa de ruta capitulos"
+      - "B1: +Diagrama del loop (texto), +declaracion loop es amoral, +caso WeWork tech/startup"
+      - "B2: +Ley de Ashby Variedad Requerida (1956), +expansion Perrow sistemas complejos vs complicados"
+      - "B3: +Aclaracion terminologica Coding Trance al inicio, +Ley de Goodhart (1975), +senales movidas al primer tercio"
+      - "B4: +Ejemplos tempranos limites externos que funcionan (FAA, FDA, ingenieria civil), +recuadro 4 condiciones"
+      - "B5: 8 capacidades reestructuradas con formato obligatorio (habilita/bloquea/costo politico/error estructural)"
     next_actions:
-      - "Validar estructura de nuevos capítulos y apéndices"
-      - "Regenerar libro completo con B10 y apéndices"
-      - "Revisar consistencia de feeds_into en blueprints"
+      - "Regenerar libro completo PDF/EPUB"
+      - "Validar coherencia post-edicion"
+      - "Commit final a GitHub"

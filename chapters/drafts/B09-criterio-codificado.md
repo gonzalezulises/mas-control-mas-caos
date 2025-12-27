@@ -32,6 +32,14 @@ El criterio codificado resiste porque existe fuera de la memoria de quienes lo a
 
 El criterio codificado tiene cuatro componentes que determinan si funciona o falla. El primero es observabilidad: el criterio debe referirse a algo que pueda verificarse independientemente de quien lo evalúe. No puede depender de interpretación subjetiva ni de juicio que varíe según quién esté en el comité ese día. El segundo es umbrales explícitos: el criterio debe especificar qué nivel de cumplimiento es suficiente y qué nivel es insuficiente. Un criterio que dice que los riesgos deben ser aceptables no es criterio; es invitación a negociar qué significa aceptable en cada caso. El tercero es consecuencias predefinidas: el criterio debe especificar qué ocurre si no se cumple. Si incumplir el criterio dispara una conversación en lugar de un veredicto, el criterio no tiene poder real. El cuarto es resistencia a excepción: el criterio debe especificar bajo qué condiciones, si alguna, puede ser exceptuado, y quién tiene autoridad para hacerlo. Si cualquier sponsor con suficiente peso político puede obtener excepción, el criterio protege solo contra iniciativas sin respaldo político, que son precisamente las que menos protección necesitan.
 
+Un ejemplo concreto ilustra cómo operan las cuatro propiedades en conjunto. Considere una organización que ha sufrido fracasos repetidos en expansiones geográficas donde los supuestos de mercado no se validaron antes de comprometer inversión significativa. El criterio codificado resultante podría ser:
+
+"Ninguna iniciativa de expansión geográfica con inversión proyectada superior a cinco millones de dólares puede recibir veredicto positivo si no presenta investigación de mercado primaria, realizada en los últimos doce meses, con muestra mínima de doscientos clientes potenciales en el mercado objetivo, que valide al menos tres de los cinco supuestos de demanda declarados en el business case."
+
+Este criterio cumple las cuatro propiedades. Observabilidad: la existencia de la investigación, su fecha, el tamaño de muestra y la validación de supuestos específicos son verificables por cualquier miembro del comité sin depender de juicio subjetivo. Umbrales explícitos: cinco millones de inversión, doce meses de antigüedad, doscientos clientes, tres de cinco supuestos. No hay espacio para negociar qué significa "suficiente investigación". Consecuencias predefinidas: si el criterio no se cumple, el veredicto es negativo. No "aprobado con la observación de completar investigación después". Negativo hasta que se cumpla. Resistencia a excepción: el criterio no admite excepciones por sponsor. Si el presidente quiere expandir a un mercado sin cumplir el criterio, tiene que usar el mecanismo de override formal, que requiere aprobación de directorio con registro en acta.
+
+Un criterio sin estas propiedades sería: "Las iniciativas de expansión deben contar con investigación de mercado adecuada." Esta formulación permite que cada sponsor argumente que su investigación es adecuada, que cada comité interprete "adecuada" según la presión política del momento, y que las excepciones se otorguen sin proceso formal porque no hay umbral que violar explícitamente.
+
 <!-- block: riesgo -->
 
 El riesgo de operar con criterio ambiguo o negociable se materializa exactamente cuando el criterio más se necesita: frente a iniciativas respaldadas por poder concentrado.
@@ -70,4 +78,8 @@ La implementación no requiere construir todo simultáneamente. Pero sí requier
 
 Sin criterio codificado, todo límite es político y por tanto frágil. Solo el criterio explícito convierte el NO en decisión institucional.
 
-Aquí termina la discusión conceptual. A partir de aquí, solo queda decidir si se implementa o no.
+El lector que llega a este punto tiene el marco completo. Entiende el loop del poder y por qué se auto-amplifica. Entiende por qué el control intensificado produce fragilidad. Reconoce el trance organizacional y sus señales. Acepta que los sistemas no pueden auto-limitarse. Conoce las capacidades de gerencia funcional y cómo operan como sistema. Sabe que el criterio codificado es lo que convierte la voluntad de límite en veredicto real.
+
+Lo que falta es la secuencia de implementación. No qué hacer, sino cómo empezar. No qué capacidades construir, sino en qué orden y con qué recursos. No por qué es necesario, sino qué hacer el lunes a las nueve de la mañana cuando el ejecutivo vuelva a su oficina.
+
+Eso es lo que sigue.
