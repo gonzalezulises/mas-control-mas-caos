@@ -42,30 +42,25 @@ architecture/     → Versiones de arquitectura del libro
 ```
 
 ## Estado Actual
-- Version: v2 (working)
-- Capítulos mapeados: 2
-- Capítulos drafted: 1 (B1)
-- Blueprints nuevos pendientes: 4 (B7, B8, B9, B10)
-- Fragmentos sin resolver: 7
+- Version: v2.1 (restructured)
+- Blueprints totales: 9
+- Capítulos con contenido: 7
+- Capítulos stub: 2 (B4 reserved, B09 closing pending)
 
-## Secuencia de Capítulos (v2)
+## Secuencia de Capítulos (v2.1)
 1. B1 - El loop del poder
 2. B2 - Control ≠ estabilidad
 3. B3 - Coding Trance
 4. B7 - El aprendizaje no es individual
 5. B8 - IA y los límites humanos
-6. B4 - La renuncia al poder
-7. B9 - Los sistemas no pueden auto-limitarse
-8. B5 - Decision Readiness Gate (DRG)
-9. B10 - Criterio codificado
-10. B6 - Casos donde decir NO fue éxito
+6. B4 - Los sistemas no se auto-limitan (reserved, not in print)
+7. B5 - Decision Readiness Gate (DRG)
+8. B6 - Casos donde decir NO fue éxito
+9. B09 - Criterio codificado (closing chapter)
 
 ## Próximas Acciones
-1. Completar mapeo v1→v2 para todos los capítulos
-2. Definir criterios observables de Coding Trance
-3. Especificar reglas A-D del DRG en formato evaluable
-4. Desarrollar thesis y exit_criteria para B9 (auto-limitación)
-5. Desarrollar thesis y exit_criteria para B10 (criterio codificado)
+1. Escribir contenido de B09 (capítulo de cierre)
+2. Revisar consistencia entre blueprints y archivos
 
 ## Comandos Útiles
 - Ver estado: `cat .state/book-state.yaml`

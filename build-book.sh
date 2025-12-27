@@ -47,18 +47,17 @@ build_chapter() {
 build_full_book() {
     echo -e "${GREEN}Generando libro completo...${NC}"
 
-    # Orden de capítulos según CLAUDE.md
+    # Orden de capítulos según book-state.yaml (sequence order)
     local chapters=(
         "chapters/drafts/B1-el-loop-del-poder.md"
         "chapters/drafts/B2-control-no-es-estabilidad.md"
         "chapters/drafts/B3-coding-trance.md"
         "chapters/drafts/B7-aprendizaje-grupal-procedural.md"
-        "chapters/drafts/B8-ia-limites-humanos.md"
-        "chapters/drafts/B4-la-renuncia-al-poder.md"
-        "chapters/drafts/B9-sistemas-no-auto-limitan.md"
+        "chapters/drafts/B8-ia-y-limites-humanos.md"
+        "chapters/drafts/B4-los-sistemas-no-se-auto-limitan.md"
         "chapters/drafts/B5-decision-readiness-gate.md"
-        "chapters/drafts/B10-criterio-codificado.md"
-        "chapters/drafts/B6-casos-donde-no-fue-exito.md"
+        "chapters/drafts/B6-casos-donde-decir-no-fue-exito.md"
+        "chapters/drafts/B09-criterio-codificado.md"
     )
 
     local existing_chapters=""
