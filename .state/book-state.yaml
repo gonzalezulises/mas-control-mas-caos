@@ -561,6 +561,7 @@ architecture_versions:
           - "Cada tipo de iniciativa tiene criterios con las 4 propiedades (observable, umbral, consecuencia, anti-gaming)."
           - "Los criterios son punto de partida calibrable, no checklist universal."
           - "Se incluye guía de calibración y detección de manipulación."
+        loop_closure: "Convierte el criterio codificado abstracto en herramienta operativa; cierra el ciclo de implementación con artefactos usables."
         nonnegotiable_claim: "Los criterios sin umbral explícito y consecuencia predefinida no son criterios; son invitaciones a negociar."
         feeds_into: ["APP-B"]
         executive_relief: "Tienes criterios operativos que puedes aplicar mañana, no solo argumentos de por qué deberías tenerlos."
@@ -575,6 +576,7 @@ architecture_versions:
           - "Se explican las 3 razones estructurales de la invisibilidad."
           - "Se presenta evidencia indirecta (HRO, reguladores)."
           - "Se propone documentar el propio caso."
+        loop_closure: "Cierra la objeción epistemológica que el crítico podría usar; la ausencia de evidencia pública valida la tesis en lugar de refutarla."
         nonnegotiable_claim: "Las organizaciones que evitan errores no tienen historia que contar; el éxito del mecanismo produce ausencia de evidencia pública."
         feeds_into: []
         executive_relief: "La falta de casos públicos no es argumento en contra; es consecuencia predecible. El caso que importa es el que tú puedes construir."
@@ -591,6 +593,7 @@ architecture_versions:
           - "Se detallan los tipos de veredicto (GO/RECHAZO/CONDICIONAL)."
           - "Se explica el protocolo de override explícito."
           - "Se definen métricas de operación del gate."
+        loop_closure: "Convierte el DRG conceptual en objeto organizacional operable; conecta capacidades abstractas con arquitectura concreta."
         nonnegotiable_claim: "Un comité que no puede producir un NO vinculante no es gate; es asesor."
         feeds_into: ["B5.6"]
         executive_relief: "Tienes arquitectura específica para diseñar un gate que funcione, no solo principios abstractos."
@@ -613,6 +616,7 @@ architecture_versions:
           - "Se documentan casos análogos (FAA/Boeing, comités pre-Enron, Interbolsa)."
           - "Se listan señales de alerta observables."
           - "La honestidad epistemológica queda establecida: el DRG es propuesta sin casos implementados."
+        loop_closure: "Anticipa las objeciones sobre fragilidad del mecanismo; cierra el loop de diseño mostrando que las fallas son predecibles y detectables."
         nonnegotiable_claim: "El límite externo que depende del limitado para información, nombramiento o compensación será capturado; no hay excepción conocida."
         feeds_into: ["B6"]
         executive_relief: "Conocer los modos de falla antes de que ocurran te permite diseñar contra ellos y detectarlos temprano."
@@ -634,6 +638,7 @@ architecture_versions:
           - "Se posiciona el libro frente a HRO, Cynefin, VSM, Normal Accidents, Agile Governance, Antifragilidad."
           - "Para cada marco: dónde converge, dónde diverge, qué aporta este libro que ese marco no resuelve."
           - "La convergencia se presenta como validación, no como argumento de autoridad."
+        loop_closure: "Posiciona el libro en contexto teórico; la convergencia de tradiciones diversas valida que el problema es real y reconocido."
         nonnegotiable_claim: "El diagnóstico está hecho repetidamente desde múltiples ángulos; lo que falta es mecanismo operativo."
         feeds_into: ["APP-D"]
         executive_relief: "El libro no contradice lo que se sabe sobre sistemas complejos; está fundamentado en tradiciones establecidas."
@@ -657,6 +662,7 @@ architecture_versions:
           - "Se listan 5 señales tempranas de captura."
           - "Se describen 5 indicadores de falsa estabilidad."
           - "Se incluye tabla resumen diagnóstica."
+        loop_closure: "Cierra el libro con herramientas de auditoría; permite al lector verificar si su gate es funcional o ceremonial."
         nonnegotiable_claim: "Un gate sin las protecciones estructurales descritas será capturado o ceremonializado; el diseño determina el destino."
         feeds_into: []
         executive_relief: "Tienes checklist de diagnóstico para verificar si tu gate funciona o es ceremonia."

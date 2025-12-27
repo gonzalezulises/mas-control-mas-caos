@@ -117,22 +117,22 @@ def main():
     else:
         ok("Found book.narrative_contract.provocation.examples")
 
-    # --- 4) loop_closure per blueprint in v2
+    # --- 4) loop_closure per blueprint in v3 (current architecture)
     arch_versions = data.get("architecture_versions")
     if not isinstance(arch_versions, list) or not arch_versions:
         die("Missing architecture_versions list")
 
-    v2 = None
+    v3 = None
     for v in arch_versions:
-        if isinstance(v, dict) and v.get("version") == "v2":
-            v2 = v
+        if isinstance(v, dict) and v.get("version") == "v3":
+            v3 = v
             break
-    if v2 is None:
-        die("No architecture_versions entry found with version: v2")
+    if v3 is None:
+        die("No architecture_versions entry found with version: v3")
 
-    blueprints = v2.get("chapter_blueprints")
+    blueprints = v3.get("chapter_blueprints")
     if not isinstance(blueprints, list) or not blueprints:
-        die("architecture_versions[v2].chapter_blueprints missing or empty")
+        die("architecture_versions[v3].chapter_blueprints missing or empty")
 
     missing_loop_closure = []
     short_loop_closure = []
@@ -151,12 +151,12 @@ def main():
             short_loop_closure.append(bp_id)
 
     if missing_loop_closure:
-        die(f"Missing loop_closure in these v2 blueprints: {missing_loop_closure}")
+        die(f"Missing loop_closure in these v3 blueprints: {missing_loop_closure}")
 
-    ok("All v2 chapter_blueprints have loop_closure")
+    ok("All v3 chapter_blueprints have loop_closure")
 
     if short_loop_closure:
-        warn(f"loop_closure exists but is very short in these v2 blueprints (consider expanding): {short_loop_closure}")
+        warn(f"loop_closure exists but is very short in these v3 blueprints (consider expanding): {short_loop_closure}")
 
     print("\nPASS: YAML satisfies required guardrails changes.")
 
