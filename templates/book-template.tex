@@ -1,0 +1,120 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(papersize)$$papersize$paper,$endif$twoside,openright]{book}
+
+% Español
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+% Fuentes y tipografía
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{DejaVu Sans Mono}[Scale=0.85]
+
+% Geometría de página
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+
+% Espaciado
+\usepackage{setspace}
+$if(linestretch)$
+\setstretch{$linestretch$}
+$endif$
+
+% Encabezados y pies de página
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\leftmark}
+\fancyhead[RO]{\small\rightmark}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Páginas de capítulo sin encabezado
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[LE,RO]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% Títulos de capítulo
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {\chaptertitlename\ \thechapter}
+  {20pt}
+  {\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+% Párrafos
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0.5em}
+
+% Links
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  pdfauthor={$author$},
+  pdftitle={$title$},
+  pdfsubject={$description$}
+}
+
+% Gráficos
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,keepaspectratio}
+
+% Código y bloques
+\usepackage{fancyvrb}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\},fontsize=\small}
+
+% Epígrafes y citas
+\usepackage{csquotes}
+\renewcommand{\mkbegdispquote}[2]{\itshape}
+
+% Notas al pie
+\usepackage[bottom]{footmisc}
+
+% Tabla de contenidos
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+% Portada
+\begin{titlepage}
+\centering
+\vspace*{3cm}
+{\Huge\bfseries $title$\par}
+\vspace{1cm}
+$if(subtitle)$
+{\Large\itshape $subtitle$\par}
+$endif$
+\vspace{2cm}
+{\Large $author$\par}
+\vfill
+{\large $date$\par}
+\end{titlepage}
+
+% Página legal
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+\small
+$rights$\\[1cm]
+Primera edición: $date$\\[0.5cm]
+$if(publisher)$
+$publisher$
+$endif$
+\end{center}
+\newpage
+
+% Tabla de contenidos
+\tableofcontents
+
+% Contenido principal
+$body$
+
+\end{document}
