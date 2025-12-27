@@ -118,4 +118,4 @@ Antes de diseñar intervenciones, conviene saber dónde está parado. El Apéndi
 
 <!-- break -->
 
-El libro terminó de describir. Lo que sigue es decidir.
+Más poder crea más caos, no es una advertencia moral. Es una ley emergente. El caos no es el fallo del sistema. Es el síntoma de que el sistema ya superó la capacidad cognitiva de quienes lo controlan.

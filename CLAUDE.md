@@ -1,7 +1,9 @@
 # CLAUDE.md - Contexto para Claude Code
 
 ## Proyecto
-**Gerencia Funcional** - Libro sobre sistemas organizacionales y fricción deliberada.
+**Más control, más caos** - Límites externos para sistemas que no se detienen solos.
+
+Nota: "Gerencia funcional" es concepto interno del libro, no título. Se define en el Capítulo 7 con la analogía a medicina funcional.
 
 ## Tesis Central (Option B)
 > Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder
