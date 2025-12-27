@@ -24,5 +24,13 @@ El Capitulo 5 presenta las ocho capacidades que constituyen la gerencia funciona
 
 Los capitulos siguientes desarrollan casos, mecanismos operativos, criterios de evaluacion e implicaciones para la inteligencia artificial. Pero los primeros cinco capitulos contienen el argumento central. Si al terminar el quinto capitulo el lector no esta convencido de que su organizacion necesita un limite externo genuino, los capitulos restantes no cambiaran esa conclusion.
 
+Una clarificacion sobre el estatus de lo que sigue. Este libro no presenta un estandar certificable. No hay metodologia con acronimo registrado, body of knowledge con comunidad de practitioners, ni casos de Harvard con grupo de control. El Decision Readiness Gate que el libro propone es arquitectura conceptual, no practica documentada con historiales de implementacion verificables. El lector que busque validacion externa no la encontrara.
+
+Esta ausencia no es accidente ni deficiencia. Es consistente con la tesis central del libro. Los limites externos que funcionan son impuestos por reguladores con autoridad coercitiva o emergen de crisis que no dejan alternativa. Los que se adoptan voluntariamente, antes del colapso, antes de que la regulacion los obligue, antes de que el dano sea visible, no generan comunicados de prensa. El exito de no ejecutar una iniciativa destructiva no tiene celebracion publica. Las organizaciones que operan con friccion deliberada no la publicitan porque hacerlo no otorga ventaja competitiva y si expone a cuestionamiento de por que otras no lo hacen. La ausencia de casos documentados de limites voluntarios exitosos es exactamente lo que la tesis predice, no lo que la contradice.
+
+Lo que el libro ofrece es logica estructural verificable contra la experiencia del lector. Cada afirmacion puede contrastarse con lo que el lector ha observado en su propia organizacion. Si la dinamica descrita no coincide con lo que el lector ha vivido, el argumento no convence y ningun caso lo cambiaria. Si coincide, el lector tiene mas que anecdotas de otros: tiene marco para interpretar las propias.
+
+El lector de este libro no es consumidor de recetas probadas. Es testigo temprano de una propuesta que puede implementar, adaptar, rechazar o ignorar. Lo que no puede hacer es exigir evidencia del tipo que la tesis misma explica por que no existe.
+
 Este libro no intenta persuadir emocionalmente. Intenta posicionar intelectualmente. La incomodidad que produce es deliberada. Un libro sobre limites que no incomoda ha fracasado en su proposito.
 
