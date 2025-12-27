@@ -1,0 +1,345 @@
+---
+book:
+  id: "gerencia-funcional"
+  working_title: "Gerencia Funcional"
+  thesis:
+    option: "B"
+    statement: >
+      Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder
+      para preservar adaptabilidad, sentido y supervivencia.
+  north_star_reader:
+    persona: "CEO / Comité Ejecutivo"
+    job_to_be_done: >
+      Evitar que iniciativas estratégicas mal planteadas entren en ejecución y quemen dinero,
+      credibilidad y capital político.
+  tone:
+    stance: "incómodo, riguroso, sistémico"
+    anti_patterns:
+      - "framework genérico"
+      - "checklists sin trade-offs"
+      - "narrativa lineal sin loops"
+  canon_terms:
+    - "Coding Trance"
+    - "Decision Readiness Gate (DRG)"
+    - "feedback loop"
+    - "control ≠ estabilidad"
+    - "fricción deliberada"
+  glossary:
+    DRG: "Gate obligatorio previo a ejecución con veredicto ✅/⚠️/⛔."
+    CodingTrance: "Estado cognitivo organizacional: capacidad sin contexto; lo medible reemplaza lo real."
+    RunawayDynamics: "Realimentación positiva sin frenos; acelera hacia colapso o cambio de régimen."
+
+concepts:
+  nodes:
+    - id: "C1-loop-power"
+      label: "Loop de poder (runaway dynamics)"
+      description: "Más poder → más energía → más emoción → más poder (realimentación positiva)."
+      tags: ["systems", "feedback", "collapse"]
+    - id: "C2-control-chaos"
+      label: "Control invita caos"
+      description: "Más control reduce variedad y aumenta fragilidad; el caos emerge como respuesta."
+      tags: ["cybernetics", "ashby", "complexity"]
+    - id: "C3-coding-trance"
+      label: "Coding Trance organizacional"
+      description: "Foco en capacidad, pérdida de contexto, automatizar/escalar como reflejo."
+      tags: ["org-cognition", "tech", "governance"]
+    - id: "C4-deliberate-friction"
+      label: "Fricción deliberada"
+      description: "Límites explícitos, desaceleración consciente, espacios no optimizados."
+      tags: ["governance", "resilience"]
+    - id: "C5-drg"
+      label: "Decision Readiness Gate (DRG)"
+      description: "Mecanismo externo que decide si una iniciativa está lista para ejecutarse."
+      tags: ["product", "decision", "risk"]
+    - id: "C6-learning-procedural"
+      label: "Aprendizaje organizacional grupal y procedural"
+      description: "El aprendizaje que transforma sistemas no es individual: es grupal, embebido en procesos y ritualizado en prácticas."
+      tags: ["org-learning", "procedural", "collective"]
+    - id: "C7-ai-human-limits"
+      label: "IA como amplificador de asimetría poder/límites"
+      description: "La IA amplifica capacidad técnica sin amplificar los límites humanos; acelera la brecha entre lo que se puede hacer y lo que se debería."
+      tags: ["ai", "power-asymmetry", "human-limits", "governance"]
+
+  edges:
+    - from: "C1-loop-power"
+      to: "C2-control-chaos"
+      type: "implies"
+      note: "El loop acelera y la respuesta típica es aumentar control."
+    - from: "C2-control-chaos"
+      to: "C3-coding-trance"
+      type: "reinforces"
+      note: "La búsqueda de control rigidiza, y el trance normaliza esa rigidez."
+    - from: "C3-coding-trance"
+      to: "C4-deliberate-friction"
+      type: "opposed_by"
+      note: "El trance rechaza límites; la fricción deliberada los introduce."
+    - from: "C4-deliberate-friction"
+      to: "C5-drg"
+      type: "implemented_by"
+      note: "El DRG es fricción institucionalizada."
+    - from: "C3-coding-trance"
+      to: "C7-ai-human-limits"
+      type: "reinforces"
+      note: "El trance organizacional encuentra en la IA su acelerador perfecto: más capacidad, menos contexto."
+    - from: "C6-learning-procedural"
+      to: "C5-drg"
+      type: "enables"
+      note: "El aprendizaje grupal/procedural es condición para que el DRG funcione: sin él, el gate es ritual vacío."
+
+assets:
+  references:
+    - id: "R-ashby"
+      type: "theory"
+      title: "Law of Requisite Variety (Ashby)"
+      status: "to-validate"
+      notes: "Sostiene la tesis control→inestabilidad si el controlador no tiene variedad suficiente."
+    - id: "R-systems-dynamics"
+      type: "theory"
+      title: "System Dynamics: reinforcing loops / runaway"
+      status: "to-validate"
+  cases:
+    - id: "CASE-ia-sin-gobernanza"
+      title: "IA aplicada sin gobernanza"
+      pattern: "capacidad > madurez sistémica"
+      mapped_concepts: ["C3-coding-trance", "C2-control-chaos", "C7-ai-human-limits"]
+    - id: "CASE-agile-teatro"
+      title: "Agilidad sin operating model"
+      pattern: "rituales > adaptabilidad real"
+      mapped_concepts: ["C3-coding-trance", "C1-loop-power"]
+
+architecture_versions:
+  - version: "v1"
+    created: "2025-12-01"
+    status: "baseline"
+    intent: "Libro original: Gerencia Funcional (estructura tradicional)."
+    chapters:
+      - slug: "v1-intro"
+        title: "Introducción"
+      - slug: "v1-gerencia-funcional"
+        title: "Qué es Gerencia Funcional"
+      - slug: "v1-modelo"
+        title: "Modelo / Componentes"
+  - version: "v2"
+    created: "2025-12-26"
+    updated: "2025-12-26"
+    status: "working"
+    intent: "Re-arquitectura por loops + Coding Trance + DRG."
+    principles:
+      - "no narrativa lineal: loops"
+      - "control ≠ estabilidad"
+      - "límite externo: DRG"
+      - "trade-offs explícitos"
+    chapter_blueprints:
+      - id: "B1"
+        sequence: 1
+        title: "El loop del poder"
+        thesis: "Las organizaciones no progresan: se auto-amplifican."
+        required_concepts: ["C1-loop-power"]
+        required_assets: ["R-systems-dynamics"]
+        exit_criteria:
+          - "El lector puede describir el loop sin metáforas."
+          - "Se explican señales de runaway dynamics."
+      - id: "B2"
+        sequence: 2
+        title: "Control ≠ estabilidad"
+        thesis: "Más control reduce variedad y aumenta fragilidad."
+        required_concepts: ["C2-control-chaos"]
+        required_assets: ["R-ashby"]
+        exit_criteria:
+          - "Quedan explícitos trade-offs de control."
+          - "Se explica caos como respuesta emergente."
+      - id: "B3"
+        sequence: 3
+        title: "Coding Trance"
+        thesis: "La organización entra en trance cuando capacidad reemplaza contexto."
+        required_concepts: ["C3-coding-trance"]
+        required_assets: ["CASE-ia-sin-gobernanza", "CASE-agile-teatro"]
+        exit_criteria:
+          - "Hay criterios observables del trance."
+          - "Hay señales tempranas (leading indicators)."
+      - id: "B7"
+        sequence: 4
+        title: "El aprendizaje no es individual: es grupal y procedural"
+        thesis: "Las organizaciones no aprenden porque las personas aprenden; aprenden cuando el conocimiento se embebe en procesos, no en cabezas."
+        required_concepts: ["C6-learning-procedural"]
+        mapping_status: "to-be-mapped"
+        exit_criteria:
+          - "Se distingue aprendizaje individual de aprendizaje organizacional."
+          - "Se identifican mecanismos procedurales de retención de conocimiento."
+          - "Se explica por qué capacitación individual no escala a cambio sistémico."
+      - id: "B8"
+        sequence: 5
+        title: "IA y los límites humanos"
+        thesis: "La IA amplifica el poder técnico sin amplificar la capacidad humana de establecer límites; el resultado es aceleración sin gobernanza."
+        required_concepts: ["C7-ai-human-limits", "C3-coding-trance"]
+        mapping_status: "to-be-mapped"
+        exit_criteria:
+          - "Se demuestra la asimetría capacidad/límites con ejemplos concretos."
+          - "Se evita discurso ético genérico o apocalíptico."
+          - "Se conecta explícitamente con la necesidad de fricción deliberada."
+      - id: "B4"
+        sequence: 6
+        title: "La renuncia al poder"
+        thesis: "Sistemas sanos introducen límites: fricción deliberada."
+        required_concepts: ["C4-deliberate-friction"]
+        exit_criteria:
+          - "Se justifican límites como activos."
+          - "Se proponen mecanismos concretos de fricción."
+      - id: "B9"
+        sequence: 7
+        title: "Los sistemas no pueden auto-limitarse"
+        thesis: "Un sistema en runaway no puede frenarse a sí mismo; el límite debe ser externo."
+        required_concepts: ["C1-loop-power", "C4-deliberate-friction"]
+        mapping_status: "to-be-mapped"
+        status: "to-define"
+        exit_criteria:
+          - "Se argumenta por qué el auto-control falla en sistemas de poder."
+          - "Se prepara la necesidad de un mecanismo externo (DRG)."
+      - id: "B5"
+        sequence: 8
+        title: "Decision Readiness Gate (DRG)"
+        thesis: "Un gate externo decide si una iniciativa está lista para ejecución."
+        required_concepts: ["C5-drg"]
+        exit_criteria:
+          - "Definición operativa: entrada/proceso/salida ✅⚠️⛔."
+          - "Criterio codificado A-D con ejemplos."
+      - id: "B10"
+        sequence: 9
+        title: "Criterio codificado"
+        thesis: "El DRG funciona solo si el criterio de decisión es explícito, observable y no negociable."
+        required_concepts: ["C5-drg", "C6-learning-procedural"]
+        mapping_status: "to-be-mapped"
+        status: "to-define"
+        exit_criteria:
+          - "Se define estructura del criterio A-D."
+          - "Se muestran ejemplos de criterios mal codificados vs. bien codificados."
+      - id: "B6"
+        sequence: 10
+        title: "Casos donde decir NO fue éxito"
+        thesis: "Evitar ejecución puede ser el mayor ROI."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        exit_criteria:
+          - "Casos muestran capital político preservado."
+          - "Se cuantifica costo evitado (aunque sea por rangos)."
+
+chapters:
+  - chapter_id: "CH-001"
+    blueprint_id: "B1"
+    title: "El loop del poder"
+    status: "draft"
+    owner_intent: "Instalar el loop como fundamento, no metáfora."
+    linked_concepts: ["C1-loop-power", "C2-control-chaos"]
+    dependencies:
+      must_precede: []
+      must_follow: []
+    writing:
+      current_outline:
+        - "La letra como loop"
+        - "Runaway dynamics"
+        - "Señales de aceleración"
+      open_questions:
+        - "¿Qué ejemplo organizacional usar como apertura?"
+      do_not_break:
+        - "No convertirlo en narrativa de progreso."
+        - "No moralizar tecnología."
+    context_memory:
+      decisions:
+        - date: "2025-12-26"
+          decision: "Usar el loop energía→emoción→poder como apertura."
+          rationale: "Instala feedback positivo y prepara el giro control≠estabilidad."
+      assumptions:
+        - "El lector tolera una tesis confrontacional desde el inicio."
+      risks:
+        - "Quedar demasiado abstracto sin señales observables."
+
+mappings:
+  chapter_map:
+    - from_version: "v1"
+      from_slug: "v1-intro"
+      to_version: "v2"
+      to_blueprint_id: "B1"
+      mapping_type: "merge"
+      notes: "La intro se convierte en apertura loop; eliminar definiciones genéricas."
+    - from_version: "v1"
+      from_slug: "v1-modelo"
+      to_version: "v2"
+      to_blueprint_id: "B5"
+      mapping_type: "refactor"
+      notes: "Componentes pasan a DRG como mecanismo operativo."
+    - from_version: "v2"
+      from_slug: null
+      to_version: "v2"
+      to_blueprint_id: "B7"
+      mapping_type: "new"
+      mapping_status: "to-be-mapped"
+      notes: "Capítulo nuevo: aprendizaje grupal/procedural. Sin origen en v1."
+    - from_version: "v2"
+      from_slug: null
+      to_version: "v2"
+      to_blueprint_id: "B8"
+      mapping_type: "new"
+      mapping_status: "to-be-mapped"
+      notes: "Capítulo nuevo: IA y límites humanos. Sin origen en v1."
+    - from_version: "v2"
+      from_slug: null
+      to_version: "v2"
+      to_blueprint_id: "B9"
+      mapping_type: "new"
+      mapping_status: "to-be-mapped"
+      notes: "Capítulo nuevo: sistemas no pueden auto-limitarse. Sin origen en v1."
+    - from_version: "v2"
+      from_slug: null
+      to_version: "v2"
+      to_blueprint_id: "B10"
+      mapping_type: "new"
+      mapping_status: "to-be-mapped"
+      notes: "Capítulo nuevo: criterio codificado. Sin origen en v1."
+  content_fragments:
+    - frag_id: "F-012"
+      origin: { version: "v1", chapter: "v1-gerencia-funcional", section: "definicion" }
+      summary: "Definición original de gerencia funcional."
+      keep: "conditional"
+      target:
+        version: "v2"
+        blueprints: ["B5"]
+      transform_notes: "Reescribir como 'sistema de límites', no como estructura funcional."
+
+ai:
+  editing_contract:
+    invariants:
+      - "Mantener option B como tesis central."
+      - "Evitar narrativa lineal; privilegiar loops."
+      - "Trade-offs explícitos, no consejos."
+      - "DRG debe producir estatus ✅⚠️⛔, no recomendaciones."
+      - "Los capítulos de aprendizaje (B7) y de IA (B8) deben preparar el DRG. Evitar ética genérica, cultura tech superficial o humanismo abstracto."
+    allowed_actions:
+      - "proponer reordenamiento de blueprints"
+      - "detectar incoherencias entre conceptos y capítulos"
+      - "sugerir cortes (qué eliminar) para aumentar tensión"
+      - "convertir 'ideas' en criterios observables"
+    forbidden_actions:
+      - "inventar casos o datos"
+      - "diluir tesis para agradar"
+      - "convertir DRG en checklist superficial"
+  prompts:
+    chapter_architecture_assistant: >
+      Actúa como editor sistémico. Usa architecture_versions[v2] como fuente de verdad.
+      Revisa consistencia: cada blueprint debe cumplir exit_criteria y required_concepts.
+      Propón una secuencia de capítulos que maximice tensión conceptual y claridad.
+      Señala huecos, redundancias y conceptos no anclados en mecanismos.
+
+state:
+  migration:
+    current_version: "v2"
+    source_version: "v1"
+    progress:
+      mapped_chapters: 2
+      drafted_chapters: 1
+      unresolved_fragments: 7
+      new_blueprints_pending: 4
+    next_actions:
+      - "Completar mapeo v1→v2 para todos los capítulos"
+      - "Definir criterios observables de Coding Trance"
+      - "Especificar reglas A-D del DRG en formato evaluable"
+      - "Desarrollar thesis y exit_criteria para B9 (auto-limitación)"
+      - "Desarrollar thesis y exit_criteria para B10 (criterio codificado)"
