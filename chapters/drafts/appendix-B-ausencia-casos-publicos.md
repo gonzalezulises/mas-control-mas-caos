@@ -1,5 +1,9 @@
 # Apendice B: Por que no hay casos publicos
 
+<!-- block: reconocimiento -->
+
+<!-- block: alivio -->
+
 <!-- block: evidencia_existente -->
 
 La evidencia de que el limite externo funciona existe. No en casos corporativos publicitados voluntariamente, pero si en sectores donde la regulacion impone el principio por mandato.
@@ -11,6 +15,8 @@ La Comision para el Mercado Financiero de Chile opera con estructura similar. Su
 El Banco Central de Brasil, a traves de sus regulaciones prudenciales, impone limites que los bancos brasilenhos no pueden negociar. Los requisitos de capital, las restricciones de exposicion cambiaria y los limites de apalancamiento operan como criterio codificado con consecuencia automatica. La crisis de 2008 afecto marginalmente al sistema bancario brasileno comparado con sistemas que operaban con regulacion mas laxa.
 
 Estos reguladores validan el principio porque operan exactamente como este libro describe que debe operar un limite externo efectivo. Tienen fuente de autoridad independiente del regulado. Sus criterios no son modificables unilateralmente por quienes los enfrentan. Tienen capacidad de enforcement sin cooperacion del limitado. Sobreviven a rotacion de personas porque estan codificados en ley y regulacion.
+
+<!-- block: causa -->
 
 <!-- block: casos_de_falla -->
 
@@ -30,6 +36,8 @@ La segunda razon es que la proteccion silenciosa permanece silenciosa. Cuando el
 
 La tercera razon es que los casos con nombre vienen del fracaso. Boeing, Enron, Theranos, Odebrecht, OGX son casos publicos porque colapsaron visiblemente. Las organizaciones que evitaron errores equivalentes no tienen caso que documentar porque la historia nunca ocurrio. El banco que no entro al mercado de hipotecas subprime no aparece en ningun estudio del colapso de 2008.
 
+<!-- block: riesgo -->
+
 <!-- block: implicacion -->
 
 La implicacion para el lector es incomoda pero honesta. No hay caso publico que citar para convencer a un esceptico. No hay organizacion que visitar para ver el mecanismo en operacion. No hay paper academico con grupo de control y medicion de impacto.
@@ -39,6 +47,8 @@ La Introduccion de este libro declaro explicitamente este estatus: lo que sigue 
 El lector debe decidir basandose en la logica estructural. Si el costo politico de aprobar es estructuralmente menor que el de rechazar, los mecanismos internos produciran aprobacion sistematica. Si el criterio negociable colapsa bajo presion politica, solo el criterio codificado resiste. Si el gate sin veredicto vinculante produce recomendaciones que el sponsor ignora, solo el veredicto vinculante detiene.
 
 La evidencia de reguladores latinoamericanos muestra que el principio funciona cuando se implementa correctamente. La ausencia de casos corporativos voluntarios muestra que las organizaciones no publicitan sus exitos de no-ejecucion. Estas dos observaciones son consistentes, no contradictorias.
+
+<!-- block: proteccion -->
 
 <!-- block: propuesta -->
 

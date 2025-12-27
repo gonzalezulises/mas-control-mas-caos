@@ -1,5 +1,11 @@
 # Apéndice A: Criterios de Readiness por Tipo de Iniciativa
 
+<!-- block: reconocimiento -->
+
+<!-- block: alivio -->
+
+<!-- block: causa -->
+
 <!-- block: uso -->
 
 Este apendice contiene criterios operativos propuestos para evaluar iniciativas antes de autorizar ejecucion. No son estandares validados empiricamente ni checklists universales. Son derivaciones logicas: si una iniciativa de cierto tipo tiene los riesgos descritos en el libro, que preguntas harian visible si esos riesgos estan gestionados. Los umbrales especificos son puntos de partida para calibracion, no numeros con autoridad externa. Cada organizacion debe ajustar segun su contexto, tolerancia al riesgo y capacidad de absorber fracaso.
@@ -136,6 +142,8 @@ La calibración correcta no es la más estricta posible. Es la que produce una t
 
 El proceso de calibración debería ocurrir anualmente, usando como input los veredictos del año anterior. Las iniciativas que recibieron GO y fracasaron indican que los criterios fueron insuficientes para detectar riesgo. Las iniciativas que recibieron RECHAZO y cuyo análisis posterior muestra que habrían funcionado indican que los criterios fueron excesivos. El objetivo es minimizar ambos tipos de error, sabiendo que nunca serán cero.
 
+<!-- block: riesgo -->
+
 <!-- block: manipulacion -->
 
 Los criterios más sofisticados pueden ser manipulados por sponsors suficientemente motivados. Las señales de que un criterio se cumple mecánicamente sin cumplir el espíritu son predecibles y deben monitorearse.
@@ -151,3 +159,5 @@ La cuarta señal es mitigaciones de riesgo que existen en papel pero no tienen r
 La quinta señal es cumplimiento de umbral justo por encima del mínimo. Cuando múltiples criterios se cumplen exactamente con el mínimo requerido, sugiere que el equipo trabajó para alcanzar el umbral, no para resolver el problema subyacente.
 
 El comité que opera el gate debe desarrollar sensibilidad para estas señales. El criterio codificado es necesario pero no suficiente. El juicio experto sobre la calidad del cumplimiento sigue siendo irreemplazable. El criterio protege al experto dándole base institucional para cuestionar; no lo reemplaza.
+
+<!-- block: proteccion -->
