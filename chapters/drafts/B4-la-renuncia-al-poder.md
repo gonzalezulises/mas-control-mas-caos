@@ -1,4 +1,6 @@
 <!-- stub -->
+<!-- include_in_print: false -->
+<!-- lifecycle: reserved-post-drg -->
 # B4: La renuncia al poder
 
 > **Tesis**: Sistemas sanos introducen límites: fricción deliberada.

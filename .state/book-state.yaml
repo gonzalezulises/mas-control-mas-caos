@@ -336,6 +336,9 @@ architecture_versions:
         title: "La renuncia al poder"
         thesis: "Sistemas sanos introducen límites: fricción deliberada."
         required_concepts: ["C4-deliberate-friction"]
+        include_in_print: false
+        lifecycle_state: "reserved"
+        rationale: "Chapter reserved for post-DRG; not part of current printable narrative."
         exit_criteria:
           - "Se justifican límites como activos."
           - "Se proponen mecanismos concretos de fricción."
