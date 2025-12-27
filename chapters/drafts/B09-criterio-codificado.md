@@ -1,46 +1,67 @@
-<!-- stub -->
-# B09: Criterio codificado
+# Criterio codificado
 
-> **Tesis**: El DRG funciona solo si el criterio de decisión es explícito, observable y no negociable.
+<!-- block: reconocimiento -->
 
-## Metadata
-- **Blueprint ID**: B09
-- **Sequence**: 9 (capítulo final)
-- **Role**: closing_chapter
-- **Status**: pending
-- **Required concepts**: C5-drg, C6-learning-procedural
+El Decision Readiness Gate existe. El mandato está aprobado por el directorio. El comité evaluador tiene miembros asignados con dedicación protegida. Los umbrales de inversión que disparan evaluación obligatoria están definidos. El proceso de presentación está documentado. Las plantillas están disponibles. Los sponsors saben que sus iniciativas pasarán por el gate antes de entrar en ejecución. Todo el andamiaje institucional está en su lugar.
 
-## Exit Criteria
-- [ ] Se define estructura del criterio A-D
-- [ ] Se muestran ejemplos de criterios mal codificados vs. bien codificados
-- [ ] El criterio codificado determina el estatus de la iniciativa sin ambigüedad
-- [ ] El capítulo cierra el libro sin introducir conceptos nuevos
+Y sin embargo, cuando llega el momento de producir un veredicto sobre una iniciativa concreta, el comité se encuentra frente a una pregunta que el andamiaje no responde: bajo qué criterio específico esta iniciativa merece un veredicto de rechazo. No bajo qué principio general, no bajo qué categoría abstracta, no bajo qué intuición colectiva. Bajo qué criterio observable, verificable, que pueda escribirse en el acta y sostenerse ante cuestionamiento posterior.
 
-## Loop Closure
-El loop del poder no se rompe con conciencia, valores ni liderazgo individual.
-Se rompe cuando el criterio deja de ser negociable.
-Aquí termina la discusión conceptual.
+Esta es la brecha que destruye la mayoría de los mecanismos de governance antes de que lleguen a funcionar. La estructura existe. El poder formal existe. La voluntad institucional de filtrar existe. Lo que no existe es el criterio operativo que convierte esa voluntad en veredicto concreto. Y sin criterio operativo, el gate se convierte en teatro institucional donde todo pasa con observaciones, donde las reservas se expresan en lenguaje que permite retractarse, donde el veredicto de rechazo nunca se materializa porque nadie puede articular exactamente por qué esta iniciativa específica merece ser detenida.
 
-## Nonnegotiable Claim
-Sin criterio codificado, todo límite es político y por tanto frágil;
-solo el criterio explícito convierte el NO en una decisión institucional.
+En tu organización hay un mecanismo de evaluación de iniciativas. Quizás se llama steering committee, quizás se llama comité de inversiones, quizás tiene otro nombre. Ese mecanismo tiene poder formal para rechazar. Pregunta cuántas iniciativas ha rechazado en los últimos veinticuatro meses. No cuántas ha pedido que se mejoren y vuelvan. No cuántas ha aprobado con condiciones. Cuántas ha rechazado definitivamente, produciendo un veredicto que cambió el estatus de la iniciativa de candidata a descartada. Si la respuesta es ninguna o casi ninguna, el mecanismo no tiene criterio operativo. Tiene apariencia de rigor.
 
-## Executive Relief
-El criterio codificado te da cobertura política, trazabilidad y protección frente a la junta.
-Tu decisión está respaldada por reglas explícitas, no por juicio personal.
-Legitimidad para decir NO sin quedar expuesto.
+<!-- block: alivio -->
 
-## Closing Chapter Rules
-- No usar subtítulos visibles
-- No usar listas
-- Prosa continua, densa, ejecutiva
-- No introducir nuevos frameworks ni mecanismos
-- Hablar desde inevitabilidad institucional, no desde recomendación
-- Debe sentirse como: "Aquí termina la discusión. A partir de aquí, solo queda decidir si se implementa o no."
+La ausencia de criterio codificado no refleja negligencia ni incompetencia de quienes operan los mecanismos de governance. Refleja la dificultad genuina de traducir juicio experto en reglas operativas que funcionen bajo presión política.
 
----
+El miembro del comité que ha visto fracasar iniciativas similares en el pasado tiene criterio. Puede identificar señales de alerta que otros no ven. Puede detectar inconsistencias entre lo que se promete y lo que es plausible. Puede anticipar dónde están los riesgos que el business case no menciona. Este juicio experto es valioso y no puede replicarse con checklists genéricos. El problema es que este juicio vive en la cabeza del experto y muere con su silencio. Cuando el momento de votar llega, el experto tiene que articular su juicio de una manera que sobreviva el escrutinio del sponsor, la presión del CEO que respalda la iniciativa, y la incomodidad de sus colegas que prefieren aprobar para evitar conflicto. En ese momento, el juicio experto se disuelve en observaciones generales que no impiden nada.
 
-## Draft
+El criterio codificado existe para liberar a ese experto de la carga imposible de defender su juicio en solitario. No reemplaza el juicio experto. Lo protege. Cuando el criterio dice que ninguna iniciativa puede recibir veredicto positivo si los supuestos de adopción no han sido validados con usuarios reales, el experto que detecta que esta iniciativa específica no cumple ese criterio no está emitiendo opinión personal. Está aplicando una regla que existía antes de que la iniciativa llegara al gate. Su posición no es política. Es procedimental. Y esa diferencia es la que permite que el veredicto negativo se materialice.
 
-<!-- Contenido del capítulo aquí -->
+El ejecutivo que opera sin criterio codificado está expuesto permanentemente. Cada veredicto negativo que produce es atacable como juicio personal, como sesgo, como conflicto de interés encubierto, como incapacidad de entender la oportunidad que otros sí ven. El ejecutivo que opera con criterio codificado tiene cobertura institucional. Su veredicto no es opinión. Es aplicación de reglas que el mismo directorio aprobó. El sponsor que quiere apelar tiene que apelar contra las reglas, no contra la persona. Y apelar contra las reglas es significativamente más costoso políticamente que atacar a un individuo.
 
+<!-- block: causa -->
+
+La razón por la cual el criterio debe estar codificado, no implícito ni consensuado informalmente, reside en lo que ocurre cuando el criterio enfrenta presión política real.
+
+Un criterio implícito, conocido por todos pero no escrito en ningún documento formal, desaparece cuando el sponsor de la iniciativa es el CEO o alguien con peso político equivalente. Todos saben que la iniciativa no cumple lo que normalmente se exigiría. Todos ven las brechas. Pero nadie puede señalar el documento que dice que esas brechas impiden aprobación, porque ese documento no existe. Lo que existe es una comprensión tácita que todos están dispuestos a suspender cuando el costo político de aplicarla es suficientemente alto.
+
+Un criterio consensuado en reuniones previas pero no formalizado tiene el mismo problema. El comité puede haber discutido extensamente qué estándares aplicar. Pueden haber llegado a acuerdos verbales sobre qué umbrales usar. Pero cuando una iniciativa específica viola esos acuerdos y viene respaldada por alguien con poder suficiente, los acuerdos verbales se reinterpretan. Lo que parecía claro se vuelve ambiguo. Lo que parecía umbral firme se vuelve guía flexible. La memoria colectiva de lo que se acordó se ajusta para acomodar la realidad política presente.
+
+El criterio codificado resiste porque existe fuera de la memoria de quienes lo aplican. Está escrito. Está aprobado por una instancia con autoridad sobre quienes ahora presionan para ignorarlo. Está disponible para cualquiera que quiera verificar qué se exige y qué no. Modificarlo requiere un proceso formal que deja rastro. Ignorarlo requiere explicar por qué esta iniciativa merece excepción cuando otras no la recibieron. La fricción que genera no es perfecta, pero es real. Y esa fricción es lo que separa un mecanismo de governance que funciona de uno que existe solo en organigramas.
+
+El criterio codificado tiene cuatro componentes que determinan si funciona o falla. El primero es observabilidad: el criterio debe referirse a algo que pueda verificarse independientemente de quien lo evalúe. No puede depender de interpretación subjetiva ni de juicio que varíe según quién esté en el comité ese día. El segundo es umbrales explícitos: el criterio debe especificar qué nivel de cumplimiento es suficiente y qué nivel es insuficiente. Un criterio que dice que los riesgos deben ser aceptables no es criterio; es invitación a negociar qué significa aceptable en cada caso. El tercero es consecuencias predefinidas: el criterio debe especificar qué ocurre si no se cumple. Si incumplir el criterio dispara una conversación en lugar de un veredicto, el criterio no tiene poder real. El cuarto es resistencia a excepción: el criterio debe especificar bajo qué condiciones, si alguna, puede ser exceptuado, y quién tiene autoridad para hacerlo. Si cualquier sponsor con suficiente peso político puede obtener excepción, el criterio protege solo contra iniciativas sin respaldo político, que son precisamente las que menos protección necesitan.
+
+<!-- block: riesgo -->
+
+El riesgo de operar con criterio ambiguo o negociable se materializa exactamente cuando el criterio más se necesita: frente a iniciativas respaldadas por poder concentrado.
+
+Las iniciativas que llegan al gate sin respaldo político significativo son fáciles de filtrar. Nadie presiona por ellas. Nadie amenaza consecuencias si son rechazadas. El comité puede aplicar cualquier estándar razonable y producir veredictos negativos sin costo. Estas iniciativas no son las que destruyen organizaciones. Las que destruyen organizaciones son las que llegan con momentum político imparable, respaldadas por ejecutivos que tienen poder para afectar las carreras de quienes las cuestionen, envueltas en narrativas que hacen que oponerse parezca falta de visión estratégica.
+
+Frente a estas iniciativas, el criterio negociable colapsa. El comité sabe que la iniciativa tiene problemas. Los miembros intercambian miradas que comunican reserva. Las preguntas durante la presentación intentan exponer las brechas sin confrontar directamente. Pero cuando llega el momento del veredicto, nadie tiene base institucional para votar no. El criterio dice que los supuestos deben ser razonables, y el sponsor argumenta que sus supuestos son razonables dadas las circunstancias. El criterio dice que los riesgos deben estar mitigados, y el sponsor presenta un plan de mitigación que es técnicamente un plan aunque nadie crea que funcionará. El criterio dice que el retorno debe justificar la inversión, y el sponsor muestra proyecciones que técnicamente muestran retorno aunque dependan de supuestos que nadie ha validado.
+
+El comité aprueba con observaciones. Las observaciones se documentan en el acta. Nadie las lee después. La iniciativa entra en ejecución. Dieciocho meses después, cuando la iniciativa ha consumido presupuesto significativo sin producir resultados, alguien pregunta por qué el comité la aprobó. Los miembros del comité señalan las observaciones en el acta: las reservas fueron expresadas, las preocupaciones fueron documentadas. Lo que no pueden explicar es por qué, habiendo identificado las reservas, produjeron un veredicto de aprobación en lugar de uno de rechazo.
+
+La respuesta es que el criterio permitía ambas interpretaciones. No forzaba el rechazo. Y cuando el criterio no fuerza el rechazo, la dinámica política produce aprobación.
+
+<!-- block: proteccion -->
+
+El criterio codificado convierte el NO en decisión institucional. No en opinión de un ejecutivo que puede ser cuestionado políticamente. No en juicio de un comité que puede ser presionado a reconsiderar. En aplicación de reglas que existían antes de que la iniciativa existiera y que seguirán existiendo después de que el sponsor actual haya rotado a otra posición.
+
+Cuando el criterio dice que ninguna iniciativa de transformación tecnológica puede recibir veredicto positivo si no ha completado una prueba de concepto con usuarios reales durante al menos noventa días, la iniciativa que no cumple ese criterio no puede ser aprobada sin modificar el criterio mismo. El sponsor no está peleando contra un comité que podría cambiar de opinión. Está peleando contra una regla que requiere proceso formal para ser cambiada. Ese proceso deja rastro. Ese rastro genera accountability. Esa accountability disuade la presión porque el costo de ejercerla se vuelve visible y atribuible.
+
+El ejecutivo que tiene criterio codificado a su disposición no necesita coraje para producir veredictos negativos. Necesita procedimiento. El veredicto negativo no surge de su voluntad personal de resistir presión. Surge de la aplicación mecánica de reglas que él no creó y que no puede modificar unilateralmente. Esto lo protege de dos maneras: lo protege de represalias porque el veredicto no es atribuible a su preferencia personal, y lo protege de su propia debilidad momentánea porque el criterio no admite negociación caso por caso.
+
+La cobertura que el criterio codificado proporciona se extiende hacia arriba en la jerarquía. Cuando el directorio pregunta por qué una iniciativa importante fue rechazada, la respuesta no es que el comité tuvo reservas ni que alguien no creyó en el proyecto. La respuesta es que la iniciativa no cumplió criterios específicos que el mismo directorio aprobó como condición de avance. El directorio no puede criticar al comité por aplicar reglas que el directorio estableció. Si quiere que iniciativas diferentes sean aprobadas, tiene que modificar las reglas formalmente, asumiendo la responsabilidad de esa modificación ante los accionistas y ante la historia.
+
+Esta es la diferencia entre governance real y la ilusión de governance. La ilusión de governance tiene comités, tiene reuniones, tiene presentaciones, tiene actas. Governance real tiene criterio codificado que produce veredictos que no pueden ignorarse sin costo visible. Todo lo demás es ceremonia institucional que consume tiempo ejecutivo sin producir protección real.
+
+El loop del poder organizacional que este libro describe no se rompe con conciencia. Los ejecutivos que entienden perfectamente la dinámica de amplificación siguen atrapados en ella porque entender no otorga poder para detener. No se rompe con valores. Los líderes con integridad impecable producen los mismos resultados que sus predecesores porque la estructura de incentivos es más fuerte que la voluntad individual. No se rompe con liderazgo transformacional. El líder más carismático no puede sostener resistencia personal indefinidamente contra presión institucional que no descansa.
+
+El loop se rompe cuando el criterio deja de ser negociable. Cuando el NO tiene base procedimental que ningún sponsor puede erosionar con argumentos ni con presión. Cuando la decisión de detener existe fuera de las personas que la ejecutan y puede sobrevivir su rotación, su promoción, su salida de la organización.
+
+El criterio codificado te da cobertura política porque tu decisión está respaldada por reglas que tú no inventaste. Te da trazabilidad porque el proceso que seguiste está documentado y puede reconstruirse. Te da protección frente a la junta porque actuaste según mandato que la junta misma aprobó. Te da legitimidad para decir NO sin quedar expuesto porque el NO no es tuyo: es institucional.
+
+Sin criterio codificado, todo límite es político y por tanto frágil. Solo el criterio explícito convierte el NO en decisión institucional.
+
+Aquí termina la discusión conceptual. A partir de aquí, solo queda decidir si se implementa o no.
