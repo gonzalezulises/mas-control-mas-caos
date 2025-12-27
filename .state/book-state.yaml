@@ -189,7 +189,11 @@ architecture_versions:
         exit_criteria:
           - "El lector puede describir el loop sin metáforas."
           - "Se explican señales de runaway dynamics."
+          - "Se establece el límite como única salida viable del loop."
         loop_closure: "Instala el loop como dinámica inevitable; prepara el mito del control como respuesta típica."
+        nonnegotiable_claim: "El poder organizacional es un loop que se auto-amplifica; no existe el progreso lineal."
+        feeds_into: ["B2"]
+        executive_relief: "Reduce tu exposición frente a la junta al entender por qué las iniciativas se aceleran sin control visible."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -215,7 +219,11 @@ architecture_versions:
         exit_criteria:
           - "Quedan explícitos trade-offs de control."
           - "Se explica caos como respuesta emergente."
+          - "Se identifica la cobertura frente a fragilidad como necesidad estructural."
         loop_closure: "Demuestra que el aumento de control alimenta fragilidad y acelera el loop; prepara el trance como normalización."
+        nonnegotiable_claim: "Más control reduce variedad y aumenta fragilidad; el caos es respuesta sistémica, no falla operativa."
+        feeds_into: ["B3"]
+        executive_relief: "Obtén cobertura al demostrar que el riesgo de fragilidad no pasa desapercibido en tu gestión."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -241,7 +249,11 @@ architecture_versions:
         exit_criteria:
           - "Hay criterios observables del trance."
           - "Hay señales tempranas (leading indicators)."
+          - "Se expone la necesidad de protección externa cuando el trance impide auto-diagnóstico."
         loop_closure: "El trance es el loop normalizado; la organización ya no ve el loop porque está dentro de él."
+        nonnegotiable_claim: "El Coding Trance elimina la capacidad de ver el problema; todo parece correcto hasta que es demasiado tarde."
+        feeds_into: ["B7"]
+        executive_relief: "Identifica el riesgo invisible antes de que la junta pregunte por qué nadie lo vio venir."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -268,7 +280,11 @@ architecture_versions:
           - "Se distingue aprendizaje individual de aprendizaje organizacional."
           - "Se identifican mecanismos procedurales de retención de conocimiento."
           - "Se explica por qué capacitación individual no escala a cambio sistémico."
+          - "Se establece el límite procedural como condición de protección organizacional."
         loop_closure: "Sin aprendizaje procedural, el loop reinicia tras cada intento de corrección; prepara la necesidad de un mecanismo externo."
+        nonnegotiable_claim: "La capacitación individual es insuficiente para el cambio sistémico; las organizaciones aprenden cuando cambian procedimientos, no personas."
+        feeds_into: ["B8"]
+        executive_relief: "Reduce exposición al demostrar que los errores repetidos no pasan por falta de capacitación sino de procedimientos."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -296,6 +312,9 @@ architecture_versions:
           - "Se evita discurso ético genérico o apocalíptico."
           - "Se conecta explícitamente con la necesidad de fricción deliberada."
         loop_closure: "La IA acelera el loop sin añadir frenos; hace inevitable la necesidad de fricción deliberada externa."
+        nonnegotiable_claim: "La IA amplifica capacidad técnica sin amplificar límites humanos; el resultado es aceleración sin gobernanza."
+        feeds_into: ["B4"]
+        executive_relief: "Obtén cobertura frente a la junta al anticipar el riesgo de IA sin gobernanza antes de que explote."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -321,6 +340,9 @@ architecture_versions:
           - "Se justifican límites como activos."
           - "Se proponen mecanismos concretos de fricción."
         loop_closure: "Introduce la fricción como respuesta al loop; pero aún falta el mecanismo que la institucionalice."
+        nonnegotiable_claim: "Los límites son activos estratégicos; renunciar a parte del poder es condición de supervivencia sistémica."
+        feeds_into: ["B9"]
+        executive_relief: "El riesgo de no poner límites ahora es mayor que el costo político de ponerlos; esto es cobertura anticipada."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -347,7 +369,11 @@ architecture_versions:
         exit_criteria:
           - "Se argumenta por qué el auto-control falla en sistemas de poder."
           - "Se prepara la necesidad de un mecanismo externo (DRG)."
+          - "Se expone el riesgo de confiar en auto-regulación sin gate externo."
         loop_closure: "El loop no puede cortarse desde dentro; prepara la inevitabilidad del DRG como límite externo."
+        nonnegotiable_claim: "Un sistema en runaway no puede frenarse a sí mismo; confiar en auto-regulación es acelerar el colapso."
+        feeds_into: ["B5"]
+        executive_relief: "No estás solo responsable de frenar el sistema; necesitas un mecanismo externo que te dé cobertura."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -372,7 +398,11 @@ architecture_versions:
         exit_criteria:
           - "Definición operativa: entrada/proceso/salida ✅⚠️⛔."
           - "Criterio codificado A-D con ejemplos."
+          - "El gate produce veredicto vinculante que otorga cobertura o bloquea ejecución."
         loop_closure: "Introduce el límite externo que corta el loop; sin DRG, el sistema reinicia su auto-amplificación."
+        nonnegotiable_claim: "El DRG es el único mecanismo que corta la inercia política; sin veredicto vinculante, toda iniciativa entra en ejecución."
+        feeds_into: ["B10"]
+        executive_relief: "El DRG te protege: si el veredicto es ⛔, no aprobaste; si es ✅, tienes cobertura documentada."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -399,7 +429,11 @@ architecture_versions:
         exit_criteria:
           - "Se define estructura del criterio A-D."
           - "Se muestran ejemplos de criterios mal codificados vs. bien codificados."
+          - "El criterio codificado determina el estatus de la iniciativa sin ambigüedad."
         loop_closure: "Codifica las reglas que hacen al DRG efectivo; sin criterio explícito, el gate se vuelve ritual y el loop reinicia."
+        nonnegotiable_claim: "Un gate sin criterio codificado es ritual vacío; el DRG obliga a explicitar qué significa estar listo."
+        feeds_into: ["B6"]
+        executive_relief: "El criterio codificado te da cobertura: tu decisión está respaldada por reglas explícitas, no por juicio personal ante la junta."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -424,7 +458,11 @@ architecture_versions:
         exit_criteria:
           - "Casos muestran capital político preservado."
           - "Se cuantifica costo evitado (aunque sea por rangos)."
+          - "Se demuestra que la protección del DRG generó cobertura ejecutiva real."
         loop_closure: "Cierra el libro mostrando que cortar el loop temprano preserva capital; el DRG funciona cuando produce ⛔ a tiempo."
+        nonnegotiable_claim: "Evitar ejecución es el mayor ROI posible; el capital político preservado supera cualquier beneficio de una iniciativa mal planteada."
+        feeds_into: ["B1"]
+        executive_relief: "El NO documentado es tu mejor cobertura; cuando la junta pregunte, tendrás evidencia de por qué no se ejecutó."
         writing_guardrails:
           required_blocks:
             - reconocimiento
