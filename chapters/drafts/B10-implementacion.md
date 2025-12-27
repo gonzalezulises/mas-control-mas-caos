@@ -4,6 +4,8 @@
 
 El lector que termina el capítulo nueve tiene un problema nuevo. Entiende el loop del poder y por qué se auto-amplifica. Entiende que el control intensificado produce fragilidad, no estabilidad. Reconoce el trance organizacional y sus señales. Acepta que los sistemas no pueden auto-limitarse porque el costo político de aprobar siempre es menor que el de rechazar. Conoce las ocho capacidades de gerencia funcional y cómo operan como sistema interdependiente. Sabe que el criterio codificado convierte el NO en decisión institucional. Y sin embargo, cuando piensa en qué hacer el lunes a las nueve de la mañana, no sabe por dónde empezar.
 
+La secuencia que sigue no es metodologia probada en multiples organizaciones. Es propuesta derivada de principios: si el sistema necesita limite externo, que pasos harian mas probable que ese limite se instale sin ser capturado. El lector que implemente encontrara friccion no anticipada aqui. La secuencia es punto de partida, no receta.
+
 Esta brecha entre entendimiento y acción es predecible. El libro hasta ahora describió un sistema, no una secuencia. Explicó por qué las organizaciones necesitan fricción deliberada, no cómo instalarla paso a paso. Articuló las capacidades requeridas, no el orden en que construirlas. El lector terminó convencido de que el mecanismo es necesario pero sin saber qué pieza mover primero. La brecha no refleja falta de voluntad ni incomprensión. Refleja que el libro no había dado instrucciones operativas. Este capítulo cierra esa brecha.
 
 <!-- block: alivio -->

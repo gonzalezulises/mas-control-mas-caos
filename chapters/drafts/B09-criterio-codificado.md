@@ -38,6 +38,8 @@ Un ejemplo concreto ilustra cómo operan las cuatro propiedades en conjunto. Con
 
 Este criterio cumple las cuatro propiedades. Observabilidad: la existencia de la investigación, su fecha, el tamaño de muestra y la validación de supuestos específicos son verificables por cualquier miembro del comité sin depender de juicio subjetivo. Umbrales explícitos: cinco millones de inversión, doce meses de antigüedad, doscientos clientes, tres de cinco supuestos. No hay espacio para negociar qué significa "suficiente investigación". Consecuencias predefinidas: si el criterio no se cumple, el veredicto es negativo. No "aprobado con la observación de completar investigación después". Negativo hasta que se cumpla. Resistencia a excepción: el criterio no admite excepciones por sponsor. Si el presidente quiere expandir a un mercado sin cumplir el criterio, tiene que usar el mecanismo de override formal, que requiere aprobación de directorio con registro en acta.
 
+El ejemplo anterior es ilustrativo, no documental. No proviene de una organizacion que implemento este criterio especifico. Proviene de la logica de que haria falta para que un criterio funcione bajo las condiciones descritas. Los numeros especificos son puntos de partida para calibracion, no estandares validados.
+
 Un criterio sin estas propiedades sería: "Las iniciativas de expansión deben contar con investigación de mercado adecuada." Esta formulación permite que cada sponsor argumente que su investigación es adecuada, que cada comité interprete "adecuada" según la presión política del momento, y que las excepciones se otorguen sin proceso formal porque no hay umbral que violar explícitamente.
 
 <!-- block: riesgo -->

@@ -2,7 +2,7 @@
 
 <!-- block: uso -->
 
-Este apéndice contiene criterios operativos para evaluar iniciativas antes de autorizar ejecución. No son checklists universales. Son puntos de partida que cada organización debe calibrar según su contexto, tolerancia al riesgo y capacidad de absorber fracaso. Un criterio que es umbral mínimo para una organización con historial de fracasos puede ser excesivo para otra con capacidad probada de corrección en vuelo. La calibración es responsabilidad del comité que opera el gate, no del libro.
+Este apendice contiene criterios operativos propuestos para evaluar iniciativas antes de autorizar ejecucion. No son estandares validados empiricamente ni checklists universales. Son derivaciones logicas: si una iniciativa de cierto tipo tiene los riesgos descritos en el libro, que preguntas harian visible si esos riesgos estan gestionados. Los umbrales especificos son puntos de partida para calibracion, no numeros con autoridad externa. Cada organizacion debe ajustar segun su contexto, tolerancia al riesgo y capacidad de absorber fracaso.
 
 La calibración correcta depende de tres factores que varían por organización. El primero es la tolerancia al riesgo: una empresa en industria regulada con riesgo reputacional alto necesita umbrales más estrictos que una startup en fase de experimentación. El segundo es la capacidad de corrección: una organización con ciclos de feedback rápidos y cultura de iteración puede operar con menos validación previa porque corrige en vuelo. El tercero es el costo de oportunidad: en mercados donde la velocidad es ventaja competitiva decisiva, criterios excesivamente estrictos destruyen más valor del que protegen.
 

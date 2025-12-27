@@ -34,6 +34,8 @@ La tercera razon es que los casos con nombre vienen del fracaso. Boeing, Enron, 
 
 La implicacion para el lector es incomoda pero honesta. No hay caso publico que citar para convencer a un esceptico. No hay organizacion que visitar para ver el mecanismo en operacion. No hay paper academico con grupo de control y medicion de impacto.
 
+La Introduccion de este libro declaro explicitamente este estatus: lo que sigue es propuesta, no practica establecida. Este apendice desarrolla por que esa ausencia de casos publicos es consistente con la tesis en lugar de contradecirla.
+
 El lector debe decidir basandose en la logica estructural. Si el costo politico de aprobar es estructuralmente menor que el de rechazar, los mecanismos internos produciran aprobacion sistematica. Si el criterio negociable colapsa bajo presion politica, solo el criterio codificado resiste. Si el gate sin veredicto vinculante produce recomendaciones que el sponsor ignora, solo el veredicto vinculante detiene.
 
 La evidencia de reguladores latinoamericanos muestra que el principio funciona cuando se implementa correctamente. La ausencia de casos corporativos voluntarios muestra que las organizaciones no publicitan sus exitos de no-ejecucion. Estas dos observaciones son consistentes, no contradictorias.
