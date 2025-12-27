@@ -54,6 +54,16 @@ Un actor racional dentro del sistema, sin importar cuánta experiencia tenga o c
 
 Esta dinámica se agrava exponencialmente con el tiempo. Mientras más avanza una iniciativa, más inversión acumula en todas sus formas. Más personas han comprometido su reputación con su éxito. Más recursos se han desplegado que serían difíciles de recuperar. Más comunicaciones externas se han emitido que serían embarazosas de retractar. El costo de detener crece aceleradamente con cada mes que pasa. El punto óptimo para detener algo problemático es temprano, cuando la inversión acumulada es baja. Pero temprano es también cuando la información es ambigua y cuando detener parece prematuro e injustificado.
 
+Hay casos citados frecuentemente como evidencia de auto-limitación organizacional. Toyota detuvo líneas de producción enteras por defectos de calidad. Johnson & Johnson retiró treinta y un millones de frascos de Tylenol del mercado en 1982 ante una crisis de contaminación. Estos casos son reales y la escala de la respuesta fue genuinamente impresionante.
+
+Pero hay una distinción crucial que raramente se menciona cuando se citan como contraejemplos. En cada caso, la detención no dependió de voluntad interna espontánea. Dependió de arquitectura previa que hizo la detención posible, o de crisis que hizo la detención inevitable.
+
+Toyota no detuvo producción porque un gerente decidió ser prudente un día. Detuvo porque el sistema Andon codificaba autoridad para detener en cada operador de línea, con protección explícita contra represalias por ejercer esa autoridad. El límite estaba arquitectado en el sistema antes de que se necesitara. Johnson & Johnson no retiró Tylenol por heroísmo ejecutivo espontáneo. Retiró porque el Credo corporativo había codificado la jerarquía de stakeholders décadas antes, y la crisis activó un protocolo que ya existía en la cultura organizacional.
+
+Los sistemas que parecen auto-limitarse en realidad están ejecutando límites que fueron arquitectados externamente antes de la crisis. La diferencia es sutil pero crucial: no es que el sistema decidió limitarse. Es que alguien, en algún momento anterior, diseñó un mecanismo que el sistema no pudo evadir cuando llegó el momento. El auto-límite aparente es límite externo disfrazado de cultura.
+
+Este capítulo no niega que las organizaciones puedan detenerse. Establece que cuando se detienen, es porque existe un mecanismo que hace que detenerse sea menos costoso que continuar. Ese mecanismo puede ser interno, pero tiene que haber sido diseñado con las características que este libro describe: autoridad independiente, criterios codificados, capacidad de enforcement.
+
 Un sistema en runaway no puede frenarse a sí mismo. Confiar en auto-regulación interna es, estructuralmente, acelerar el colapso.
 
 <!-- block: riesgo -->

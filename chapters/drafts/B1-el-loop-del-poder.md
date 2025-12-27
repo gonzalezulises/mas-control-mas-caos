@@ -116,6 +116,14 @@ Desde dentro del loop, ambos tipos se sienten exactamente igual: como progreso l
 
 Este es el riesgo que nunca aparece en los dashboards ejecutivos ni en los reportes al directorio: la incapacidad estructural de distinguir, desde adentro del sistema mientras opera, entre aceleración productiva que construye valor y aceleración destructiva que acumula catástrofe.
 
+Existen casos donde organizaciones frenaron internamente. Intel abandonó el negocio de memorias DRAM cuando aún era rentable. IBM pivoteó de hardware a servicios cuando la alternativa era el declive terminal. Microsoft reinventó su modelo de negocio hacia la nube cuando sus mercados tradicionales se erosionaban. Estos casos son reales y están documentados.
+
+Pero comparten una característica que raramente se menciona cuando se citan como contraejemplos: dependieron de individuos específicos en posiciones específicas en momentos específicos. Andy Grove en Intel tomando una decisión que contradecía la identidad histórica de la empresa. Lou Gerstner en IBM imponiendo una visión que la organización resistía activamente. Satya Nadella en Microsoft desmantelando feudos internos que habían paralizado transformaciones anteriores. Cuando esos individuos se fueron, las organizaciones no retuvieron la capacidad estructural de frenar. Retuvieron la leyenda de haberlo hecho una vez.
+
+La pregunta no es si alguna organización alguna vez frenó. Claramente algunas lo hicieron. La pregunta es si esa capacidad es reproducible sin depender de heroísmo individual. Si requiere un CEO excepcional dispuesto a destruir valor a corto plazo para preservar viabilidad a largo plazo, no es arquitectura organizacional. Es accidente biográfico. Y los accidentes biográficos no son estrategia de gestión de riesgo.
+
+El loop del poder no niega que existan excepciones. Establece que las excepciones no pueden diseñarse, replicarse ni institucionalizarse dentro de la lógica del loop mismo. Las organizaciones que frenaron no lo hicieron porque su sistema de governance funcionó. Lo hicieron porque un individuo con poder suficiente forzó al sistema a hacer algo que el sistema resistía.
+
 <!-- block: proteccion -->
 
 No existe un punto dentro del loop donde la auto-corrección emerja naturalmente del sistema. La misma estructura organizacional que amplifica el éxito visible es exactamente la misma estructura que amplifica el error oculto. No hay un umbral interno predefinido donde el sistema frene automáticamente su propia aceleración. No hay un semáforo organizacional que cambie de verde a rojo cuando se cruza una línea invisible. No hay un sensor institucional que active la alarma antes del impacto.
