@@ -64,6 +64,7 @@ build_full_book() {
         "chapters/drafts/B10-implementacion.md"
         "chapters/drafts/appendix-A-criterios-readiness.md"
         "chapters/drafts/appendix-B-ausencia-casos-publicos.md"
+        "chapters/drafts/appendix-C-convergencias.md"
     )
 
     local existing_chapters=""
