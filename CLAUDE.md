@@ -56,11 +56,11 @@ output/           → EPUB y PDF generados
 ```
 
 ## Estado Actual
-- Version: v3.1
-- Blueprints totales: 12
-- Capítulos con contenido: 10
-- Apéndices: 2
-- Páginas PDF: 178
+- Version: v3.6
+- Blueprints totales: 18
+- Capítulos con contenido: 17
+- Apéndices: 4
+- Páginas PDF: 196
 
 ## Secuencia de Capítulos (v3.1)
 1. B1 - El loop del poder
@@ -112,3 +112,45 @@ wc -w chapters/drafts/*.md
 - Trade-offs explícitos, no consejos
 - No vender sofisticación; traducir a alivio/protección/cobertura
 - Cada capítulo incluye al menos una afirmación incómoda verificable
+
+## Normas Editoriales de Lenguaje
+
+### Anglicismos Corregidos
+Usar siempre el equivalente castellano:
+- governance → **gobernanza**
+- timeline → **cronograma**
+- checklist → **lista de verificación**
+
+### Anglicismos Conservados
+Sin equivalente natural en contexto empresarial hispanohablante:
+- **feedback** (retroalimentación es aceptable pero menos fluido)
+- **sponsor** (patrocinador pierde el matiz de respaldo político)
+- **stakeholder** (interesado no captura la relación de poder)
+- **software**, **hardware** (universales)
+- **dashboard** (tablero es aceptable)
+- **framework** (marco conceptual cuando sea posible)
+- **deadline** (fecha límite es aceptable)
+
+### Términos Técnicos del Libro (Canon)
+No traducir ni modificar:
+- **DRG** (Decision Readiness Gate)
+- **Coding Trance**
+- **Runaway Dynamics**
+
+### Formato de Texto
+- Sin emojis en contenido del libro
+- Sin bullets ni listas numeradas en capítulos (solo prosa)
+- Subtítulos invisibles (solo bloques HTML)
+- Párrafos de 4-8 líneas preferidos
+- Tablas permitidas solo en apéndices y resúmenes de capacidades
+
+### Criterio General
+Preferir castellano cuando:
+1. Existe equivalente de uso común en ámbito empresarial
+2. El término aparece en prosa (no en tecnicismos)
+3. La RAE lo recomienda explícitamente
+
+Conservar inglés cuando:
+1. No existe equivalente natural
+2. El equivalente castellano suena forzado o pedante
+3. El término es universal en la industria
