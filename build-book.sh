@@ -65,6 +65,7 @@ build_full_book() {
         "chapters/drafts/appendix-A-criterios-readiness.md"
         "chapters/drafts/appendix-B-ausencia-casos-publicos.md"
         "chapters/drafts/appendix-C-convergencias.md"
+        "chapters/drafts/appendix-D-diseno-antipatrones.md"
     )
 
     local existing_chapters=""
