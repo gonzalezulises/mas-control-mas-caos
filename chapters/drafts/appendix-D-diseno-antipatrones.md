@@ -1,10 +1,14 @@
 # Apéndice D: Diseño y anti-patrones del gate
 
+<!-- block: reconocimiento -->
+
 El Apéndice A contiene criterios para evaluar iniciativas por tipo. Este apéndice complementa con principios para diseñar el mecanismo evaluador. Ambos son necesarios: criterios correctos aplicados por gate capturado no producen filtro; gate bien diseñado con criterios vagos tampoco.
 
 Lo que sigue no es estándar certificable. Son derivaciones lógicas de lo que haría que un mecanismo de límite funcione bajo las presiones que este libro describe. El lector que diseña un gate puede usar los principios como heurísticas de verificación. El lector que audita un gate existente puede usar los anti-patrones y señales como instrumentos de diagnóstico. En ambos casos, la pregunta es función real, no cumplimiento formal.
 
 <!-- break -->
+
+<!-- block: alivio -->
 
 ## Principios de diseño
 
@@ -24,6 +28,8 @@ Estos no son checklist de cumplimiento. Son heurísticas de diseño. Un gate pue
 
 <!-- break -->
 
+<!-- block: causa -->
+
 ## Anti-patrones del gate
 
 Un anti-patrón es una configuración que parece razonable pero produce disfunción predecible. Cada anti-patrón tiene lógica que lo hace atractivo y consecuencia que lo hace destructivo.
@@ -41,6 +47,8 @@ Un anti-patrón es una configuración que parece razonable pero produce disfunci
 **Anti-patrón 6: Criterios negociables por iniciativa.** Los criterios de readiness se adaptan al contexto de cada iniciativa durante la evaluación. Parece razonable: cada iniciativa es diferente; necesitamos flexibilidad para casos únicos. Falla porque si el criterio se adapta a la iniciativa, toda iniciativa cumple su criterio adaptado. El filtro desaparece. La flexibilidad legítima es tener criterios diferenciados por tipo de iniciativa, definidos antes de la evaluación. La flexibilidad ilegítima es ajustar los criterios durante la evaluación para que la iniciativa presente los pase.
 
 <!-- break -->
+
+<!-- block: riesgo -->
 
 ## Señales tempranas de captura
 
@@ -73,6 +81,8 @@ Un gate puede parecer estable porque existe, se reúne, produce veredictos y tie
 **Indicador 5: Ausencia de rechazos memorables.** Nadie en la organización puede citar una iniciativa significativa que el gate haya rechazado. O el gate no rechaza iniciativas que importan, o los rechazos son de iniciativas marginales que nadie nota. En ambos casos, el gate no está ejerciendo límite sobre lo que importa. Un gate que solo rechaza lo insignificante no es límite; es filtro de ruido.
 
 <!-- break -->
+
+<!-- block: proteccion -->
 
 Este apéndice no certifica gates. Provee instrumentos para diseñarlos con menor probabilidad de captura y diagnosticarlos cuando la captura comienza a instalarse.
 

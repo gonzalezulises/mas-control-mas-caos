@@ -1,10 +1,14 @@
 # Apéndice C: Convergencias
 
+<!-- block: reconocimiento -->
+
 Este libro no emerge en vacío intelectual. Las dinámicas que describe han sido teorizadas desde múltiples tradiciones: teoría de organizaciones de alta confiabilidad, cibernética organizacional, teoría de accidentes normales, marcos de complejidad. La convergencia no es coincidencia. Es evidencia de que el problema es real y reconocido.
 
 Lo que sigue no es revisión de literatura. Es mapa de posicionamiento. Para cada tradición relevante: dónde converge este libro, dónde diverge, y qué ofrece que esa tradición no resuelve.
 
 El lector familiarizado con estos marcos encontrará conexiones que enriquecen la lectura. El lector no familiarizado encontrará direcciones para profundizar si el argumento de este libro le resulta persuasivo. Ninguna de estas tradiciones es prerrequisito para implementar lo que el libro propone. Todas son útiles para entender por qué lo propuesto tiene fundamento más allá de la experiencia del autor.
+
+<!-- block: alivio -->
 
 <!-- break -->
 
@@ -32,6 +36,8 @@ Cynefin resuelve algo que este libro no intenta: diagnóstico de dominio, cómo 
 
 <!-- break -->
 
+<!-- block: causa -->
+
 ## Viable System Model
 
 El Modelo de Sistema Viable de Stafford Beer es construcción cibernética que describe la estructura mínima necesaria para que un sistema sea viable, capaz de mantener existencia independiente en entorno cambiante. Propone cinco sistemas recursivos que toda organización viable debe tener, desde operaciones básicas hasta meta-sistema que mantiene identidad y dirección.
@@ -56,6 +62,8 @@ Perrow resuelve algo que este libro no intenta: explicación teórica rigurosa d
 
 <!-- break -->
 
+<!-- block: riesgo -->
+
 ## Agile Governance
 
 Agile governance es conjunto de prácticas que aplican principios ágiles a governance organizacional y de proyectos: iteración en lugar de planificación exhaustiva, feedback rápido en lugar de revisiones periódicas, decisión incremental en lugar de compromiso upfront, adaptación continua en lugar de adherencia a plan.
@@ -79,6 +87,8 @@ La diferencia es de especificidad. Taleb prescribe principios generales: buscar 
 Taleb resuelve algo que este libro no intenta: teoría general de cómo los sistemas responden a volatilidad, con aplicaciones que van desde finanzas personales hasta política pública. Este libro resuelve algo que Taleb no aborda: cómo una organización específica instala capacidad de antifragilidad en su proceso de decisión estratégica. Taleb provee principios; este libro provee implementación en un dominio específico.
 
 <!-- break -->
+
+<!-- block: proteccion -->
 
 Los marcos citados comparten diagnóstico fundamental: los sistemas complejos no se comportan como los sistemas simples; aplicarles lógica de control lineal produce fragilidad; las propiedades emergentes no se gestionan con intención individual por virtuosa que sea. La convergencia de tradiciones tan diversas en orígenes y métodos, desde la cibernética de Beer hasta la epistemología de Taleb, desde la sociología organizacional de Weick hasta la ingeniería de Perrow, es evidencia de que el problema es real y no artefacto de una perspectiva particular.
 

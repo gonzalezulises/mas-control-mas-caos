@@ -400,7 +400,7 @@ architecture_versions:
           - "Se justifica la necesidad de mecanismos externos."
         loop_closure: "Explica por qué el diagnóstico no basta: el sistema que ve el problema no puede detenerse a sí mismo."
         nonnegotiable_claim: "Los sistemas organizacionales no pueden auto-limitarse; el costo político de decir NO supera estructuralmente al de aprobar."
-        feeds_into: ["B7"]
+        feeds_into: ["B5"]
         executive_relief: "La incapacidad de auto-limitación no es falla de personas sino propiedad estructural; saberlo te protege de buscar culpables."
         writing_guardrails:
           required_blocks:
@@ -578,6 +578,95 @@ architecture_versions:
         nonnegotiable_claim: "Las organizaciones que evitan errores no tienen historia que contar; el éxito del mecanismo produce ausencia de evidencia pública."
         feeds_into: []
         executive_relief: "La falta de casos públicos no es argumento en contra; es consecuencia predecible. El caso que importa es el que tú puedes construir."
+      - id: "B5.5"
+        sequence: 7.5
+        title: "Anatomía del Gate"
+        role: "operational"
+        thesis: "Un gate que funciona tiene componentes específicos que operan como sistema; modificar uno afecta a los demás."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-5", "CAP-6"]
+        exit_criteria:
+          - "Se describe la composición óptima del gate (3-5 operadores)."
+          - "Se especifica el mecanismo de nombramiento independiente."
+          - "Se detallan los tipos de veredicto (GO/RECHAZO/CONDICIONAL)."
+          - "Se explica el protocolo de override explícito."
+          - "Se definen métricas de operación del gate."
+        nonnegotiable_claim: "Un comité que no puede producir un NO vinculante no es gate; es asesor."
+        feeds_into: ["B5.6"]
+        executive_relief: "Tienes arquitectura específica para diseñar un gate que funcione, no solo principios abstractos."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "B5.6"
+        sequence: 7.6
+        title: "Cuando el límite falla"
+        role: "diagnostic"
+        thesis: "Los modos de falla de los límites externos son predecibles; conocerlos permite diseñar contra ellos."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-5"]
+        exit_criteria:
+          - "Se identifican los 6 patrones de falla: captura, ceremonialización, parálisis, volatilidad, divorcio, atrofia."
+          - "Se documentan casos análogos (FAA/Boeing, comités pre-Enron, Interbolsa)."
+          - "Se listan señales de alerta observables."
+          - "La honestidad epistemológica queda establecida: el DRG es propuesta sin casos implementados."
+        nonnegotiable_claim: "El límite externo que depende del limitado para información, nombramiento o compensación será capturado; no hay excepción conocida."
+        feeds_into: ["B6"]
+        executive_relief: "Conocer los modos de falla antes de que ocurran te permite diseñar contra ellos y detectarlos temprano."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-C"
+        sequence: 13
+        title: "Apéndice C: Convergencias"
+        role: "meta-evidence"
+        thesis: "La convergencia de múltiples tradiciones teóricas en el diagnóstico es evidencia de que el problema es real."
+        required_concepts: ["C1-loop-power", "C2-control-chaos", "C3-coding-trance", "C4-deliberate-friction"]
+        supports_capabilities: []
+        exit_criteria:
+          - "Se posiciona el libro frente a HRO, Cynefin, VSM, Normal Accidents, Agile Governance, Antifragilidad."
+          - "Para cada marco: dónde converge, dónde diverge, qué aporta este libro que ese marco no resuelve."
+          - "La convergencia se presenta como validación, no como argumento de autoridad."
+        nonnegotiable_claim: "El diagnóstico está hecho repetidamente desde múltiples ángulos; lo que falta es mecanismo operativo."
+        feeds_into: ["APP-D"]
+        executive_relief: "El libro no contradice lo que se sabe sobre sistemas complejos; está fundamentado en tradiciones establecidas."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-D"
+        sequence: 14
+        title: "Apéndice D: Diseño y anti-patrones del gate"
+        role: "tool"
+        thesis: "El gate bien diseñado dificulta la captura; el gate mal diseñado la invita."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-4", "CAP-5"]
+        exit_criteria:
+          - "Se documentan 6 principios de diseño del gate."
+          - "Se identifican 6 anti-patrones con lógica y consecuencia."
+          - "Se listan 5 señales tempranas de captura."
+          - "Se describen 5 indicadores de falsa estabilidad."
+          - "Se incluye tabla resumen diagnóstica."
+        nonnegotiable_claim: "Un gate sin las protecciones estructurales descritas será capturado o ceremonializado; el diseño determina el destino."
+        feeds_into: []
+        executive_relief: "Tienes checklist de diagnóstico para verificar si tu gate funciona o es ceremonia."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
 
 chapters:
   - chapter_id: "CH-001"
@@ -736,17 +825,17 @@ ai:
 
 state:
   migration:
-    current_version: "v3.4"
-    source_version: "v3.3"
+    current_version: "v3.5"
+    source_version: "v3.4"
     progress:
-      total_blueprints: 14
-      drafted_chapters: 14
-      chapters_with_content: 14
-      appendices: 2
+      total_blueprints: 18
+      drafted_chapters: 17
+      chapters_with_content: 17
+      appendices: 4
       capabilities_defined: 8
       latam_cases_added: 7
       categories_in_appendix_a: 7
-      pages_pdf: 250
+      pages_pdf: 192
     revision_v32_changes:
       - "B1: +Caso OGX Brasil, +definicion fisica organizacional, -15% redundancia"
       - "B2: +Caso Odebrecht, +transicion mejorada a Coding Trance"
@@ -780,6 +869,14 @@ state:
       - "  Casos analogos: FAA/Boeing 737 MAX, comites auditoria pre-Enron, Interbolsa Colombia"
       - "  Senales alerta observables"
       - "  4,046 palabras"
+    revision_v35_changes:
+      - "Correccion de audit estructural"
+      - "B0: Agregados 5 bloques HTML obligatorios (reconocimiento, alivio, causa, riesgo, proteccion)"
+      - "APP-C: Agregados 5 bloques HTML obligatorios"
+      - "APP-D: Agregados 5 bloques HTML obligatorios"
+      - "YAML: Agregados blueprints para B5.5, B5.6, APP-C, APP-D"
+      - "YAML: Corregido feeds_into de B4 (B7 -> B5)"
+      - "YAML: Actualizado total_blueprints a 18, appendices a 4"
     next_actions:
       - "Regenerar libro completo PDF/EPUB"
       - "Validar coherencia post-edicion"
