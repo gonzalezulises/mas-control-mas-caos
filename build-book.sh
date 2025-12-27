@@ -55,7 +55,7 @@ build_full_book() {
         "chapters/drafts/B7-aprendizaje-grupal-procedural.md"
         "chapters/drafts/B8-ia-y-limites-humanos.md"
         "chapters/drafts/B4-los-sistemas-no-se-auto-limitan.md"
-        "chapters/drafts/B5-decision-readiness-gate.md"
+        "chapters/drafts/B5-capacidades-gerencia-funcional.md"
         "chapters/drafts/B6-casos-donde-decir-no-fue-exito.md"
         "chapters/drafts/B09-criterio-codificado.md"
     )

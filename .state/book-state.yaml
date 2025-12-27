@@ -415,19 +415,20 @@ architecture_versions:
             - "inspiración"
       - id: "B5"
         sequence: 7
-        title: "Decision Readiness Gate (DRG)"
+        title: "Capacidades de la Gerencia Funcional"
         role: "prescriptive"
-        thesis: "Un gate externo decide si una iniciativa está lista para ejecución."
-        required_concepts: ["C5-drg"]
-        supports_capabilities: ["CAP-2", "CAP-6", "CAP-8"]
+        thesis: "Decir NO requiere arquitectura institucional, no carácter individual; las 8 capacidades de gerencia funcional proveen esa arquitectura."
+        required_concepts: ["C5-drg", "C4-deliberate-friction", "C6-learning-procedural"]
+        supports_capabilities: ["CAP-1", "CAP-2", "CAP-3", "CAP-4", "CAP-5", "CAP-6", "CAP-7", "CAP-8"]
         exit_criteria:
-          - "Definición operativa: entrada/proceso/salida ✅⚠️⛔."
-          - "Criterio codificado A-D con ejemplos."
-          - "El gate produce veredicto vinculante que otorga cobertura o bloquea ejecución."
-        loop_closure: "Introduce el límite externo que corta el loop; sin DRG, el sistema reinicia su auto-amplificación."
-        nonnegotiable_claim: "El DRG es el único mecanismo que corta la inercia política; sin veredicto vinculante, toda iniciativa entra en ejecución."
+          - "Las 8 capacidades de gerencia funcional quedan articuladas como sistema interdependiente."
+          - "El DRG se presenta como capacidad de gate vinculante, no como solución única."
+          - "El lector entiende qué capacidades faltan en su organización y el costo de no tenerlas."
+          - "Se responden las preguntas operativas: quién opera, cómo se protege, cómo se evita captura."
+        loop_closure: "Introduce el sistema de capacidades que corta el loop; ninguna capacidad funciona aislada."
+        nonnegotiable_claim: "Las organizaciones que dependen del carácter de sus líderes para decir NO ya han renunciado a gobernarse; decir NO requiere arquitectura, no heroísmo."
         feeds_into: ["B6"]
-        executive_relief: "El DRG te protege: si el veredicto es ⛔, no aprobaste; si es ✅, tienes cobertura documentada."
+        executive_relief: "Las capacidades de gerencia funcional te protegen: el NO deja de ser tu opinión personal y se convierte en resultado de arquitectura institucional que tú no inventaste."
         writing_guardrails:
           required_blocks:
             - reconocimiento
