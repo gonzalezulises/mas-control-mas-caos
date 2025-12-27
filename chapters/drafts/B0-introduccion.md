@@ -6,7 +6,7 @@ En Juan Salvador Gaviota, Richard Bach cuenta la historia de un sistema que no t
 
 Las organizaciones modernas funcionan de la misma manera. No castigan el error aislado con la severidad que dicen castigar. Castigan, con mayor eficacia, a quienes introducen friccion cognitiva, a quienes hacen visibles tensiones que el sistema necesita mantener fuera de foco. A quienes cuestionan la velocidad cuando la velocidad es la senal de exito. A quienes piden pausa cuando la pausa se interpreta como amenaza.
 
-El dato duro es conocido pero insuficientemente procesado: entre el sesenta y setenta por ciento de las iniciativas estrategicas fracasan en entregar el valor prometido. McKinsey, BCG, Standish Group y docenas de estudios academicos convergen en este rango con variaciones menores. La cifra se repite en presentaciones ejecutivas, se cita en reportes de consultoria, se menciona en juntas directivas. Y sin embargo, las organizaciones siguen operando como si el fracaso fuera anomalia atribuible a factores locales corregibles, no patron estructural inherente a como funcionan los sistemas con poder.
+El dato duro es conocido pero insuficientemente procesado: entre el sesenta y setenta por ciento de las iniciativas estrategicas fracasan en entregar el valor prometido (McKinsey & Company, 2019). McKinsey, BCG, Standish Group y docenas de estudios academicos convergen en este rango con variaciones menores. La cifra se repite en presentaciones ejecutivas, se cita en reportes de consultoria, se menciona en juntas directivas. Y sin embargo, las organizaciones siguen operando como si el fracaso fuera anomalia atribuible a factores locales corregibles, no patron estructural inherente a como funcionan los sistemas con poder.
 
 <!-- block: alivio -->
 
