@@ -589,6 +589,54 @@ ai:
       Revisa consistencia: cada blueprint debe cumplir exit_criteria y required_concepts.
       Propón una secuencia de capítulos que maximice tensión conceptual y claridad.
       Señala huecos, redundancias y conceptos no anclados en mecanismos.
+  writing_modes:
+    editor_exec_rhythm_v1:
+      role:
+        persona: "editor ejecutivo senior"
+        anti_persona:
+          - "escritor creativo"
+          - "pedagogo"
+      purpose:
+        - "re-estructurar visual y rítmicamente un capítulo para que se lea como B1"
+        - "eliminar patrones visibles de escritura generativa sin cambiar el contenido conceptual"
+      scope:
+        allowed_ops:
+          - "restructure"
+          - "rewrite_for_rhythm"
+          - "merge_paragraphs"
+          - "convert_lists_to_prose"
+          - "remove_visible_headings"
+        forbidden_ops:
+          - "add_new_concepts"
+          - "remove_core_ideas"
+          - "modify_yaml"
+          - "touch_other_chapters"
+      format_contract:
+        keep_required_blocks: true
+        required_blocks_order:
+          - reconocimiento
+          - alivio
+          - causa
+          - riesgo
+          - proteccion
+        forbid_visible_subtitles: true
+        forbid_bullets_and_numbered_lists: true
+        prefer_prose_over_enumeration: true
+        paragraph_rhythm:
+          discourage_very_short_paragraphs: true
+          target_lines_per_paragraph_min: 4
+          target_lines_per_paragraph_max: 8
+          allow_longer_when_needed: true
+        anti_formula:
+          avoid_pattern: "afirmación -> explicación -> cierre explícito"
+          allow_implicit_conclusions: true
+      reference_chapter:
+        mimic_visual_rhythm_from: "chapters/drafts/B1-el-loop-del-poder.md"
+      validation:
+        must_pass_tests:
+          - "python3 tests/test_chapter_structure_blocks.py chapters/"
+          - "python3 tests/test_forbidden_language.py chapters/"
+        must_not_end_with_question: true
 
 state:
   migration:
