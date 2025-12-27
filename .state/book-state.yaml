@@ -136,6 +136,45 @@ concepts:
       type: "enables"
       note: "El aprendizaje grupal/procedural es condición para que el DRG funcione: sin él, el gate es ritual vacío."
 
+capabilities:
+  description: >
+    Sistema de capacidades de gerencia funcional. El DRG es una capacidad crítica,
+    pero no la solución única. Cada capacidad tiene costo, requiere decisión explícita
+    de construirla, y ninguna funciona aislada de las demás.
+  items:
+    - id: "CAP-1"
+      label: "Detección de loops y trance"
+      description: "Ver el sistema antes de que sea demasiado tarde."
+      supported_by: ["B1", "B2", "B3", "B8"]
+    - id: "CAP-2"
+      label: "Límite previo a ejecución"
+      description: "Producir NO vinculante antes de comprometer recursos."
+      supported_by: ["B5", "B6"]
+    - id: "CAP-3"
+      label: "Aprendizaje grupal y procedural"
+      description: "Codificar conocimiento en procesos, no en cabezas."
+      supported_by: ["B7"]
+    - id: "CAP-4"
+      label: "Criterio codificado resistente"
+      description: "Convertir juicio en reglas que sobrevivan presión política."
+      supported_by: ["B09"]
+    - id: "CAP-5"
+      label: "Absorción de fricción y costo político"
+      description: "Institucionalizar el costo de decir NO."
+      supported_by: ["B4", "B6"]
+    - id: "CAP-6"
+      label: "Override explícito y trazable"
+      description: "Mecanismo para excepciones documentadas."
+      supported_by: ["B5"]
+    - id: "CAP-7"
+      label: "Gobernanza humano-algorítmica"
+      description: "Límites humanos explícitos sobre capacidad técnica."
+      supported_by: ["B8"]
+    - id: "CAP-8"
+      label: "Diferenciación por dominio"
+      description: "Criterios distintos para exploración vs. explotación."
+      supported_by: ["B5"]
+
 assets:
   references:
     - id: "R-ashby"
@@ -169,23 +208,27 @@ architecture_versions:
         title: "Qué es Gerencia Funcional"
       - slug: "v1-modelo"
         title: "Modelo / Componentes"
-  - version: "v2"
-    created: "2025-12-26"
-    updated: "2025-12-26"
+  - version: "v3"
+    created: "2025-12-27"
+    updated: "2025-12-27"
     status: "working"
-    intent: "Re-arquitectura por loops + Coding Trance + DRG."
+    intent: "Sistema de 8 capacidades de gerencia funcional; DRG como capacidad crítica, no solución única."
     principles:
       - "no narrativa lineal: loops"
       - "control ≠ estabilidad"
-      - "límite externo: DRG"
-      - "trade-offs explícitos"
+      - "sistema de capacidades interdependientes"
+      - "DRG es CAP-2, no la solución completa"
+      - "trade-offs explícitos por capacidad"
+      - "ninguna capacidad funciona aislada"
     chapter_blueprints:
       - id: "B1"
         sequence: 1
         title: "El loop del poder"
+        role: "diagnostic"
         thesis: "Las organizaciones no progresan: se auto-amplifican."
         required_concepts: ["C1-loop-power"]
         required_assets: ["R-systems-dynamics"]
+        supports_capabilities: ["CAP-1"]
         exit_criteria:
           - "El lector puede describir el loop sin metáforas."
           - "Se explican señales de runaway dynamics."
@@ -213,9 +256,11 @@ architecture_versions:
       - id: "B2"
         sequence: 2
         title: "Control ≠ estabilidad"
+        role: "diagnostic"
         thesis: "Más control reduce variedad y aumenta fragilidad."
         required_concepts: ["C2-control-chaos"]
         required_assets: ["R-ashby"]
+        supports_capabilities: ["CAP-1"]
         exit_criteria:
           - "Quedan explícitos trade-offs de control."
           - "Se explica caos como respuesta emergente."
@@ -243,16 +288,18 @@ architecture_versions:
       - id: "B3"
         sequence: 3
         title: "Coding Trance"
+        role: "diagnostic"
         thesis: "La organización entra en trance cuando capacidad reemplaza contexto."
         required_concepts: ["C3-coding-trance"]
         required_assets: ["CASE-ia-sin-gobernanza", "CASE-agile-teatro"]
+        supports_capabilities: ["CAP-1"]
         exit_criteria:
           - "Hay criterios observables del trance."
           - "Hay señales tempranas (leading indicators)."
           - "Se expone la necesidad de protección externa cuando el trance impide auto-diagnóstico."
         loop_closure: "El trance es el loop normalizado; la organización ya no ve el loop porque está dentro de él."
         nonnegotiable_claim: "El Coding Trance elimina la capacidad de ver el problema; todo parece correcto hasta que es demasiado tarde."
-        feeds_into: ["B7"]
+        feeds_into: ["B4"]
         executive_relief: "Identifica el riesgo invisible antes de que la junta pregunte por qué nadie lo vio venir."
         writing_guardrails:
           required_blocks:
@@ -271,11 +318,12 @@ architecture_versions:
             - "llamado a reflexión"
             - "inspiración"
       - id: "B7"
-        sequence: 4
+        sequence: 5
         title: "El aprendizaje no es individual: es grupal y procedural"
+        role: "enabler"
         thesis: "Las organizaciones no aprenden porque las personas aprenden; aprenden cuando el conocimiento se embebe en procesos, no en cabezas."
         required_concepts: ["C6-learning-procedural"]
-        mapping_status: "to-be-mapped"
+        supports_capabilities: ["CAP-3"]
         exit_criteria:
           - "Se distingue aprendizaje individual de aprendizaje organizacional."
           - "Se identifican mecanismos procedurales de retención de conocimiento."
@@ -302,18 +350,19 @@ architecture_versions:
             - "llamado a reflexión"
             - "inspiración"
       - id: "B8"
-        sequence: 5
+        sequence: 6
         title: "IA y los límites humanos"
+        role: "diagnostic-enabler"
         thesis: "La IA amplifica el poder técnico sin amplificar la capacidad humana de establecer límites; el resultado es aceleración sin gobernanza."
         required_concepts: ["C7-ai-human-limits", "C3-coding-trance"]
-        mapping_status: "to-be-mapped"
+        supports_capabilities: ["CAP-1", "CAP-7"]
         exit_criteria:
           - "Se demuestra la asimetría capacidad/límites con ejemplos concretos."
           - "Se evita discurso ético genérico o apocalíptico."
           - "Se conecta explícitamente con la necesidad de fricción deliberada."
         loop_closure: "La IA acelera el loop sin añadir frenos; hace inevitable la necesidad de fricción deliberada externa."
         nonnegotiable_claim: "La IA amplifica capacidad técnica sin amplificar límites humanos; el resultado es aceleración sin gobernanza."
-        feeds_into: ["B4"]
+        feeds_into: ["B5"]
         executive_relief: "Obtén cobertura frente a la junta al anticipar el riesgo de IA sin gobernanza antes de que explote."
         writing_guardrails:
           required_blocks:
@@ -332,20 +381,22 @@ architecture_versions:
             - "llamado a reflexión"
             - "inspiración"
       - id: "B4"
-        sequence: 6
-        title: "La renuncia al poder"
-        thesis: "Sistemas sanos introducen límites: fricción deliberada."
+        sequence: 4
+        title: "Los sistemas no se auto-limitan"
+        role: "bridge"
+        thesis: "Los mecanismos internos de governance fallan estructuralmente; el límite debe ser externo."
         required_concepts: ["C4-deliberate-friction"]
-        include_in_print: false
-        lifecycle_state: "reserved"
-        rationale: "Chapter reserved for post-DRG; not part of current printable narrative."
+        supports_capabilities: ["CAP-5"]
+        include_in_print: true
+        lifecycle_state: "active"
         exit_criteria:
-          - "Se justifican límites como activos."
-          - "Se proponen mecanismos concretos de fricción."
-        loop_closure: "Introduce la fricción como respuesta al loop; pero aún falta el mecanismo que la institucionalice."
-        nonnegotiable_claim: "Los límites son activos estratégicos; renunciar a parte del poder es condición de supervivencia sistémica."
-        feeds_into: ["B5"]
-        executive_relief: "El riesgo de no poner límites ahora es mayor que el costo político de ponerlos; esto es cobertura anticipada."
+          - "Se demuestra por qué los comités internos no producen NO vinculante."
+          - "Se expone la asimetría de costos políticos entre aprobar y rechazar."
+          - "Se justifica la necesidad de mecanismos externos."
+        loop_closure: "Explica por qué el diagnóstico no basta: el sistema que ve el problema no puede detenerse a sí mismo."
+        nonnegotiable_claim: "Los sistemas organizacionales no pueden auto-limitarse; el costo político de decir NO supera estructuralmente al de aprobar."
+        feeds_into: ["B7"]
+        executive_relief: "La incapacidad de auto-limitación no es falla de personas sino propiedad estructural; saberlo te protege de buscar culpables."
         writing_guardrails:
           required_blocks:
             - reconocimiento
@@ -365,8 +416,10 @@ architecture_versions:
       - id: "B5"
         sequence: 7
         title: "Decision Readiness Gate (DRG)"
+        role: "prescriptive"
         thesis: "Un gate externo decide si una iniciativa está lista para ejecución."
         required_concepts: ["C5-drg"]
+        supports_capabilities: ["CAP-2", "CAP-6", "CAP-8"]
         exit_criteria:
           - "Definición operativa: entrada/proceso/salida ✅⚠️⛔."
           - "Criterio codificado A-D con ejemplos."
@@ -394,8 +447,10 @@ architecture_versions:
       - id: "B6"
         sequence: 8
         title: "Casos donde decir NO fue éxito"
+        role: "evidence"
         thesis: "Evitar ejecución puede ser el mayor ROI."
         required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-5"]
         exit_criteria:
           - "Casos muestran capital político preservado."
           - "Se cuantifica costo evitado (aunque sea por rangos)."
@@ -423,13 +478,16 @@ architecture_versions:
       - id: "B09"
         sequence: 9
         title: "Criterio codificado"
-        role: "closing_chapter"
+        role: "closing_integrator"
         thesis: "El DRG funciona solo si el criterio de decisión es explícito, observable y no negociable."
         required_concepts: ["C5-drg", "C6-learning-procedural"]
+        supports_capabilities: ["CAP-4", "ALL"]
         exit_criteria:
           - "Se define estructura del criterio A-D."
           - "Se muestran ejemplos de criterios mal codificados vs. bien codificados."
           - "El criterio codificado determina el estatus de la iniciativa sin ambigüedad."
+          - "Se sintetizan las 8 capacidades como sistema interdependiente."
+          - "El lector entiende qué capacidades priorizar según su contexto."
           - "El capítulo cierra el libro sin introducir conceptos nuevos."
         loop_closure: "El loop del poder no se rompe con conciencia, valores ni liderazgo individual. Se rompe cuando el criterio deja de ser negociable. Aquí termina la discusión conceptual."
         nonnegotiable_claim: "Sin criterio codificado, todo límite es político y por tanto frágil; solo el criterio explícito convierte el NO en una decisión institucional."
@@ -541,6 +599,10 @@ ai:
       - "Evitar narrativa lineal; privilegiar loops."
       - "Trade-offs explícitos, no consejos."
       - "DRG debe producir estatus ✅⚠️⛔, no recomendaciones."
+      - "El DRG es una capacidad crítica, no la solución única."
+      - "Cada capítulo debe declarar qué capacidades habilita."
+      - "El cierre debe sintetizar capacidades como sistema, no cerrar sobre una sola."
+      - "No existe capacidad que funcione aislada de las demás."
       - "Los capítulos de aprendizaje (B7) y de IA (B8) deben preparar la inevitabilidad del DRG; evitar ética genérica, cultura tech superficial o humanismo abstracto."
       - "No vender sofisticación; traducir a alivio/protección/cobertura."
       - "Aplicar mandatory_section_flow en capítulos y secciones clave."
@@ -612,15 +674,14 @@ ai:
 
 state:
   migration:
-    current_version: "v2"
-    source_version: "v1"
+    current_version: "v3"
+    source_version: "v2"
     progress:
-      mapped_chapters: 2
-      drafted_chapters: 1
-      unresolved_fragments: 7
-      new_blueprints_pending: 4
+      total_blueprints: 9
+      drafted_chapters: 8
+      chapters_with_content: 8
+      capabilities_defined: 8
     next_actions:
-      - "Completar mapeo v1→v2 para todos los capítulos"
-      - "Definir criterios observables de Coding Trance"
-      - "Especificar reglas A-D del DRG en formato evaluable"
-      - "Escribir contenido completo de B09 (criterio codificado) como cierre del libro"
+      - "Expandir B09 con síntesis de capacidades"
+      - "Regenerar libro completo con nueva estructura"
+      - "Validar cobertura de capacidades en cada capítulo"
