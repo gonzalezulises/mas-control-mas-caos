@@ -183,6 +183,22 @@ architecture_versions:
         exit_criteria:
           - "El lector puede describir el loop sin metáforas."
           - "Se explican señales de runaway dynamics."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B2"
         sequence: 2
         title: "Control ≠ estabilidad"
@@ -192,6 +208,22 @@ architecture_versions:
         exit_criteria:
           - "Quedan explícitos trade-offs de control."
           - "Se explica caos como respuesta emergente."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B3"
         sequence: 3
         title: "Coding Trance"
@@ -201,6 +233,22 @@ architecture_versions:
         exit_criteria:
           - "Hay criterios observables del trance."
           - "Hay señales tempranas (leading indicators)."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B7"
         sequence: 4
         title: "El aprendizaje no es individual: es grupal y procedural"
@@ -211,6 +259,22 @@ architecture_versions:
           - "Se distingue aprendizaje individual de aprendizaje organizacional."
           - "Se identifican mecanismos procedurales de retención de conocimiento."
           - "Se explica por qué capacitación individual no escala a cambio sistémico."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B8"
         sequence: 5
         title: "IA y los límites humanos"
@@ -221,6 +285,22 @@ architecture_versions:
           - "Se demuestra la asimetría capacidad/límites con ejemplos concretos."
           - "Se evita discurso ético genérico o apocalíptico."
           - "Se conecta explícitamente con la necesidad de fricción deliberada."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B4"
         sequence: 6
         title: "La renuncia al poder"
@@ -229,6 +309,22 @@ architecture_versions:
         exit_criteria:
           - "Se justifican límites como activos."
           - "Se proponen mecanismos concretos de fricción."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B9"
         sequence: 7
         title: "Los sistemas no pueden auto-limitarse"
@@ -239,6 +335,22 @@ architecture_versions:
         exit_criteria:
           - "Se argumenta por qué el auto-control falla en sistemas de poder."
           - "Se prepara la necesidad de un mecanismo externo (DRG)."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B5"
         sequence: 8
         title: "Decision Readiness Gate (DRG)"
@@ -247,6 +359,22 @@ architecture_versions:
         exit_criteria:
           - "Definición operativa: entrada/proceso/salida ✅⚠️⛔."
           - "Criterio codificado A-D con ejemplos."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B10"
         sequence: 9
         title: "Criterio codificado"
@@ -257,6 +385,22 @@ architecture_versions:
         exit_criteria:
           - "Se define estructura del criterio A-D."
           - "Se muestran ejemplos de criterios mal codificados vs. bien codificados."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
       - id: "B6"
         sequence: 10
         title: "Casos donde decir NO fue éxito"
@@ -265,6 +409,22 @@ architecture_versions:
         exit_criteria:
           - "Casos muestran capital político preservado."
           - "Se cuantifica costo evitado (aunque sea por rangos)."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
 
 chapters:
   - chapter_id: "CH-001"
