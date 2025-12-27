@@ -1,26 +1,81 @@
-<!-- stub -->
-# B5: Decision Readiness Gate (DRG)
+# Decision Readiness Gate
 
-> **Tesis**: Un gate externo decide si una iniciativa está lista para ejecución.
+<!-- block: reconocimiento -->
 
-## Metadata
-- **Blueprint ID**: B5
-- **Status**: pending
-- **Required concepts**: C5-drg
+La iniciativa ya tiene nombre, presupuesto tentativo y sponsor visible. Hay un equipo asignado que ha trabajado durante semanas en el business case. Existe una presentación ejecutiva que muestra el problema, la oportunidad, el enfoque propuesto y los beneficios esperados. Se han sostenido conversaciones informales con stakeholders clave para construir apoyo político antes de la presentación formal. Todo está listo para el siguiente paso.
 
-## Exit Criteria
-- [ ] Definición operativa: entrada/proceso/salida ✅⚠️⛔
-- [ ] Criterio codificado A-D con ejemplos
+Y sin embargo, nadie sabe exactamente cuál es ese siguiente paso. O más precisamente, todos saben cuál es: la iniciativa avanzará. No porque haya sido formalmente autorizada, sino porque no existe ningún mecanismo con autoridad real para detenerla. Existe un comité que la revisará, pero el comité no tiene poder vinculante sobre la decisión. Existe un proceso de aprobación presupuestaria, pero el presupuesto ya fue negociado informalmente antes de que el proceso comenzara. Existen criterios documentados en algún manual de governance, pero nadie recuerda cuándo fue la última vez que esos criterios detuvieron algo que ya tenía momentum.
 
-## Outline
-<!-- Por definir -->
+El patrón es tan común que ha dejado de parecer anómalo. Las decisiones estratégicas no se toman, se acumulan. Nadie dice formalmente que sí, pero nadie tiene autoridad real para decir no, y en ausencia de un no explícito y vinculante, el sí ocurre por defecto. La iniciativa avanza porque avanzar es el estado natural de las cosas cuando no hay un límite que lo impida. El presupuesto se compromete porque negarse a comprometerlo requeriría justificación que nadie quiere asumir. Los equipos se asignan porque la alternativa sería explicar por qué no se asignan, y esa explicación tiene costo político inmediato que nadie quiere pagar.
 
-## Open Questions
-<!-- Por definir -->
+Hay reuniones que se llaman gates pero que no detienen nada. Hay comités que se llaman de aprobación pero que no tienen poder real de desaprobación. Hay procesos que se llaman de revisión pero cuyo resultado está predeterminado antes de que la revisión comience. La arquitectura formal de governance existe en los documentos y en los organigramas. Lo que no existe es un punto donde alguien con autoridad real examine una iniciativa específica y produzca un veredicto que cambie su estatus de manera vinculante.
 
----
+El resultado es una organización donde las iniciativas entran en ejecución sin haber sido verdaderamente autorizadas. No por negligencia ni por falta de proceso, sino porque el proceso existente no tiene la capacidad estructural de producir un no cuando un no sería la respuesta correcta. El sistema tiene muchas instancias que pueden decir sí de diversas maneras, pero ninguna instancia que pueda decir no de manera que ese no tenga consecuencias operativas reales.
 
-## Draft
+Esta ausencia no se siente como ausencia mientras las cosas funcionan. Solo se hace visible cuando algo falla de manera que no puede ignorarse, y entonces todos se preguntan cómo fue posible que una iniciativa tan evidentemente problemática haya llegado tan lejos sin que nadie la detuviera. La respuesta es siempre la misma: nadie la detuvo porque nadie tenía autoridad real para detenerla, y nadie tenía autoridad real porque la organización nunca instituyó un mecanismo que produzca veredictos vinculantes antes de la ejecución.
 
-<!-- Contenido del capítulo aquí -->
+<!-- block: alivio -->
 
+Esta situación no refleja falta de criterio en las personas que operan los procesos existentes. No indica debilidad en los comités ni falta de rigurosidad en las revisiones. Las personas que participan en estas instancias suelen ser las más experimentadas de la organización, con décadas de criterio acumulado y con genuina intención de proteger a la empresa de decisiones mal fundamentadas.
+
+El problema es que el criterio individual, por sólido que sea, no puede sustituir a un mecanismo institucional. Un ejecutivo experimentado puede ver que una iniciativa tiene problemas fundamentales. Puede expresar sus reservas en la reunión. Puede documentar sus preocupaciones en un correo cuidadosamente redactado. Pero si no existe un mecanismo que convierta esa observación en un veredicto con consecuencias, la observación queda registrada y la iniciativa avanza igual. El ejecutivo hizo su trabajo. El sistema no hizo el suyo.
+
+Lo que falta no es voluntad de evaluar ni capacidad de juzgar. Lo que falta es un mecanismo que produzca un resultado. Un mecanismo cuya función específica sea examinar una iniciativa antes de que entre en ejecución y determinar, de manera explícita y documentada, si está lista para exponerse al riesgo que implica ejecutar. No una opinión consultiva que puede incorporarse o ignorarse según convenga. No una recomendación que queda a criterio del sponsor. Un veredicto que cambia el estatus de la iniciativa de manera que todos reconocen.
+
+Este mecanismo no cuestiona la intención de quienes proponen iniciativas. No asume mala fe ni incompetencia. Reconoce que las personas dentro de una iniciativa tienen información valiosa y compromiso genuino, pero también tienen proximidad que limita perspectiva y compromiso emocional que dificulta evaluación objetiva. El mecanismo no reemplaza el juicio interno con juicio externo superior. Introduce un momento de verificación donde la iniciativa debe demostrar, ante una instancia que no tiene compromiso previo con su éxito, que cumple condiciones mínimas para merecer los recursos y el riesgo que la ejecución implica.
+
+La ausencia de este mecanismo no indica falla moral ni deficiencia organizacional vergonzante. Indica simplemente que la organización evolucionó sin instituir esta función específica, probablemente porque durante mucho tiempo no la necesitó de manera urgente, o porque las consecuencias de no tenerla se manifestaron de maneras que pudieron atribuirse a otros factores. La mayoría de las organizaciones operan sin este mecanismo. Lo que distingue a las que eventualmente lo instituyen no es que sean más virtuosas, sino que en algún momento reconocieron que el costo de no tenerlo excede el costo de implementarlo.
+
+<!-- block: causa -->
+
+La razón por la cual este mecanismo es necesario no es filosófica sino operativa. En ausencia de un gate con veredicto vinculante, toda iniciativa entra en ejecución por inercia. No porque alguien decida activamente que entre, sino porque nadie tiene la autoridad estructural para decidir que no entre.
+
+La inercia política opera con una lógica simple: continuar tiene costo cero para quien no interviene, mientras que detener tiene costo inmediato y visible para quien interviene. Esta asimetría, descrita en capítulos anteriores, no puede resolverse con más criterio individual ni con mejores intenciones colectivas. Solo puede resolverse con un mecanismo que invierta la ecuación, que haga que la ejecución requiera autorización explícita en lugar de ocurrir por defecto.
+
+El gate cumple esta función si y solo si tiene tres características que no pueden negociarse. Primero, debe ser externo al equipo que propone la iniciativa. No porque el equipo sea sospechoso sino porque el equipo tiene compromiso previo que impide evaluación desinteresada. Un equipo que ha trabajado meses en una propuesta no puede evaluar objetivamente si la propuesta merece ejecutarse, del mismo modo que un abogado no puede ser juez en su propio caso. La externalidad no es insulto al equipo; es condición estructural de evaluación válida.
+
+Segundo, el gate debe operar antes de que la ejecución comience. Un gate que evalúa iniciativas ya en marcha no es gate; es auditoría posterior. Para cuando una iniciativa está ejecutando, ya ha comprometido recursos, generado expectativas, creado inercia política. Detenerla en ese punto tiene costo desproporcionado que hace el gate inefectivo. El valor del gate está precisamente en operar cuando detener todavía es barato, cuando la decisión de no ejecutar no implica deshacer trabajo ya realizado ni decepcionar stakeholders ya comprometidos.
+
+Tercero, el gate debe tener autoridad explícita para producir un veredicto que la organización reconoce como vinculante. Si el veredicto puede ignorarse, reinterpretarse o escalarse indefinidamente hasta encontrar alguien que lo revierta, el gate no tiene autoridad real y por lo tanto no cumple su función. La autoridad no significa que el veredicto sea irreversible para siempre; significa que el veredicto cambia el estatus de la iniciativa de manera que todos reconocen, y que revertirlo requiere un proceso explícito con costo político proporcional.
+
+El DRG es el único mecanismo que corta la inercia política. Sin veredicto vinculante, toda iniciativa entra en ejecución.
+
+Esta afirmación puede parecer extrema, pero refleja con precisión la dinámica observable. Las organizaciones sin gate vinculante tienen tasas de rechazo cercanas a cero en sus instancias de revisión, no porque todas sus iniciativas sean excelentes, sino porque la estructura no permite que el rechazo ocurra. Las organizaciones con gate vinculante tienen tasas de rechazo significativas, no porque sean más severas, sino porque el mecanismo hace posible que el no ocurra cuando corresponde.
+
+<!-- block: riesgo -->
+
+El costo de no tener este mecanismo no es hipotético ni diferido. Se paga continuamente en formas que la organización ha normalizado hasta el punto de no reconocerlas como costo.
+
+Se paga en ejecución prematura, cuando iniciativas que no estaban listas para ejecutar comienzan igual porque no había instancia con autoridad para detenerlas. El equipo sabía que faltaba definición en aspectos críticos. El sponsor sabía que los números dependían de supuestos no validados. Los stakeholders sabían que había riesgos no mitigados. Pero la iniciativa avanzó porque avanzar era más fácil que detenerse, y ahora los problemas que podrían haberse resuelto en planeación se resuelven en ejecución, donde cada corrección cuesta diez veces más y tiene consecuencias operativas reales.
+
+Se paga en consumo de capital político, cuando iniciativas que fracasan erosionan la credibilidad de quienes las patrocinaron y de quienes las aprobaron. El sponsor que impulsó la iniciativa fallida queda marcado. El comité que la aprobó queda cuestionado. El ejecutivo que la defendió ante la junta queda expuesto. Este costo se paga cada vez que una iniciativa mal fundamentada llega a ejecución, fracasa de manera visible, y deja tras de sí un rastro de reputaciones dañadas que afectan la capacidad de esas mismas personas para impulsar iniciativas futuras que sí merecen apoyo.
+
+Se paga en aprendizaje tardío, cuando las lecciones que podrían haberse incorporado antes de ejecutar se descubren después de ejecutar, cuando incorporarlas requiere deshacer trabajo realizado o aceptar resultados subóptimos. La organización aprende que los supuestos eran incorrectos, que el mercado no respondió como se esperaba, que la tecnología no funcionó como se prometió. Pero lo aprende después de haber invertido recursos que no recuperará y tiempo que no volverá. Un gate que hubiera exigido validación de esos supuestos antes de ejecutar habría producido el mismo aprendizaje a una fracción del costo.
+
+Se paga en imposibilidad de revertir, cuando iniciativas que nunca debieron comenzar avanzan hasta un punto donde detenerlas es más costoso que continuarlas hasta su conclusión fallida. El proyecto que debió cancelarse en el mes tres sigue ejecutando en el mes dieciocho porque cancelarlo ahora significaría reconocer que los últimos quince meses fueron error, y nadie quiere cargar con esa responsabilidad. Así que el proyecto continúa, consumiendo recursos, ocupando talento, generando reportes de progreso que nadie cree, hasta que finalmente colapsa de una manera que no puede ignorarse.
+
+El mayor riesgo no es que una iniciativa falle después de ejecutar. Las organizaciones saben manejar fracasos operativos. El mayor riesgo es ejecutar algo que nunca debió comenzar, porque ese tipo de fracaso no produce aprendizaje útil, consume recursos que podrían haberse aplicado a iniciativas viables, y erosiona la capacidad institucional de distinguir entre iniciativas que merecen recursos y las que no.
+
+Ejecutar sin gate no es audacia ni velocidad. Es exposición institucional no autorizada.
+
+<!-- block: proteccion -->
+
+El Decision Readiness Gate existe para producir algo que ningún otro mecanismo organizacional produce: un veredicto explícito sobre si una iniciativa específica está lista para exponerse al riesgo de ejecución.
+
+No es diagnóstico, porque no busca entender por qué la iniciativa es como es ni sugerir cómo podría mejorarse. No es consultoría, porque no ofrece recomendaciones que el sponsor puede incorporar o ignorar según su criterio. No es framework, porque no propone una metodología general aplicable a cualquier situación. Es un mecanismo operativo con una función específica: examinar una iniciativa concreta en un momento concreto y producir un veredicto que cambia su estatus de manera que la organización reconoce.
+
+El modelo operativo es preciso. Una iniciativa entra al gate cuando ha completado su fase de definición y está lista para solicitar recursos de ejecución. No antes, porque evaluarla antes de que esté definida no produce veredicto útil. No después, porque evaluarla después de que comenzó la ejecución convierte el gate en auditoría retrospectiva sin poder preventivo. El momento de entrada es cuando la iniciativa tiene suficiente definición para ser evaluada y cuando detenerla todavía no implica costo desproporcionado.
+
+El gate examina la iniciativa contra criterios predefinidos que la organización ha codificado como condiciones mínimas de readiness. Estos criterios no son opiniones de los evaluadores sino estándares institucionales que aplican a toda iniciativa por igual. El examen no busca determinar si la iniciativa es brillante o mediocre, ambiciosa o conservadora, innovadora o incremental. Busca determinar si cumple condiciones mínimas que la organización considera necesarias antes de autorizar ejecución.
+
+El gate produce uno de tres veredictos posibles. El primero, señalado con verificación, indica que la iniciativa cumple los criterios de readiness y está autorizada para proceder a ejecución. Este veredicto documenta que la organización examinó la iniciativa, que la encontró conforme a sus estándares, y que quien procede a ejecutarla cuenta con respaldo institucional para hacerlo. El segundo veredicto, señalado con advertencia, indica que la iniciativa tiene potencial pero no cumple actualmente los criterios, y especifica qué condiciones deben satisfacerse antes de una nueva evaluación. Este veredicto no es rechazo definitivo sino instrucción de qué falta para estar listo. El tercer veredicto, señalado con prohibición, indica que la iniciativa no está lista y que proceder a ejecutarla constituiría exposición no autorizada de recursos institucionales. Este veredicto es el no que la organización necesita poder producir y que sin el gate no tiene forma de producir.
+
+El veredicto, cualquiera que sea, queda documentado. Esto significa que cuando la junta pregunte meses después por qué una iniciativa procedió o no procedió, existe registro de la evaluación realizada y del resultado obtenido. Si el veredicto fue positivo y la iniciativa fracasó igual, el registro muestra que se siguió el proceso institucional y que el fracaso ocurrió a pesar de la diligencia, no por ausencia de ella. Si el veredicto fue negativo y alguien procedió de todas formas ignorándolo, el registro muestra exactamente quién tomó esa decisión y con qué justificación. La documentación no evita el fracaso pero sí distribuye responsabilidad de manera justa y verificable.
+
+El DRG protege a todos los involucrados. Protege al sponsor porque si el veredicto es positivo, tiene respaldo documentado para proceder; si es negativo, tiene explicación institucional de por qué no procedió que no depende de su juicio personal. Protege al comité ejecutivo porque tiene visibilidad de qué pasó por el gate y con qué resultado, sin tener que evaluar cada iniciativa individualmente. Protege a la junta porque puede verificar que existe un mecanismo institucional que filtra iniciativas antes de que consuman recursos significativos. Protege a la organización porque reduce la probabilidad de que recursos se asignen a iniciativas que no estaban listas para merecerlos.
+
+Nada de esto funciona si el gate puede ignorarse. La autoridad del veredicto es lo que hace del DRG un mecanismo real y no una formalidad adicional. Un gate sin autoridad es una reunión más. Un gate con autoridad es un punto donde el loop de amplificación descrito en capítulos anteriores puede interrumpirse antes de que produzca consecuencias irreversibles.
+
+La organización que instituye el DRG no se vuelve más burocrática ni más lenta. Se vuelve más capaz de distinguir entre iniciativas que merecen recursos y las que no, antes de que la distinción se haga evidente de manera costosa. La velocidad que importa no es la velocidad de comenzar; es la velocidad de llegar a resultados. Y nada reduce más esa velocidad que ejecutar iniciativas que no estaban listas para ejecutarse.
+
+El siguiente capítulo examina el elemento que hace que el criterio del gate funcione: la diferencia entre criterios vagos que permiten cualquier interpretación y criterios codificados que producen veredictos consistentes.
