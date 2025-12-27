@@ -90,4 +90,30 @@ Cuando llegue la próxima iniciativa similar, aplicar esos criterios. Si la inic
 
 No es necesario esperar a tener el sistema perfecto. No es necesario conseguir aprobación de toda la organización. No es necesario contratar consultores ni comprar software. Un criterio, una iniciativa, un veredicto documentado. El sistema se construye desde ahí, no desde un blueprint completo que nunca se implementa.
 
+<!-- break -->
+
+## Precondiciones politicas
+
+El libro hasta aqui asume que existe voluntad de instalar el mecanismo. Esa voluntad no es automatica. Los beneficiarios del sistema actual, sponsors con acceso discrecional a recursos, ejecutivos cuyas iniciativas no enfrentan escrutinio, tienen incentivo racional de resistir. Instalar un gate es redistribucion de poder. Toda redistribucion de poder genera resistencia. Ignorar esta realidad es garantizar fracaso.
+
+El gate puede instalarse cuando existe al menos una de estas condiciones. La primera es crisis reciente atribuible a falta de filtro: una iniciativa que consumio recursos significativos y fallo de manera visible, donde el dolor tiene dueno y la pregunta por que nadie lo detuvo a tiempo esta en el aire. La segunda es cambio de liderazgo que trae mandato de profesionalizar governance: un CEO nuevo que aun no esta capturado por el sistema y que necesita demostrar que su gestion sera diferente. La tercera es presion externa: regulador que exige controles, inversionista institucional que condiciona financiamiento, proceso de due diligence que expone debilidades. La cuarta es retiro inminente del ejecutivo principal que quiere dejar legado de institucionalizacion, que prefiere que el sistema funcione despues de su partida a que dependa de su presencia.
+
+Sin alguna de estas condiciones, la propuesta de instalar gate sera recibida como amenaza por quienes perderian discrecionalidad. Y quienes perderian discrecionalidad tipicamente tienen mas poder que quien propone.
+
+La propuesta tiene mayor probabilidad de prosperar si viene del directorio, que tiene autoridad formal y menor dependencia de sponsors internos. Tiene probabilidad razonable si viene de un CEO nuevo en los primeros dieciocho meses, que tiene mandato de cambio y aun no ha sido absorbido por la dinamica existente. Tiene probabilidad si viene del CFO o Chief Risk Officer, que pueden enmarcar la propuesta como proteccion de valor en lugar de obstruccion de iniciativas.
+
+La propuesta tiene menor probabilidad si viene de gerentes medios, que seran leidos como resistencia al cambio o resentimiento por iniciativas que los afectaron. Tiene probabilidad minima si viene de consultores externos sin sponsor interno fuerte, que seran ignorados cuando terminen su contrato. Tiene probabilidad nula si viene de alguien que perdio batallas politicas recientes, que sera leido como revancha institucionalizada.
+
+El framing determina la recepcion. El gate no es para controlar a los sponsors. Es para proteger a la organizacion y a los sponsors mismos de exposicion no evaluada. El sponsor que recibe GO tiene cobertura documentada: si la iniciativa falla por razones no anticipables, el sponsor puede demostrar que paso evaluacion rigurosa. El sponsor que recibe RECHAZO tiene proteccion contra su propio entusiasmo: el costo politico de no haber ejecutado es infinitamente menor que el de haber ejecutado y fracasado.
+
+La tactica de entrada es piloto acotado, no institucionalizacion completa. No proponer gate universal desde el inicio. Proponer aplicacion a una categoria de iniciativas donde el dolor reciente es mas visible. Demostrar valor en alcance limitado. Expandir despues con evidencia de que funciona. La resistencia a un experimento acotado es menor que la resistencia a un cambio sistemico, y el exito del experimento genera momentum para la expansion.
+
+La construccion de coalicion debe preceder a la propuesta formal. Antes de llevar la propuesta al comite ejecutivo o al directorio, conversaciones individuales con quienes serian aliados naturales: miembros de directorio preocupados por governance, ejecutivos que han sufrido consecuencias de iniciativas mal filtradas, funciones de riesgo y auditoria que tienen mandato de proteccion pero carecen de mecanismo para ejercerlo. Cuando la propuesta formal llegue, debe tener apoyo suficiente para que no sea descartada como idea de una sola persona.
+
+Si ninguna de las condiciones de viabilidad existe y ninguna tactica es aplicable, el libro no tiene solucion. Un gate no puede instalarse contra la voluntad activa de quienes controlan la organizacion. El lector en esa situacion tiene tres opciones. La primera es esperar a que emerja una condicion habilitante: la crisis que haga visible el costo de no tener filtro, el cambio de liderazgo que traiga mandato diferente. La segunda es trabajar para crear esa condicion desde su posicion actual: documentar los costos de iniciativas mal filtradas, construir relaciones con quienes podrian ser aliados, posicionarse para el momento en que la ventana se abra. La tercera es aceptar que la organizacion no instalara limites voluntarios y decidir si quiere permanecer en ella sabiendo eso.
+
+Esto no es fracaso del libro. Es limite de cualquier mecanismo de governance. Ningun sistema funciona donde el poder ha decidido que no tolerara limites a su discrecionalidad.
+
+<!-- break -->
+
 El libro terminó de describir. Lo que sigue es decidir.
