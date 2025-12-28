@@ -108,3 +108,11 @@ Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 7
 
 U.S. House Committee on Transportation and Infrastructure. (2020). *Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX*. 116th Congress. https://democrats-transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf
 
+## Validación empírica cibernética organizacional {- .unlisted}
+
+de Raadt, J. D. R. (1987). Ashby's Law of Requisite Variety: An Empirical Study. *Cybernetics and Systems*, 18(6), 517-536. https://doi.org/10.1080/01969708936759
+
+## Análisis académico corrupción corporativa {- .unlisted}
+
+Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The Ways of Corruption in Infrastructure: Lessons from the Odebrecht Case. *Journal of Economic Perspectives*, 35(2), 171-190. https://doi.org/10.1257/jep.35.2.171
+

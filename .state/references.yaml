@@ -517,6 +517,60 @@ references:
         context: "Periodismo investigativo presiones internas Boeing"
     apa_formatted: "Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards. *The Seattle Times*."
 
+  # ============================================
+  # VALIDACIÓN EMPÍRICA LEY DE ASHBY
+  # ============================================
+
+  - id: REF-025
+    type: article
+    citation_key: deraadt1987
+    authors:
+      - family: de Raadt
+        given: J. Donald R.
+    title: "Ashby's Law of Requisite Variety: An Empirical Study"
+    year: 1987
+    journal: "Cybernetics and Systems"
+    volume: 18
+    issue: 6
+    pages: "517-536"
+    url: "https://doi.org/10.1080/01onal969708936759"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Validación empírica Ley de Variedad Requerida en organizaciones"
+    apa_formatted: "de Raadt, J. D. R. (1987). Ashby's Law of Requisite Variety: An Empirical Study. *Cybernetics and Systems*, 18(6), 517-536."
+
+  # ============================================
+  # ANÁLISIS ACADÉMICO ODEBRECHT
+  # ============================================
+
+  - id: REF-026
+    type: article
+    citation_key: campos2021
+    authors:
+      - family: Campos
+        given: Nauro
+      - family: Engel
+        given: Eduardo
+      - family: Fischer
+        given: Ronald D.
+      - family: Galetovic
+        given: Alexander
+    title: "The Ways of Corruption in Infrastructure: Lessons from the Odebrecht Case"
+    year: 2021
+    journal: "Journal of Economic Perspectives"
+    volume: 35
+    issue: 2
+    pages: "171-190"
+    url: "https://doi.org/10.1257/jep.35.2.171"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Análisis académico mecánicas de corrupción Odebrecht"
+    apa_formatted: "Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The Ways of Corruption in Infrastructure: Lessons from the Odebrecht Case. *Journal of Economic Perspectives*, 35(2), 171-190."
+
 # ============================================
 # ÍNDICE DE VERIFICACIÓN
 # ============================================
