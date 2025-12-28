@@ -902,8 +902,8 @@ ai:
 
 state:
   migration:
-    current_version: "v3.7"
-    source_version: "v3.6"
+    current_version: "v3.8"
+    source_version: "v3.7"
     progress:
       total_blueprints: 21
       drafted_chapters: 20
@@ -912,7 +912,7 @@ state:
       capabilities_defined: 8
       latam_cases_added: 7
       categories_in_appendix_a: 7
-      pages_pdf: 196
+      pages_pdf: 263
     revision_v32_changes:
       - "B1: +Caso OGX Brasil, +definicion fisica organizacional, -15% redundancia"
       - "B2: +Caso Odebrecht, +transicion mejorada a Coding Trance"
@@ -994,7 +994,25 @@ state:
       - "  4 invariantes de referencias agregadas"
       - "  total_blueprints: 18 -> 19"
       - "  appendices: 4 -> 5"
+    revision_v38_changes:
+      - "Referencias académicas y rediseño de capítulos"
+      - "B7: +7 referencias académicas (Argyris/Schön, Nelson/Winter, Wegner TMS, Nonaka/Takeuchi, KLT, post-mortems)"
+      - "B8: +8 referencias académicas (concept drift, bias ML, automation bias, opacidad algorítmica, deskilling, Bainbridge)"
+      - "B09: +6 referencias académicas (Tetlock, Janis groupthink, Kydland/Prescott, accountability)"
+      - "B10: Rediseño completo (5,042 palabras)"
+      - "  +Diagnóstico previo (3 preguntas)"
+      - "  +Tres fuentes de parálisis"
+      - "  +Precondiciones políticas detalladas"
+      - "  +Secuencia 4 fases con metodologías (1-2-4-All, Troika, Open Space)"
+      - "  +Estructura sesión gate (60 min)"
+      - "  +Resistencias LATAM específicas"
+      - "  +Escenarios fallo piloto"
+      - "  +Métricas y rituales"
+      - "Apéndice D: Tablas diagnósticas reestructuradas (4 secciones para mejor renderizado PDF)"
+      - "Apéndice G: +21 referencias bibliográficas nuevas organizadas por tema"
+      - "Template LaTeX: +xurl package, +breaklinks para corte de URLs largas"
+      - "NUEVO: output/md/ - Carpeta con capítulos individuales para reutilización"
+      - "PDF: 196 -> 263 páginas (+67)"
     next_actions:
-      - "Regenerar libro completo PDF/EPUB"
       - "Validar coherencia post-edicion"
-      - "Commit final a GitHub"
+      - "Revisar renderizado PDF de URLs largas"

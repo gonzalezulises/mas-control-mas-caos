@@ -53,30 +53,41 @@ assets/
   references/     → Referencias teóricas
   cases/          → Casos de estudio
   fragments/      → Fragmentos reutilizables
-templates/        → Plantillas LaTeX para PDF
-output/           → EPUB y PDF generados
+templates/        → Plantillas LaTeX para PDF (reutilizable)
+output/
+  pdf/            → PDF generado
+  epub/           → EPUB generado
+  md/             → Capítulos individuales en Markdown
 ```
 
 ## Estado Actual
-- Version: v3.6
-- Blueprints totales: 18
-- Capítulos con contenido: 17
-- Apéndices: 4
-- Páginas PDF: 196
+- Version: v3.8
+- Blueprints totales: 21
+- Capítulos con contenido: 20
+- Apéndices: 7
+- Páginas PDF: 263
 
-## Secuencia de Capítulos (v3.1)
-1. B1 - El loop del poder
-2. B2 - Control ≠ estabilidad
-3. B3 - Coding Trance
-4. B4 - Los sistemas no se auto-limitan
-5. B7 - El aprendizaje no es individual
-6. B8 - IA y los límites humanos
-7. B5 - Capacidades de la Gerencia Funcional
-8. B6 - Casos donde decir NO fue éxito
-9. B09 - Criterio codificado
-10. B10 - Implementación
-11. Apéndice A - Criterios de Readiness por Tipo de Iniciativa
-12. Apéndice B - Por qué no hay casos públicos
+## Secuencia de Capítulos (v3.8)
+1. B0 - Introducción
+2. B1 - El loop del poder
+3. B2 - Control ≠ estabilidad
+4. B3 - Coding Trance
+5. B4 - Los sistemas no se auto-limitan
+6. B7 - El aprendizaje no es individual
+7. B8 - IA y los límites humanos
+8. B5 - Capacidades de la Gerencia Funcional
+9. B5.5 - Anatomía del Gate
+10. B5.6 - Cuando el límite falla
+11. B6 - Casos donde decir NO fue éxito
+12. B09 - Criterio codificado
+13. B10 - Implementación
+14. Apéndice A - Criterios de Readiness por Tipo de Iniciativa
+15. Apéndice B - Por qué no hay casos públicos
+16. Apéndice C - Convergencias
+17. Apéndice D - Diseño y anti-patrones del gate
+18. Apéndice E - Instrumento de Diagnóstico
+19. Apéndice F - Casos de Referencia
+20. Apéndice G - Bibliografía
 
 ## Formato de Capítulos
 Cada capítulo usa 5 bloques HTML obligatorios:

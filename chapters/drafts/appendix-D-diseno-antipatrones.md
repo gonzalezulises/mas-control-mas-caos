@@ -69,18 +69,38 @@ Un gate bien diseñado no garantiza que funcione. Las presiones de captura son c
 El lector que diseña un gate puede usar los principios como heurísticas de verificación: cada violación es señal de alerta que requiere justificación explícita. El lector que audita un gate existente puede usar los anti-patrones y señales como lista de verificación de diagnóstico: cada patrón observado es evidencia de que el gate puede no estar funcionando. En ambos casos, lo que importa no es cumplimiento formal sino función real. ¿El gate produce veredictos que cambian comportamiento, o produce registros que legitiman decisiones ya tomadas? ¿El RECHAZO tiene consecuencias operativas, o es obstáculo temporal que la persistencia supera?
 
 La diferencia entre límite genuino y ceremonia de gobernanza es observable. Este apéndice intenta hacer esa observación sistemática.
-| Categoría | Elemento | Señal de alerta |
-|-----------|----------|-----------------|
-| Principio violado | Independencia | Operador reporta a sponsor o depende de él para siguiente rol |
-| Principio violado | Anterioridad | Criterios se definen o modifican durante evaluación |
-| Principio violado | Consecuencia | Veredicto produce recomendación, no decisión vinculante |
-| Anti-patrón | Override informal | Iniciativas avanzan mientras se resuelve proceso |
-| Anti-patrón | Veredictos reabribles | RECHAZO se revierte con información adicional sin re-sometimiento |
-| Anti-patrón | Sin métricas | Gate no mide tasa de aprobación ni tiempo de evaluación |
-| Captura temprana | Tasa >95% | Aprobación casi universal sostenida 12+ meses |
-| Captura temprana | Correlación | Ciertos sponsors siempre pasan |
-| Captura temprana | Anticipación | Veredicto conocido antes de deliberación |
-| Falsa estabilidad | Ausencia | Gate no se menciona en decisiones reales |
-| Falsa estabilidad | Post-facto | Documentación se prepara después de decidir ejecutar |
-| Falsa estabilidad | Sin memoria | Nadie consulta veredictos previos |
+
+## Resumen diagnóstico {- .unlisted}
+
+**Principios violados**
+
+| Elemento | Señal de alerta |
+|:---------|:----------------|
+| Independencia | Operador reporta a sponsor o depende de él |
+| Anterioridad | Criterios se definen durante evaluación |
+| Consecuencia | Veredicto produce recomendación, no decisión |
+
+**Anti-patrones activos**
+
+| Elemento | Señal de alerta |
+|:---------|:----------------|
+| Override informal | Iniciativas avanzan mientras se resuelve proceso |
+| Veredictos reabribles | RECHAZO se revierte sin re-sometimiento formal |
+| Sin métricas | No se mide tasa de aprobación ni tiempos |
+
+**Señales de captura temprana**
+
+| Elemento | Señal de alerta |
+|:---------|:----------------|
+| Tasa >95% | Aprobación casi universal por 12+ meses |
+| Correlación | Ciertos sponsors siempre pasan |
+| Anticipación | Veredicto conocido antes de deliberar |
+
+**Indicadores de falsa estabilidad**
+
+| Elemento | Señal de alerta |
+|:---------|:----------------|
+| Ausencia | Gate no se menciona en decisiones reales |
+| Post-facto | Documentación se prepara después de decidir |
+| Sin memoria | Nadie consulta veredictos previos |
 
