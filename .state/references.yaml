@@ -409,6 +409,114 @@ references:
         context: "Silencio organizacional como fenómeno sistémico"
     apa_formatted: "Morrison, E. W., & Milliken, F. J. (2000). Organizational Silence: A Barrier to Change and Development in a Pluralistic World. *Academy of Management Review*, 25(4), 706-725."
 
+  # ============================================
+  # ESCALATION OF COMMITMENT
+  # ============================================
+
+  - id: REF-020
+    type: article
+    citation_key: staw1976
+    authors:
+      - family: Staw
+        given: Barry M.
+    title: "Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action"
+    year: 1976
+    journal: "Organizational Behavior and Human Performance"
+    volume: 16
+    issue: 1
+    pages: "27-44"
+    url: "https://doi.org/10.1016/0030-5073(76)90005-2"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Escalation of commitment - paper seminal"
+    apa_formatted: "Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. *Organizational Behavior and Human Performance*, 16(1), 27-44."
+
+  - id: REF-021
+    type: article
+    citation_key: brockner1992
+    authors:
+      - family: Brockner
+        given: Joel
+    title: "The escalation of commitment to a failing course of action: Toward theoretical progress"
+    year: 1992
+    journal: "Academy of Management Review"
+    volume: 17
+    issue: 1
+    pages: "39-61"
+    url: "https://doi.org/10.5465/amr.1992.4279568"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Revisión teórica de dinámicas de escalación"
+    apa_formatted: "Brockner, J. (1992). The escalation of commitment to a failing course of action: Toward theoretical progress. *Academy of Management Review*, 17(1), 39-61."
+
+  - id: REF-022
+    type: article
+    citation_key: fang2014
+    authors:
+      - family: Fang
+        given: Christina
+      - family: Kim
+        given: Jungho
+      - family: Milliken
+        given: Frances J.
+    title: "When bad news is sugarcoated: Information distortion, organizational search, and the behavioral theory of the firm"
+    year: 2014
+    journal: "Strategic Management Journal"
+    volume: 35
+    issue: 8
+    pages: "1186-1201"
+    url: "https://doi.org/10.1002/smj.2146"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Upward information distortion - evidencia empírica"
+    apa_formatted: "Fang, C., Kim, J., & Milliken, F. J. (2014). When bad news is sugarcoated: Information distortion, organizational search, and the behavioral theory of the firm. *Strategic Management Journal*, 35(8), 1186-1201."
+
+  # ============================================
+  # BOEING 737 MAX - FUENTES PRIMARIAS
+  # ============================================
+
+  - id: REF-023
+    type: report
+    citation_key: house2020boeing
+    authors:
+      - organization: U.S. House Committee on Transportation and Infrastructure
+    title: "Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX"
+    year: 2020
+    pages: 238
+    url: "https://democrats-transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Fuente primaria dinámicas organizacionales Boeing"
+    apa_formatted: "U.S. House Committee on Transportation and Infrastructure. (2020). *Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX*. 116th Congress."
+
+  - id: REF-024
+    type: news
+    citation_key: gates2019
+    authors:
+      - family: Gates
+        given: Dominic
+      - family: Baker
+        given: Mike
+    title: "The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards"
+    year: 2019
+    date: "2019-06-22"
+    publication: "The Seattle Times"
+    url: "https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Periodismo investigativo presiones internas Boeing"
+    apa_formatted: "Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards. *The Seattle Times*."
+
 # ============================================
 # ÍNDICE DE VERIFICACIÓN
 # ============================================

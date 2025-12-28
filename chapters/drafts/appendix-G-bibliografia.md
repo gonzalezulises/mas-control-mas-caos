@@ -92,3 +92,19 @@ Detert, J. R., & Burris, E. R. (2007). Leadership Behavior and Employee Voice: I
 
 Morrison, E. W., & Milliken, F. J. (2000). Organizational Silence: A Barrier to Change and Development in a Pluralistic World. *Academy of Management Review*, 25(4), 706-725. https://doi.org/10.5465/amr.2000.3707697
 
+## Escalation of commitment {- .unlisted}
+
+Brockner, J. (1992). The escalation of commitment to a failing course of action: Toward theoretical progress. *Academy of Management Review*, 17(1), 39-61. https://doi.org/10.5465/amr.1992.4279568
+
+Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. *Organizational Behavior and Human Performance*, 16(1), 27-44. https://doi.org/10.1016/0030-5073(76)90005-2
+
+## Upward information distortion {- .unlisted}
+
+Fang, C., Kim, J., & Milliken, F. J. (2014). When bad news is sugarcoated: Information distortion, organizational search, and the behavioral theory of the firm. *Strategic Management Journal*, 35(8), 1186-1201. https://doi.org/10.1002/smj.2146
+
+## Boeing 737 MAX - Fuentes primarias {- .unlisted}
+
+Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards. *The Seattle Times*. https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/
+
+U.S. House Committee on Transportation and Infrastructure. (2020). *Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX*. 116th Congress. https://democrats-transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf
+
