@@ -45,19 +45,22 @@ El libro presenta un sistema de capacidades interdependientes (no soluciones ais
 
 ## Estructura del Repositorio
 ```
-.state/           → YAML de estado del libro (fuente de verdad)
-chapters/drafts/  → Capítulos y apéndices en desarrollo
-chapters/published/ → Capítulos finalizados
-concepts/         → Nodos conceptuales (C1-C7)
+.state/              → YAML de estado del libro (fuente de verdad)
+.github/workflows/   → CI/CD para validación automática
+chapters/drafts/     → Capítulos y apéndices en desarrollo
+chapters/published/  → Capítulos finalizados
+concepts/            → Nodos conceptuales (C1-C7)
 assets/
-  references/     → Referencias teóricas
-  cases/          → Casos de estudio
-  fragments/      → Fragmentos reutilizables
-templates/        → Plantillas LaTeX para PDF (reutilizable)
+  references/        → Referencias teóricas
+  cases/             → Casos de estudio
+  fragments/         → Fragmentos reutilizables
+scripts/             → Scripts de automatización (ortografía, etc.)
+templates/           → Plantillas LaTeX para PDF (reutilizable)
+tests/               → Tests de validación (ortografía, estructura, referencias)
 output/
-  pdf/            → PDF generado
-  epub/           → EPUB generado
-  md/             → Capítulos individuales en Markdown
+  pdf/               → PDF generado
+  epub/              → EPUB generado
+  md/                → Capítulos individuales en Markdown
 ```
 
 ## Estado Actual
@@ -218,4 +221,123 @@ El colapso de OGX en 2013 (Reuters, 2013) ilustra...
 ```bash
 # Ejecutar antes de commit
 python3 tests/test_references.py
+```
+
+## Validación Ortográfica (OBLIGATORIO)
+
+### Antes de cada commit
+```bash
+python3 tests/test_orthography.py
+```
+
+### Errores comunes en español
+1. **Letra ñ faltante**: años, diseño, señales, desempeño, pequeño, compañía
+2. **Acentos en -ción/-sión**: decisión, revisión, función, presión, evaluación
+3. **Verbos imperfectos**: había, tenía, podía, debía, quería
+4. **Condicionales**: podría, debería, tendría, sería, estaría
+
+### Corrección automática
+```bash
+./scripts/fix_orthography.sh
+```
+
+### Palabras que requieren revisión manual
+- **solo/sólo**: "solo" (adjetivo) vs "sólo" (adverbio=solamente)
+- **aun/aún**: "aun" (=incluso) vs "aún" (=todavía)
+- **hacia/hacía**: "hacia" (preposición) vs "hacía" (verbo hacer)
+
+## Bibliografía para PDF (Mejores Prácticas)
+
+### URLs en referencias
+- **Conservar**: DOIs (formato `https://doi.org/...`) - cortos y estables
+- **Eliminar**: URLs largas de sitios web - causan desbordamiento en PDF
+- Las referencias sin URL mantienen cita APA completa
+
+### Template LaTeX
+El template (`templates/book-template.tex`) incluye configuración para corte de URLs:
+- Paquete `xurl` para corte automático
+- `breaklinks=true` en hypersetup
+- Corte agresivo en cualquier carácter alfanumérico
+- `emergencystretch=3em` para flexibilidad en líneas
+
+## Tablas en PDF
+
+### Problema
+Tablas anchas se desbordan del margen en PDF.
+
+### Solución
+Dividir tablas grandes en múltiples tablas pequeñas por categoría:
+```markdown
+# Antes (problema)
+| Categoría | Elemento | Señal de alerta |
+|-----------|----------|-----------------|
+| Cat1 | elem1 | señal1 |
+| Cat1 | elem2 | señal2 |
+| Cat2 | elem3 | señal3 |
+
+# Después (solución)
+**Categoría 1**
+| Elemento | Señal de alerta |
+|----------|-----------------|
+| elem1 | señal1 |
+| elem2 | señal2 |
+
+**Categoría 2**
+| Elemento | Señal de alerta |
+|----------|-----------------|
+| elem3 | señal3 |
+```
+
+## Generación de Outputs
+
+### Libro completo
+```bash
+./build-book.sh full
+# Genera: output/pdf/gerencia-funcional-full.pdf
+#         output/epub/gerencia-funcional-full.epub
+```
+
+### Capítulos individuales
+```bash
+# Un capítulo específico
+./build-book.sh chapter chapters/drafts/B1-el-loop-del-poder.md
+
+# Todos los capítulos y apéndices
+for f in chapters/drafts/B*.md chapters/drafts/appendix-*.md; do
+    ./build-book.sh chapter "$f"
+done
+```
+
+### Copiar Markdown a output
+```bash
+cp chapters/drafts/*.md output/md/
+```
+
+### Generar todo
+```bash
+./build-book.sh full
+for f in chapters/drafts/*.md; do ./build-book.sh chapter "$f"; done
+cp chapters/drafts/*.md output/md/
+```
+
+## Flujo de Trabajo Pre-Commit
+
+```bash
+# 1. Validar ortografía
+python3 tests/test_orthography.py
+
+# 2. Corregir si hay errores
+./scripts/fix_orthography.sh
+
+# 3. Validar referencias
+python3 tests/test_references.py
+
+# 4. Validar estructura de capítulos
+python3 tests/test_chapter_structure_blocks.py chapters/
+
+# 5. Regenerar outputs
+./build-book.sh full
+
+# 6. Commit
+git add . && git commit -m "descripción"
 ```

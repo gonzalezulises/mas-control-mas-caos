@@ -111,9 +111,9 @@ Que comportamiento habilita: permite adaptación a contextos cambiantes. Nuevas 
 
 Que comportamiento bloquea: impide obsolescencia progresiva donde el gate evalua contra estandares de hace cinco años. Impide acumulación de criterios que ya no capturan los riesgos reales. Impide que el gate se convierta en ritual que cumple forma pero pierde función.
 
-Que costo político introduce: requiere cuestionar criterios que fueron disenados por personas que siguen en la organización. La revisión periódica puede revelar que decisiones anteriores se basaron en criterios que hoy se reconocen como inadecuados.
+Que costo político introduce: requiere cuestionar criterios que fueron diseñados por personas que siguen en la organización. La revisión periódica puede revelar que decisiones anteriores se basaron en criterios que hoy se reconocen como inadecuados.
 
-Que error estructural previene: obsolescencia del mecanismo. Sin revisión periódica, el gate pierde relevancia gradualmente. Evalua iniciativas de 2025 con criterios disenados para problemas de 2020. El sistema sigue funcionando formalmente pero deja de cumplir su propósito.
+Que error estructural previene: obsolescencia del mecanismo. Sin revisión periódica, el gate pierde relevancia gradualmente. Evalua iniciativas de 2025 con criterios diseñados para problemas de 2020. El sistema sigue funcionando formalmente pero deja de cumplir su propósito.
 
 Los criterios que funcionaron ayer pueden ser obsoletos manana. Un criterio diseñado para iniciativas de transformación tecnologica en 2020 puede ser inadecuado para iniciativas que involucran inteligencia artificial en 2025. La revisión no es opcional ni espontanea. Esta calendarizada, tiene responsables asignados, produce documentación de que cambio y por qué.
 

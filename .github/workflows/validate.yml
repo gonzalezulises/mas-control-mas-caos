@@ -1,0 +1,48 @@
+name: Validar Libro
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'chapters/**'
+      - 'tests/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'chapters/**'
+      - 'tests/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validar ortografía
+        run: python3 tests/test_orthography.py
+        continue-on-error: false
+
+      - name: Validar estructura de capítulos
+        run: python3 tests/test_chapter_structure_blocks.py chapters/
+        continue-on-error: true
+
+      - name: Validar lenguaje prohibido
+        run: python3 tests/test_forbidden_language.py chapters/
+        continue-on-error: true
+
+  notify:
+    needs: validate
+    runs-on: ubuntu-latest
+    if: failure()
+
+    steps:
+      - name: Notificar fallo
+        run: |
+          echo "::error::La validación del libro falló. Revisar errores ortográficos o de estructura."
