@@ -284,3 +284,53 @@ Dingsøyr, T., Moe, N. B., & Nytrø, Ø. (2007). Organizational learning through
 
 Williams, T., Ackermann, F., & Eden, C. (2001). *The use of project post-mortems*. Paper presented at PMI Annual Seminars & Symposium, Nashville, TN.
 
+## Sesgos y fairness en Machine Learning {- .unlisted}
+
+Buolamwini, J., & Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. *Proceedings of Machine Learning Research*, 81, 1-15.
+
+Mehrabi, N., Morstatter, F., Saxena, N., Lerman, K., & Galstyan, A. (2021). A survey on bias and fairness in machine learning. *ACM Computing Surveys*, 54(6), 1-35. https://doi.org/10.1145/3457607
+
+O'Neil, C. (2016). *Weapons of math destruction: How big data increases inequality and threatens democracy*. Crown.
+
+Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. *Science*, 366(6464), 447-453. https://doi.org/10.1126/science.aax2342
+
+## Concept drift y degradación de modelos {- .unlisted}
+
+Bayram, F., Ahmed, B., & Kassler, A. (2022). From concept drift to model degradation: An overview on performance-aware drift detectors. *Knowledge-Based Systems*, 245, 108632. https://doi.org/10.1016/j.knosys.2022.108632
+
+Gama, J., Žliobaitė, I., Bifet, A., Pechenizkiy, M., & Bouchachia, A. (2014). A survey on concept drift adaptation. *ACM Computing Surveys*, 46(4), 1-37. https://doi.org/10.1145/2523813
+
+Lu, J., Liu, A., Dong, F., Gu, F., Gama, J., & Zhang, G. (2019). Learning under concept drift: A review. *IEEE Transactions on Knowledge and Data Engineering*, 31(12), 2346-2363. https://doi.org/10.1109/TKDE.2018.2876857
+
+## Opacidad algorítmica e interpretabilidad {- .unlisted}
+
+Burrell, J. (2016). How the machine 'thinks': Understanding opacity in machine learning algorithms. *Big Data & Society*, 3(1), 1-12. https://doi.org/10.1177/2053951715622512
+
+Lipton, Z. C. (2018). The mythos of model interpretability. *Queue*, 16(3), 31-57. https://doi.org/10.1145/3236386.3241340
+
+Rudin, C. (2019). Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. *Nature Machine Intelligence*, 1(5), 206-215. https://doi.org/10.1038/s42256-019-0048-x
+
+## Límites de supervisión humana {- .unlisted}
+
+Endsley, M. R. (2017). From here to autonomy: Lessons learned from human–automation research. *Human Factors*, 59(1), 5-27. https://doi.org/10.1177/0018720816681350
+
+Green, B. (2022). The flaws of policies requiring human oversight of government algorithms. *Computer Law & Security Review*, 45, 105681. https://doi.org/10.1016/j.clsr.2022.105681
+
+Warm, J. S., Parasuraman, R., & Matthews, G. (2008). Vigilance requires hard mental work and is stressful. *Human Factors*, 50(3), 433-441. https://doi.org/10.1518/001872008X312152
+
+## Deskilling y automatización {- .unlisted}
+
+Polanyi, M. (1966). *The tacit dimension*. University of Chicago Press.
+
+Rinta-Kahila, T., Penttinen, E., Salovaara, A., & Soliman, W. (2018). Consequences of discontinuing knowledge work automation—Surfacing of deskilling effects and methods of recovery. *Proceedings of the 51st Hawaii International Conference on System Sciences*, 4199-4208.
+
+Sutton, S. G., Arnold, V., & Holt, M. (2018). How much automation is too much? Keeping the human relevant in knowledge work. *Journal of Emerging Technologies in Accounting*, 15(2), 15-25. https://doi.org/10.2308/jeta-52311
+
+## Ironías y paradojas de la automatización {- .unlisted}
+
+Bainbridge, L. (1983). Ironies of automation. *Automatica*, 19(6), 775-779. https://doi.org/10.1016/0005-1098(83)90046-8
+
+Strauch, B. (2017). Ironies of automation: Still unresolved after all these years. *IEEE Transactions on Human-Machine Systems*, 48(5), 419-433. https://doi.org/10.1109/THMS.2017.2732506
+
+Woods, D. D. (2016). The risks of autonomy: Doyle's catch. *Journal of Cognitive Engineering and Decision Making*, 10(2), 131-133. https://doi.org/10.1177/1555343416653562
+
