@@ -26,6 +26,10 @@ La razón estructural por la cual las organizaciones no pueden producir veredict
 
 Estos factores no se resuelven con buenas intenciones ni con procesos adicionales. Se resuelven con capacidades organizacionales diseñadas específicamente para contrarrestarlos. Esas capacidades son ocho, operan como sistema interdependiente, y su ausencia parcial compromete el funcionamiento del conjunto.
 
+A este conjunto de capacidades lo llamamos *gerencia funcional*, en analogía con la medicina funcional: un paradigma que no corrige síntomas post-colapso sino que arquitecta condiciones que previenen el colapso. La medicina funcional no pregunta "¿qué enfermedad tienes?" sino "¿qué condiciones sistémicas producen estos síntomas?". La gerencia funcional no pregunta "¿por qué falló esta iniciativa?" sino "¿qué capacidades faltan para que las iniciativas no fallen?".
+
+El término no refiere a gerencia por áreas funcionales (finanzas, operaciones, RRHH). Refiere a gerencia que funciona: que puede producir veredictos vinculantes antes de que el daño sea irreversible.
+
 La primera capacidad es la delimitacion explicita de que decisiones son estrategicas y cuales no.
 
 Que comportamiento habilita: permite identificar con anticipacion cuales iniciativas requieren escrutinio reforzado antes de comprometer recursos significativos. Los equipos saben desde el inicio si su propuesta entra en el perimetro de gobernanza especial.
