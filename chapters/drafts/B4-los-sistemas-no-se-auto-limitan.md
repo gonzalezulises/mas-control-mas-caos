@@ -7,7 +7,7 @@ La ingenieria civil tiene códigos de construcción que no dependen de la buena 
 
 Estos ejemplos no demuestran perfeccion. La FAA fallo en supervisar adecuadamente el 737 MAX cuando Boeing obtuvo demasiada influencia sobre el proceso de certificacion. La FDA ha aprobado medicamentos que después fueron retirados. Los códigos de construcción no previenen todos los colapsos estructurales. Pero los ejemplos demuestran que los límites externos pueden funcionar, y cuando fallan, tipicamente es porque fueron erosionados o capturados, no porque el concepto mismo sea invalido.
 
-Lo que sigue en este capítulo examina por que las organizaciones no pueden replicar internamente lo que estos reguladores hacen externamente. La respuesta no es falta de inteligencia ni deficiencia moral. Es estructura de incentivos.
+Lo que sigue en este capítulo examina por qué las organizaciones no pueden replicar internamente lo que estos reguladores hacen externamente. La respuesta no es falta de inteligencia ni deficiencia moral. Es estructura de incentivos.
 
 Conoces el mecanismo. En algun punto de la historia de tu organización, alguien decidio que hacia falta gobernanza. Se creó un comité de revisión con personas senior, mandato claro y autoridad formal para aprobar, rechazar o pedir más información antes de que las iniciativas avanzaran. El comité se reunía periódicamente, revisaba los casos presentados, hacía observaciones incisivas, pedía clarificaciones. Todo funcionaba según el diseño.
 

@@ -115,7 +115,7 @@ Que costo político introduce: requiere cuestionar criterios que fueron disenado
 
 Que error estructural previene: obsolescencia del mecanismo. Sin revision periódica, el gate pierde relevancia gradualmente. Evalua iniciativas de 2025 con criterios disenados para problemas de 2020. El sistema sigue funcionando formalmente pero deja de cumplir su propósito.
 
-Los criterios que funcionaron ayer pueden ser obsoletos manana. Un criterio disenado para iniciativas de transformacion tecnologica en 2020 puede ser inadecuado para iniciativas que involucran inteligencia artificial en 2025. La revision no es opcional ni espontanea. Esta calendarizada, tiene responsables asignados, produce documentacion de que cambio y por que.
+Los criterios que funcionaron ayer pueden ser obsoletos manana. Un criterio disenado para iniciativas de transformacion tecnologica en 2020 puede ser inadecuado para iniciativas que involucran inteligencia artificial en 2025. La revision no es opcional ni espontanea. Esta calendarizada, tiene responsables asignados, produce documentacion de que cambio y por qué.
 
 Estas ocho capacidades no provienen de estudio empirico de organizaciones que las implementaron. Provienen de derivacion lógica: si el sistema tiene las propiedades descritas en los capítulos anteriores, que componentes harian falta para contrarrestarlas. El lector puede verificar la lógica contra su experiencia; no hay casos externos que citar como autoridad.
 

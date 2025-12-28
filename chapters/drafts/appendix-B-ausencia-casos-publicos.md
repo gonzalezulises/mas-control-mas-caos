@@ -14,7 +14,7 @@ Los casos donde el límite externo fallo son igualmente instructivos. Interbolsa
 La FAA en Estados Unidos permitio que Boeing autocertificara aspectos críticos del 737 MAX. El límite externo existia pero fue erosionado por presion corporativa hasta volverse inefectivo. El resultado fueron dos accidentes que mataron a 346 personas. La falla no fue de concepto sino de implementación: cuando el regulador depende del regulado para información y expertise, la independencia se erosiona.
 
 Estos fracasos no refutan el principio. Lo refuerzan. Los límites externos fallan cuando son capturados, cuando pierden independencia, cuando sus criterios se vuelven negociables. Funcionan cuando mantienen las cuatro caracteristicas que el libro describe: autoridad independiente, criterios no modificables, capacidad de enforcement autonoma, y supervivencia a rotacion.
-La pregunta legitima es por que no hay casos corporativos publicitados voluntariamente. Por que ninguna empresa anuncia que implemento un DRG que rechazo iniciativas y preservo valor.
+La pregunta legitima es por qué no hay casos corporativos publicitados voluntariamente. Por qué ninguna empresa anuncia que implemento un DRG que rechazo iniciativas y preservo valor.
 
 La primera razon es que el éxito invisible no se pública. Las organizaciones celebran ejecuciones exitosas, no decisiones de no-ejecutar. El comunicado de prensa anuncia el lanzamiento del producto, no la iniciativa que fue detenida antes de destruir valor. No hay ceremonia para el comite que produjo un veredicto de rechazo que evito una perdida de cincuenta millones.
 
@@ -24,7 +24,7 @@ La tercera razon es que los casos con nombre vienen del fracaso. Boeing, Enron, 
 
 La implicacion para el lector es incomoda pero honesta. No hay caso público que citar para convencer a un esceptico. No hay organización que visitar para ver el mecanismo en operación. No hay paper academico con grupo de control y medicion de impacto.
 
-La Introduccion de este libro declaro explicitamente este estatus: lo que sigue es propuesta, no práctica establecida. Este apendice desarrolla por que esa ausencia de casos públicos es consistente con la tesis en lugar de contradecirla.
+La Introduccion de este libro declaro explicitamente este estatus: lo que sigue es propuesta, no práctica establecida. Este apendice desarrolla por qué esa ausencia de casos públicos es consistente con la tesis en lugar de contradecirla.
 
 El lector debe decidir basandose en la lógica estructural. Si el costo político de aprobar es estructuralmente menor que el de rechazar, los mecanismos internos produciran aprobacion sistemática. Si el criterio negociable colapsa bajo presion política, solo el criterio codificado resiste. Si el gate sin veredicto vinculante produce recomendaciones que el sponsor ignora, solo el veredicto vinculante detiene.
 

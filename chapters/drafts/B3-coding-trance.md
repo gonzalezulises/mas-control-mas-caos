@@ -9,7 +9,7 @@ La conversacion se vuelve técnica cuando deberia ser estratégica: en reuniones
 
 Las excepciones se tratan como errores a eliminar: cuando algo no encaja en el modelo, la respuesta automática es ajustar el caso para que encaje, no cuestionar si el modelo es adecuado.
 
-La memoria institucional se externaliza: la razon por la cual las cosas se hacen de cierta manera ya no reside en personas que recuerdan decisiones pasadas, sino en configuraciones del sistema que nadie recuerda por que existen.
+La memoria institucional se externaliza: la razon por la cual las cosas se hacen de cierta manera ya no reside en personas que recuerdan decisiones pasadas, sino en configuraciones del sistema que nadie recuerda por qué existen.
 
 La friccion humana se percibe como ineficiencia: cuando alguien propone revisar un proceso o detenerse a pensar antes de actuar, la respuesta es que eso "no escala" o "genera cuellos de botella".
 
