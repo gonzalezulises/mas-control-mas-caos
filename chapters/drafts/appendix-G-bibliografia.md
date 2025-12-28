@@ -1,65 +1,86 @@
-# Apéndice G: Bibliografia
+# Apéndice G: Bibliografía
 
-<!-- block: reconocimiento -->
+Las referencias se presentan en formato APA 7, organizadas alfabéticamente. Se incluyen todas las fuentes citadas en el texto y fuentes adicionales que fundamentan los conceptos centrales del libro.
 
-<!-- block: alivio -->
+Ashby, W. R. (1956). *An introduction to cybernetics*. Chapman & Hall. https://archive.org/details/introductiontocy00ashb
 
-<!-- block: referencias -->
+Beer, S. (1972). *Brain of the firm: The managerial cybernetics of organization*. Allen Lane.
 
-Las fuentes citadas en este libro se organizan por categoria. Las referencias completas incluyen URL cuando esta disponible y verificada. El formato sigue la septima edicion del Manual de Publicacion de la American Psychological Association (APA 7).
+Beer, S. (1979). *The heart of enterprise*. John Wiley & Sons.
 
-## Teoria de Sistemas y Cibernetica {- .unlisted}
+Boeing Company. (2019). *737 MAX software update and training*. https://www.boeing.com/commercial/737max/737-max-software-updates.page
 
-Ashby, W. R. (1956). *An Introduction to Cybernetics*. Chapman & Hall. https://archive.org/details/introductiontocy00ashb
+Ching, L. (2014). Odebrecht: Building a global Latinas. *INSEAD Case Study*. https://www.insead.edu/
 
-Beer, S. (1972). *Brain of the Firm*. Allen Lane.
+Collins, J. C. (2009). *How the mighty fall: And why some companies never give in*. HarperCollins.
 
-## Organizaciones de Alta Confiabilidad {- .unlisted}
+Committee on Transportation and Infrastructure, U.S. House of Representatives. (2020). *The design, development, and certification of the Boeing 737 MAX: Final committee report*. U.S. Government Publishing Office.
 
-Weick, K. E., & Sutcliffe, K. M. (2015). *Managing the Unexpected: Sustained Performance in a Complex World* (3ra ed.). Wiley.
+Copa Holdings, S.A. (2023). *Annual report 2023*. https://investor.copaair.com/
 
-## Accidentes y Sistemas Complejos {- .unlisted}
+Federal Aviation Administration. (2020). *Report on the Boeing 737 MAX: Return to service*. U.S. Department of Transportation.
 
-Perrow, C. (1984). *Normal Accidents: Living with High-Risk Technologies*. Basic Books. https://press.princeton.edu/books/paperback/9780691004129/normal-accidents
+Goodhart, C. A. E. (1984). Problems of monetary management: The U.K. experience. En A. S. Courakis (Ed.), *Monetary theory and practice: The UK experience* (pp. 91-121). Macmillan.
 
-## Antifragilidad y Riesgo {- .unlisted}
+Joint Authorities Technical Review. (2019). *Boeing 737 MAX flight control system: Observations, findings, and recommendations*. https://www.faa.gov/news/media/attachments/Final_JATR_Submittal_to_FAA_Oct_2019.pdf
 
-Taleb, N. N. (2012). *Antifragile: Things That Gain from Disorder*. Random House.
+Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
 
-## Marcos de Complejidad {- .unlisted}
-
-Snowden, D. J., & Boone, M. E. (2007). A Leader's Framework for Decision Making. *Harvard Business Review*, 85(11), 68-76.
-
-## Principios y Leyes {- .unlisted}
-
-Goodhart, C. A. E. (1984). Problems of Monetary Management: The U.K. Experience. En *Monetary Theory and Practice* (pp. 91-121). Macmillan.
-
-## Reportes Corporativos e Investigacion {- .unlisted}
+Liker, J. K. (2004). *The Toyota way: 14 management principles from the world's greatest manufacturer*. McGraw-Hill.
 
 McKinsey & Company. (2019). *Why do most transformations fail? A conversation with Harry Robinson*. https://www.mckinsey.com/capabilities/transformation/our-insights/why-do-most-transformations-fail-a-conversation-with-harry-robinson
 
-Copa Holdings, S.A. (2023). *Annual Report 2023*.
+McKinsey & Company. (2021). *The new digital edge: Rethinking strategy for the postpandemic era*. McKinsey Digital.
 
-## Fuentes Periodisticas y Documentacion de Casos {- .unlisted}
+Muilenburg, D. (2019, octubre 29). Testimony before the U.S. Senate Committee on Commerce, Science, and Transportation. *Hearing on aviation safety and the future of Boeing's 737 MAX*.
 
-Reuters. (2013, 30 de octubre). OGX files for Brazil's largest-ever bankruptcy protection. *Reuters*.
+National Transportation Safety Board. (2019). *Assumptions used in the safety assessment process and the effects of multiple alerts and indications on pilot performance* (Safety Recommendation Report ASR-19-01). NTSB.
 
-The New York Times. (1982, 1 de octubre). Tylenol Maker Recalls Capsules After New Deaths.
+Ohno, T. (1988). *Toyota production system: Beyond large-scale production*. Productivity Press.
 
-## Documentos Legales y Regulatorios {- .unlisted}
+Perrow, C. (1984). *Normal accidents: Living with high-risk technologies*. Basic Books.
 
-U.S. Department of Justice. (2016, 21 de diciembre). *Odebrecht and Braskem Plead Guilty and Agree to Pay at Least $3.5 Billion in Global Penalties*. https://www.justice.gov/archives/opa/pr/odebrecht-and-braskem-plead-guilty-and-agree-pay-least-35-billion-global-penalties-resolve
+Perrow, C. (1999). *Normal accidents: Living with high-risk technologies* (2a ed.). Princeton University Press.
 
-Superintendencia Financiera de Colombia. (2012). *Resolucion de intervencion Interbolsa S.A.*
+Rasmussen, J. (1997). Risk management in a dynamic society: A modelling problem. *Safety Science*, 27(2-3), 183-213.
 
-U.S. Food and Drug Administration. (2020). *The Drug Development Process*.
+Reuters. (2013, octubre 30). OGX files for Brazil's largest-ever bankruptcy protection. *Reuters Business News*.
 
-## Reguladores Latinoamericanos {- .unlisted}
+Reuters. (2017, abril 14). Timeline: Odebrecht corruption scandal rocks Latin America. *Reuters World News*.
 
-Superintendencia de Bancos de Panama. (2024). *Marco regulatorio bancario*.
+Robison, P. (2021). *Flying blind: The 737 MAX tragedy and the fall of Boeing*. Doubleday.
 
-Comision para el Mercado Financiero de Chile. (2024). *Normativa y regulacion*.
+Snowden, D. J., & Boone, M. E. (2007). A leader's framework for decision making. *Harvard Business Review*, 85(11), 68-76.
 
-<!-- block: riesgo -->
+Spear, S., & Bowen, H. K. (1999). Decoding the DNA of the Toyota production system. *Harvard Business Review*, 77(5), 96-106.
 
-<!-- block: proteccion -->
+Standish Group. (2020). *CHAOS 2020: Beyond infinity*. The Standish Group International.
+
+Superintendencia Financiera de Colombia. (2012). *Resolución de intervención Interbolsa S.A. Comisionista de Bolsa* (Resolución 1795). República de Colombia.
+
+Taleb, N. N. (2007). *The black swan: The impact of the highly improbable*. Random House.
+
+Taleb, N. N. (2012). *Antifragile: Things that gain from disorder*. Random House.
+
+The New York Times. (1982, octubre 1). Tylenol maker recalls capsules after deaths are linked to cyanide. *The New York Times*, p. A1.
+
+The New York Times. (2019, marzo 17). After 2 crashes, Boeing's flawed software gets the spotlight. *The New York Times*.
+
+Toyota Motor Corporation. (2010). *Report to the Special Committee for Investigation on Toyota's Recall Activities*. Toyota Global.
+
+Travis, D., & Francis, T. (2010). Johnson & Johnson: The recall that started it all. *The Wall Street Journal*.
+
+U.S. Department of Justice. (2016, diciembre 21). *Odebrecht and Braskem plead guilty and agree to pay at least $3.5 billion in global penalties to resolve largest foreign bribery case in history*. DOJ Press Release. https://www.justice.gov/opa/pr/odebrecht-and-braskem-plead-guilty-and-agree-pay-least-35-billion-global-penalties-resolve
+
+U.S. Department of Justice. (2021, enero 7). *Boeing charged with 737 MAX fraud conspiracy and agrees to pay over $2.5 billion*. DOJ Press Release.
+
+U.S. Food and Drug Administration. (2020). *The drug development process*. https://www.fda.gov/patients/learn-about-drug-and-device-approvals/drug-development-process
+
+U.S. House Committee on Transportation and Infrastructure. (2020). *Final committee report: The design, development and certification of the Boeing 737 MAX*. 116th Congress.
+
+Weick, K. E. (1987). Organizational culture as a source of high reliability. *California Management Review*, 29(2), 112-127.
+
+Weick, K. E., & Sutcliffe, K. M. (2015). *Managing the unexpected: Sustained performance in a complex world* (3a ed.). Wiley.
+
+Womack, J. P., Jones, D. T., & Roos, D. (1990). *The machine that changed the world: The story of lean production*. Free Press.
+
