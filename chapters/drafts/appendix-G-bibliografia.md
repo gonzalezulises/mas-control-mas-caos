@@ -94,7 +94,7 @@ Morrison, E. W., & Milliken, F. J. (2000). Organizational Silence: A Barrier to 
 
 ## Escalation of commitment y sunk cost {- .unlisted}
 
-Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124-140. https://doi.org/10.1016/0749-5978(85)90049-4
+Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decisión Processes*, 35(1), 124-140. https://doi.org/10.1016/0749-5978(85)90049-4
 
 Brockner, J. (1992). The escalation of commitment to a failing course of action: Toward theoretical progress. *Academy of Management Review*, 17(1), 39-61. https://doi.org/10.5465/amr.1992.4279568
 
@@ -128,7 +128,7 @@ Muller, J. Z. (2018). *The Tyranny of Metrics*. Princeton University Press.
 
 ## Automation bias y complacency {- .unlisted}
 
-Bahner, J. E., Hüper, A.-D., & Manzey, D. (2008). Misuse of Automated Decision Aids: Complacency, Automation Bias and the Impact of Training Experience. *International Journal of Human-Computer Studies*, 66(9), 688-699. https://doi.org/10.1016/j.ijhcs.2008.06.001
+Bahner, J. E., Hüper, A.-D., & Manzey, D. (2008). Misuse of Automated Decisión Aids: Complacency, Automation Bias and the Impact of Training Experience. *International Journal of Human-Computer Studies*, 66(9), 688-699. https://doi.org/10.1016/j.ijhcs.2008.06.001
 
 Parasuraman, R., & Manzey, D. H. (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. *Human Factors*, 52(3), 381-410. https://doi.org/10.1177/0018720810376055
 
@@ -170,7 +170,7 @@ McKinsey & Company. (2018). Unlocking Success in Digital Transformations. *McKin
 
 Carpenter, D., & Moss, D. A. (Eds.). (2014). *Preventing regulatory capture: Special interest influence and how to limit it*. Cambridge University Press.
 
-Laffont, J.-J., & Tirole, J. (1991). The politics of government decision-making: A theory of regulatory capture. *Quarterly Journal of Economics*, 106(4), 1089-1127. https://doi.org/10.2307/2937958
+Laffont, J.-J., & Tirole, J. (1991). The politics of government decisión-making: A theory of regulatory capture. *Quarterly Journal of Economics*, 106(4), 1089-1127. https://doi.org/10.2307/2937958
 
 Stigler, G. J. (1971). The theory of economic regulation. *Bell Journal of Economics*, 2, 3-21. https://doi.org/10.2307/3003160
 
@@ -194,7 +194,7 @@ Macías, H. A., & Farfán-Liévano, A. (2025). White-collar fraudsters in an eme
 
 ## Sesgos cognitivos y toma de decisiones {- .unlisted}
 
-Samuelson, W., & Zeckhauser, R. (1988). Status quo bias in decision making. *Journal of Risk and Uncertainty*, 1(1), 7-59. https://doi.org/10.1007/BF00055564
+Samuelson, W., & Zeckhauser, R. (1988). Status quo bias in decisión making. *Journal of Risk and Uncertainty*, 1(1), 7-59. https://doi.org/10.1007/BF00055564
 
 ## Paradoja de la prevención {- .unlisted}
 
@@ -206,7 +206,7 @@ Rose, G. (1981). Strategy of preventive medicine. *British Medical Journal*, 282
 
 Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*. CFPB.
 
-U.S. Securities and Exchange Commission. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*. SEC.
+U.S. Securities and Exchange Commissión. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*. SEC.
 
 ## Sesgo de acción (Action Bias) {- .unlisted}
 
@@ -216,7 +216,7 @@ Patt, A., & Zeckhauser, R. (2000). Action bias and environmental decisions. *Jou
 
 ## Prospect Theory {- .unlisted}
 
-Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica*, 47(2), 263-291. https://doi.org/10.2307/1914185
+Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decisión under risk. *Econometrica*, 47(2), 263-291. https://doi.org/10.2307/1914185
 
 ## Fracaso organizacional y psychological safety {- .unlisted}
 
@@ -320,7 +320,7 @@ Warm, J. S., Parasuraman, R., & Matthews, G. (2008). Vigilance requires hard men
 
 ## Deskilling y automatización {- .unlisted}
 
-Polanyi, M. (1966). *The tacit dimension*. University of Chicago Press.
+Polanyi, M. (1966). *The tacit dimensión*. University of Chicago Press.
 
 Rinta-Kahila, T., Penttinen, E., Salovaara, A., & Soliman, W. (2018). Consequences of discontinuing knowledge work automation—Surfacing of deskilling effects and methods of recovery. *Proceedings of the 51st Hawaii International Conference on System Sciences*, 4199-4208.
 
@@ -332,11 +332,11 @@ Bainbridge, L. (1983). Ironies of automation. *Automatica*, 19(6), 775-779. http
 
 Strauch, B. (2017). Ironies of automation: Still unresolved after all these years. *IEEE Transactions on Human-Machine Systems*, 48(5), 419-433. https://doi.org/10.1109/THMS.2017.2732506
 
-Woods, D. D. (2016). The risks of autonomy: Doyle's catch. *Journal of Cognitive Engineering and Decision Making*, 10(2), 131-133. https://doi.org/10.1177/1555343416653562
+Woods, D. D. (2016). The risks of autonomy: Doyle's catch. *Journal of Cognitive Engineering and Decisión Making*, 10(2), 131-133. https://doi.org/10.1177/1555343416653562
 
 ## Conocimiento tácito y heurísticas {- .unlisted}
 
-Maqsood, T., Finegan, A. D., & Walker, D. H. (2004). Biases and heuristics in judgment and decision making: The dark side of tacit knowledge. *Issues in Informing Science and Information Technology*, 1, 295-301.
+Maqsood, T., Finegan, A. D., & Walker, D. H. (2004). Biases and heuristics in judgment and decisión making: The dark side of tacit knowledge. *Issues in Informing Science and Information Technology*, 1, 295-301.
 
 ## Modelo de contingencia social y accountability {- .unlisted}
 
@@ -348,11 +348,11 @@ Schillemans, T., Overman, S., Fawcett, P., Flinders, M., & Fredriksson, M. (2021
 
 Tetlock, P. E. (1992). The impact of accountability on judgment and choice: Toward a social contingency model. *Advances in Experimental Social Psychology*, 25, 331-376.
 
-Tetlock, P. E., & Boettger, R. (1994). Accountability amplifies the status quo effect when change creates victims. *Journal of Behavioral Decision Making*, 7(1), 1-23.
+Tetlock, P. E., & Boettger, R. (1994). Accountability amplifies the status quo effect when change creates victims. *Journal of Behavioral Decisión Making*, 7(1), 1-23.
 
 ## Groupthink y toma de decisiones grupal {- .unlisted}
 
-Hermann, A., & Rammal, H. G. (2010). The grounding of the "flying bank". *Management Decision*, 48(7), 1048-1062. https://doi.org/10.1108/00251741011068761
+Hermann, A., & Rammal, H. G. (2010). The grounding of the "flying bank". *Management Decisión*, 48(7), 1048-1062. https://doi.org/10.1108/00251741011068761
 
 Janis, I. L. (1982). *Groupthink: Psychological studies of policy decisions and fiascoes* (2nd ed.). Houghton Mifflin.
 
@@ -364,6 +364,6 @@ Kydland, F. E., & Prescott, E. C. (1977). Rules rather than discretion: The inco
 
 ## Derechos de decisión y gobernanza {- .unlisted}
 
-Deloitte. (2024). *Getting decision rights right: Navigating uncertainty and turbulence through better decisions*. Deloitte Insights.
+Deloitte. (2024). *Getting decisión rights right: Navigating uncertainty and turbulence through better decisions*. Deloitte Insights.
 
-MIT CISR. (2021). *Designing effective decision rights*. MIT Sloan Center for Information Systems Research.
+MIT CISR. (2021). *Designing effective decisión rights*. MIT Sloan Center for Information Systems Research.

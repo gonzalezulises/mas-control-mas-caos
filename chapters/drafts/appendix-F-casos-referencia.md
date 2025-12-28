@@ -2,7 +2,7 @@
 
 ## Nota metodológica {- .unlisted}
 
-Los casos que siguen no son implementaciones del Decision Readiness Gate. El DRG, como se ha establecido en este libro, es una propuesta conceptual sin casos de implementación documentados.
+Los casos que siguen no son implementaciones del Decisión Readiness Gate. El DRG, como se ha establecido en este libro, es una propuesta conceptual sin casos de implementación documentados.
 
 Lo que sí ofrecen estos casos es evidencia indirecta. Son reinterpretaciones de eventos públicos bajo el lente de las ocho capacidades. La pregunta no es "¿funcionó el DRG?" sino "¿qué capacidades estaban presentes o ausentes, y cómo se relaciona eso con el resultado?"
 
