@@ -57,3 +57,4 @@ Si el lector implementa esto y funciona, deberia documentarlo internamente. El r
 En tres a cinco anos, el lector tendra evidencia propia. No evidencia publicable, pero suficiente para defender el mecanismo internamente, justificar su continuacion, y demostrar al directorio que la inversion en gobernanza produce retorno medible en perdidas evitadas.
 
 El caso publico que el lector buscaba al empezar este apendice quizas no exista. El caso que importa es el que el lector puede construir si decide implementar.
+

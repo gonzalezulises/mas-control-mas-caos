@@ -131,3 +131,4 @@ Hay un estado organizacional que emerge cuando este patrón de control intensifi
 En ese estado, la capacidad técnica reemplaza al contexto estratégico. La pregunta "podemos hacerlo" desplaza a la pregunta "conviene hacerlo". La velocidad de ejecución se confunde con la calidad de la decisión. Los instrumentos de navegación indican que todo está bien exactamente cuando el sistema se dirige hacia el precipicio.
 
 Los pilotos lo llaman "fijación instrumental": confiar tanto en los indicadores que se pierde contacto con la realidad externa que los indicadores supuestamente representan. En organizaciones, el fenómeno tiene un nombre que captura su naturaleza: Coding Trance. Y es la antesala del colapso que nadie dentro del sistema vio venir pero que era completamente predecible para quien entendiera la dinámica.
+

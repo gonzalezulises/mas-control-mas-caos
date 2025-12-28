@@ -111,3 +111,4 @@ El loop del poder que se describió al inicio de este libro, el ciclo de auto-am
 La protección contra el Coding Trance no viene de mejor tecnología, ni de personal más capacitado, ni de liderazgo más visionario. Viene de un mecanismo externo, verificable, con autoridad para intervenir antes de que sea demasiado tarde. Pero aquí surge la objeción previsible: ¿por qué externo? ¿No pueden las organizaciones crear sus propios mecanismos de límite? ¿No existen ya comités de revisión, gates de aprobación, instancias de gobernanza diseñadas precisamente para esto?
 
 Existen. Y sistemáticamente fallan. No por falta de diseño ni por deficiencia de las personas que los operan, sino por una asimetría estructural que hace que los límites internos se erosionen inevitablemente. Entender por qué esto ocurre es el paso previo a cualquier solución que pretenda funcionar.
+

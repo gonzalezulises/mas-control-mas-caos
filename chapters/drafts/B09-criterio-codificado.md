@@ -85,3 +85,4 @@ El lector que llega a este punto tiene el marco completo. Entiende el loop del p
 Lo que falta es la secuencia de implementación. No qué hacer, sino cómo empezar. No qué capacidades construir, sino en qué orden y con qué recursos. No por qué es necesario, sino qué hacer el lunes a las nueve de la mañana cuando el ejecutivo vuelva a su oficina.
 
 Eso es lo que sigue.
+

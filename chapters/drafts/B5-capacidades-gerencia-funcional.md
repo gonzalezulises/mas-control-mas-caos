@@ -200,3 +200,4 @@ Las capacidades de gerencia funcional no prometen infalibilidad. Prometen que la
 El costo de implementar estas capacidades es real: tiempo ejecutivo, fricción en iniciativas, resistencia política de quienes prefieren operar sin escrutinio. El costo de no implementarlas es mayor pero menos visible: iniciativas que destruyen valor, capital político erosionado, credibilidad institucional degradada, y la sensación persistente de que nadie controla realmente lo que ocurre. Las capacidades de gerencia funcional convierten el NO en resultado de arquitectura institucional. Dejan de depender de que alguien tenga el coraje de oponerse y empiezan a depender de que el sistema esté diseñado para producir veredictos que reflejen la realidad, no la política.
 
 Eso es lo que este libro llama gerencia funcional. No una herramienta. No una metodología. Un sistema de capacidades que permite a la organización gobernarse en lugar de ser gobernada por su propia inercia.
+

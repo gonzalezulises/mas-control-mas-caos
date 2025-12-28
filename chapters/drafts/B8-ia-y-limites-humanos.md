@@ -83,3 +83,4 @@ La IA no elimina el error humano. Elimina la excusa de no haberlo visto venir. P
 La organización que ha instituido el DRG como límite externo, que ha codificado su aprendizaje en criterios procedurales, que sabe producir veredictos negativos antes de que sea demasiado tarde, puede integrar IA de manera que amplifique sus fortalezas en lugar de sus debilidades. La organización que carece de estos mecanismos encontrará que la IA amplifica exactamente lo que menos quiere amplificar: las decisiones mal definidas, los sesgos no reconocidos, los límites humanos que nadie explicitó porque nadie pensó que sería necesario.
 
 Poner límites humanos explícitos no frena la IA. Evita que la IA acelere lo que nunca tendría que haber existido.
+

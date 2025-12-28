@@ -92,7 +92,7 @@ No es necesario esperar a tener el sistema perfecto. No es necesario conseguir a
 
 <!-- break -->
 
-## Precondiciones politicas
+## Precondiciones politicas {- .unlisted}
 
 El libro hasta aqui asume que existe voluntad de instalar el mecanismo. Esa voluntad no es automatica. Los beneficiarios del sistema actual, sponsors con acceso discrecional a recursos, ejecutivos cuyas iniciativas no enfrentan escrutinio, tienen incentivo racional de resistir. Instalar un gate es redistribucion de poder. Toda redistribucion de poder genera resistencia. Ignorar esta realidad es garantizar fracaso.
 
@@ -119,3 +119,4 @@ Antes de diseñar intervenciones, conviene saber dónde está parado. El Apéndi
 <!-- break -->
 
 Más poder crea más caos, no es una advertencia moral. Es una ley emergente. El caos no es el fallo del sistema. Es el síntoma de que el sistema ya superó la capacidad cognitiva de quienes lo controlan.
+

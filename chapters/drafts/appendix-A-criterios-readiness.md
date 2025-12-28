@@ -161,3 +161,4 @@ La quinta señal es cumplimiento de umbral justo por encima del mínimo. Cuando 
 El comité que opera el gate debe desarrollar sensibilidad para estas señales. El criterio codificado es necesario pero no suficiente. El juicio experto sobre la calidad del cumplimiento sigue siendo irreemplazable. El criterio protege al experto dándole base institucional para cuestionar; no lo reemplaza.
 
 <!-- block: proteccion -->
+

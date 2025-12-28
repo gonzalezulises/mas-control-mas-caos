@@ -147,3 +147,4 @@ Reconocer esta dinámica estructural te permite frenar o cuestionar una iniciati
 Tus iniciativas estratégicas actuales tienen loops de amplificación operando. Todas las organizaciones con capacidad real de acción en el mundo los tienen. Es una característica estructural, no un defecto corregible. Lo que determina el resultado final es si existen mecanismos genuinamente externos a esos loops —no capturados por ellos, no neutralizados por su inercia— con capacidad real y vinculante de producir un alto cuando sea necesario.
 
 El siguiente capítulo examina la respuesta instintiva típica cuando un ejecutivo percibe que algo en el sistema no está funcionando: aumentar el control interno. Más supervisión directa, más reportes frecuentes, más checkpoints intermedios, más capas de gobernanza y aprobación. Esa respuesta, lejos de resolver el problema del loop, lo acelera. El control adicional sin límite externo genuino es gasolina para el loop, no freno.
+

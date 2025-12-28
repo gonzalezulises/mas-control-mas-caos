@@ -10,7 +10,7 @@ Lo que sigue no es estándar certificable. Son derivaciones lógicas de lo que h
 
 <!-- block: alivio -->
 
-## Principios de diseño {-}
+## Principios de diseño {- .unlisted}
 
 Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño. Un gate puede violar alguna y funcionar; un gate que viola varias probablemente no funciona. El diseñador debe entender la lógica detrás de cada principio para saber cuándo puede flexibilizar y cuándo no.
 
@@ -30,7 +30,7 @@ Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño
 
 <!-- block: causa -->
 
-## Anti-patrones del gate {-}
+## Anti-patrones del gate {- .unlisted}
 
 Un anti-patrón es una configuración que parece razonable pero produce disfunción predecible. Cada anti-patrón tiene lógica que lo hace atractivo y consecuencia que lo hace destructivo.
 
@@ -50,7 +50,7 @@ Un anti-patrón es una configuración que parece razonable pero produce disfunci
 
 <!-- block: riesgo -->
 
-## Señales tempranas de captura {-}
+## Señales tempranas de captura {- .unlisted}
 
 La captura del gate no ocurre en un momento; se instala gradualmente. Estas señales son observables antes de que la captura sea completa. El ejecutivo que las detecta tiene ventana de intervención.
 
@@ -66,7 +66,7 @@ La captura del gate no ocurre en un momento; se instala gradualmente. Estas señ
 
 <!-- break -->
 
-## Indicadores de falsa estabilidad {-}
+## Indicadores de falsa estabilidad {- .unlisted}
 
 Un gate puede parecer estable porque existe, se reúne, produce veredictos y tiene registro documentado, mientras es funcionalmente inoperante. Estos indicadores revelan que la estabilidad es aparente.
 
@@ -108,3 +108,4 @@ La diferencia entre límite genuino y ceremonia de gobernanza es observable. Est
 | Falsa estabilidad | Ausencia | Gate no se menciona en decisiones reales |
 | Falsa estabilidad | Post-facto | Documentación se prepara después de decidir ejecutar |
 | Falsa estabilidad | Sin memoria | Nadie consulta veredictos previos |
+

@@ -44,3 +44,4 @@ El lector de este libro no es consumidor de recetas probadas. Es testigo tempran
 
 Este libro no intenta persuadir emocionalmente. Intenta posicionar intelectualmente. La incomodidad que produce es deliberada. Un libro sobre limites que no incomoda ha fracasado en su proposito.
 
+

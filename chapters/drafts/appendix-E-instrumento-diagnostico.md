@@ -1,12 +1,12 @@
 # Apéndice E: Instrumento de Diagnóstico
 
-## Propósito {-}
+## Propósito {- .unlisted}
 
 Este instrumento permite al lector evaluar el estado de las ocho capacidades de gerencia funcional en su organización. No es un test de personalidad ni una encuesta de percepción. Es una auditoría estructural basada en indicadores observables.
 
 El resultado no dice si la organización es "buena" o "mala". Dice qué capacidades existen, cuáles faltan, y dónde está el riesgo de que iniciativas mal planteadas avancen sin filtro.
 
-## Cómo usar este instrumento {-}
+## Cómo usar este instrumento {- .unlisted}
 
 Responda cada pregunta seleccionando la opción que mejor describe la situación actual de su organización. No responda cómo debería ser ni cómo era antes. Responda cómo es hoy.
 
@@ -16,7 +16,7 @@ El instrumento toma entre 15 y 25 minutos. Puede completarlo solo o con su equip
 
 ---
 
-## Sección 1: Delimitación explícita {-}
+## Sección 1: Delimitación explícita {- .unlisted}
 
 *¿Está claro qué decisiones requieren governance reforzado?*
 
@@ -76,7 +76,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 2: Criterio codificado {-}
+## Sección 2: Criterio codificado {- .unlisted}
 
 *¿El juicio está convertido en regla aplicable ANTES de evaluar casos específicos?*
 
@@ -136,7 +136,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 3: Gate institucional vinculante {-}
+## Sección 3: Gate institucional vinculante {- .unlisted}
 
 *¿El veredicto tiene consecuencias reales o es consultivo?*
 
@@ -198,7 +198,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 4: Protección política del NO {-}
+## Sección 4: Protección política del NO {- .unlisted}
 
 *¿Quien rechaza paga costo personal?*
 
@@ -258,7 +258,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 5: Separación patrocinio/veredicto {-}
+## Sección 5: Separación patrocinio/veredicto {- .unlisted}
 
 *¿Quien evalúa tiene interés en el resultado?*
 
@@ -318,7 +318,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 6: Registro irreversible {-}
+## Sección 6: Registro irreversible {- .unlisted}
 
 *¿La historia puede reescribirse?*
 
@@ -378,7 +378,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 7: Aprendizaje procedural {-}
+## Sección 7: Aprendizaje procedural {- .unlisted}
 
 *¿Los errores mejoran el criterio?*
 
@@ -438,7 +438,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 8: Revisión periódica {-}
+## Sección 8: Revisión periódica {- .unlisted}
 
 *¿El criterio se actualiza cuando cambian condiciones?*
 
@@ -498,9 +498,9 @@ Su respuesta: ____
 
 ---
 
-## Cálculo de resultados {-}
+## Cálculo de resultados {- .unlisted}
 
-### Paso 1: Calcule el puntaje por capacidad {-}
+### Paso 1: Calcule el puntaje por capacidad {- .unlisted}
 
 Transfiera los subtotales de cada sección:
 
@@ -517,13 +517,13 @@ Transfiera los subtotales de cada sección:
 
 *El puntaje normalizado va de 0 a 20 por capacidad.*
 
-### Paso 2: Calcule el puntaje global {-}
+### Paso 2: Calcule el puntaje global {- .unlisted}
 
 Sume los 8 puntajes normalizados y divida entre 1.6:
 
 **Puntaje global = (Suma de puntajes normalizados) / 1.6 = ____ / 100**
 
-### Paso 3: Identifique las brechas prioritarias {-}
+### Paso 3: Identifique las brechas prioritarias {- .unlisted}
 
 Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus brechas prioritarias.
 
@@ -535,9 +535,9 @@ Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus bre
 
 ---
 
-## Interpretación {-}
+## Interpretación {- .unlisted}
 
-### Por puntaje global {-}
+### Por puntaje global {- .unlisted}
 
 | Rango | Nivel | Significado |
 |-------|-------|-------------|
@@ -547,15 +547,15 @@ Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus bre
 | 61-80 | **Funcional** | El límite opera con brechas específicas. Las iniciativas pasan por escrutinio real, pero hay vulnerabilidades en capacidades débiles. |
 | 81-100 | **Institucionalizado** | El límite está arquitectado en el sistema. Funciona incluso bajo presión política porque las capacidades se refuerzan mutuamente. |
 
-### Regla crítica {-}
+### Regla crítica {- .unlisted}
 
 Si la Capacidad 3 (Gate vinculante) tiene puntaje menor a 10, el puntaje global es irrelevante. Un gate sin consecuencias no es un límite, independientemente de qué tan bien estén las otras capacidades.
 
 ---
 
-## Guía de acción por brecha {-}
+## Guía de acción por brecha {- .unlisted}
 
-### Si su brecha principal es Delimitación explícita (Capacidad 1) {-}
+### Si su brecha principal es Delimitación explícita (Capacidad 1) {- .unlisted}
 
 El problema es que no está claro qué pasa por el gate. Sin esta claridad, las iniciativas que deberían ser evaluadas se escapan, y las que no necesitan evaluación consumen recursos del gate.
 
@@ -563,7 +563,7 @@ El problema es que no está claro qué pasa por el gate. Sin esta claridad, las 
 
 **Señal de progreso:** Los sponsors saben antes de proponer si su iniciativa pasará por el gate.
 
-### Si su brecha principal es Criterio codificado (Capacidad 2) {-}
+### Si su brecha principal es Criterio codificado (Capacidad 2) {- .unlisted}
 
 El problema es que cada evaluación es juicio ad-hoc. Sin criterio previo, el veredicto depende de quién evalúa, no de qué se evalúa.
 
@@ -571,7 +571,7 @@ El problema es que cada evaluación es juicio ad-hoc. Sin criterio previo, el ve
 
 **Señal de progreso:** Dos evaluadores diferentes, evaluando la misma iniciativa, llegan al mismo veredicto.
 
-### Si su brecha principal es Gate vinculante (Capacidad 3) {-}
+### Si su brecha principal es Gate vinculante (Capacidad 3) {- .unlisted}
 
 El problema es que el gate no tiene consecuencias. Esto es crítico: sin esta capacidad, nada más importa.
 
@@ -579,7 +579,7 @@ El problema es que el gate no tiene consecuencias. Esto es crítico: sin esta ca
 
 **Señal de progreso:** Hay iniciativas rechazadas en el último año, y los recursos no fluyeron hacia ellas.
 
-### Si su brecha principal es Protección del NO (Capacidad 4) {-}
+### Si su brecha principal es Protección del NO (Capacidad 4) {- .unlisted}
 
 El problema es que rechazar tiene costo personal. Si decir NO es políticamente peligroso, nadie dirá NO.
 
@@ -587,7 +587,7 @@ El problema es que rechazar tiene costo personal. Si decir NO es políticamente 
 
 **Señal de progreso:** Hay ejemplos internos de personas que rechazaron iniciativas y fueron reconocidas por ello.
 
-### Si su brecha principal es Separación patrocinio/veredicto (Capacidad 5) {-}
+### Si su brecha principal es Separación patrocinio/veredicto (Capacidad 5) {- .unlisted}
 
 El problema es conflicto de interés estructural. Si quienes evalúan se benefician de aprobar, aprobarán.
 
@@ -595,7 +595,7 @@ El problema es conflicto de interés estructural. Si quienes evalúan se benefic
 
 **Señal de progreso:** Los evaluadores no tienen relación jerárquica ni financiera con los sponsors.
 
-### Si su brecha principal es Registro irreversible (Capacidad 6) {-}
+### Si su brecha principal es Registro irreversible (Capacidad 6) {- .unlisted}
 
 El problema es que la historia se puede reescribir. Sin registro permanente, no hay aprendizaje ni accountability.
 
@@ -603,7 +603,7 @@ El problema es que la historia se puede reescribir. Sin registro permanente, no 
 
 **Señal de progreso:** Puede acceder al registro de veredictos de hace dos años y comparar proyecciones con resultados.
 
-### Si su brecha principal es Aprendizaje procedural (Capacidad 7) {-}
+### Si su brecha principal es Aprendizaje procedural (Capacidad 7) {- .unlisted}
 
 El problema es que los errores no mejoran el criterio. El gate comete los mismos errores porque no tiene mecanismo de feedback.
 
@@ -611,7 +611,7 @@ El problema es que los errores no mejoran el criterio. El gate comete los mismos
 
 **Señal de progreso:** Los criterios actuales reflejan lecciones de iniciativas pasadas que no funcionaron como se esperaba.
 
-### Si su brecha principal es Revisión periódica (Capacidad 8) {-}
+### Si su brecha principal es Revisión periódica (Capacidad 8) {- .unlisted}
 
 El problema es que el criterio no evoluciona. Los criterios que funcionaban hace tres años pueden ser obsoletos hoy.
 
@@ -621,7 +621,7 @@ El problema es que el criterio no evoluciona. Los criterios que funcionaban hace
 
 ---
 
-## Uso del instrumento en equipo {-}
+## Uso del instrumento en equipo {- .unlisted}
 
 Este instrumento es más valioso cuando se completa en grupo. El proceso recomendado:
 
@@ -631,3 +631,4 @@ Este instrumento es más valioso cuando se completa en grupo. El proceso recomen
 4. La discusión de las discrepancias es más valiosa que el puntaje final.
 
 Las organizaciones donde todos dan puntajes similares tienen una de dos situaciones: o el equipo tiene visibilidad compartida de la realidad, o todos están igualmente ciegos. La única forma de distinguirlas es contrastar los puntajes con evidencia observable.
+

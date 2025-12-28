@@ -44,6 +44,7 @@ El lector de este libro no es consumidor de recetas probadas. Es testigo tempran
 
 Este libro no intenta persuadir emocionalmente. Intenta posicionar intelectualmente. La incomodidad que produce es deliberada. Un libro sobre limites que no incomoda ha fracasado en su proposito.
 
+
 # El loop del poder
 
 <!-- block: reconocimiento -->
@@ -193,6 +194,7 @@ Reconocer esta dinámica estructural te permite frenar o cuestionar una iniciati
 Tus iniciativas estratégicas actuales tienen loops de amplificación operando. Todas las organizaciones con capacidad real de acción en el mundo los tienen. Es una característica estructural, no un defecto corregible. Lo que determina el resultado final es si existen mecanismos genuinamente externos a esos loops —no capturados por ellos, no neutralizados por su inercia— con capacidad real y vinculante de producir un alto cuando sea necesario.
 
 El siguiente capítulo examina la respuesta instintiva típica cuando un ejecutivo percibe que algo en el sistema no está funcionando: aumentar el control interno. Más supervisión directa, más reportes frecuentes, más checkpoints intermedios, más capas de gobernanza y aprobación. Esa respuesta, lejos de resolver el problema del loop, lo acelera. El control adicional sin límite externo genuino es gasolina para el loop, no freno.
+
 # Control ≠ estabilidad
 
 <!-- block: reconocimiento -->
@@ -326,6 +328,7 @@ Hay un estado organizacional que emerge cuando este patrón de control intensifi
 En ese estado, la capacidad técnica reemplaza al contexto estratégico. La pregunta "podemos hacerlo" desplaza a la pregunta "conviene hacerlo". La velocidad de ejecución se confunde con la calidad de la decisión. Los instrumentos de navegación indican que todo está bien exactamente cuando el sistema se dirige hacia el precipicio.
 
 Los pilotos lo llaman "fijación instrumental": confiar tanto en los indicadores que se pierde contacto con la realidad externa que los indicadores supuestamente representan. En organizaciones, el fenómeno tiene un nombre que captura su naturaleza: Coding Trance. Y es la antesala del colapso que nadie dentro del sistema vio venir pero que era completamente predecible para quien entendiera la dinámica.
+
 # Coding Trance
 
 <!-- block: reconocimiento -->
@@ -439,6 +442,7 @@ El loop del poder que se describió al inicio de este libro, el ciclo de auto-am
 La protección contra el Coding Trance no viene de mejor tecnología, ni de personal más capacitado, ni de liderazgo más visionario. Viene de un mecanismo externo, verificable, con autoridad para intervenir antes de que sea demasiado tarde. Pero aquí surge la objeción previsible: ¿por qué externo? ¿No pueden las organizaciones crear sus propios mecanismos de límite? ¿No existen ya comités de revisión, gates de aprobación, instancias de gobernanza diseñadas precisamente para esto?
 
 Existen. Y sistemáticamente fallan. No por falta de diseño ni por deficiencia de las personas que los operan, sino por una asimetría estructural que hace que los límites internos se erosionen inevitablemente. Entender por qué esto ocurre es el paso previo a cualquier solución que pretenda funcionar.
+
 # Los sistemas no se auto-limitan
 
 <!-- block: reconocimiento -->
@@ -550,6 +554,7 @@ El ejecutivo que comprende que el sistema no puede limitarse a sí mismo deja de
 La protección real no viene de más control interno. Viene de aceptar que el control interno tiene límites estructurales insuperables, y de construir algo que opere más allá de esos límites.
 
 El siguiente capítulo describe ese mecanismo.
+
 # Capacidades de la Gerencia Funcional
 
 <!-- block: reconocimiento -->
@@ -752,6 +757,7 @@ Las capacidades de gerencia funcional no prometen infalibilidad. Prometen que la
 El costo de implementar estas capacidades es real: tiempo ejecutivo, fricción en iniciativas, resistencia política de quienes prefieren operar sin escrutinio. El costo de no implementarlas es mayor pero menos visible: iniciativas que destruyen valor, capital político erosionado, credibilidad institucional degradada, y la sensación persistente de que nadie controla realmente lo que ocurre. Las capacidades de gerencia funcional convierten el NO en resultado de arquitectura institucional. Dejan de depender de que alguien tenga el coraje de oponerse y empiezan a depender de que el sistema esté diseñado para producir veredictos que reflejen la realidad, no la política.
 
 Eso es lo que este libro llama gerencia funcional. No una herramienta. No una metodología. Un sistema de capacidades que permite a la organización gobernarse en lugar de ser gobernada por su propia inercia.
+
 # Anatomia del Gate
 
 <!-- block: reconocimiento -->
@@ -873,6 +879,7 @@ La eleccion entre modelos no es cuestion de mejor practica universal sino de dia
 El gate no elimina el riesgo de que iniciativas fallen. No es herramienta de prediccion ni garantia de exito. Es mecanismo que asegura que las iniciativas que fallan fallaron despues de evaluacion rigurosa, no porque nadie tuvo la capacidad institucional de evaluarlas. Es la diferencia entre error informado y error por omision. Entre riesgo asumido conscientemente y riesgo invisible que nadie calculo. Entre una organizacion que se gobierna y una que es gobernada por su propia inercia.
 
 Lo que este capitulo describio es la anatomia del mecanismo. Pero describir la anatomia no es garantizar el funcionamiento. Un gate puede tener todos los componentes formales y aun asi fallar. Lo que sigue es la anticipacion de esos modos de falla: como reconocerlos antes de que el dano se acumule.
+
 # Cuando el limite falla
 
 <!-- block: reconocimiento -->
@@ -999,7 +1006,7 @@ Lo que sigue en el libro no es promesa de exito asegurado. Es evidencia de que e
 
 <!-- break -->
 
-## Cuando el poder decide no aceptar limites
+## Cuando el poder decide no aceptar limites {- .unlisted}
 
 Todo lo anterior asume que el gate opera dentro de un sistema que acepta, aunque sea a reganadientes, la legitimidad de los limites institucionales. Los patrones de captura descritos son graduales y frecuentemente inconscientes. Los actores no deciden capturar el gate; la captura emerge de incentivos estructurales, de decisiones pequenas que se acumulan, de erosion que nadie planeo pero que todos toleraron.
 
@@ -1014,6 +1021,7 @@ Lo unico que el gate puede hacer ante destruccion activa es documentar. Asegurar
 La implicacion para el lector es incomoda pero necesaria. El gate funciona cuando hay voluntad institucional minima de someterse a limites. Esa voluntad puede ser reluctante, incomoda, politicamente costosa de mantener. Pero debe existir. Donde no existe, donde el poder ha decidido que no tolerara restricciones a su discrecionalidad, ningun mecanismo de gobernanza funciona. Ni este ni ninguno otro.
 
 El lector que opera en ese contexto no encontrara aqui solucion. Encontrara claridad sobre por que no hay solucion disponible. Y esa claridad, aunque no resuelve el problema, al menos evita la ilusion de que existe herramienta que pueda forzar limites sobre quien tiene el poder de rechazarlos. Reconocer el limite de lo que cualquier mecanismo puede lograr es mas util que pretender que ese limite no existe.
+
 # Casos donde decir NO fue éxito
 
 <!-- block: reconocimiento -->
@@ -1111,6 +1119,7 @@ El ejecutivo que entiende que evitar ejecución puede ser el mayor retorno sobre
 El loop de amplificación organizacional que este libro describe se corta temprano o se corta tarde. Cortarlo temprano, antes de que la inercia de ejecución haga que detener sea más costoso que continuar, preserva todo: recursos, reputación, confianza, capacidad. Cortarlo tarde, cuando el fracaso es visible y los costos ya fueron incurridos, deja cicatrices que toman años en sanar y que afectan la disposición organizacional a intentar cosas nuevas en el futuro.
 
 El DRG es el mecanismo que permite cortar temprano de manera consistente, protegida y documentada. Su valor no está en las iniciativas que aprueba, aunque esas aprobaciones otorgan cobertura ejecutiva real a quienes las reciben. Su valor está en los veredictos negativos que produce antes de que sea demasiado tarde. Decir NO no fue un acto prudente ni una buena práctica gerencial. Fue asumir una responsabilidad que otros prefirieron postergar, y documentarla con nombre y criterio visible. Esa es la diferencia entre gobernanza real y la ilusión de gobernanza.
+
 # El aprendizaje no es individual: es grupal y procedural
 
 <!-- block: reconocimiento -->
@@ -1182,6 +1191,7 @@ La protección real para el ejecutivo no está en tener personas experimentadas 
 El aprendizaje que protege es el que ya no puede olvidarse porque no reside en memorias individuales sino en procedimientos institucionales. Cuando el sistema ya no puede repetir un error porque el gate tiene un criterio que lo detecta automáticamente, ahí hay aprendizaje real. Cuando el sistema puede repetir el error cada vez que no está presente la persona correcta con el recuerdo correcto, ahí hay solo la ilusión de haber aprendido.
 
 La diferencia entre organizaciones que repiten errores y organizaciones que evolucionan no está en la calidad de sus retrospectivas ni en el compromiso de su gente. Está en si el conocimiento adquirido de experiencias pasadas se codifica en mecanismos que afectan decisiones futuras de manera obligatoria. El DRG es ese mecanismo cuando opera con criterios que incorporan aprendizaje acumulado. Y cuando opera así, no solo protege decisiones: reduce la carga que de otro modo recaería sobre personas. Esa reducción de carga es el único fundamento real de estabilidad organizacional sostenible. Sin aprendizaje procedural, cada decisión es una apuesta y cada persona una variable de riesgo. Eso no es gestión. Es exposición sistemática disfrazada de operación normal.
+
 # IA y los límites humanos
 
 <!-- block: reconocimiento -->
@@ -1267,6 +1277,7 @@ La IA no elimina el error humano. Elimina la excusa de no haberlo visto venir. P
 La organización que ha instituido el DRG como límite externo, que ha codificado su aprendizaje en criterios procedurales, que sabe producir veredictos negativos antes de que sea demasiado tarde, puede integrar IA de manera que amplifique sus fortalezas en lugar de sus debilidades. La organización que carece de estos mecanismos encontrará que la IA amplifica exactamente lo que menos quiere amplificar: las decisiones mal definidas, los sesgos no reconocidos, los límites humanos que nadie explicitó porque nadie pensó que sería necesario.
 
 Poner límites humanos explícitos no frena la IA. Evita que la IA acelere lo que nunca tendría que haber existido.
+
 # Criterio codificado
 
 <!-- block: reconocimiento -->
@@ -1354,6 +1365,7 @@ El lector que llega a este punto tiene el marco completo. Entiende el loop del p
 Lo que falta es la secuencia de implementación. No qué hacer, sino cómo empezar. No qué capacidades construir, sino en qué orden y con qué recursos. No por qué es necesario, sino qué hacer el lunes a las nueve de la mañana cuando el ejecutivo vuelva a su oficina.
 
 Eso es lo que sigue.
+
 # Implementación
 
 <!-- block: reconocimiento -->
@@ -1448,7 +1460,7 @@ No es necesario esperar a tener el sistema perfecto. No es necesario conseguir a
 
 <!-- break -->
 
-## Precondiciones politicas
+## Precondiciones politicas {- .unlisted}
 
 El libro hasta aqui asume que existe voluntad de instalar el mecanismo. Esa voluntad no es automatica. Los beneficiarios del sistema actual, sponsors con acceso discrecional a recursos, ejecutivos cuyas iniciativas no enfrentan escrutinio, tienen incentivo racional de resistir. Instalar un gate es redistribucion de poder. Toda redistribucion de poder genera resistencia. Ignorar esta realidad es garantizar fracaso.
 
@@ -1475,6 +1487,7 @@ Antes de diseñar intervenciones, conviene saber dónde está parado. El Apéndi
 <!-- break -->
 
 Más poder crea más caos, no es una advertencia moral. Es una ley emergente. El caos no es el fallo del sistema. Es el síntoma de que el sistema ya superó la capacidad cognitiva de quienes lo controlan.
+
 # Apéndice A: Criterios de Readiness por Tipo de Iniciativa
 
 <!-- block: reconocimiento -->
@@ -1638,6 +1651,7 @@ La quinta señal es cumplimiento de umbral justo por encima del mínimo. Cuando 
 El comité que opera el gate debe desarrollar sensibilidad para estas señales. El criterio codificado es necesario pero no suficiente. El juicio experto sobre la calidad del cumplimiento sigue siendo irreemplazable. El criterio protege al experto dándole base institucional para cuestionar; no lo reemplaza.
 
 <!-- block: proteccion -->
+
 # Apéndice B: Por que no hay casos publicos
 
 <!-- block: reconocimiento -->
@@ -1697,6 +1711,7 @@ Si el lector implementa esto y funciona, deberia documentarlo internamente. El r
 En tres a cinco anos, el lector tendra evidencia propia. No evidencia publicable, pero suficiente para defender el mecanismo internamente, justificar su continuacion, y demostrar al directorio que la inversion en gobernanza produce retorno medible en perdidas evitadas.
 
 El caso publico que el lector buscaba al empezar este apendice quizas no exista. El caso que importa es el que el lector puede construir si decide implementar.
+
 # Apéndice C: Convergencias
 
 <!-- block: reconocimiento -->
@@ -1711,7 +1726,7 @@ El lector familiarizado con estos marcos encontrará conexiones que enriquecen l
 
 <!-- break -->
 
-## High Reliability Organizations {-}
+## High Reliability Organizations {- .unlisted}
 
 La tradición HRO estudia organizaciones que operan en entornos de alto riesgo y logran tasas de accidente extraordinariamente bajas: portaaviones, plantas nucleares, control de tráfico aéreo, salas de emergencia. Karl Weick, Kathleen Sutcliffe y sus colaboradores (Weick & Sutcliffe, 2015) identificaron propiedades compartidas que distinguen a estas organizaciones de sus pares menos confiables.
 
@@ -1723,7 +1738,7 @@ HRO resuelve algo que este libro no intenta: comprensión profunda de cómo func
 
 <!-- break -->
 
-## Cynefin {-}
+## Cynefin {- .unlisted}
 
 Cynefin es marco de sensemaking desarrollado por Dave Snowden (Snowden & Boone, 2007) que distingue cinco dominios: simple, complicado, complejo, caótico y confuso. El argumento central es que cada dominio requiere respuestas diferentes, y que aplicar prácticas apropiadas para un dominio en otro produce fracaso sistemático.
 
@@ -1737,7 +1752,7 @@ Cynefin resuelve algo que este libro no intenta: diagnóstico de dominio, cómo 
 
 <!-- block: causa -->
 
-## Viable System Model {-}
+## Viable System Model {- .unlisted}
 
 El Modelo de Sistema Viable de Stafford Beer (Beer, 1972) es construcción cibernética que describe la estructura mínima necesaria para que un sistema sea viable, capaz de mantener existencia independiente en entorno cambiante. Propone cinco sistemas recursivos que toda organización viable debe tener, desde operaciones básicas hasta meta-sistema que mantiene identidad y dirección.
 
@@ -1749,7 +1764,7 @@ VSM resuelve algo que este libro no intenta: teoría completa de cómo debe estr
 
 <!-- break -->
 
-## Normal Accidents {-}
+## Normal Accidents {- .unlisted}
 
 Charles Perrow desarrolló la teoría de accidentes normales (Perrow, 1984) estudiando el accidente de Three Mile Island y otros fracasos en sistemas tecnológicos complejos. Su argumento central es incómodo: en sistemas con acoplamiento estrecho e interacción compleja, los accidentes son inevitables independientemente de la competencia de los operadores. Son normales en el sentido estadístico, no moral.
 
@@ -1763,7 +1778,7 @@ Perrow resuelve algo que este libro no intenta: explicación teórica rigurosa d
 
 <!-- block: riesgo -->
 
-## Agile Gobernanza {-}
+## Agile Gobernanza {- .unlisted}
 
 Agile gobernanza es conjunto de prácticas que aplican principios ágiles a gobernanza organizacional y de proyectos: iteración en lugar de planificación exhaustiva, feedback rápido en lugar de revisiones periódicas, decisión incremental en lugar de compromiso upfront, adaptación continua en lugar de adherencia a plan.
 
@@ -1775,7 +1790,7 @@ Agile gobernanza resuelve algo que este libro no intenta: cómo ejecutar iniciat
 
 <!-- break -->
 
-## Antifragilidad {-}
+## Antifragilidad {- .unlisted}
 
 Nassim Taleb introdujo el concepto de antifragilidad (Taleb, 2012) para describir sistemas que no solo resisten la volatilidad sino que se fortalecen con ella. Distingue tres categorías: frágil (dañado por volatilidad), robusto (indiferente a volatilidad) y antifrágil (fortalecido por volatilidad). El argumento es que la mayoría de los sistemas organizacionales son frágiles disfrazados de robustos.
 
@@ -1805,6 +1820,7 @@ El Decision Readiness Gate no reemplaza ninguno de estos marcos. Los presupone c
 | Normal Accidents | Accidentes como propiedad sistémica, no falla individual | Perrow diagnostica inevitabilidad sin contramedida | Detección temprana, no eliminación del riesgo |
 | Agile Gobernanza | Iteración, feedback, adaptación continua | Agile optimiza ejecución post-aprobación | Filtro antes de entrar en ejecución |
 | Antifragilidad | Fragilidad oculta, skin in the game | Taleb da principios generales abstractos | Implementación específica en gobernanza de iniciativas |
+
 # Apéndice D: Diseño y anti-patrones del gate
 
 <!-- block: reconocimiento -->
@@ -1817,7 +1833,7 @@ Lo que sigue no es estándar certificable. Son derivaciones lógicas de lo que h
 
 <!-- block: alivio -->
 
-## Principios de diseño {-}
+## Principios de diseño {- .unlisted}
 
 Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño. Un gate puede violar alguna y funcionar; un gate que viola varias probablemente no funciona. El diseñador debe entender la lógica detrás de cada principio para saber cuándo puede flexibilizar y cuándo no.
 
@@ -1837,7 +1853,7 @@ Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño
 
 <!-- block: causa -->
 
-## Anti-patrones del gate {-}
+## Anti-patrones del gate {- .unlisted}
 
 Un anti-patrón es una configuración que parece razonable pero produce disfunción predecible. Cada anti-patrón tiene lógica que lo hace atractivo y consecuencia que lo hace destructivo.
 
@@ -1857,7 +1873,7 @@ Un anti-patrón es una configuración que parece razonable pero produce disfunci
 
 <!-- block: riesgo -->
 
-## Señales tempranas de captura {-}
+## Señales tempranas de captura {- .unlisted}
 
 La captura del gate no ocurre en un momento; se instala gradualmente. Estas señales son observables antes de que la captura sea completa. El ejecutivo que las detecta tiene ventana de intervención.
 
@@ -1873,7 +1889,7 @@ La captura del gate no ocurre en un momento; se instala gradualmente. Estas señ
 
 <!-- break -->
 
-## Indicadores de falsa estabilidad {-}
+## Indicadores de falsa estabilidad {- .unlisted}
 
 Un gate puede parecer estable porque existe, se reúne, produce veredictos y tiene registro documentado, mientras es funcionalmente inoperante. Estos indicadores revelan que la estabilidad es aparente.
 
@@ -1915,15 +1931,16 @@ La diferencia entre límite genuino y ceremonia de gobernanza es observable. Est
 | Falsa estabilidad | Ausencia | Gate no se menciona en decisiones reales |
 | Falsa estabilidad | Post-facto | Documentación se prepara después de decidir ejecutar |
 | Falsa estabilidad | Sin memoria | Nadie consulta veredictos previos |
+
 # Apéndice E: Instrumento de Diagnóstico
 
-## Propósito {-}
+## Propósito {- .unlisted}
 
 Este instrumento permite al lector evaluar el estado de las ocho capacidades de gerencia funcional en su organización. No es un test de personalidad ni una encuesta de percepción. Es una auditoría estructural basada en indicadores observables.
 
 El resultado no dice si la organización es "buena" o "mala". Dice qué capacidades existen, cuáles faltan, y dónde está el riesgo de que iniciativas mal planteadas avancen sin filtro.
 
-## Cómo usar este instrumento {-}
+## Cómo usar este instrumento {- .unlisted}
 
 Responda cada pregunta seleccionando la opción que mejor describe la situación actual de su organización. No responda cómo debería ser ni cómo era antes. Responda cómo es hoy.
 
@@ -1933,7 +1950,7 @@ El instrumento toma entre 15 y 25 minutos. Puede completarlo solo o con su equip
 
 ---
 
-## Sección 1: Delimitación explícita {-}
+## Sección 1: Delimitación explícita {- .unlisted}
 
 *¿Está claro qué decisiones requieren governance reforzado?*
 
@@ -1993,7 +2010,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 2: Criterio codificado {-}
+## Sección 2: Criterio codificado {- .unlisted}
 
 *¿El juicio está convertido en regla aplicable ANTES de evaluar casos específicos?*
 
@@ -2053,7 +2070,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 3: Gate institucional vinculante {-}
+## Sección 3: Gate institucional vinculante {- .unlisted}
 
 *¿El veredicto tiene consecuencias reales o es consultivo?*
 
@@ -2115,7 +2132,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 4: Protección política del NO {-}
+## Sección 4: Protección política del NO {- .unlisted}
 
 *¿Quien rechaza paga costo personal?*
 
@@ -2175,7 +2192,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 5: Separación patrocinio/veredicto {-}
+## Sección 5: Separación patrocinio/veredicto {- .unlisted}
 
 *¿Quien evalúa tiene interés en el resultado?*
 
@@ -2235,7 +2252,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 6: Registro irreversible {-}
+## Sección 6: Registro irreversible {- .unlisted}
 
 *¿La historia puede reescribirse?*
 
@@ -2295,7 +2312,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 7: Aprendizaje procedural {-}
+## Sección 7: Aprendizaje procedural {- .unlisted}
 
 *¿Los errores mejoran el criterio?*
 
@@ -2355,7 +2372,7 @@ Su respuesta: ____
 
 ---
 
-## Sección 8: Revisión periódica {-}
+## Sección 8: Revisión periódica {- .unlisted}
 
 *¿El criterio se actualiza cuando cambian condiciones?*
 
@@ -2415,9 +2432,9 @@ Su respuesta: ____
 
 ---
 
-## Cálculo de resultados {-}
+## Cálculo de resultados {- .unlisted}
 
-### Paso 1: Calcule el puntaje por capacidad {-}
+### Paso 1: Calcule el puntaje por capacidad {- .unlisted}
 
 Transfiera los subtotales de cada sección:
 
@@ -2434,13 +2451,13 @@ Transfiera los subtotales de cada sección:
 
 *El puntaje normalizado va de 0 a 20 por capacidad.*
 
-### Paso 2: Calcule el puntaje global {-}
+### Paso 2: Calcule el puntaje global {- .unlisted}
 
 Sume los 8 puntajes normalizados y divida entre 1.6:
 
 **Puntaje global = (Suma de puntajes normalizados) / 1.6 = ____ / 100**
 
-### Paso 3: Identifique las brechas prioritarias {-}
+### Paso 3: Identifique las brechas prioritarias {- .unlisted}
 
 Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus brechas prioritarias.
 
@@ -2452,9 +2469,9 @@ Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus bre
 
 ---
 
-## Interpretación {-}
+## Interpretación {- .unlisted}
 
-### Por puntaje global {-}
+### Por puntaje global {- .unlisted}
 
 | Rango | Nivel | Significado |
 |-------|-------|-------------|
@@ -2464,15 +2481,15 @@ Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus bre
 | 61-80 | **Funcional** | El límite opera con brechas específicas. Las iniciativas pasan por escrutinio real, pero hay vulnerabilidades en capacidades débiles. |
 | 81-100 | **Institucionalizado** | El límite está arquitectado en el sistema. Funciona incluso bajo presión política porque las capacidades se refuerzan mutuamente. |
 
-### Regla crítica {-}
+### Regla crítica {- .unlisted}
 
 Si la Capacidad 3 (Gate vinculante) tiene puntaje menor a 10, el puntaje global es irrelevante. Un gate sin consecuencias no es un límite, independientemente de qué tan bien estén las otras capacidades.
 
 ---
 
-## Guía de acción por brecha {-}
+## Guía de acción por brecha {- .unlisted}
 
-### Si su brecha principal es Delimitación explícita (Capacidad 1) {-}
+### Si su brecha principal es Delimitación explícita (Capacidad 1) {- .unlisted}
 
 El problema es que no está claro qué pasa por el gate. Sin esta claridad, las iniciativas que deberían ser evaluadas se escapan, y las que no necesitan evaluación consumen recursos del gate.
 
@@ -2480,7 +2497,7 @@ El problema es que no está claro qué pasa por el gate. Sin esta claridad, las 
 
 **Señal de progreso:** Los sponsors saben antes de proponer si su iniciativa pasará por el gate.
 
-### Si su brecha principal es Criterio codificado (Capacidad 2) {-}
+### Si su brecha principal es Criterio codificado (Capacidad 2) {- .unlisted}
 
 El problema es que cada evaluación es juicio ad-hoc. Sin criterio previo, el veredicto depende de quién evalúa, no de qué se evalúa.
 
@@ -2488,7 +2505,7 @@ El problema es que cada evaluación es juicio ad-hoc. Sin criterio previo, el ve
 
 **Señal de progreso:** Dos evaluadores diferentes, evaluando la misma iniciativa, llegan al mismo veredicto.
 
-### Si su brecha principal es Gate vinculante (Capacidad 3) {-}
+### Si su brecha principal es Gate vinculante (Capacidad 3) {- .unlisted}
 
 El problema es que el gate no tiene consecuencias. Esto es crítico: sin esta capacidad, nada más importa.
 
@@ -2496,7 +2513,7 @@ El problema es que el gate no tiene consecuencias. Esto es crítico: sin esta ca
 
 **Señal de progreso:** Hay iniciativas rechazadas en el último año, y los recursos no fluyeron hacia ellas.
 
-### Si su brecha principal es Protección del NO (Capacidad 4) {-}
+### Si su brecha principal es Protección del NO (Capacidad 4) {- .unlisted}
 
 El problema es que rechazar tiene costo personal. Si decir NO es políticamente peligroso, nadie dirá NO.
 
@@ -2504,7 +2521,7 @@ El problema es que rechazar tiene costo personal. Si decir NO es políticamente 
 
 **Señal de progreso:** Hay ejemplos internos de personas que rechazaron iniciativas y fueron reconocidas por ello.
 
-### Si su brecha principal es Separación patrocinio/veredicto (Capacidad 5) {-}
+### Si su brecha principal es Separación patrocinio/veredicto (Capacidad 5) {- .unlisted}
 
 El problema es conflicto de interés estructural. Si quienes evalúan se benefician de aprobar, aprobarán.
 
@@ -2512,7 +2529,7 @@ El problema es conflicto de interés estructural. Si quienes evalúan se benefic
 
 **Señal de progreso:** Los evaluadores no tienen relación jerárquica ni financiera con los sponsors.
 
-### Si su brecha principal es Registro irreversible (Capacidad 6) {-}
+### Si su brecha principal es Registro irreversible (Capacidad 6) {- .unlisted}
 
 El problema es que la historia se puede reescribir. Sin registro permanente, no hay aprendizaje ni accountability.
 
@@ -2520,7 +2537,7 @@ El problema es que la historia se puede reescribir. Sin registro permanente, no 
 
 **Señal de progreso:** Puede acceder al registro de veredictos de hace dos años y comparar proyecciones con resultados.
 
-### Si su brecha principal es Aprendizaje procedural (Capacidad 7) {-}
+### Si su brecha principal es Aprendizaje procedural (Capacidad 7) {- .unlisted}
 
 El problema es que los errores no mejoran el criterio. El gate comete los mismos errores porque no tiene mecanismo de feedback.
 
@@ -2528,7 +2545,7 @@ El problema es que los errores no mejoran el criterio. El gate comete los mismos
 
 **Señal de progreso:** Los criterios actuales reflejan lecciones de iniciativas pasadas que no funcionaron como se esperaba.
 
-### Si su brecha principal es Revisión periódica (Capacidad 8) {-}
+### Si su brecha principal es Revisión periódica (Capacidad 8) {- .unlisted}
 
 El problema es que el criterio no evoluciona. Los criterios que funcionaban hace tres años pueden ser obsoletos hoy.
 
@@ -2538,7 +2555,7 @@ El problema es que el criterio no evoluciona. Los criterios que funcionaban hace
 
 ---
 
-## Uso del instrumento en equipo {-}
+## Uso del instrumento en equipo {- .unlisted}
 
 Este instrumento es más valioso cuando se completa en grupo. El proceso recomendado:
 
@@ -2548,9 +2565,10 @@ Este instrumento es más valioso cuando se completa en grupo. El proceso recomen
 4. La discusión de las discrepancias es más valiosa que el puntaje final.
 
 Las organizaciones donde todos dan puntajes similares tienen una de dos situaciones: o el equipo tiene visibilidad compartida de la realidad, o todos están igualmente ciegos. La única forma de distinguirlas es contrastar los puntajes con evidencia observable.
+
 # Apéndice F: Casos de Referencia
 
-## Nota metodológica {-}
+## Nota metodológica {- .unlisted}
 
 Los casos que siguen no son implementaciones del Decision Readiness Gate. El DRG, como se ha establecido en este libro, es una propuesta conceptual sin casos de implementación documentados.
 
@@ -2560,15 +2578,15 @@ El lector puede verificar la lógica contra las fuentes citadas. Si la interpret
 
 ---
 
-## Caso 1: Toyota y el Sistema Andon {-}
+## Caso 1: Toyota y el Sistema Andon {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 Toyota desarrolló un sistema donde cualquier trabajador de línea puede detener la producción completa al detectar una anomalía. Este mecanismo, conocido como Andon, representa un límite externo arquitectado en el diseño físico del sistema productivo: el poder de detener no depende de autorización jerárquica ni de deliberación política.
 
 Durante décadas, este sistema funcionó como filtro efectivo de defectos. En 2009-2010, la crisis de aceleradores atascados reveló que algunas capacidades se habían erosionado sin que el sistema lo detectara. El caso ilustra tanto el funcionamiento del límite como sus modos de falla.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 El Sistema de Producción Toyota emergió en las décadas de 1950-1970 como respuesta a restricciones específicas: capital limitado, mercado pequeño, necesidad de flexibilidad. Taiichi Ohno y sus colaboradores desarrollaron prácticas que minimizaban inventario y maximizaban detección temprana de problemas.
 
@@ -2576,7 +2594,7 @@ El Andon no fue diseñado como herramienta de governance. Fue diseñado como her
 
 La filosofía subyacente, codificada en documentos internos y prácticas de entrenamiento, establece que detener la línea ante la duda es correcto; dejar pasar un defecto es incorrecto. El costo de una parada es visible e inmediato. El costo de un defecto que llega al cliente es mayor pero diferido. El sistema resuelve esta asimetría haciendo que la parada no tenga costo personal para quien la activa.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — PRESENTE**
 
@@ -2610,7 +2628,7 @@ El proceso Kaizen incorpora las lecciones de cada parada. Los problemas detectad
 
 Los estándares de trabajo se revisan continuamente. No hay criterio fijo que permanezca inmutable por años. La evolución es parte del diseño.
 
-### La erosión de 2009-2010 {-}
+### La erosión de 2009-2010 {- .unlisted}
 
 Entre 2009 y 2010, Toyota enfrentó una crisis que resultó en el recall de más de 8 millones de vehículos por problemas de aceleración involuntaria. Las investigaciones posteriores revelaron que ingenieros internos habían documentado preocupaciones sobre el diseño del pedal y la interacción con los tapetes, pero estas preocupaciones no activaron el mismo tipo de respuesta que una anomalía en la línea de producción.
 
@@ -2622,7 +2640,7 @@ Entre 2009 y 2010, Toyota enfrentó una crisis que resultó en el recall de más
 
 **Separación patrocinio/veredicto se debilitó.** A medida que Toyota creció y se globalizó, las presiones de volumen y costo se hicieron más intensas. Los equipos que evaluaban problemas de proveedores tenían incentivos mixtos que no existían en el piso de producción original.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 El Andon funciona cuando las ocho capacidades están arquitectadas en el sistema y cuando el alcance del límite coincide con el alcance del riesgo. La crisis de 2009-2010 muestra que un límite efectivo puede erosionarse gradualmente cuando:
 
@@ -2634,15 +2652,15 @@ Para el lector: ¿El alcance de sus mecanismos de límite coincide con el alcanc
 
 ---
 
-## Caso 2: Johnson & Johnson y el Credo como criterio previo {-}
+## Caso 2: Johnson & Johnson y el Credo como criterio previo {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 En septiembre de 1982, siete personas murieron en Chicago después de consumir cápsulas de Tylenol adulteradas con cianuro. Johnson & Johnson retiró 31 millones de frascos del mercado en 24 horas, asumiendo un costo de más de 100 millones de dólares, sin saber aún si el problema era de manufactura o de sabotaje externo.
 
 Esta decisión se ha presentado frecuentemente como ejemplo de liderazgo ético. Lo que importa para este análisis es diferente: la decisión fue posible porque existía un criterio codificado previo al evento. El Credo de J&J, escrito en 1943, establecía una jerarquía explícita de responsabilidades: primero los consumidores, después los empleados, luego las comunidades, finalmente los accionistas.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 Robert Wood Johnson, hijo del fundador, escribió el Credo en 1943, casi cuatro décadas antes de la crisis del Tylenol. El documento no era aspiracional ni decorativo. Era operativo: se usaba en decisiones de negocio, en entrenamiento de ejecutivos, en evaluación de opciones estratégicas.
 
@@ -2650,7 +2668,7 @@ James Burke, CEO durante la crisis de 1982, había liderado años antes una seri
 
 La noche del 30 de septiembre de 1982, cuando llegaron los primeros reportes de muertes, Burke y su equipo enfrentaron una decisión con información incompleta. No sabían si el problema era de manufactura (lo cual implicaría recall masivo) o de sabotaje local (lo cual implicaría respuesta focalizada). Elegir mal en cualquier dirección tenía consecuencias graves.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — PRESENTE**
 
@@ -2684,7 +2702,7 @@ La crisis resultó en innovación concreta: el packaging tamper-evident (con sel
 
 El Credo se mantenía pero no evolucionaba formalmente. Las sesiones de Burke en los años previos fueron excepción, no práctica institucionalizada.
 
-### La erosión posterior {-}
+### La erosión posterior {- .unlisted}
 
 Si el Credo funcionó en 1982, ¿por qué no funcionó igualmente bien en crisis posteriores?
 
@@ -2698,7 +2716,7 @@ En 2010, J&J enfrentó problemas con implantes de cadera DePuy que causaron fall
 
 **Criterio codificado no evolucionó.** El Credo de 1943 no se actualizó para contextos de dispositivos médicos implantables o productos de uso prolongado donde el daño emerge lentamente.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 El criterio codificado funciona cuando está arquitectado antes de la crisis y cuando la organización lo trata como límite operativo, no como aspiración cultural. La efectividad del Credo en 1982 dependió de:
 
@@ -2713,15 +2731,15 @@ Para el lector: ¿Su criterio de decisión fue diseñado para el tipo de problem
 
 ---
 
-## Caso 3: Boeing 737 MAX — Erosión de límites existentes {-}
+## Caso 3: Boeing 737 MAX — Erosión de límites existentes {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 Entre octubre de 2018 y marzo de 2019, dos aviones Boeing 737 MAX se estrellaron en condiciones similares, matando a 346 personas. Las investigaciones revelaron que un sistema de control de vuelo (MCAS) activado por un único sensor podía forzar la nariz del avión hacia abajo repetidamente, y que los pilotos no habían sido informados adecuadamente sobre este sistema ni entrenados para desactivarlo.
 
 Lo que hace relevante este caso no es la falla técnica. Es la erosión de límites que permitió que la falla llegara a producción. Boeing tenía un límite externo funcional: la certificación independiente de la FAA. Entre 2005 y 2018, ese límite fue erosionado gradualmente hasta volverse ceremonial.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 La relación entre Boeing y la FAA tiene historia larga. Durante décadas, la FAA certificaba aeronaves mediante revisión independiente de diseños, pruebas y documentación. Este proceso era lento y costoso, pero funcionaba como límite externo genuino.
 
@@ -2729,7 +2747,7 @@ En 2005, la FAA expandió el programa Organization Designation Authorization (OD
 
 El problema fue la pendiente resbaladiza. Lo que comenzó como delegación de aspectos rutinarios se expandió gradualmente. Para cuando el 737 MAX entró en desarrollo, Boeing tenía autoridad para determinar qué aspectos requerían revisión directa de la FAA y cuáles podían ser auto-certificados.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — EROSIONADA**
 
@@ -2765,7 +2783,7 @@ Boeing había enfrentado problemas serios con el 787 (baterías que se incendiab
 
 El programa ODA no fue revisado sustantivamente entre su expansión (2005) y los accidentes (2018-2019). Las condiciones habían cambiado (presión competitiva intensa con Airbus, calendario agresivo, reducción de personal de FAA), pero el mecanismo de delegación no se ajustó.
 
-### El mecanismo de erosión {-}
+### El mecanismo de erosión {- .unlisted}
 
 La erosión no fue abrupta. Fue incremental:
 
@@ -2783,7 +2801,7 @@ La erosión no fue abrupta. Fue incremental:
 
 **2019:** Accidente de Ethiopian Airlines. Flota global es puesta en tierra. Investigaciones revelan la secuencia completa.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 Los límites externos que funcionan pueden ser erosionados gradualmente hasta volverse ceremoniales. La erosión es invisible porque:
 
@@ -2796,15 +2814,15 @@ Para el lector: ¿Sus mecanismos de governance independiente siguen siendo indep
 
 ---
 
-## Caso 4: Odebrecht — Ausencia estructural de límites {-}
+## Caso 4: Odebrecht — Ausencia estructural de límites {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 Odebrecht fue durante décadas la mayor constructora de América Latina, con operaciones en más de 20 países. En 2016, admitió ante el Departamento de Justicia de Estados Unidos haber pagado aproximadamente 788 millones de dólares en sobornos a funcionarios de 12 países. La multa combinada superó los 3.5 mil millones de dólares, la mayor en la historia por un caso de corrupción extranjera.
 
 Lo que distingue este caso no es el soborno en sí, sino la institucionalización del soborno como estrategia corporativa. Odebrecht no tenía límites que fallaron o se erosionaron. Nunca los tuvo.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 Odebrecht operó durante décadas con una estructura de "Departamento de Operaciones Estructuradas" —nombre corporativo para la división de sobornos. Este departamento tenía:
 
@@ -2816,7 +2834,7 @@ Odebrecht operó durante décadas con una estructura de "Departamento de Operaci
 
 No era corrupción oportunista. Era corrupción como modelo de negocio. La pregunta relevante no es por qué hubo corrupción sino por qué no hubo ningún mecanismo que la detectara, cuestionara o detuviera.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — AUSENTE**
 
@@ -2850,13 +2868,13 @@ El sistema aprendía. Cada ciclo de sobornos mejoraba la eficiencia del siguient
 
 No había revisión de prácticas porque no había interés en cambiarlas. El sistema funcionaba según los criterios de quienes lo operaban.
 
-### El colapso {-}
+### El colapso {- .unlisted}
 
 Odebrecht no se auto-corrigió. El colapso vino por límite externo involuntario: la investigación Lava Jato en Brasil, que comenzó investigando lavado de dinero en estaciones de servicio y terminó exponiendo la red de corrupción más grande documentada en América Latina.
 
 El límite que funcionó no fue interno. Fue el sistema judicial brasileño, activado por circunstancias que Odebrecht no controlaba. Una vez que la investigación comenzó, el sistema de registro (Drousys) se convirtió en evidencia. Lo que había sido herramienta de operación se volvió herramienta de condena.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 El caso Odebrecht ilustra el estado terminal: qué pasa cuando ninguna capacidad existe.
 
@@ -2875,7 +2893,7 @@ Para el lector: ¿Existen decisiones en su organización que ningún mecanismo p
 
 ---
 
-## Síntesis comparativa {-}
+## Síntesis comparativa {- .unlisted}
 
 | Caso | Resultado | Capacidades presentes | Capacidades ausentes/erosionadas | Lección principal |
 |------|-----------|----------------------|----------------------------------|-------------------|
@@ -2886,31 +2904,32 @@ Para el lector: ¿Existen decisiones en su organización que ningún mecanismo p
 
 ---
 
-## Fuentes principales {-}
+## Fuentes principales {- .unlisted}
 
-### Toyota {-}
+### Toyota {- .unlisted}
 - Liker, J. (2004). *The Toyota Way*. McGraw-Hill.
 - Spear, S. & Bowen, H.K. (1999). "Decoding the DNA of the Toyota Production System". *Harvard Business Review*, Sept-Oct.
 - NHTSA (2011). *Technical Assessment of Toyota Electronic Throttle Control Systems*.
 - Cole, R.E. (2011). "What Really Happened to Toyota?" *MIT Sloan Management Review*, Summer.
 
-### Johnson & Johnson {-}
+### Johnson & Johnson {- .unlisted}
 - Kaplan, T. (1998). "The Tylenol Crisis: How Effective Public Relations Saved Johnson & Johnson". Pennsylvania State University.
 - Collins, J. & Porras, J. (1994). *Built to Last: Successful Habits of Visionary Companies*. Harper Business, Cap. 3.
 - Rehak, J. (2002). "Tylenol Made a Hero of Johnson & Johnson: The Recall That Started Them All". *New York Times*, 23 marzo.
 - Reuters Investigative Series (2018-2020). "Johnson & Johnson knew for decades that asbestos lurked in its baby powder".
 
-### Boeing {-}
+### Boeing {- .unlisted}
 - House Committee on Transportation and Infrastructure (2020). *Final Committee Report: The Design, Development & Certification of the Boeing 737 MAX*.
 - Gates, D. (2019-2020). Serie investigativa en *Seattle Times*.
 - Robison, P. (2021). *Flying Blind: The 737 MAX Tragedy and the Fall of Boeing*. Doubleday.
 - Joint Authorities Technical Review (2019). *Boeing 737 MAX Flight Control System Observations, Findings, and Recommendations*.
 
-### Odebrecht {-}
+### Odebrecht {- .unlisted}
 - U.S. Department of Justice (2016). *Odebrecht S.A. and Braskem S.A. Plea Agreement*.
 - Gaspar, M. (2020). *A Organização: A Odebrecht e o esquema de corrupção que chocou o mundo*. Companhia das Letras.
 - Transparency International (2019). *The Odebrecht Case: Lessons for Latin America*.
 - Brazilian Federal Prosecution Service. Documentos de Operação Lava Jato (2014-2021).
+
 # Apéndice G: Bibliografia
 
 <!-- block: reconocimiento -->

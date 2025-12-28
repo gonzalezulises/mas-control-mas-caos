@@ -109,3 +109,4 @@ El ejecutivo que comprende que el sistema no puede limitarse a sí mismo deja de
 La protección real no viene de más control interno. Viene de aceptar que el control interno tiene límites estructurales insuperables, y de construir algo que opere más allá de esos límites.
 
 El siguiente capítulo describe ese mecanismo.
+

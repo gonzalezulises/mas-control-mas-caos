@@ -1,6 +1,6 @@
 # Apéndice F: Casos de Referencia
 
-## Nota metodológica {-}
+## Nota metodológica {- .unlisted}
 
 Los casos que siguen no son implementaciones del Decision Readiness Gate. El DRG, como se ha establecido en este libro, es una propuesta conceptual sin casos de implementación documentados.
 
@@ -10,15 +10,15 @@ El lector puede verificar la lógica contra las fuentes citadas. Si la interpret
 
 ---
 
-## Caso 1: Toyota y el Sistema Andon {-}
+## Caso 1: Toyota y el Sistema Andon {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 Toyota desarrolló un sistema donde cualquier trabajador de línea puede detener la producción completa al detectar una anomalía. Este mecanismo, conocido como Andon, representa un límite externo arquitectado en el diseño físico del sistema productivo: el poder de detener no depende de autorización jerárquica ni de deliberación política.
 
 Durante décadas, este sistema funcionó como filtro efectivo de defectos. En 2009-2010, la crisis de aceleradores atascados reveló que algunas capacidades se habían erosionado sin que el sistema lo detectara. El caso ilustra tanto el funcionamiento del límite como sus modos de falla.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 El Sistema de Producción Toyota emergió en las décadas de 1950-1970 como respuesta a restricciones específicas: capital limitado, mercado pequeño, necesidad de flexibilidad. Taiichi Ohno y sus colaboradores desarrollaron prácticas que minimizaban inventario y maximizaban detección temprana de problemas.
 
@@ -26,7 +26,7 @@ El Andon no fue diseñado como herramienta de governance. Fue diseñado como her
 
 La filosofía subyacente, codificada en documentos internos y prácticas de entrenamiento, establece que detener la línea ante la duda es correcto; dejar pasar un defecto es incorrecto. El costo de una parada es visible e inmediato. El costo de un defecto que llega al cliente es mayor pero diferido. El sistema resuelve esta asimetría haciendo que la parada no tenga costo personal para quien la activa.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — PRESENTE**
 
@@ -60,7 +60,7 @@ El proceso Kaizen incorpora las lecciones de cada parada. Los problemas detectad
 
 Los estándares de trabajo se revisan continuamente. No hay criterio fijo que permanezca inmutable por años. La evolución es parte del diseño.
 
-### La erosión de 2009-2010 {-}
+### La erosión de 2009-2010 {- .unlisted}
 
 Entre 2009 y 2010, Toyota enfrentó una crisis que resultó en el recall de más de 8 millones de vehículos por problemas de aceleración involuntaria. Las investigaciones posteriores revelaron que ingenieros internos habían documentado preocupaciones sobre el diseño del pedal y la interacción con los tapetes, pero estas preocupaciones no activaron el mismo tipo de respuesta que una anomalía en la línea de producción.
 
@@ -72,7 +72,7 @@ Entre 2009 y 2010, Toyota enfrentó una crisis que resultó en el recall de más
 
 **Separación patrocinio/veredicto se debilitó.** A medida que Toyota creció y se globalizó, las presiones de volumen y costo se hicieron más intensas. Los equipos que evaluaban problemas de proveedores tenían incentivos mixtos que no existían en el piso de producción original.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 El Andon funciona cuando las ocho capacidades están arquitectadas en el sistema y cuando el alcance del límite coincide con el alcance del riesgo. La crisis de 2009-2010 muestra que un límite efectivo puede erosionarse gradualmente cuando:
 
@@ -84,15 +84,15 @@ Para el lector: ¿El alcance de sus mecanismos de límite coincide con el alcanc
 
 ---
 
-## Caso 2: Johnson & Johnson y el Credo como criterio previo {-}
+## Caso 2: Johnson & Johnson y el Credo como criterio previo {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 En septiembre de 1982, siete personas murieron en Chicago después de consumir cápsulas de Tylenol adulteradas con cianuro. Johnson & Johnson retiró 31 millones de frascos del mercado en 24 horas, asumiendo un costo de más de 100 millones de dólares, sin saber aún si el problema era de manufactura o de sabotaje externo.
 
 Esta decisión se ha presentado frecuentemente como ejemplo de liderazgo ético. Lo que importa para este análisis es diferente: la decisión fue posible porque existía un criterio codificado previo al evento. El Credo de J&J, escrito en 1943, establecía una jerarquía explícita de responsabilidades: primero los consumidores, después los empleados, luego las comunidades, finalmente los accionistas.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 Robert Wood Johnson, hijo del fundador, escribió el Credo en 1943, casi cuatro décadas antes de la crisis del Tylenol. El documento no era aspiracional ni decorativo. Era operativo: se usaba en decisiones de negocio, en entrenamiento de ejecutivos, en evaluación de opciones estratégicas.
 
@@ -100,7 +100,7 @@ James Burke, CEO durante la crisis de 1982, había liderado años antes una seri
 
 La noche del 30 de septiembre de 1982, cuando llegaron los primeros reportes de muertes, Burke y su equipo enfrentaron una decisión con información incompleta. No sabían si el problema era de manufactura (lo cual implicaría recall masivo) o de sabotaje local (lo cual implicaría respuesta focalizada). Elegir mal en cualquier dirección tenía consecuencias graves.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — PRESENTE**
 
@@ -134,7 +134,7 @@ La crisis resultó en innovación concreta: el packaging tamper-evident (con sel
 
 El Credo se mantenía pero no evolucionaba formalmente. Las sesiones de Burke en los años previos fueron excepción, no práctica institucionalizada.
 
-### La erosión posterior {-}
+### La erosión posterior {- .unlisted}
 
 Si el Credo funcionó en 1982, ¿por qué no funcionó igualmente bien en crisis posteriores?
 
@@ -148,7 +148,7 @@ En 2010, J&J enfrentó problemas con implantes de cadera DePuy que causaron fall
 
 **Criterio codificado no evolucionó.** El Credo de 1943 no se actualizó para contextos de dispositivos médicos implantables o productos de uso prolongado donde el daño emerge lentamente.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 El criterio codificado funciona cuando está arquitectado antes de la crisis y cuando la organización lo trata como límite operativo, no como aspiración cultural. La efectividad del Credo en 1982 dependió de:
 
@@ -163,15 +163,15 @@ Para el lector: ¿Su criterio de decisión fue diseñado para el tipo de problem
 
 ---
 
-## Caso 3: Boeing 737 MAX — Erosión de límites existentes {-}
+## Caso 3: Boeing 737 MAX — Erosión de límites existentes {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 Entre octubre de 2018 y marzo de 2019, dos aviones Boeing 737 MAX se estrellaron en condiciones similares, matando a 346 personas. Las investigaciones revelaron que un sistema de control de vuelo (MCAS) activado por un único sensor podía forzar la nariz del avión hacia abajo repetidamente, y que los pilotos no habían sido informados adecuadamente sobre este sistema ni entrenados para desactivarlo.
 
 Lo que hace relevante este caso no es la falla técnica. Es la erosión de límites que permitió que la falla llegara a producción. Boeing tenía un límite externo funcional: la certificación independiente de la FAA. Entre 2005 y 2018, ese límite fue erosionado gradualmente hasta volverse ceremonial.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 La relación entre Boeing y la FAA tiene historia larga. Durante décadas, la FAA certificaba aeronaves mediante revisión independiente de diseños, pruebas y documentación. Este proceso era lento y costoso, pero funcionaba como límite externo genuino.
 
@@ -179,7 +179,7 @@ En 2005, la FAA expandió el programa Organization Designation Authorization (OD
 
 El problema fue la pendiente resbaladiza. Lo que comenzó como delegación de aspectos rutinarios se expandió gradualmente. Para cuando el 737 MAX entró en desarrollo, Boeing tenía autoridad para determinar qué aspectos requerían revisión directa de la FAA y cuáles podían ser auto-certificados.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — EROSIONADA**
 
@@ -215,7 +215,7 @@ Boeing había enfrentado problemas serios con el 787 (baterías que se incendiab
 
 El programa ODA no fue revisado sustantivamente entre su expansión (2005) y los accidentes (2018-2019). Las condiciones habían cambiado (presión competitiva intensa con Airbus, calendario agresivo, reducción de personal de FAA), pero el mecanismo de delegación no se ajustó.
 
-### El mecanismo de erosión {-}
+### El mecanismo de erosión {- .unlisted}
 
 La erosión no fue abrupta. Fue incremental:
 
@@ -233,7 +233,7 @@ La erosión no fue abrupta. Fue incremental:
 
 **2019:** Accidente de Ethiopian Airlines. Flota global es puesta en tierra. Investigaciones revelan la secuencia completa.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 Los límites externos que funcionan pueden ser erosionados gradualmente hasta volverse ceremoniales. La erosión es invisible porque:
 
@@ -246,15 +246,15 @@ Para el lector: ¿Sus mecanismos de governance independiente siguen siendo indep
 
 ---
 
-## Caso 4: Odebrecht — Ausencia estructural de límites {-}
+## Caso 4: Odebrecht — Ausencia estructural de límites {- .unlisted}
 
-### Resumen {-}
+### Resumen {- .unlisted}
 
 Odebrecht fue durante décadas la mayor constructora de América Latina, con operaciones en más de 20 países. En 2016, admitió ante el Departamento de Justicia de Estados Unidos haber pagado aproximadamente 788 millones de dólares en sobornos a funcionarios de 12 países. La multa combinada superó los 3.5 mil millones de dólares, la mayor en la historia por un caso de corrupción extranjera.
 
 Lo que distingue este caso no es el soborno en sí, sino la institucionalización del soborno como estrategia corporativa. Odebrecht no tenía límites que fallaron o se erosionaron. Nunca los tuvo.
 
-### Contexto {-}
+### Contexto {- .unlisted}
 
 Odebrecht operó durante décadas con una estructura de "Departamento de Operaciones Estructuradas" —nombre corporativo para la división de sobornos. Este departamento tenía:
 
@@ -266,7 +266,7 @@ Odebrecht operó durante décadas con una estructura de "Departamento de Operaci
 
 No era corrupción oportunista. Era corrupción como modelo de negocio. La pregunta relevante no es por qué hubo corrupción sino por qué no hubo ningún mecanismo que la detectara, cuestionara o detuviera.
 
-### Estado de las capacidades {-}
+### Estado de las capacidades {- .unlisted}
 
 **Capacidad 1: Delimitación explícita — AUSENTE**
 
@@ -300,13 +300,13 @@ El sistema aprendía. Cada ciclo de sobornos mejoraba la eficiencia del siguient
 
 No había revisión de prácticas porque no había interés en cambiarlas. El sistema funcionaba según los criterios de quienes lo operaban.
 
-### El colapso {-}
+### El colapso {- .unlisted}
 
 Odebrecht no se auto-corrigió. El colapso vino por límite externo involuntario: la investigación Lava Jato en Brasil, que comenzó investigando lavado de dinero en estaciones de servicio y terminó exponiendo la red de corrupción más grande documentada en América Latina.
 
 El límite que funcionó no fue interno. Fue el sistema judicial brasileño, activado por circunstancias que Odebrecht no controlaba. Una vez que la investigación comenzó, el sistema de registro (Drousys) se convirtió en evidencia. Lo que había sido herramienta de operación se volvió herramienta de condena.
 
-### Implicación {-}
+### Implicación {- .unlisted}
 
 El caso Odebrecht ilustra el estado terminal: qué pasa cuando ninguna capacidad existe.
 
@@ -325,7 +325,7 @@ Para el lector: ¿Existen decisiones en su organización que ningún mecanismo p
 
 ---
 
-## Síntesis comparativa {-}
+## Síntesis comparativa {- .unlisted}
 
 | Caso | Resultado | Capacidades presentes | Capacidades ausentes/erosionadas | Lección principal |
 |------|-----------|----------------------|----------------------------------|-------------------|
@@ -336,28 +336,29 @@ Para el lector: ¿Existen decisiones en su organización que ningún mecanismo p
 
 ---
 
-## Fuentes principales {-}
+## Fuentes principales {- .unlisted}
 
-### Toyota {-}
+### Toyota {- .unlisted}
 - Liker, J. (2004). *The Toyota Way*. McGraw-Hill.
 - Spear, S. & Bowen, H.K. (1999). "Decoding the DNA of the Toyota Production System". *Harvard Business Review*, Sept-Oct.
 - NHTSA (2011). *Technical Assessment of Toyota Electronic Throttle Control Systems*.
 - Cole, R.E. (2011). "What Really Happened to Toyota?" *MIT Sloan Management Review*, Summer.
 
-### Johnson & Johnson {-}
+### Johnson & Johnson {- .unlisted}
 - Kaplan, T. (1998). "The Tylenol Crisis: How Effective Public Relations Saved Johnson & Johnson". Pennsylvania State University.
 - Collins, J. & Porras, J. (1994). *Built to Last: Successful Habits of Visionary Companies*. Harper Business, Cap. 3.
 - Rehak, J. (2002). "Tylenol Made a Hero of Johnson & Johnson: The Recall That Started Them All". *New York Times*, 23 marzo.
 - Reuters Investigative Series (2018-2020). "Johnson & Johnson knew for decades that asbestos lurked in its baby powder".
 
-### Boeing {-}
+### Boeing {- .unlisted}
 - House Committee on Transportation and Infrastructure (2020). *Final Committee Report: The Design, Development & Certification of the Boeing 737 MAX*.
 - Gates, D. (2019-2020). Serie investigativa en *Seattle Times*.
 - Robison, P. (2021). *Flying Blind: The 737 MAX Tragedy and the Fall of Boeing*. Doubleday.
 - Joint Authorities Technical Review (2019). *Boeing 737 MAX Flight Control System Observations, Findings, and Recommendations*.
 
-### Odebrecht {-}
+### Odebrecht {- .unlisted}
 - U.S. Department of Justice (2016). *Odebrecht S.A. and Braskem S.A. Plea Agreement*.
 - Gaspar, M. (2020). *A Organização: A Odebrecht e o esquema de corrupção que chocou o mundo*. Companhia das Letras.
 - Transparency International (2019). *The Odebrecht Case: Lessons for Latin America*.
 - Brazilian Federal Prosecution Service. Documentos de Operação Lava Jato (2014-2021).
+
