@@ -56,6 +56,11 @@ def is_stub(content: str) -> bool:
     return STUB_MARKER in content
 
 
+def is_appendix(filename: str) -> bool:
+    """Check if file is an appendix (appendices don't require blocks)."""
+    return filename.startswith("appendix-")
+
+
 def find_block_positions(content: str) -> dict:
     """Find positions of each block in content. Returns {block: position} or {block: -1} if not found."""
     positions = {}
@@ -92,6 +97,12 @@ def main():
         # Check for stub marker
         if is_stub(content):
             skip(f"{filename} is stub")
+            skipped_stubs.append(filename)
+            continue
+
+        # Skip appendices (they don't require blocks)
+        if is_appendix(filename):
+            skip(f"{filename} is appendix")
             skipped_stubs.append(filename)
             continue
 

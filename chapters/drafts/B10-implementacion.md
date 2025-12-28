@@ -1,5 +1,6 @@
 # Implementación
 
+<!-- block: reconocimiento -->
 El lector que termina el capítulo nueve tiene un problema nuevo. Entiende el loop del poder y por qué se auto-amplifica. Entiende que el control intensificado produce fragilidad, no estabilidad. Reconoce el trance organizacional y sus señales. Acepta que los sistemas no pueden auto-limitarse porque el costo político de aprobar siempre es menor que el de rechazar. Conoce las ocho capacidades de gerencia funcional y cómo operan como sistema interdependiente. Sabe que el criterio codificado convierte el NO en decisión institucional. Y sin embargo, cuando piensa en qué hacer el lunes a las nueve de la mañana, no sabe por dónde empezar.
 
 Esta brecha entre entendimiento y acción es predecible. El libro hasta ahora describió un sistema, no una secuencia. Explicó por qué las organizaciones necesitan fricción deliberada, no cómo instalarla paso a paso. Articuló las capacidades requeridas, no el orden en que construirlas. La brecha no refleja falta de voluntad ni incomprensión. Refleja que el libro no había dado instrucciones operativas. Este capítulo cierra esa brecha.
@@ -18,6 +19,7 @@ Complete el diagnóstico individualmente primero. Después, si tiene equipo dire
 
 El diagnóstico determina por dónde empezar. No empiece por la capacidad que le parece más importante conceptualmente. Empiece por la brecha más crítica según el diagnóstico.
 
+<!-- block: alivio -->
 ## Las tres fuentes de parálisis
 
 La primera fuente de parálisis es la creencia de que el sistema debe implementarse completo antes de funcionar. Esa creencia es incorrecta. No se necesita gate formalizado con mandato de directorio para producir el primer veredicto útil. No se necesitan ocho capacidades operativas para obtener el primer beneficio. No se necesita criterio codificado para todas las categorías de iniciativa para filtrar la primera propuesta problemática.
@@ -28,6 +30,7 @@ La segunda fuente de parálisis es la creencia de que la organización debe camb
 
 La tercera fuente de parálisis es la creencia de que se necesita consenso amplio para comenzar. Tampoco es correcta. Una persona con autoridad sobre un tipo de decisión puede instalar un criterio para ese tipo de decisión sin esperar que el resto de la organización adopte nada. El CFO puede instalar criterios para aprobación de inversiones de capital. El CTO puede instalar criterios para iniciativas tecnológicas. El CPO puede instalar criterios para lanzamientos de producto. No se necesita iniciativa corporativa; se necesita un ejecutivo dispuesto a aplicar rigor en su dominio.
 
+<!-- block: causa -->
 ## Precondiciones políticas
 
 El libro hasta aquí asume que existe voluntad de instalar el mecanismo. Esa voluntad no es automática. Los beneficiarios del sistema actual—sponsors con acceso discrecional a recursos, ejecutivos cuyas iniciativas no enfrentan escrutinio—tienen incentivo racional de resistir. Instalar un gate es redistribución de poder. Toda redistribución de poder genera resistencia. Ignorar esta realidad es garantizar fracaso.
@@ -222,6 +225,7 @@ Votación final después de la discusión. El veredicto se registra inmediatamen
 
 Si el veredicto es CONDICIONAL, se especifican las condiciones con umbrales verificables y fecha de re-evaluación.
 
+<!-- block: riesgo -->
 ## Las resistencias predecibles
 
 Las resistencias que aparecerán son predecibles porque la estructura de incentivos que las produce es invariante. El conocimiento de que vendrán no las elimina, pero permite preparar respuestas que no requieren improvisación bajo presión.
@@ -314,6 +318,7 @@ Reconocimiento explícito cuando un rechazo evitó problema. Este ritual contrab
 
 Cada trimestre, recordar el caso que motivó el piloto. Este ritual mantiene viva la razón de ser del sistema. Sin él, la memoria institucional se erosiona y las nuevas personas no entienden por qué existe el gate.
 
+<!-- block: proteccion -->
 ## El primer movimiento
 
 El primer movimiento para el lunes requiere una hora, no una iniciativa corporativa.

@@ -1,4 +1,6 @@
 # El loop del poder
+
+<!-- block: reconocimiento -->
 Conoces la secuencia. Una iniciativa estratégica arranca con energía visible. Hay presupuesto aprobado, hay sponsors comprometidos, hay expectativa en el comité ejecutivo. Los primeros reportes son positivos. El equipo acelera porque los indicadores tempranos lo justifican. Se agregan recursos porque los resultados iniciales sugieren que hay tracción. Se amplía el alcance porque parece que hay capacidad de sobra y el mercado lo demanda. Se prometen fechas agresivas porque el momentum lo permite y porque la competencia no espera. Se comprometen resultados frente a la junta porque la alternativa —pedir más tiempo, reducir expectativas, admitir incertidumbre— tiene un costo político inmediato que nadie quiere pagar.
 
 Y en algún punto —que nunca es obvio mientras ocurre— la iniciativa deja de responder a la realidad y empieza a responder a su propia inercia.
@@ -28,6 +30,8 @@ Batista pasó de ser el séptimo hombre más rico del mundo a tener un patrimoni
 WeWork demuestra que el patron no requiere decadas para manifestarse. En menos de diez años, la empresa paso de startup de espacios compartidos a valuación privada de 47 mil millones de dolares en 2019. Cada ronda de financiamiento alimentaba el loop: más capital disponible, expansión más agresiva, métricas de crecimiento que justificaban la siguiente ronda. El fundador Adam Neumann operaba con la convicción de que la velocidad de expansión validaba el modelo. Los inversores, incluyendo SoftBank con 10 mil millones de dolares comprometidos, tenian demasiado invertido politicamente para cuestionar los fundamentos. Cuando WeWork intento salir a bolsa, el escrutinio público revelo lo que el loop interno había oscurecido: perdidas de 1.9 mil millones de dolares sobre ingresos de 1.8 mil millones, gobernanza corporativo disfuncional, y un modelo de negocio cuya viabilidad nadie dentro del sistema había verificado seriamente. La valuación colapso de 47 mil millones a menos de 10 mil millones en semanas. Pero el loop había funcionado perfectamente durante años: cada métrica interna indicaba éxito mientras la exposición se acumulaba.
 
 Esta secuencia no es exclusiva de Boeing, OGX ni WeWork. No es un problema de la industria aeronautica, ni de la petrolera, ni de tech. Es la firma dinámica de cualquier organización con suficiente poder para amplificar sus propias decisiones. Tu la has visto en tu industria. Probablemente la has vivido desde adentro, quizás sin tener nombre para describirla, quizás atribuyendola a factores locales cuando en realidad era un patron estructural.
+
+<!-- block: alivio -->
 Esto no ocurrió porque alguien fuera incompetente. Ocurrió porque el sistema funcionó exactamente como estaba diseñado para funcionar: amplificando su propia energía hasta que encontró un límite externo —en este caso, catastrófico.
 
 Hay una narrativa cómoda que aparece después de cada fracaso corporativo visible: la narrativa del villano. Alguien tomó una mala decisión por codicia o por estupidez. Alguien fue negligente en sus responsabilidades básicas. Alguien priorizó el bono trimestral sobre la seguridad de largo plazo. Alguien sabía y no actuó. Esta narrativa es útil para los reguladores que necesitan responsables individuales, conveniente para la prensa que necesita historias con antagonistas claros, y reconfortante para quienes observan desde afuera y quieren creer que a ellos no les pasaría porque ellos sí son competentes y éticos.
@@ -43,6 +47,8 @@ Estas presiones no son conspiraciones. No requieren acuerdos secretos ni intenci
 Cada reporte trimestral exitoso genera expectativa de más éxito en el siguiente. Cada decisión de continuar hace más costoso políticamente detenerse después. Cada mes que pasa sin problemas visibles refuerza la creencia colectiva de que el camino elegido es correcto y que las precauciones adicionales serían innecesarias.
 
 No fue negligencia individual. Fue física organizacional: las leyes de movimiento que gobiernan cómo la energía fluye, se amplifica y encuentra límites dentro de sistemas con poder concentrado. Y es la misma física que opera en tu organización ahora mismo, en este momento, en iniciativas que probablemente consideras exitosas precisamente porque aún no han encontrado su límite.
+
+<!-- block: causa -->
 El poder organizacional es un loop que se auto-amplifica. No existe el progreso lineal.
 
 El loop tiene una estructura que puede describirse con precisión:
@@ -80,6 +86,8 @@ El loop no distingue entre momentum productivo que lleva hacia resultados genuin
 Esta es la afirmación incómoda que sostiene todo lo que sigue en este libro: tu organización no progresa linealmente hacia objetivos definidos. Se auto-amplifica en la dirección en que ya se está moviendo, sea cual sea esa dirección. Si esa dirección resulta ser correcta, el loop produce resultados extraordinarios que justifican retrospectivamente todas las decisiones tomadas. Si esa dirección tiene defectos ocultos que no son visibles hasta que es tarde, el loop produce catástrofes extraordinarias que parecen inexplicables en retrospectiva. Y desde adentro del loop, mientras está operando, ambos escenarios se sienten exactamente igual: como progreso.
 
 Cuando una iniciativa acelera sin frenos visibles, no demuestra viabilidad: acumula exposición.
+
+<!-- block: riesgo -->
 El problema fundamental con los loops de poder es que el caos aparece tarde, mucho después de que las decisiones que lo causaron fueron tomadas y celebradas. Las señales tempranas de problema existen invariablemente, pero el sistema las absorbe, las reinterpreta benignamente, o las silencia activamente.
 
 En cualquier iniciativa que eventualmente fracasa de manera visible, hay un momento —usualmente bastante temprano en el proceso— donde alguien dentro de la organización vio el problema o al menos sintió que algo no estaba bien. Un ingeniero notó una anomalía técnica que no encajaba con las especificaciones y la reportó a su gerente. Un gerente de proyecto sintió en su experiencia que los plazos comprometidos eran irreales dadas las complejidades conocidas. Un analista financiero cuestionó las proyecciones de retorno porque los supuestos le parecían optimistas. Un director de área tuvo una intuición basada en patrones anteriores de que algo fundamental no encajaba en la narrativa oficial.
@@ -104,6 +112,7 @@ Desde dentro del loop, ambos tipos se sienten exactamente igual: como progreso l
 
 Este es el riesgo que nunca aparece en los dashboards ejecutivos ni en los reportes al directorio: la incapacidad estructural de distinguir, desde adentro del sistema mientras opera, entre aceleración productiva que construye valor y aceleración destructiva que acumula catástrofe.
 
+<!-- block: proteccion -->
 Existen casos donde organizaciones frenaron internamente. Intel abandonó el negocio de memorias DRAM cuando aún era rentable. IBM pivoteó de hardware a servicios cuando la alternativa era el declive terminal. Microsoft reinventó su modelo de negocio hacia la nube cuando sus mercados tradicionales se erosionaban. Estos casos son reales y están documentados.
 
 Pero comparten una característica que raramente se menciona cuando se citan como contraejemplos: dependieron de individuos específicos en posiciones específicas en momentos específicos. Andy Grove en Intel tomando una decisión que contradecía la identidad histórica de la empresa. Lou Gerstner en IBM imponiendo una visión que la organización resistía activamente. Satya Nadella en Microsoft desmantelando feudos internos que habían paralizado transformaciones anteriores. Cuando esos individuos se fueron, las organizaciones no retuvieron la capacidad estructural de frenar. Retuvieron la leyenda de haberlo hecho una vez.
