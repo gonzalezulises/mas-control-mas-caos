@@ -208,3 +208,27 @@ Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Far
 
 U.S. Securities and Exchange Commission. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*. https://www.sec.gov/newsroom/press-releases/2020-38
 
+## Sesgo de acción (Action Bias) {- .unlisted}
+
+Bar-Eli, M., Azar, O. H., Ritov, I., Keidar-Levin, Y., & Schein, G. (2007). Action bias among elite soccer goalkeepers: The case of penalty kicks. *Journal of Economic Psychology*, 28(5), 606-621. https://doi.org/10.1016/j.joep.2007.07.001
+
+Patt, A., & Zeckhauser, R. (2000). Action bias and environmental decisions. *Journal of Risk and Uncertainty*, 21(1), 45-72. https://doi.org/10.1023/A:1026517309871
+
+## Prospect Theory {- .unlisted}
+
+Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica*, 47(2), 263-291. https://doi.org/10.2307/1914185
+
+## Fracaso organizacional y psychological safety {- .unlisted}
+
+Denrell, J. (2003). Vicarious learning, undersampling of failure, and the myths of management. *Organization Science*, 14(3), 227-243. https://doi.org/10.1287/orsc.14.3.227.15164
+
+Edmondson, A. C. (2019). *The fearless organization: Creating psychological safety in the workplace for learning, innovation, and growth*. Wiley.
+
+Edmondson, A. C. (2023). *Right kind of wrong: The science of failing well*. Atria Books.
+
+## Casos empresariales - Copa Airlines y Grupo Bimbo {- .unlisted}
+
+Flight Global. (2024, February 8). Copa forecasts healthy Latin American air-travel demand through 2024. *Flight Global*. https://www.flightglobal.com/airlines/copa-forecasts-healthy-latin-american-air-travel-demand-through-2024/156825.article
+
+Grupo Bimbo. (2024, April 23). *Grupo Bimbo names Daniel Servitje Executive Chair; Rafael Pamias is appointed CEO* [Press release]. https://grupobimbo.com/en/press-room
+
