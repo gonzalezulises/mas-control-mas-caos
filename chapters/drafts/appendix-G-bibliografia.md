@@ -116,3 +116,21 @@ de Raadt, J. D. R. (1987). Ashby's Law of Requisite Variety: An Empirical Study.
 
 Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The Ways of Corruption in Infrastructure: Lessons from the Odebrecht Case. *Journal of Economic Perspectives*, 35(2), 171-190. https://doi.org/10.1257/jep.35.2.171
 
+## Coding Trance y métricas {- .unlisted}
+
+Campbell, D. T. (1976). Assessing the Impact of Planned Social Change. *Evaluation and Program Planning*, 2(1), 67-90. https://doi.org/10.1016/0149-7189(79)90048-X
+
+Muller, J. Z. (2018). *The Tyranny of Metrics*. Princeton University Press.
+
+## Automation bias y complacency {- .unlisted}
+
+Bahner, J. E., Hüper, A.-D., & Manzey, D. (2008). Misuse of Automated Decision Aids: Complacency, Automation Bias and the Impact of Training Experience. *International Journal of Human-Computer Studies*, 66(9), 688-699. https://doi.org/10.1016/j.ijhcs.2008.06.001
+
+Parasuraman, R., & Manzey, D. H. (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. *Human Factors*, 52(3), 381-410. https://doi.org/10.1177/0018720810376055
+
+## Wells Fargo - Fuentes primarias {- .unlisted}
+
+Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*. https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/
+
+U.S. Securities and Exchange Commission. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*. https://www.sec.gov/newsroom/press-releases/2020-38
+

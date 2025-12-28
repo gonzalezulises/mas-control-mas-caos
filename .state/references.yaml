@@ -571,6 +571,125 @@ references:
         context: "Análisis académico mecánicas de corrupción Odebrecht"
     apa_formatted: "Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The Ways of Corruption in Infrastructure: Lessons from the Odebrecht Case. *Journal of Economic Perspectives*, 35(2), 171-190."
 
+  # ============================================
+  # CODING TRANCE - CAPÍTULO 3
+  # ============================================
+
+  - id: REF-027
+    type: article
+    citation_key: campbell1976
+    authors:
+      - family: Campbell
+        given: Donald T.
+    title: "Assessing the Impact of Planned Social Change"
+    year: 1976
+    journal: "Evaluation and Program Planning"
+    volume: 2
+    issue: 1
+    pages: "67-90"
+    url: "https://doi.org/10.1016/0149-7189(79)90048-X"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Formulación paralela a Goodhart - corrupción de indicadores"
+    apa_formatted: "Campbell, D. T. (1976). Assessing the Impact of Planned Social Change. *Evaluation and Program Planning*, 2(1), 67-90."
+
+  - id: REF-028
+    type: article
+    citation_key: parasuraman2010
+    authors:
+      - family: Parasuraman
+        given: Raja
+      - family: Manzey
+        given: Dietrich H.
+    title: "Complacency and Bias in Human Use of Automation: An Attentional Integration"
+    year: 2010
+    journal: "Human Factors"
+    volume: 52
+    issue: 3
+    pages: "381-410"
+    url: "https://doi.org/10.1177/0018720810376055"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Automation bias - revisión seminal"
+    apa_formatted: "Parasuraman, R., & Manzey, D. H. (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. *Human Factors*, 52(3), 381-410."
+
+  - id: REF-029
+    type: article
+    citation_key: bahner2008
+    authors:
+      - family: Bahner
+        given: J. Elin
+      - family: Hüper
+        given: Anke-Dorothea
+      - family: Manzey
+        given: Dietrich
+    title: "Misuse of Automated Decision Aids: Complacency, Automation Bias and the Impact of Training Experience"
+    year: 2008
+    journal: "International Journal of Human-Computer Studies"
+    volume: 66
+    issue: 9
+    pages: "688-699"
+    url: "https://doi.org/10.1016/j.ijhcs.2008.06.001"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Automation complacency se intensifica con confiabilidad percibida"
+    apa_formatted: "Bahner, J. E., Hüper, A.-D., & Manzey, D. (2008). Misuse of Automated Decision Aids: Complacency, Automation Bias and the Impact of Training Experience. *International Journal of Human-Computer Studies*, 66(9), 688-699."
+
+  - id: REF-030
+    type: book
+    citation_key: muller2018
+    authors:
+      - family: Muller
+        given: Jerry Z.
+    title: "The Tyranny of Metrics"
+    year: 2018
+    publisher: "Princeton University Press"
+    location: "Princeton, NJ"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Tiranía de las métricas en múltiples sectores"
+    apa_formatted: "Muller, J. Z. (2018). *The Tyranny of Metrics*. Princeton University Press."
+
+  - id: REF-031
+    type: web
+    citation_key: cfpb2016
+    authors:
+      - organization: Consumer Financial Protection Bureau
+    title: "CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts"
+    year: 2016
+    date: "2016-09-08"
+    url: "https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Wells Fargo cross-selling scandal - fuente primaria"
+    apa_formatted: "Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*."
+
+  - id: REF-032
+    type: web
+    citation_key: sec2020wellsfargo
+    authors:
+      - organization: U.S. Securities and Exchange Commission
+    title: "Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit"
+    year: 2020
+    date: "2020-02-21"
+    url: "https://www.sec.gov/newsroom/press-releases/2020-38"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "SEC action - cross-sell metric usado para engañar inversores"
+    apa_formatted: "U.S. Securities and Exchange Commission. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*."
+
 # ============================================
 # ÍNDICE DE VERIFICACIÓN
 # ============================================
