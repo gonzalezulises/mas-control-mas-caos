@@ -1,4 +1,4 @@
-# Apéndice A: Criterios de Readiness por Tipo de Iniciativa
+# Apéndice A: Criterios de Readiness por Tipo de Iniciativa {-}
 
 Este apendice contiene criterios operativos propuestos para evaluar iniciativas antes de autorizar ejecución. No son estándares validados empíricamente ni listas de verificación universales. Son derivaciones logicas: si una iniciativa de cierto tipo tiene los riesgos descritos en el libro, que preguntas harian visible si esos riesgos están gestionados. Los umbrales específicos son puntos de partida para calibracion, no números con autoridad externa. Cada organización debe ajustar según su contexto, tolerancia al riesgo y capacidad de absorber fracaso.
 

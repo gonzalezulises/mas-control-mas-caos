@@ -1,4 +1,4 @@
-# Apéndice G: Bibliografía
+# Apéndice G: Bibliografía {-}
 
 Las referencias se presentan en formato APA 7, organizadas alfabéticamente. Se incluyen todas las fuentes citadas en el texto y fuentes adicionales que fundamentan los conceptos centrales del libro.
 

@@ -1,4 +1,4 @@
-# Apéndice E: Instrumento de Diagnóstico
+# Apéndice E: Instrumento de Diagnóstico {-}
 
 ## Propósito {- .unlisted}
 

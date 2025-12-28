@@ -1,4 +1,4 @@
-# Apéndice B: Por que no hay casos públicos
+# Apéndice B: Por qué no hay casos públicos {-}
 La evidencia de que el límite externo funciona existe. No en casos corporativos publicitados voluntariamente, pero si en sectores donde la regulacion impone el principio por mandato.
 
 La Superintendencia de Bancos de Panama opera como límite externo genuino sobre el sistema bancario del pais. Sus criterios de adecuacion de capital, exposicion crediticia y concentracion de cartera son codificados, no negociables por bancos individuales, y tienen consecuencias automáticas cuando se violan. El regulador puede intervenir instituciones sin necesidad de cooperacion del regulado. La autoridad sobrevive a rotacion de personas porque reside en el marco legal, no en individuos. El sistema bancario panameno ha sobrevivido crisis regionales que devastaron sistemas en paises con regulacion más flexible.

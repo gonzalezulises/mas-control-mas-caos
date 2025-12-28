@@ -1,4 +1,4 @@
-# Apéndice F: Casos de Referencia
+# Apéndice F: Casos de Referencia {-}
 
 ## Nota metodológica {- .unlisted}
 

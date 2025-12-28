@@ -74,6 +74,7 @@ El primer movimiento para el lunes requiere una hora, no una iniciativa corporat
 Cuando llegue la próxima iniciativa similar, aplicar esos criterios. Si la iniciativa no los cumple, producir veredicto y documentar las consecuencias. Si la iniciativa los cumple y aún así falla, agregar el criterio que faltó. Si la iniciativa los cumple y funciona, confirmar que los criterios tienen valor predictivo. Ese ciclo, repetido consistentemente, construye el sistema.
 
 No es necesario esperar a tener el sistema perfecto. No es necesario conseguir aprobación de toda la organización. No es necesario contratar consultores ni comprar software. Un criterio, una iniciativa, un veredicto documentado. El sistema se construye desde ahí, no desde un blueprint completo que nunca se implementa.
+
 ## Precondiciones políticas {- .unlisted}
 
 El libro hasta aquí asume que existe voluntad de instalar el mecanismo. Esa voluntad no es automática. Los beneficiarios del sistema actual, sponsors con acceso discrecional a recursos, ejecutivos cuyas iniciativas no enfrentan escrutinio, tienen incentivo racional de resistir. Instalar un gate es redistribucion de poder. Toda redistribucion de poder genera resistencia. Ignorar está realidad es garantizar fracaso.

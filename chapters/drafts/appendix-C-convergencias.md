@@ -1,4 +1,4 @@
-# Apéndice C: Convergencias
+# Apéndice C: Convergencias {-}
 Este libro no emerge en vacío intelectual. Las dinámicas que describe han sido teorizadas desde múltiples tradiciones: teoría de organizaciones de alta confiabilidad, cibernética organizacional, teoría de accidentes normales, marcos de complejidad. La convergencia no es coincidencia. Es evidencia de que el problema es real y reconocido.
 
 Lo que sigue no es revisión de literatura. Es mapa de posicionamiento. Para cada tradición relevante: dónde converge este libro, dónde diverge, y qué ofrece que esa tradición no resuelve.

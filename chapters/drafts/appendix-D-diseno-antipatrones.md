@@ -1,4 +1,4 @@
-# Apéndice D: Diseño y anti-patrones del gate
+# Apéndice D: Diseño y anti-patrones del gate {-}
 El Apéndice A contiene criterios para evaluar iniciativas por tipo. Este apéndice complementa con principios para diseñar el mecanismo evaluador. Ambos son necesarios: criterios correctos aplicados por gate capturado no producen filtro; gate bien diseñado con criterios vagos tampoco.
 
 Lo que sigue no es estándar certificable. Son derivaciones lógicas de lo que haría que un mecanismo de límite funcione bajo las presiones que este libro describe. El lector que diseña un gate puede usar los principios como heurísticas de verificación. El lector que audita un gate existente puede usar los anti-patrones y señales como instrumentos de diagnóstico. En ambos casos, la pregunta es función real, no cumplimiento formal.
