@@ -334,3 +334,37 @@ Strauch, B. (2017). Ironies of automation: Still unresolved after all these year
 
 Woods, D. D. (2016). The risks of autonomy: Doyle's catch. *Journal of Cognitive Engineering and Decision Making*, 10(2), 131-133. https://doi.org/10.1177/1555343416653562
 
+## Conocimiento tácito y heurísticas {- .unlisted}
+
+Maqsood, T., Finegan, A. D., & Walker, D. H. (2004). Biases and heuristics in judgment and decision making: The dark side of tacit knowledge. *Issues in Informing Science and Information Technology*, 1, 295-301.
+
+## Modelo de contingencia social y accountability {- .unlisted}
+
+Bovens, M. (2010). Two concepts of accountability: Accountability as a virtue and as a mechanism. *West European Politics*, 33(5), 946-967. https://doi.org/10.1080/01402382.2010.486119
+
+Lerner, J. S., & Tetlock, P. E. (1999). Accounting for the effects of accountability. *Psychological Bulletin*, 125(2), 255-275. https://doi.org/10.1037/0033-2909.125.2.255
+
+Schillemans, T., Overman, S., Fawcett, P., Flinders, M., & Fredriksson, M. (2021). Understanding accountability: A composite theory. In *Accountability and Public Governance*. Oxford University Press.
+
+Tetlock, P. E. (1992). The impact of accountability on judgment and choice: Toward a social contingency model. *Advances in Experimental Social Psychology*, 25, 331-376.
+
+Tetlock, P. E., & Boettger, R. (1994). Accountability amplifies the status quo effect when change creates victims. *Journal of Behavioral Decision Making*, 7(1), 1-23.
+
+## Groupthink y toma de decisiones grupal {- .unlisted}
+
+Hermann, A., & Rammal, H. G. (2010). The grounding of the "flying bank". *Management Decision*, 48(7), 1048-1062. https://doi.org/10.1108/00251741011068761
+
+Janis, I. L. (1982). *Groupthink: Psychological studies of policy decisions and fiascoes* (2nd ed.). Houghton Mifflin.
+
+## Reglas vs. discreción {- .unlisted}
+
+Dworkin, R. (1977). *Taking rights seriously*. Harvard University Press.
+
+Kydland, F. E., & Prescott, E. C. (1977). Rules rather than discretion: The inconsistency of optimal plans. *Journal of Political Economy*, 85(3), 473-491. https://doi.org/10.1086/260580
+
+## Derechos de decisión y gobernanza {- .unlisted}
+
+Deloitte. (2024). *Getting decision rights right: Navigating uncertainty and turbulence through better decisions*. Deloitte Insights. https://www2.deloitte.com/us/en/insights/topics/strategy/decision-rights.html
+
+MIT CISR. (2021). *Designing effective decision rights*. MIT Sloan Center for Information Systems Research.
+
