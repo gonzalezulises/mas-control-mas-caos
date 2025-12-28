@@ -12,7 +12,7 @@ El lector familiarizado con estos marcos encontrará conexiones que enriquecen l
 
 <!-- break -->
 
-## High Reliability Organizations
+## High Reliability Organizations {-}
 
 La tradición HRO estudia organizaciones que operan en entornos de alto riesgo y logran tasas de accidente extraordinariamente bajas: portaaviones, plantas nucleares, control de tráfico aéreo, salas de emergencia. Karl Weick, Kathleen Sutcliffe y sus colaboradores (Weick & Sutcliffe, 2015) identificaron propiedades compartidas que distinguen a estas organizaciones de sus pares menos confiables.
 
@@ -24,7 +24,7 @@ HRO resuelve algo que este libro no intenta: comprensión profunda de cómo func
 
 <!-- break -->
 
-## Cynefin
+## Cynefin {-}
 
 Cynefin es marco de sensemaking desarrollado por Dave Snowden (Snowden & Boone, 2007) que distingue cinco dominios: simple, complicado, complejo, caótico y confuso. El argumento central es que cada dominio requiere respuestas diferentes, y que aplicar prácticas apropiadas para un dominio en otro produce fracaso sistemático.
 
@@ -38,7 +38,7 @@ Cynefin resuelve algo que este libro no intenta: diagnóstico de dominio, cómo 
 
 <!-- block: causa -->
 
-## Viable System Model
+## Viable System Model {-}
 
 El Modelo de Sistema Viable de Stafford Beer (Beer, 1972) es construcción cibernética que describe la estructura mínima necesaria para que un sistema sea viable, capaz de mantener existencia independiente en entorno cambiante. Propone cinco sistemas recursivos que toda organización viable debe tener, desde operaciones básicas hasta meta-sistema que mantiene identidad y dirección.
 
@@ -50,7 +50,7 @@ VSM resuelve algo que este libro no intenta: teoría completa de cómo debe estr
 
 <!-- break -->
 
-## Normal Accidents
+## Normal Accidents {-}
 
 Charles Perrow desarrolló la teoría de accidentes normales (Perrow, 1984) estudiando el accidente de Three Mile Island y otros fracasos en sistemas tecnológicos complejos. Su argumento central es incómodo: en sistemas con acoplamiento estrecho e interacción compleja, los accidentes son inevitables independientemente de la competencia de los operadores. Son normales en el sentido estadístico, no moral.
 
@@ -64,7 +64,7 @@ Perrow resuelve algo que este libro no intenta: explicación teórica rigurosa d
 
 <!-- block: riesgo -->
 
-## Agile Gobernanza
+## Agile Gobernanza {-}
 
 Agile gobernanza es conjunto de prácticas que aplican principios ágiles a gobernanza organizacional y de proyectos: iteración en lugar de planificación exhaustiva, feedback rápido en lugar de revisiones periódicas, decisión incremental en lugar de compromiso upfront, adaptación continua en lugar de adherencia a plan.
 
@@ -76,7 +76,7 @@ Agile gobernanza resuelve algo que este libro no intenta: cómo ejecutar iniciat
 
 <!-- break -->
 
-## Antifragilidad
+## Antifragilidad {-}
 
 Nassim Taleb introdujo el concepto de antifragilidad (Taleb, 2012) para describir sistemas que no solo resisten la volatilidad sino que se fortalecen con ella. Distingue tres categorías: frágil (dañado por volatilidad), robusto (indiferente a volatilidad) y antifrágil (fortalecido por volatilidad). El argumento es que la mayoría de los sistemas organizacionales son frágiles disfrazados de robustos.
 

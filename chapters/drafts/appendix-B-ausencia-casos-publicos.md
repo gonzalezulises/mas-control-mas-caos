@@ -1,4 +1,4 @@
-# Apendice B: Por que no hay casos publicos
+# Apéndice B: Por que no hay casos publicos
 
 <!-- block: reconocimiento -->
 
