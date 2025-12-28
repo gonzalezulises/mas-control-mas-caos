@@ -148,6 +148,24 @@ Wouters, O. J., McKee, M., & Stuckler, D. (2020). Estimated Research and Develop
 
 Johnson & Johnson. (1943). *Our Credo*. New Brunswick, NJ: Johnson & Johnson. https://www.jnj.com/credo/
 
+## Stage-Gate y gobernanza de proyectos {- .unlisted}
+
+Cooper, R. G. (2008). Perspective: The Stage-Gate® Idea-to-Launch Process—Update, What's New, and NexGen Systems. *Journal of Product Innovation Management*, 25(3), 213-232. https://doi.org/10.1111/j.1540-5885.2008.00296.x
+
+Cooper, R. G. (2009). Effective Gating: Make Product Innovation More Productive by Using Gates with Teeth. *Marketing Management Magazine*, March-April, 12-17.
+
+Deloitte. (2016). *M&A: The Intersection of Due Diligence and Governance*. Center for Board Effectiveness. https://www2.deloitte.com/us/en/pages/center-for-board-effectiveness/articles/mergers-and-acquisitions-due-diligence-and-governance.html
+
+## Medicina funcional - Analogía conceptual {- .unlisted}
+
+Hyman, M. (2010). Why Functional Medicine? *UltraWellness Center*. https://drhyman.com/blog/2010/12/10/why-functional-medicine/
+
+Institute for Functional Medicine. (2020). What is Functional Medicine? https://www.ifm.org/functional-medicine/what-is-functional-medicine/
+
+## Transformación digital - Tasas de fracaso {- .unlisted}
+
+McKinsey & Company. (2018). Unlocking Success in Digital Transformations. *McKinsey Global Survey*. https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/unlocking-success-in-digital-transformations
+
 ## Wells Fargo - Fuentes primarias {- .unlisted}
 
 Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*. https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/
