@@ -99,7 +99,7 @@ Que comportamiento habilita: permite mejora continua de los criterios basada en 
 
 Que comportamiento bloquea: impide repeticion de errores por ignorancia institucional. Impide cristalizacion de criterios que funcionaron en un contexto pero ya no aplican. Impide que el aprendizaje viva solo en la memoria de personas que eventualmente rotan.
 
-Que costo político introduce: requiere admitir que los criterios anteriores eran imperfectos. Cada actualizacion de criterios implica reconocer que el diseno previo tenia huecos. Esto es incomodo para quienes disenaron la versión anterior.
+Que costo político introduce: requiere admitir que los criterios anteriores eran imperfectos. Cada actualizacion de criterios implica reconocer que el diseño previo tenia huecos. Esto es incomodo para quienes disenaron la versión anterior.
 
 Que error estructural previene: repeticion de errores. Sin aprendizaje procedural, la organización comete los mismos errores con iniciativas diferentes porque las lecciones nunca se codificaron en reglas actualizadas.
 
@@ -109,13 +109,13 @@ La octava capacidad es la revision periódica de criterios.
 
 Que comportamiento habilita: permite adaptacion a contextos cambiantes. Nuevas categorías de riesgo se incorporan antes de que produzcan dano. Criterios que dejaron de ser relevantes se eliminan antes de que generen friccion innecesaria.
 
-Que comportamiento bloquea: impide obsolescencia progresiva donde el gate evalua contra estandares de hace cinco anos. Impide acumulacion de criterios que ya no capturan los riesgos reales. Impide que el gate se convierta en ritual que cumple forma pero pierde funcion.
+Que comportamiento bloquea: impide obsolescencia progresiva donde el gate evalua contra estandares de hace cinco años. Impide acumulacion de criterios que ya no capturan los riesgos reales. Impide que el gate se convierta en ritual que cumple forma pero pierde funcion.
 
 Que costo político introduce: requiere cuestionar criterios que fueron disenados por personas que siguen en la organización. La revision periódica puede revelar que decisiones anteriores se basaron en criterios que hoy se reconocen como inadecuados.
 
 Que error estructural previene: obsolescencia del mecanismo. Sin revision periódica, el gate pierde relevancia gradualmente. Evalua iniciativas de 2025 con criterios disenados para problemas de 2020. El sistema sigue funcionando formalmente pero deja de cumplir su propósito.
 
-Los criterios que funcionaron ayer pueden ser obsoletos manana. Un criterio disenado para iniciativas de transformacion tecnologica en 2020 puede ser inadecuado para iniciativas que involucran inteligencia artificial en 2025. La revision no es opcional ni espontanea. Esta calendarizada, tiene responsables asignados, produce documentacion de que cambio y por qué.
+Los criterios que funcionaron ayer pueden ser obsoletos manana. Un criterio diseñado para iniciativas de transformacion tecnologica en 2020 puede ser inadecuado para iniciativas que involucran inteligencia artificial en 2025. La revision no es opcional ni espontanea. Esta calendarizada, tiene responsables asignados, produce documentacion de que cambio y por qué.
 
 Estas ocho capacidades no provienen de estudio empirico de organizaciones que las implementaron. Provienen de derivacion lógica: si el sistema tiene las propiedades descritas en los capítulos anteriores, que componentes harian falta para contrarrestarlas. El lector puede verificar la lógica contra su experiencia; no hay casos externos que citar como autoridad.
 

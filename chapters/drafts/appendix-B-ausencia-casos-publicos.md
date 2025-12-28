@@ -32,7 +32,7 @@ La evidencia de reguladores latinoamericanos muestra que el principio funciona c
 
 Si el lector implementa esto y funciona, deberia documentarlo internamente. El registro de veredictos negativos es la base de esa documentacion. Cada iniciativa detenida deberia tener registro del análisis, los criterios incumplidos, y el costo proyectado evitado. Ese registro deberia revisarse anualmente para confirmar que la decisión fue correcta.
 
-En tres a cinco anos, el lector tendrá evidencia propia. No evidencia publicable, pero suficiente para defender el mecanismo internamente, justificar su continuacion, y demostrar al directorio que la inversion en gobernanza produce retorno medible en perdidas evitadas.
+En tres a cinco años, el lector tendrá evidencia propia. No evidencia publicable, pero suficiente para defender el mecanismo internamente, justificar su continuacion, y demostrar al directorio que la inversion en gobernanza produce retorno medible en perdidas evitadas.
 
 El caso público que el lector buscaba al empezar este apendice quizás no exista. El caso que importa es el que el lector puede construir si decide implementar.
 
