@@ -232,3 +232,55 @@ Flight Global. (2024, February 8). Copa forecasts healthy Latin American air-tra
 
 Grupo Bimbo. (2024, April 23). *Grupo Bimbo names Daniel Servitje Executive Chair; Rafael Pamias is appointed CEO* [Press release]. https://grupobimbo.com/en/press-room
 
+## Aprendizaje organizacional - Fundamentos {- .unlisted}
+
+Argyris, C. (1977). Double loop learning in organizations. *Harvard Business Review*, 55(5), 115-124.
+
+Argyris, C., & Schön, D. A. (1978). *Organizational learning: A theory of action perspective*. Addison-Wesley.
+
+Crossan, M. M., Lane, H. W., & White, R. E. (1999). An organizational learning framework: From intuition to institution. *Academy of Management Review*, 24(3), 522-537. https://doi.org/10.5465/amr.1999.2202135
+
+Fiol, C. M., & Lyles, M. A. (1985). Organizational learning. *Academy of Management Review*, 10(4), 803-813. https://doi.org/10.5465/amr.1985.4279103
+
+Huber, G. P. (1991). Organizational learning: The contributing processes and the literatures. *Organization Science*, 2(1), 88-115. https://doi.org/10.1287/orsc.2.1.88
+
+## Rutinas y memoria organizacional {- .unlisted}
+
+Levitt, B., & March, J. G. (1988). Organizational learning. *Annual Review of Sociology*, 14, 319-340. https://doi.org/10.1146/annurev.so.14.080188.001535
+
+Nelson, R. R., & Winter, S. G. (1982). *An evolutionary theory of economic change*. Harvard University Press.
+
+Walsh, J. P., & Ungson, G. R. (1991). Organizational memory. *Academy of Management Review*, 16(1), 57-91. https://doi.org/10.5465/amr.1991.4278992
+
+Zollo, M., & Winter, S. G. (2002). Deliberate learning and the evolution of dynamic capabilities. *Organization Science*, 13(3), 339-351. https://doi.org/10.1287/orsc.13.3.339.2780
+
+## Sistemas de memoria transactiva {- .unlisted}
+
+Argote, L., & Ren, Y. (2012). Transactive memory systems: A microfoundation of dynamic capabilities. *Journal of Management Studies*, 49(8), 1375-1382. https://doi.org/10.1111/j.1467-6486.2012.01077.x
+
+Ren, Y., & Argote, L. (2011). Transactive memory systems 1985–2010: An integrative framework of key dimensions, antecedents, and consequences. *Academy of Management Annals*, 5(1), 189-229. https://doi.org/10.5465/19416520.2011.590300
+
+Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group mind. In B. Mullen & G. R. Goethals (Eds.), *Theories of group behavior* (pp. 185-208). Springer-Verlag.
+
+## Conocimiento tácito y explícito {- .unlisted}
+
+Nonaka, I. (1994). A dynamic theory of organizational knowledge creation. *Organization Science*, 5(1), 14-37. https://doi.org/10.1287/orsc.5.1.14
+
+Nonaka, I., & Takeuchi, H. (1995). *The knowledge-creating company: How Japanese companies create the dynamics of innovation*. Oxford University Press.
+
+Nonaka, I., Toyama, R., & Konno, N. (2000). SECI, Ba and leadership: A unified model of dynamic knowledge creation. *Long Range Planning*, 33(1), 5-34. https://doi.org/10.1016/S0024-6301(99)00115-6
+
+## Pérdida de conocimiento por rotación {- .unlisted}
+
+Daghfous, A., Belkhodja, O., & Angell, L. C. (2013). Understanding and managing knowledge loss. *Journal of Knowledge Management*, 17(5), 639-660. https://doi.org/10.1108/JKM-12-2012-0394
+
+Massingham, P. (2018). Measuring the impact of knowledge loss: A longitudinal study. *Journal of Knowledge Management*, 22(4), 721-758. https://doi.org/10.1108/JKM-08-2016-0338
+
+Perrott, B. E. (2007). A strategic risk approach to knowledge management. *Business Horizons*, 50(6), 523-533. https://doi.org/10.1016/j.bushor.2007.08.002
+
+## Post-mortems y lecciones aprendidas {- .unlisted}
+
+Dingsøyr, T., Moe, N. B., & Nytrø, Ø. (2007). Organizational learning through project postmortem reviews – An explorative case study. In *EuroSPI 2007, LNCS 4764* (pp. 134-145). Springer.
+
+Williams, T., Ackermann, F., & Eden, C. (2001). *The use of project post-mortems*. Paper presented at PMI Annual Seminars & Symposium, Nashville, TN.
+
