@@ -92,7 +92,9 @@ Detert, J. R., & Burris, E. R. (2007). Leadership Behavior and Employee Voice: I
 
 Morrison, E. W., & Milliken, F. J. (2000). Organizational Silence: A Barrier to Change and Development in a Pluralistic World. *Academy of Management Review*, 25(4), 706-725. https://doi.org/10.5465/amr.2000.3707697
 
-## Escalation of commitment {- .unlisted}
+## Escalation of commitment y sunk cost {- .unlisted}
+
+Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes*, 35(1), 124-140. https://doi.org/10.1016/0749-5978(85)90049-4
 
 Brockner, J. (1992). The escalation of commitment to a failing course of action: Toward theoretical progress. *Academy of Management Review*, 17(1), 39-61. https://doi.org/10.5465/amr.1992.4279568
 
@@ -105,6 +107,8 @@ Fang, C., Kim, J., & Milliken, F. J. (2014). When bad news is sugarcoated: Infor
 ## Boeing 737 MAX - Fuentes primarias {- .unlisted}
 
 Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards. *The Seattle Times*. https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/
+
+U.S. Department of Transportation Office of Inspector General. (2021). *FAA's Oversight of Boeing and the 737 MAX* (Report No. AV2021020). https://www.oig.dot.gov/library-item/38646
 
 U.S. House Committee on Transportation and Infrastructure. (2020). *Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX*. 116th Congress. https://democrats-transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf
 
@@ -127,6 +131,22 @@ Muller, J. Z. (2018). *The Tyranny of Metrics*. Princeton University Press.
 Bahner, J. E., Hüper, A.-D., & Manzey, D. (2008). Misuse of Automated Decision Aids: Complacency, Automation Bias and the Impact of Training Experience. *International Journal of Human-Computer Studies*, 66(9), 688-699. https://doi.org/10.1016/j.ijhcs.2008.06.001
 
 Parasuraman, R., & Manzey, D. H. (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. *Human Factors*, 52(3), 381-410. https://doi.org/10.1177/0018720810376055
+
+## High Reliability Organizations (HRO) {- .unlisted}
+
+Roberts, K. H. (1990). Some characteristics of one type of high reliability organization. *Organization Science*, 1(2), 160-176. https://doi.org/10.1287/orsc.1.2.160
+
+Weick, K. E., & Sutcliffe, K. M. (2001). *Managing the Unexpected: Assuring High Performance in an Age of Complexity*. Jossey-Bass.
+
+## Costos desarrollo farmacéutico {- .unlisted}
+
+Congressional Budget Office. (2021). *Research and Development in the Pharmaceutical Industry*. Washington, DC: CBO. https://www.cbo.gov/publication/57126
+
+Wouters, O. J., McKee, M., & Stuckler, D. (2020). Estimated Research and Development Investment Needed to Bring a New Medicine to Market, 2009-2018. *JAMA*, 323(9), 844-853. https://doi.org/10.1001/jama.2020.1166
+
+## Johnson & Johnson Credo {- .unlisted}
+
+Johnson & Johnson. (1943). *Our Credo*. New Brunswick, NJ: Johnson & Johnson. https://www.jnj.com/credo/
 
 ## Wells Fargo - Fuentes primarias {- .unlisted}
 
