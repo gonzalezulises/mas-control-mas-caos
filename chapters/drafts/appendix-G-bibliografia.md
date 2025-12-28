@@ -166,6 +166,42 @@ Institute for Functional Medicine. (2020). What is Functional Medicine? https://
 
 McKinsey & Company. (2018). Unlocking Success in Digital Transformations. *McKinsey Global Survey*. https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/unlocking-success-in-digital-transformations
 
+## Captura regulatoria y gobernanza {- .unlisted}
+
+Carpenter, D., & Moss, D. A. (Eds.). (2014). *Preventing regulatory capture: Special interest influence and how to limit it*. Cambridge University Press.
+
+Laffont, J.-J., & Tirole, J. (1991). The politics of government decision-making: A theory of regulatory capture. *Quarterly Journal of Economics*, 106(4), 1089-1127. https://doi.org/10.2307/2937958
+
+Stigler, G. J. (1971). The theory of economic regulation. *Bell Journal of Economics*, 2, 3-21. https://doi.org/10.2307/3003160
+
+## Ceremonialización e isomorfismo institucional {- .unlisted}
+
+DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. *American Sociological Review*, 48(2), 147-160. https://doi.org/10.2307/2095101
+
+Meyer, J. W., & Rowan, B. (1977). Institutionalized organizations: Formal structure as myth and ceremony. *American Journal of Sociology*, 83(2), 340-363. https://doi.org/10.1086/226550
+
+## Caso Enron - Fuentes primarias {- .unlisted}
+
+Gordon, J. N. (2003). Governance failures of the Enron Board and the new information order of Sarbanes-Oxley. *Columbia Law & Economics Working Paper* No. 216. https://doi.org/10.2139/ssrn.391363
+
+U.S. Senate Permanent Subcommittee on Investigations. (2002). *The role of the Board of Directors in Enron's collapse* (Report 107-70). U.S. Government Printing Office.
+
+## Caso Interbolsa - Fuentes primarias {- .unlisted}
+
+Agudelo Rueda, D. (2013). *El desplome de Interbolsa y los riesgos de invertir en mercados de valores*. Universidad EAFIT.
+
+Macías, H. A., & Farfán-Liévano, A. (2025). White-collar fraudsters in an emerging market: The case of Interbolsa in Colombia. *Journal of Financial Crime*. https://doi.org/10.1108/JFC-09-2024-0291
+
+## Sesgos cognitivos y toma de decisiones {- .unlisted}
+
+Samuelson, W., & Zeckhauser, R. (1988). Status quo bias in decision making. *Journal of Risk and Uncertainty*, 1(1), 7-59. https://doi.org/10.1007/BF00055564
+
+## Paradoja de la prevención {- .unlisted}
+
+Hunt, K., & Emslie, C. (2001). Commentary: The prevention paradox in lay epidemiology—Rose revisited. *International Journal of Epidemiology*, 30(3), 442-446. https://doi.org/10.1093/ije/30.3.442
+
+Rose, G. (1981). Strategy of preventive medicine. *British Medical Journal*, 282(6279), 1847-1851. https://doi.org/10.1136/bmj.282.6279.1847
+
 ## Wells Fargo - Fuentes primarias {- .unlisted}
 
 Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*. https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/
