@@ -130,7 +130,7 @@ El tercer criterio de GO es sponsor con autoridad para modificar sistemas. Es ob
 
 El cuarto criterio de GO es cronograma realista. Es observable cuando el plan reconoce que el cambio cultural toma años, no meses, y tiene hitos intermedios verificables. El umbral es plan a tres años mínimo con métricas de progreso cada seis meses. La consecuencia de incumplimiento es condicional hasta ajustar cronograma. El anti-gaming requiere que los hitos intermedios midan cambio de comportamiento, no actividades de comunicación o capacitación.
 
-Los criterios de rechazo automático para cambio organizacional son tres. Primero, ausencia de comportamiento visible del CEO que modele la cultura deseada. Segundo, inconsistencia entre cultura declarada y sistema de incentivos vigente. Tercero, iniciativa de cambio cultural lanzada en los últimos tres años que no logró sus objetivos, sin análisis de por qué.
+Los criterios de rechazo automático para transformación cultural son tres. Primero, ausencia de comportamiento visible del CEO que modele la cultura deseada. Segundo, inconsistencia entre cultura declarada y sistema de incentivos vigente. Tercero, iniciativa de cambio cultural lanzada en los últimos tres años que no logró sus objetivos, sin análisis de por qué.
 
 Las señales de condicional son tres. Primera, proceso de reducción de personal en curso que contradice mensajes de la transformación. Segunda, rotación de más del veinte por ciento del equipo ejecutivo en los últimos doce meses. Tercera, adquisición o fusión en proceso que introducirá cultura diferente.
 

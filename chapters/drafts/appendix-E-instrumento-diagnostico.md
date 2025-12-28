@@ -27,7 +27,7 @@ El instrumento toma entre 15 y 25 minutos. Puede completarlo solo o con su equip
 |--------|-------------|
 | 1 | No existe ningún documento |
 | 2 | Existe documento pero no se usa o no se conoce |
-| 3 | Existe y se conoce, pero tiene ambigüedades significativas |
+| 3 | Existe y se conoce, pero tiene ambigüedades importantes |
 | 4 | Existe, se conoce, y es claro para la mayoría de casos |
 | 5 | Existe, es claro, y se actualiza cuando surgen casos límite |
 

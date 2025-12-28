@@ -24,7 +24,7 @@ La causa estructural de fracaso en implementación es intentar diseñar el siste
 
 El approach correcto es el inverso. Empezar con el caso más doloroso que la organización tiene fresco en memoria. La iniciativa que consumió recursos significativos y falló de manera prevenible. La adquisición que destruyó valor porque nadie hizo las preguntas correctas antes de cerrar. La transformación tecnológica que colapsó porque las dependencias no estaban mapeadas. Ese caso específico es el punto de partida porque el dolor está vivo, la necesidad de prevención es obvia, y el costo de no hacer nada es visible para todos.
 
-Sobre ese caso se construyen los primeros criterios. No criterios abstractos derivados de recomendaciones genéricas. Criterios específicos que habrían detectado el problema antes de que se materializara. Tres preguntas que, si se hubieran respondido honestamente, habrían cambiado el veredicto. Esas tres preguntas se convierten en tres criterios. Esos tres criterios se aplican a la próxima iniciativa similar que llegue. El resultado de esa aplicación genera aprendizaje que refina los criterios. El ciclo se repite.
+Sobre ese caso se construyen los primeros criterios. No criterios abstractos derivados de mejores prácticas. Criterios específicos que habrían detectado el problema antes de que se materializara. Tres preguntas que, si se hubieran respondido honestamente, habrían cambiado el veredicto. Esas tres preguntas se convierten en tres criterios. Esos tres criterios se aplican a la próxima iniciativa similar que llegue. El resultado de esa aplicación genera aprendizaje que refina los criterios. El ciclo se repite.
 
 <!-- block: riesgo -->
 
