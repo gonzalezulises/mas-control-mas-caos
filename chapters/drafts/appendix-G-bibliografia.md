@@ -84,3 +84,11 @@ Weick, K. E., & Sutcliffe, K. M. (2015). *Managing the unexpected: Sustained per
 
 Womack, J. P., Jones, D. T., & Roos, D. (1990). *The machine that changed the world: The story of lean production*. Free Press.
 
+## Voice y silencio organizacional {- .unlisted}
+
+Burris, E. R. (2012). The Risks and Rewards of Speaking Up: Managerial Responses to Employee Voice. *Academy of Management Journal*, 55(4), 851-875. https://doi.org/10.5465/amj.2010.0562
+
+Detert, J. R., & Burris, E. R. (2007). Leadership Behavior and Employee Voice: Is the Door Really Open? *Academy of Management Journal*, 50(4), 869-884. https://doi.org/10.5465/amj.2007.26279183
+
+Morrison, E. W., & Milliken, F. J. (2000). Organizational Silence: A Barrier to Change and Development in a Pluralistic World. *Academy of Management Review*, 25(4), 706-725. https://doi.org/10.5465/amr.2000.3707697
+

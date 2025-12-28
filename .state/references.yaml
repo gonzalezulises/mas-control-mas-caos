@@ -341,6 +341,74 @@ references:
         context: "CMF Chile como límite externo"
     apa_formatted: "Comisión para el Mercado Financiero de Chile. (2024). *Normativa y regulación*. URL"
 
+  # ============================================
+  # VOICE Y SILENCIO ORGANIZACIONAL
+  # ============================================
+
+  - id: REF-017
+    type: article
+    citation_key: burris2012
+    authors:
+      - family: Burris
+        given: Ethan R.
+    title: "The Risks and Rewards of Speaking Up: Managerial Responses to Employee Voice"
+    year: 2012
+    journal: "Academy of Management Journal"
+    volume: 55
+    issue: 4
+    pages: "851-875"
+    url: "https://doi.org/10.5465/amj.2010.0562"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B0-introduccion.md
+        context: "Voice y represalias organizacionales"
+    apa_formatted: "Burris, E. R. (2012). The Risks and Rewards of Speaking Up: Managerial Responses to Employee Voice. *Academy of Management Journal*, 55(4), 851-875."
+
+  - id: REF-018
+    type: article
+    citation_key: detert2007
+    authors:
+      - family: Detert
+        given: James R.
+      - family: Burris
+        given: Ethan R.
+    title: "Leadership Behavior and Employee Voice: Is the Door Really Open?"
+    year: 2007
+    journal: "Academy of Management Journal"
+    volume: 50
+    issue: 4
+    pages: "869-884"
+    url: "https://doi.org/10.5465/amj.2007.26279183"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B0-introduccion.md
+        context: "Challenging voice y evaluaciones de desempeño"
+    apa_formatted: "Detert, J. R., & Burris, E. R. (2007). Leadership Behavior and Employee Voice: Is the Door Really Open? *Academy of Management Journal*, 50(4), 869-884."
+
+  - id: REF-019
+    type: article
+    citation_key: morrison2000
+    authors:
+      - family: Morrison
+        given: Elizabeth W.
+      - family: Milliken
+        given: Frances J.
+    title: "Organizational Silence: A Barrier to Change and Development in a Pluralistic World"
+    year: 2000
+    journal: "Academy of Management Review"
+    volume: 25
+    issue: 4
+    pages: "706-725"
+    url: "https://doi.org/10.5465/amr.2000.3707697"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B0-introduccion.md
+        context: "Silencio organizacional como fenómeno sistémico"
+    apa_formatted: "Morrison, E. W., & Milliken, F. J. (2000). Organizational Silence: A Barrier to Change and Development in a Pluralistic World. *Academy of Management Review*, 25(4), 706-725."
+
 # ============================================
 # ÍNDICE DE VERIFICACIÓN
 # ============================================
