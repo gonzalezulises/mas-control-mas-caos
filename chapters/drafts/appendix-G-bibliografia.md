@@ -2,33 +2,33 @@
 
 Las referencias se presentan en formato APA 7, organizadas alfabéticamente. Se incluyen todas las fuentes citadas en el texto y fuentes adicionales que fundamentan los conceptos centrales del libro.
 
-Ashby, W. R. (1956). *An introduction to cybernetics*. Chapman & Hall. https://archive.org/details/introductiontocy00ashb
+Ashby, W. R. (1956). *An introduction to cybernetics*. Chapman & Hall.
 
 Beer, S. (1972). *Brain of the firm: The managerial cybernetics of organization*. Allen Lane.
 
 Beer, S. (1979). *The heart of enterprise*. John Wiley & Sons.
 
-Boeing Company. (2019). *737 MAX software update and training*. https://www.boeing.com/commercial/737max/737-max-software-updates.page
+Boeing Company. (2019). *737 MAX software update and training*. Boeing.
 
-Ching, L. (2014). Odebrecht: Building a global Latinas. *INSEAD Case Study*. https://www.insead.edu/
+Ching, L. (2014). Odebrecht: Building a global Latinas. *INSEAD Case Study*.
 
 Collins, J. C. (2009). *How the mighty fall: And why some companies never give in*. HarperCollins.
 
 Committee on Transportation and Infrastructure, U.S. House of Representatives. (2020). *The design, development, and certification of the Boeing 737 MAX: Final committee report*. U.S. Government Publishing Office.
 
-Copa Holdings, S.A. (2023). *Annual report 2023*. https://investor.copaair.com/
+Copa Holdings, S.A. (2023). *Annual report 2023*. Copa Holdings.
 
 Federal Aviation Administration. (2020). *Report on the Boeing 737 MAX: Return to service*. U.S. Department of Transportation.
 
 Goodhart, C. A. E. (1984). Problems of monetary management: The U.K. experience. En A. S. Courakis (Ed.), *Monetary theory and practice: The UK experience* (pp. 91-121). Macmillan.
 
-Joint Authorities Technical Review. (2019). *Boeing 737 MAX flight control system: Observations, findings, and recommendations*. https://www.faa.gov/news/media/attachments/Final_JATR_Submittal_to_FAA_Oct_2019.pdf
+Joint Authorities Technical Review. (2019). *Boeing 737 MAX flight control system: Observations, findings, and recommendations*. FAA.
 
 Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
 
 Liker, J. K. (2004). *The Toyota way: 14 management principles from the world's greatest manufacturer*. McGraw-Hill.
 
-McKinsey & Company. (2019). *Why do most transformations fail? A conversation with Harry Robinson*. https://www.mckinsey.com/capabilities/transformation/our-insights/why-do-most-transformations-fail-a-conversation-with-harry-robinson
+McKinsey & Company. (2019). *Why do most transformations fail? A conversation with Harry Robinson*. McKinsey & Company.
 
 McKinsey & Company. (2021). *The new digital edge: Rethinking strategy for the postpandemic era*. McKinsey Digital.
 
@@ -70,11 +70,11 @@ Toyota Motor Corporation. (2010). *Report to the Special Committee for Investiga
 
 Travis, D., & Francis, T. (2010). Johnson & Johnson: The recall that started it all. *The Wall Street Journal*.
 
-U.S. Department of Justice. (2016, diciembre 21). *Odebrecht and Braskem plead guilty and agree to pay at least $3.5 billion in global penalties to resolve largest foreign bribery case in history*. DOJ Press Release. https://www.justice.gov/opa/pr/odebrecht-and-braskem-plead-guilty-and-agree-pay-least-35-billion-global-penalties-resolve
+U.S. Department of Justice. (2016, diciembre 21). *Odebrecht and Braskem plead guilty and agree to pay at least $3.5 billion in global penalties to resolve largest foreign bribery case in history*. DOJ Press Release.
 
 U.S. Department of Justice. (2021, enero 7). *Boeing charged with 737 MAX fraud conspiracy and agrees to pay over $2.5 billion*. DOJ Press Release.
 
-U.S. Food and Drug Administration. (2020). *The drug development process*. https://www.fda.gov/patients/learn-about-drug-and-device-approvals/drug-development-process
+U.S. Food and Drug Administration. (2020). *The drug development process*. FDA.
 
 U.S. House Committee on Transportation and Infrastructure. (2020). *Final committee report: The design, development and certification of the Boeing 737 MAX*. 116th Congress.
 
@@ -106,11 +106,11 @@ Fang, C., Kim, J., & Milliken, F. J. (2014). When bad news is sugarcoated: Infor
 
 ## Boeing 737 MAX - Fuentes primarias {- .unlisted}
 
-Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards. *The Seattle Times*. https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/
+Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards. *The Seattle Times*.
 
-U.S. Department of Transportation Office of Inspector General. (2021). *FAA's Oversight of Boeing and the 737 MAX* (Report No. AV2021020). https://www.oig.dot.gov/library-item/38646
+U.S. Department of Transportation Office of Inspector General. (2021). *FAA's Oversight of Boeing and the 737 MAX* (Report No. AV2021020). DOT OIG.
 
-U.S. House Committee on Transportation and Infrastructure. (2020). *Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX*. 116th Congress. https://democrats-transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf
+U.S. House Committee on Transportation and Infrastructure. (2020). *Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX*. 116th Congress.
 
 ## Validación empírica cibernética organizacional {- .unlisted}
 
@@ -140,13 +140,13 @@ Weick, K. E., & Sutcliffe, K. M. (2001). *Managing the Unexpected: Assuring High
 
 ## Costos desarrollo farmacéutico {- .unlisted}
 
-Congressional Budget Office. (2021). *Research and Development in the Pharmaceutical Industry*. Washington, DC: CBO. https://www.cbo.gov/publication/57126
+Congressional Budget Office. (2021). *Research and Development in the Pharmaceutical Industry*. Washington, DC: CBO.
 
 Wouters, O. J., McKee, M., & Stuckler, D. (2020). Estimated Research and Development Investment Needed to Bring a New Medicine to Market, 2009-2018. *JAMA*, 323(9), 844-853. https://doi.org/10.1001/jama.2020.1166
 
 ## Johnson & Johnson Credo {- .unlisted}
 
-Johnson & Johnson. (1943). *Our Credo*. New Brunswick, NJ: Johnson & Johnson. https://www.jnj.com/credo/
+Johnson & Johnson. (1943). *Our Credo*. New Brunswick, NJ: Johnson & Johnson.
 
 ## Stage-Gate y gobernanza de proyectos {- .unlisted}
 
@@ -154,17 +154,17 @@ Cooper, R. G. (2008). Perspective: The Stage-Gate® Idea-to-Launch Process—Upd
 
 Cooper, R. G. (2009). Effective Gating: Make Product Innovation More Productive by Using Gates with Teeth. *Marketing Management Magazine*, March-April, 12-17.
 
-Deloitte. (2016). *M&A: The Intersection of Due Diligence and Governance*. Center for Board Effectiveness. https://www2.deloitte.com/us/en/pages/center-for-board-effectiveness/articles/mergers-and-acquisitions-due-diligence-and-governance.html
+Deloitte. (2016). *M&A: The Intersection of Due Diligence and Governance*. Center for Board Effectiveness.
 
 ## Medicina funcional - Analogía conceptual {- .unlisted}
 
-Hyman, M. (2010). Why Functional Medicine? *UltraWellness Center*. https://drhyman.com/blog/2010/12/10/why-functional-medicine/
+Hyman, M. (2010). Why Functional Medicine? *UltraWellness Center*.
 
-Institute for Functional Medicine. (2020). What is Functional Medicine? https://www.ifm.org/functional-medicine/what-is-functional-medicine/
+Institute for Functional Medicine. (2020). What is Functional Medicine? IFM.
 
 ## Transformación digital - Tasas de fracaso {- .unlisted}
 
-McKinsey & Company. (2018). Unlocking Success in Digital Transformations. *McKinsey Global Survey*. https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/unlocking-success-in-digital-transformations
+McKinsey & Company. (2018). Unlocking Success in Digital Transformations. *McKinsey Global Survey*.
 
 ## Captura regulatoria y gobernanza {- .unlisted}
 
@@ -204,9 +204,9 @@ Rose, G. (1981). Strategy of preventive medicine. *British Medical Journal*, 282
 
 ## Wells Fargo - Fuentes primarias {- .unlisted}
 
-Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*. https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/
+Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*. CFPB.
 
-U.S. Securities and Exchange Commission. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*. https://www.sec.gov/newsroom/press-releases/2020-38
+U.S. Securities and Exchange Commission. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*. SEC.
 
 ## Sesgo de acción (Action Bias) {- .unlisted}
 
@@ -228,9 +228,9 @@ Edmondson, A. C. (2023). *Right kind of wrong: The science of failing well*. Atr
 
 ## Casos empresariales - Copa Airlines y Grupo Bimbo {- .unlisted}
 
-Flight Global. (2024, February 8). Copa forecasts healthy Latin American air-travel demand through 2024. *Flight Global*. https://www.flightglobal.com/airlines/copa-forecasts-healthy-latin-american-air-travel-demand-through-2024/156825.article
+Flight Global. (2024, February 8). Copa forecasts healthy Latin American air-travel demand through 2024. *Flight Global*.
 
-Grupo Bimbo. (2024, April 23). *Grupo Bimbo names Daniel Servitje Executive Chair; Rafael Pamias is appointed CEO* [Press release]. https://grupobimbo.com/en/press-room
+Grupo Bimbo. (2024, April 23). *Grupo Bimbo names Daniel Servitje Executive Chair; Rafael Pamias is appointed CEO* [Press release]. Grupo Bimbo.
 
 ## Aprendizaje organizacional - Fundamentos {- .unlisted}
 
@@ -364,7 +364,6 @@ Kydland, F. E., & Prescott, E. C. (1977). Rules rather than discretion: The inco
 
 ## Derechos de decisión y gobernanza {- .unlisted}
 
-Deloitte. (2024). *Getting decision rights right: Navigating uncertainty and turbulence through better decisions*. Deloitte Insights. https://www2.deloitte.com/us/en/insights/topics/strategy/decision-rights.html
+Deloitte. (2024). *Getting decision rights right: Navigating uncertainty and turbulence through better decisions*. Deloitte Insights.
 
 MIT CISR. (2021). *Designing effective decision rights*. MIT Sloan Center for Information Systems Research.
-
