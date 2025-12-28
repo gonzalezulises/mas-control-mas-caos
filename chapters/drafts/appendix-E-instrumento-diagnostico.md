@@ -21,7 +21,7 @@ El instrumento toma entre 15 y 25 minutos. Puede completarlo solo o con su equip
 *¿Está claro qué decisiones requieren governance reforzado?*
 
 **Pregunta 1.1**
-¿Existe documento escrito que especifica qué iniciativas requieren aprobación del gate?
+¿Existe documento escrito que específica qué iniciativas requieren aprobación del gate?
 
 | Opción | Descripción |
 |--------|-------------|
@@ -140,7 +140,7 @@ Su respuesta: ____
 
 *¿El veredicto tiene consecuencias reales o es consultivo?*
 
-**Nota crítica:** Si el puntaje de esta sección es menor a 10, las demás capacidades son irrelevantes. Un gate sin consecuencias no es un límite; es teatro organizacional.
+**Nota crítica:** Si el puntaje de está sección es menor a 10, las demás capacidades son irrelevantes. Un gate sin consecuencias no es un límite; es teatro organizacional.
 
 **Pregunta 3.1**
 Cuando el gate dice NO, ¿se detienen los recursos asignados a la iniciativa?
@@ -200,7 +200,7 @@ Su respuesta: ____
 
 ## Sección 4: Protección política del NO {- .unlisted}
 
-*¿Quien rechaza paga costo personal?*
+*¿Quién rechaza paga costo personal?*
 
 **Pregunta 4.1**
 ¿Los miembros del gate que votan NO enfrentan consecuencias negativas?
@@ -260,7 +260,7 @@ Su respuesta: ____
 
 ## Sección 5: Separación patrocinio/veredicto {- .unlisted}
 
-*¿Quien evalúa tiene interés en el resultado?*
+*¿Quién evalúa tiene interés en el resultado?*
 
 **Pregunta 5.1**
 ¿Los miembros del gate tienen bonus o compensación ligada al éxito de iniciativas que aprueban?
@@ -557,7 +557,7 @@ Si la Capacidad 3 (Gate vinculante) tiene puntaje menor a 10, el puntaje global 
 
 ### Si su brecha principal es Delimitación explícita (Capacidad 1) {- .unlisted}
 
-El problema es que no está claro qué pasa por el gate. Sin esta claridad, las iniciativas que deberían ser evaluadas se escapan, y las que no necesitan evaluación consumen recursos del gate.
+El problema es que no está claro qué pasa por el gate. Sin está claridad, las iniciativas que deberían ser evaluadas se escapan, y las que no necesitan evaluación consumen recursos del gate.
 
 **Acción inmediata:** Documente por escrito qué tipos de iniciativa requieren aprobación del gate. Incluya umbrales cuantitativos (monto, duración, alcance) y cualitativos (riesgo estratégico, impacto organizacional).
 
@@ -573,7 +573,7 @@ El problema es que cada evaluación es juicio ad-hoc. Sin criterio previo, el ve
 
 ### Si su brecha principal es Gate vinculante (Capacidad 3) {- .unlisted}
 
-El problema es que el gate no tiene consecuencias. Esto es crítico: sin esta capacidad, nada más importa.
+El problema es que el gate no tiene consecuencias. Esto es crítico: sin está capacidad, nada más importa.
 
 **Acción inmediata:** Conecte el veredicto del gate con la liberación de presupuesto. El NO debe detener recursos, no solo generar un documento.
 

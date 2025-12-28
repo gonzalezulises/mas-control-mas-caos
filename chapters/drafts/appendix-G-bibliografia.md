@@ -50,7 +50,7 @@ Reuters. (2017, abril 14). Timeline: Odebrecht corruption scandal rocks Latin Am
 
 Robison, P. (2021). *Flying blind: The 737 MAX tragedy and the fall of Boeing*. Doubleday.
 
-Snowden, D. J., & Boone, M. E. (2007). A leader's framework for decision making. *Harvard Business Review*, 85(11), 68-76.
+Snowden, D. J., & Boone, M. E. (2007). A leader's framework for decisión making. *Harvard Business Review*, 85(11), 68-76.
 
 Spear, S., & Bowen, H. K. (1999). Decoding the DNA of the Toyota production system. *Harvard Business Review*, 77(5), 96-106.
 

@@ -24,7 +24,7 @@ El Sistema de Producción Toyota emergió en las décadas de 1950-1970 como resp
 
 El Andon no fue diseñado como herramienta de governance. Fue diseñado como herramienta de producción. Pero su efecto es el de un límite externo: cuando un trabajador tira de la cuerda, el sistema se detiene. No hay comité que delibere. No hay escalación que autorice. El límite está en el diseño.
 
-La filosofía subyacente, codificada en documentos internos y prácticas de entrenamiento, establece que detener la línea ante la duda es correcto; dejar pasar un defecto es incorrecto. El costo de una parada es visible e inmediato. El costo de un defecto que llega al cliente es mayor pero diferido. El sistema resuelve esta asimetría haciendo que la parada no tenga costo personal para quien la activa.
+La filosofía subyacente, codificada en documentos internos y prácticas de entrenamiento, establece que detener la línea ante la duda es correcto; dejar pasar un defecto es incorrecto. El costo de una parada es visible e inmediato. El costo de un defecto que llega al cliente es mayor pero diferido. El sistema resuelve está asimetría haciendo que la parada no tenga costo personal para quien la activa.
 
 ### Estado de las capacidades {- .unlisted}
 
@@ -34,7 +34,7 @@ El criterio de activación es claro: cualquier anomalía, cualquier duda, cualqu
 
 **Capacidad 2: Criterio codificado — PRESENTE**
 
-La regla "si hay duda, detener" existe antes del evento específico. No se evalúa caso por caso si esta anomalía particular merece parada. El criterio es binario y previo.
+La regla "si hay duda, detener" existe antes del evento específico. No se evalúa caso por caso si está anomalía particular merece parada. El criterio es binario y previo.
 
 **Capacidad 3: Gate vinculante — PRESENTE**
 
@@ -104,7 +104,7 @@ La noche del 30 de septiembre de 1982, cuando llegaron los primeros reportes de 
 
 **Capacidad 1: Delimitación explícita — PRESENTE**
 
-El Credo era claro sobre qué decisiones requerían aplicar la jerarquía de responsabilidades: cualquier decisión que afectara al consumidor. No había ambigüedad sobre si esta crisis calificaba.
+El Credo era claro sobre qué decisiones requerían aplicar la jerarquía de responsabilidades: cualquier decisión que afectara al consumidor. No había ambigüedad sobre si está crisis calificaba.
 
 **Capacidad 2: Criterio codificado — PRESENTE**
 
@@ -205,7 +205,7 @@ Boeing certificaba su propio avión. Los representantes ODA eran empleados de Bo
 
 **Capacidad 6: Registro irreversible — PARCIAL**
 
-Documentación existía. Los análisis de seguridad existían. Las comunicaciones internas existían. Pero esta documentación no activaba alarmas institucionales. El registro existía pero no era visible para quienes podían actuar.
+Documentación existía. Los análisis de seguridad existían. Las comunicaciones internas existían. Pero está documentación no activaba alarmas institucionales. El registro existía pero no era visible para quienes podían actuar.
 
 **Capacidad 7: Aprendizaje procedural — AUSENTE**
 

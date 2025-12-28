@@ -1,16 +1,9 @@
 # Apéndice C: Convergencias
-
-<!-- block: reconocimiento -->
-
 Este libro no emerge en vacío intelectual. Las dinámicas que describe han sido teorizadas desde múltiples tradiciones: teoría de organizaciones de alta confiabilidad, cibernética organizacional, teoría de accidentes normales, marcos de complejidad. La convergencia no es coincidencia. Es evidencia de que el problema es real y reconocido.
 
 Lo que sigue no es revisión de literatura. Es mapa de posicionamiento. Para cada tradición relevante: dónde converge este libro, dónde diverge, y qué ofrece que esa tradición no resuelve.
 
 El lector familiarizado con estos marcos encontrará conexiones que enriquecen la lectura. El lector no familiarizado encontrará direcciones para profundizar si el argumento de este libro le resulta persuasivo. Ninguna de estas tradiciones es prerrequisito para implementar lo que el libro propone. Todas son útiles para entender por qué lo propuesto tiene fundamento más allá de la experiencia del autor.
-
-<!-- block: alivio -->
-
-<!-- break -->
 
 ## High Reliability Organizations {- .unlisted}
 
@@ -21,9 +14,6 @@ La convergencia con este libro es directa en varios puntos. HRO identifica reluc
 La diferencia es igualmente directa. HRO describe propiedades observadas en organizaciones que ya son confiables. No prescribe cómo una organización que no tiene esas propiedades las adquiere. Los portaaviones no decidieron un día volverse confiables; evolucionaron esas propiedades bajo presión de selección brutal donde los errores producían muertes visibles e inmediatas. La mayoría de las organizaciones no opera bajo esa presión. Este libro propone mecanismo específico para organizaciones que operan sin esas propiedades y quieren desarrollarlas antes de que la crisis las obligue.
 
 HRO resuelve algo que este libro no intenta: comprensión profunda de cómo funciona la cognición distribuida en equipos de alta confiabilidad, cómo se construye cultura de seguridad psicológica, cómo operan los sistemas de reporte de errores sin culpa. Este libro resuelve algo que HRO no aborda: cómo una organización típica instala capacidad de límite cuando no tiene la historia evolutiva que produjo las propiedades HRO. Si HRO describe el destino, este libro propone un vehículo.
-
-<!-- break -->
-
 ## Cynefin {- .unlisted}
 
 Cynefin es marco de sensemaking desarrollado por Dave Snowden (Snowden & Boone, 2007) que distingue cinco dominios: simple, complicado, complejo, caótico y confuso. El argumento central es que cada dominio requiere respuestas diferentes, y que aplicar prácticas apropiadas para un dominio en otro produce fracaso sistemático.
@@ -34,10 +24,6 @@ La diferencia es de función. Cynefin es marco de sensemaking: ayuda a entender 
 
 Cynefin resuelve algo que este libro no intenta: diagnóstico de dominio, cómo saber si un problema específico es complejo o meramente complicado, cómo evitar la trampa de tratar todo como complejo cuando a veces la solución experta es apropiada. Este libro resuelve algo que Cynefin no aborda: una vez que sabes que estás en dominio complejo, qué hacer para evitar que tu organización aplique por default la lógica del dominio complicado. Cynefin ayuda a ver; este libro ayuda a actuar. El lector que use ambos tiene toolkit más completo.
 
-<!-- break -->
-
-<!-- block: causa -->
-
 ## Viable System Model {- .unlisted}
 
 El Modelo de Sistema Viable de Stafford Beer (Beer, 1972) es construcción cibernética que describe la estructura mínima necesaria para que un sistema sea viable, capaz de mantener existencia independiente en entorno cambiante. Propone cinco sistemas recursivos que toda organización viable debe tener, desde operaciones básicas hasta meta-sistema que mantiene identidad y dirección.
@@ -47,9 +33,6 @@ La convergencia con este libro es profunda aunque no siempre obvia. VSM argument
 La diferencia es de nivel de abstracción. VSM es modelo que describe estructura. Es elegante, riguroso, y teóricamente completo. Pero no prescribe cómo implementar esa estructura en organización existente, ni qué hacer cuando la estructura formal existe pero no funciona. Este libro es más operativo y más modesto. Asume que la estructura puede existir ceremonialmente, que los comités de gobernanza pueden reunirse sin gobernar, que los sistemas de control pueden reportar sin controlar. Y propone condiciones específicas para que el mecanismo funcione sustantivamente en lugar de solo formalmente.
 
 VSM resuelve algo que este libro no intenta: teoría completa de cómo debe estructurarse una organización viable, con nivel de detalle arquitectónico que permite diseño desde cero. Este libro resuelve algo que VSM no aborda: cómo evitar que el mecanismo de gobernanza sea capturado o ceremonializado. VSM asume implícitamente que si el sistema existe y está correctamente diseñado, funciona. Este libro documenta que la existencia formal no garantiza función, y propone condiciones para cerrar esa brecha. El consultor que diseña usando VSM puede usar este libro para verificar que lo diseñado no será neutralizado por la dinámica política que intenta regular.
-
-<!-- break -->
-
 ## Normal Accidents {- .unlisted}
 
 Charles Perrow desarrolló la teoría de accidentes normales (Perrow, 1984) estudiando el accidente de Three Mile Island y otros fracasos en sistemas tecnológicos complejos. Su argumento central es incómodo: en sistemas con acoplamiento estrecho e interacción compleja, los accidentes son inevitables independientemente de la competencia de los operadores. Son normales en el sentido estadístico, no moral.
@@ -60,10 +43,6 @@ La diferencia es de conclusión. Perrow diagnostica inevitabilidad. Su análisis
 
 Perrow resuelve algo que este libro no intenta: explicación teórica rigurosa de por qué los accidentes en sistemas complejos son estructuralmente inevitables, con taxonomía de tipos de sistemas y predicción de qué configuraciones son más vulnerables. Este libro resuelve algo que Perrow no aborda: qué hacer con ese conocimiento. Perrow describe el problema con precisión clínica. Este libro propone intervención que no pretende eliminar el problema pero sí reducir frecuencia y severidad. Perrow explica por qué deberías preocuparte; este libro propone qué puedes hacer con esa preocupación.
 
-<!-- break -->
-
-<!-- block: riesgo -->
-
 ## Agile Gobernanza {- .unlisted}
 
 Agile gobernanza es conjunto de prácticas que aplican principios ágiles a gobernanza organizacional y de proyectos: iteración en lugar de planificación exhaustiva, feedback rápido en lugar de revisiones periódicas, decisión incremental en lugar de compromiso upfront, adaptación continua en lugar de adherencia a plan.
@@ -73,9 +52,6 @@ La convergencia con este libro es parcial pero significativa. Agile gobernanza a
 La diferencia es de momento de intervención. Agile gobernanza resuelve cómo ejecutar una vez que decidiste ejecutar. Optimiza la ejecución mediante iteración y feedback: sprints cortos, retrospectivas frecuentes, pivotes cuando la evidencia lo justifica. Este libro resuelve el problema anterior: cómo decidir si deberías entrar en ejecución. Un equipo puede ser perfectamente ágil, con sprints impecables y retrospectivas honestas, ejecutando una iniciativa que nunca debió aprobarse. La agilidad en ejecución no compensa el error de aprobar lo que no debió aprobarse. El DRG opera antes del primer sprint.
 
 Agile gobernanza resuelve algo que este libro no intenta: cómo ejecutar iniciativas de manera adaptativa una vez aprobadas, cómo estructurar equipos para velocidad de respuesta, cómo mantener flexibilidad sin perder coherencia. Este libro resuelve algo que agile gobernanza no aborda: cómo evitar que iniciativas mal planteadas entren en ejecución ágil. No hay conflicto entre ambos. Este libro propone filtro antes de ejecución; agile gobernanza propone método de ejecución después del filtro. Una organización puede y probablemente debería usar ambos.
-
-<!-- break -->
-
 ## Antifragilidad {- .unlisted}
 
 Nassim Taleb introdujo el concepto de antifragilidad (Taleb, 2012) para describir sistemas que no solo resisten la volatilidad sino que se fortalecen con ella. Distingue tres categorías: frágil (dañado por volatilidad), robusto (indiferente a volatilidad) y antifrágil (fortalecido por volatilidad). El argumento es que la mayoría de los sistemas organizacionales son frágiles disfrazados de robustos.
@@ -86,18 +62,11 @@ La diferencia es de especificidad. Taleb prescribe principios generales: buscar 
 
 Taleb resuelve algo que este libro no intenta: teoría general de cómo los sistemas responden a volatilidad, con aplicaciones que van desde finanzas personales hasta política pública. Este libro resuelve algo que Taleb no aborda: cómo una organización específica instala capacidad de antifragilidad en su proceso de decisión estratégica. Taleb provee principios; este libro provee implementación en un dominio específico.
 
-<!-- break -->
-
-<!-- block: proteccion -->
-
 Los marcos citados comparten diagnóstico fundamental: los sistemas complejos no se comportan como los sistemas simples; aplicarles lógica de control lineal produce fragilidad; las propiedades emergentes no se gestionan con intención individual por virtuosa que sea. La convergencia de tradiciones tan diversas en orígenes y métodos, desde la cibernética de Beer hasta la epistemología de Taleb, desde la sociología organizacional de Weick hasta la ingeniería de Perrow, es evidencia de que el problema es real y no artefacto de una perspectiva particular.
 
 Lo que este libro agrega no es diagnóstico adicional. El diagnóstico está hecho, repetidamente, desde múltiples ángulos. Lo que agrega es mecanismo operativo. Un lector puede entender HRO profundamente, aplicar Cynefin correctamente, diseñar con VSM rigurosamente, preocuparse con Perrow apropiadamente, ejecutar con agilidad y buscar antifragilidad según Taleb. Y aún así no saber qué hacer el lunes cuando llega una iniciativa estratégica a su mesa que tiene sponsor poderoso, presupuesto aprobado, y señales ambiguas sobre su viabilidad. Este libro intenta resolver ese problema específico.
 
 El Decision Readiness Gate no reemplaza ninguno de estos marcos. Los presupone como contexto intelectual que hace comprensible por qué el mecanismo propuesto tiene la forma que tiene. El lector que quiera profundizar encontrará que cada tradición enriquece la comprensión de por qué el DRG requiere las características que el libro describe. El lector que quiera actuar encontrará aquí propuesta concreta que puede implementar, criticar, adaptar o mejorar. La convergencia con marcos establecidos no es argumento de autoridad. Es evidencia de que la propuesta no contradice lo que se sabe sobre sistemas complejos, y de que el autor ha hecho el trabajo de verificar esa consistencia.
-
-<!-- break -->
-
 | Marco | Convergencia | Diferencia | Este libro aporta |
 |-------|--------------|------------|-------------------|
 | HRO | Confiabilidad como propiedad de diseño, no de intención | HRO describe organizaciones que ya son confiables | Mecanismo para adquirir propiedades HRO sin historia evolutiva |

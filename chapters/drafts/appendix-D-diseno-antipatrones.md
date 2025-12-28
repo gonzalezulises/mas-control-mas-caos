@@ -1,14 +1,7 @@
 # Apéndice D: Diseño y anti-patrones del gate
-
-<!-- block: reconocimiento -->
-
 El Apéndice A contiene criterios para evaluar iniciativas por tipo. Este apéndice complementa con principios para diseñar el mecanismo evaluador. Ambos son necesarios: criterios correctos aplicados por gate capturado no producen filtro; gate bien diseñado con criterios vagos tampoco.
 
 Lo que sigue no es estándar certificable. Son derivaciones lógicas de lo que haría que un mecanismo de límite funcione bajo las presiones que este libro describe. El lector que diseña un gate puede usar los principios como heurísticas de verificación. El lector que audita un gate existente puede usar los anti-patrones y señales como instrumentos de diagnóstico. En ambos casos, la pregunta es función real, no cumplimiento formal.
-
-<!-- break -->
-
-<!-- block: alivio -->
 
 ## Principios de diseño {- .unlisted}
 
@@ -26,10 +19,6 @@ Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño
 
 **Principio 6: Carga de prueba en el sponsor.** La iniciativa debe demostrar readiness; el gate no debe demostrar que la iniciativa no está ready. Si el gate debe justificar cada rechazo mientras el sponsor solo debe presentar la iniciativa, la asimetría de esfuerzo favorece la aprobación. Rechazar requiere argumento; aprobar requiere solo ausencia de objeción. Esta asimetría ceremonializa el gate. El formato de sometimiento debe requerir evidencia de readiness según criterios publicados. La ausencia de evidencia es causa suficiente de rechazo; el gate no necesita probar que la evidencia faltante era necesaria. La carga de prueba invertida es el mecanismo más sutil de captura.
 
-<!-- break -->
-
-<!-- block: causa -->
-
 ## Anti-patrones del gate {- .unlisted}
 
 Un anti-patrón es una configuración que parece razonable pero produce disfunción predecible. Cada anti-patrón tiene lógica que lo hace atractivo y consecuencia que lo hace destructivo.
@@ -46,10 +35,6 @@ Un anti-patrón es una configuración que parece razonable pero produce disfunci
 
 **Anti-patrón 6: Criterios negociables por iniciativa.** Los criterios de readiness se adaptan al contexto de cada iniciativa durante la evaluación. Parece razonable: cada iniciativa es diferente; necesitamos flexibilidad para casos únicos. Falla porque si el criterio se adapta a la iniciativa, toda iniciativa cumple su criterio adaptado. El filtro desaparece. La flexibilidad legítima es tener criterios diferenciados por tipo de iniciativa, definidos antes de la evaluación. La flexibilidad ilegítima es ajustar los criterios durante la evaluación para que la iniciativa presente los pase.
 
-<!-- break -->
-
-<!-- block: riesgo -->
-
 ## Señales tempranas de captura {- .unlisted}
 
 La captura del gate no ocurre en un momento; se instala gradualmente. Estas señales son observables antes de que la captura sea completa. El ejecutivo que las detecta tiene ventana de intervención.
@@ -63,9 +48,6 @@ La captura del gate no ocurre en un momento; se instala gradualmente. Estas señ
 **Señal 4: Anticipación de veredictos.** Observar si los sponsors saben qué veredicto recibirán antes de la deliberación formal. Si el resultado se comenta antes de la sesión, la deliberación formal es teatro. La decisión real ocurre en conversaciones previas entre operadores y sponsors. La acción es verificar si hay comunicación entre operadores y sponsors antes de la sesión. Si la hay, reforzar protocolo de no-contacto previo a deliberación.
 
 **Señal 5: Consulta previa informal.** Observar si los operadores consultan informalmente con sponsors sobre cómo enfocar la evaluación antes de la sesión formal. Esto indica que el operador está alineando su posición con el sponsor en lugar de evaluar independientemente. Es captura activa en proceso, no captura consumada. La intervención debe ser inmediata sobre composición del gate.
-
-<!-- break -->
-
 ## Indicadores de falsa estabilidad {- .unlisted}
 
 Un gate puede parecer estable porque existe, se reúne, produce veredictos y tiene registro documentado, mientras es funcionalmente inoperante. Estos indicadores revelan que la estabilidad es aparente.
@@ -80,10 +62,6 @@ Un gate puede parecer estable porque existe, se reúne, produce veredictos y tie
 
 **Indicador 5: Ausencia de rechazos memorables.** Nadie en la organización puede citar una iniciativa significativa que el gate haya rechazado. O el gate no rechaza iniciativas que importan, o los rechazos son de iniciativas marginales que nadie nota. En ambos casos, el gate no está ejerciendo límite sobre lo que importa. Un gate que solo rechaza lo insignificante no es límite; es filtro de ruido.
 
-<!-- break -->
-
-<!-- block: proteccion -->
-
 Este apéndice no certifica gates. Provee instrumentos para diseñarlos con menor probabilidad de captura y diagnosticarlos cuando la captura comienza a instalarse.
 
 Un gate bien diseñado no garantiza que funcione. Las presiones de captura son constantes y creativas. Un gate mal diseñado garantiza que no funcione, porque la arquitectura misma facilita la captura. La diferencia entre ambos es si el diseño dificulta la captura o la invita.
@@ -91,9 +69,6 @@ Un gate bien diseñado no garantiza que funcione. Las presiones de captura son c
 El lector que diseña un gate puede usar los principios como heurísticas de verificación: cada violación es señal de alerta que requiere justificación explícita. El lector que audita un gate existente puede usar los anti-patrones y señales como lista de verificación de diagnóstico: cada patrón observado es evidencia de que el gate puede no estar funcionando. En ambos casos, lo que importa no es cumplimiento formal sino función real. ¿El gate produce veredictos que cambian comportamiento, o produce registros que legitiman decisiones ya tomadas? ¿El RECHAZO tiene consecuencias operativas, o es obstáculo temporal que la persistencia supera?
 
 La diferencia entre límite genuino y ceremonia de gobernanza es observable. Este apéndice intenta hacer esa observación sistemática.
-
-<!-- break -->
-
 | Categoría | Elemento | Señal de alerta |
 |-----------|----------|-----------------|
 | Principio violado | Independencia | Operador reporta a sponsor o depende de él para siguiente rol |
