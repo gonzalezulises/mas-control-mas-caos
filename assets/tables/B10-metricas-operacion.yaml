@@ -1,0 +1,35 @@
+title: "Métricas de operación del gate"
+description: "Indicadores que distinguen gate funcional de teatro organizacional"
+
+columns:
+  - key: metrica
+    header: "Métrica"
+  - key: rango_sano
+    header: "Rango sano"
+  - key: senal_alerta
+    header: "Señal de alerta"
+
+rows:
+  - metrica: "Tasa de rechazo"
+    rango_sano: "10-30%"
+    senal_alerta: "<5% o >50%"
+  
+  - metrica: "Tiempo de evaluación"
+    rango_sano: "3-10 días"
+    senal_alerta: "<3 días (superficial) o >14 días (parálisis)"
+  
+  - metrica: "Comportamiento post-veredicto"
+    rango_sano: "Aceptación, ajuste"
+    senal_alerta: "Escalamiento sistemático"
+  
+  - metrica: "Evolución de criterios"
+    rango_sano: "1-2 ajustes/semestre"
+    senal_alerta: "Sin cambios (rigidez) o cambios cada ciclo (volatilidad)"
+  
+  - metrica: "Precisión predictiva"
+    rango_sano: ">60% GO cumplen proyecciones"
+    senal_alerta: "<40% cumplimiento"
+  
+  - metrica: "Uso de override"
+    rango_sano: "<10% de casos"
+    senal_alerta: ">25% (gate irrelevante)"

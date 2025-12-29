@@ -4,6 +4,9 @@
 
 set -e
 
+# Agregar TeX al PATH para macOS con BasicTeX
+export PATH="/Library/TeX/texbin:/usr/local/bin:/opt/homebrew/bin:$PATH"
+
 BOOK_DIR="$(cd "$(dirname "$0")" && pwd)"
 OUTPUT_EPUB="$BOOK_DIR/output/epub"
 OUTPUT_PDF="$BOOK_DIR/output/pdf"

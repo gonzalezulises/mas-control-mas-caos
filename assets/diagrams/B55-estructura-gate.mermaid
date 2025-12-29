@@ -1,0 +1,34 @@
+%%{init: {'flowchart': {'curve': 'basis'}}}%%
+flowchart TB
+    subgraph COMP["COMPOSICION"]
+        OP1["Operador tecnico"]
+        OP2["Operador financiero"]
+        OP3["Operador de riesgo"]
+    end
+
+    subgraph CRIT["CRITERIOS"]
+        C1["Umbral observable"]
+        C2["Consecuencia predefinida"]
+        C3["Sin excepciones"]
+    end
+
+    subgraph VERD["VEREDICTOS"]
+        V1["GO"]
+        V2["GO CONDICIONAL"]
+        V3["NO-GO"]
+    end
+
+    subgraph PROT["PROTECCIONES"]
+        P1["Mandato de directorio"]
+        P2["Registro inmutable"]
+        P3["Override con escalacion"]
+    end
+
+    COMP --> CRIT
+    CRIT --> VERD
+    VERD --> PROT
+
+    style COMP fill:#e3f2fd,stroke:#1976d2
+    style CRIT fill:#fff8e1,stroke:#ffa000
+    style VERD fill:#e8f5e9,stroke:#388e3c
+    style PROT fill:#fce4ec,stroke:#c2185b

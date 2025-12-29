@@ -1,0 +1,30 @@
+%%{init: {'flowchart': {'curve': 'basis'}}}%%
+flowchart TB
+    subgraph FUNCIONAL["GATE FUNCIONAL"]
+        F1[Criterios explicitos]
+        F2[Operadores protegidos]
+        F3[Veredictos vinculantes]
+    end
+
+    subgraph DEGENERACION["DEGENERACION"]
+        D1[Presion velocidad]
+        D2[Excepciones urgentes]
+        D3[Criterios flexibles]
+    end
+
+    subgraph TEATRO["TEATRO"]
+        T1[Sin poder real]
+        T2[Aprobacion automatica]
+        T3[Responsabilidad difusa]
+    end
+
+    F1 --> D1
+    D1 --> D2
+    D2 --> D3
+    D3 --> T1
+    T1 --> T2
+    T2 --> T3
+
+    style FUNCIONAL fill:#c8e6c9,stroke:#2e7d32
+    style DEGENERACION fill:#fff3e0,stroke:#f57c00
+    style TEATRO fill:#ffcdd2,stroke:#c62828
