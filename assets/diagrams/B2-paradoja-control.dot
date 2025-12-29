@@ -1,0 +1,39 @@
+digraph ParadojaControl {
+    // Layout circular
+    layout=neato;
+    bgcolor="white";
+    pad=0.5;
+    splines=curved;
+
+    // Estilo global
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Arial",
+        fontsize=11,
+        width=2.2,
+        height=0.8,
+        penwidth=2
+    ];
+
+    edge [
+        penwidth=2,
+        color="#555555",
+        arrowsize=0.8
+    ];
+
+    // Nodos del loop - posiciones fijas en circulo
+    A [label="MAS CONTROL\n(reportes, checkpoints,\naprobaciones)", fillcolor="#e3f2fd", color="#1976d2", pos="0,3!"];
+    B [label="MENOS VARIEDAD\nDE RESPUESTAS\n(uniformidad forzada)", fillcolor="#fff8e1", color="#f57c00", pos="3,0!"];
+    C [label="MAS FRAGILIDAD\nESTRUCTURAL\n(rigidez ante cambio)", fillcolor="#ffebee", color="#c62828", pos="0,-3!"];
+    D [label="SINTOMAS DE\nDESCONTROL\n(desviaciones visibles)", fillcolor="#f3e5f5", color="#7b1fa2", pos="-3,0!"];
+
+    // Conexiones del loop
+    A -> B [label="reduce", fontsize=9, fontcolor="#666666"];
+    B -> C [label="produce", fontsize=9, fontcolor="#666666"];
+    C -> D [label="genera", fontsize=9, fontcolor="#666666"];
+    D -> A [label="dispara", fontsize=9, fontcolor="#c62828", style=bold, color="#c62828"];
+
+    // Centro - efecto
+    centro [label="CICLO\nAUTO-AMPLIFICADO", shape=ellipse, fillcolor="#fafafa", color="#999999", width=1.8, height=0.9, fontsize=10, pos="0,0!"];
+}

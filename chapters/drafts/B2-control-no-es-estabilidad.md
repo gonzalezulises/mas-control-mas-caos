@@ -31,9 +31,15 @@ No fue negligencia individual ni ego personal. Fue el sistema operando según su
 <!-- block: causa -->
 Mas control reduce variedad y aumenta fragilidad. El caos que eventualmente emerge no es falla operativa ni error de ejecución: es respuesta sistemica inevitable a la reducción de capacidad adaptativa.
 
+<!-- DIAGRAMA: B2-paradoja-control - Loop de la paradoja del control -->
+![La paradoja del control](assets/generated/diagrams/B2-paradoja-control.png)
+
 W. Ross Ashby formulo en 1956 lo que llamo la Ley de Variedad Requerida (Ashby, 1956), posteriormente aplicada a sistemas organizacionales por Stafford Beer (1972) en su Modelo de Sistema Viable: un sistema solo puede ser controlado si el controlador tiene al menos tanta variedad de respuestas como el sistema controlado tiene variedad de perturbaciones. Esta ley no es opinion ni teoria debatible. Es restricción matematica. Un termostato con dos estados (encender/apagar) puede controlar temperatura en un rango limitado. Un sistema de climatización con mil estados puede controlar con precisión mil veces mayor. Pero ningun sistema de control, por sofisticado que sea, puede manejar perturbaciones cuya variedad excede la variedad de respuestas disponibles. De Raadt (1987) validó empíricamente esta ley en organizaciones de seguros, confirmando que la variedad del sistema regulador debe corresponder con la variedad del sistema regulado para mantener estabilidad.
 
 Las organizaciones modernas enfrentan entornos con variedad efectivamente infinita: mercados que mutan, tecnologias que emergen, competidores que innovan, regulaciones que cambian, clientes que evolucionan. Y responden a esa variedad infinita con sistemas de control cuya variedad es necesariamente finita. La brecha entre ambas variedades es el espacio donde se acumula la fragilidad.
+
+<!-- DIAGRAMA: B2-ley-variedad-ashby - Ley de Variedad Requerida -->
+![Ley de Variedad Requerida (Ashby, 1956)](assets/generated/diagrams/B2-ley-variedad-ashby.png)
 
 Esta es la paradoja central que el sistema jerárquico no puede ver desde dentro de si mismo: el mecanismo que fue diseñado para producir estabilidad y predictibilidad es exactamente el mismo mecanismo que produce fragilidad y vulnerabilidad ante lo imprevisto. No por error de implementación ni por falta de recursos ni por incompetencia de quienes operan el sistema. Por estructura. Por diseño. Por la lógica misma de como funciona el control centralizado.
 

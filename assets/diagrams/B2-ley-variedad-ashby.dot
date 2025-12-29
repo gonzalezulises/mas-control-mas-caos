@@ -1,0 +1,48 @@
+digraph LeyVariedadAshby {
+    // Layout
+    layout=neato;
+    bgcolor="white";
+    pad=0.5;
+    splines=curved;
+
+    // Estilo global
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Arial",
+        fontsize=10,
+        penwidth=2
+    ];
+
+    edge [
+        penwidth=2,
+        color="#555555",
+        arrowsize=0.7
+    ];
+
+    // Titulo
+    title [label="LEY DE VARIEDAD REQUERIDA\n(Ashby, 1956)", shape=plaintext, fontsize=14, fontname="Arial Bold", pos="0,4.5!"];
+
+    // Lado izquierdo - Variedad Externa
+    ext [label="VARIEDAD\nEXTERNA", fillcolor="#ffcdd2", color="#c62828", width=1.8, height=0.7, pos="-3,2.5!"];
+    e1 [label="Mercados\nmutantes", fillcolor="#ffebee", color="#e57373", width=1.5, height=0.6, pos="-4,1!"];
+    e2 [label="Tecnologias\nemergentes", fillcolor="#ffebee", color="#e57373", width=1.5, height=0.6, pos="-3,0!"];
+    e3 [label="Competidores\nimpredecibles", fillcolor="#ffebee", color="#e57373", width=1.5, height=0.6, pos="-4,-1!"];
+    e4 [label="Regulaciones\ncambiantes", fillcolor="#ffebee", color="#e57373", width=1.5, height=0.6, pos="-3,-2!"];
+
+    // Lado derecho - Variedad Interna
+    int [label="VARIEDAD\nINTERNA", fillcolor="#c8e6c9", color="#2e7d32", width=1.8, height=0.7, pos="3,2.5!"];
+    i1 [label="Procesos\nestandarizados", fillcolor="#e8f5e9", color="#81c784", width=1.5, height=0.6, pos="3,1!"];
+    i2 [label="Respuestas\npredefinidas", fillcolor="#e8f5e9", color="#81c784", width=1.5, height=0.6, pos="4,0!"];
+    i3 [label="Control\ncentralizado", fillcolor="#e8f5e9", color="#81c784", width=1.5, height=0.6, pos="3,-1!"];
+
+    // Centro - Brecha
+    brecha [label="BRECHA\n\nDonde se acumula\nla fragilidad", fillcolor="#fff3e0", color="#f57c00", width=2.2, height=1.2, pos="0,0!"];
+
+    // Conexiones
+    ext -> brecha [label="  infinita  ", fontsize=8, fontcolor="#c62828"];
+    brecha -> int [label="  finita  ", fontsize=8, fontcolor="#2e7d32"];
+
+    // Ley
+    ley [label="Si variedad interna < variedad externa\nel sistema no puede adaptarse", shape=plaintext, fontsize=9, fontcolor="#555555", pos="0,-3!"];
+}
