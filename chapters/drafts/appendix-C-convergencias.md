@@ -67,6 +67,9 @@ Los marcos citados comparten diagnóstico fundamental: los sistemas complejos no
 Lo que este libro agrega no es diagnóstico adicional. El diagnóstico está hecho, repetidamente, desde múltiples ángulos. Lo que agrega es mecanismo operativo. Un lector puede entender HRO profundamente, aplicar Cynefin correctamente, diseñar con VSM rigurosamente, preocuparse con Perrow apropiadamente, ejecutar con agilidad y buscar antifragilidad según Taleb. Y aún así no saber qué hacer el lunes cuando llega una iniciativa estratégica a su mesa que tiene sponsor poderoso, presupuesto aprobado, y señales ambiguas sobre su viabilidad. Este libro intenta resolver ese problema específico.
 
 El Decisión Readiness Gate no reemplaza ninguno de estos marcos. Los presupone como contexto intelectual que hace comprensible por qué el mecanismo propuesto tiene la forma que tiene. El lector que quiera profundizar encontrará que cada tradición enriquece la comprensión de por qué el DRG requiere las características que el libro describe. El lector que quiera actuar encontrará aquí propuesta concreta que puede implementar, criticar, adaptar o mejorar. La convergencia con marcos establecidos no es argumento de autoridad. Es evidencia de que la propuesta no contradice lo que se sabe sobre sistemas complejos, y de que el autor ha hecho el trabajo de verificar esa consistencia.
+
+Table: Convergencias y diferencias con marcos teóricos establecidos
+
 | Marco | Convergencia | Diferencia | Este libro aporta |
 |-------|--------------|------------|-------------------|
 | HRO | Confiabilidad como propiedad de diseño, no de intención | HRO describe organizaciones que ya son confiables | Mecanismo para adquirir propiedades HRO sin historia evolutiva |

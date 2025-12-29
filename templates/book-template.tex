@@ -4,6 +4,12 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 
+% Renombrar índices
+\addto\captionsspanish{%
+  \renewcommand{\listtablename}{Índice de tablas}%
+  \renewcommand{\tablename}{Tabla}%
+}
+
 % Fuentes y tipografía
 \usepackage{fontspec}
 \setmainfont{TeX Gyre Termes}
@@ -39,11 +45,11 @@ $endif$
 % Títulos de capítulo
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries}
+  {\normalfont\huge\bfseries\raggedright}
   {\chaptertitlename\ \thechapter}
   {20pt}
-  {\Huge}
-\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+  {\Huge\raggedright}
+\titlespacing*{\chapter}{0pt}{50pt}{20pt}
 
 % Párrafos
 \setlength{\parindent}{1.5em}
@@ -172,6 +178,14 @@ $endif$
 
 % Tabla de contenidos
 \tableofcontents
+\cleardoublepage
+
+% Lista de figuras
+\listoffigures
+\cleardoublepage
+
+% Lista de tablas
+\listoftables
 \cleardoublepage
 
 % Contenido principal

@@ -1,4 +1,4 @@
-# Introducción: Volar más alla del sistema (y pagar el precio) {-}
+# Introducción: Volar más allá del sistema {-}
 
 > "La mejor manera de predecir el futuro es crearlo."
 >

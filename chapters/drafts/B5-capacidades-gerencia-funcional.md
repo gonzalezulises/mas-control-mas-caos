@@ -27,118 +27,50 @@ Estos factores no se resuelven con buenas intenciones ni con procesos adicionale
 
 A este conjunto de capacidades lo llamamos *gerencia funcional*, en analogía con la medicina funcional: un paradigma que no corrige síntomas post-colapso sino que arquitecta condiciones que previenen el colapso (Hyman, 2010; Institute for Functional Medicine, 2020). La medicina funcional no pregunta "¿qué enfermedad tienes?" sino "¿qué condiciones sistémicas producen estos síntomas?". La gerencia funcional no pregunta "¿por qué falló está iniciativa?" sino "¿qué capacidades faltan para que las iniciativas no fallen?".
 
-El término no refiere a gerencia por áreas funcionales (finanzas, operaciones, RRHH). Refiere a gerencia que funciona: que puede producir veredictos vinculantes antes de que el daño sea irreversible.
+El término no refiere a gerencia por áreas funcionales—finanzas, operaciones, recursos humanos. Refiere a gerencia que efectivamente funciona: capaz de producir veredictos vinculantes antes de que el daño se vuelva irreversible.
 
-La primera capacidad es la delimitación explicita de que decisiones son estratégicas y cuales no.
+**Primera capacidad: Delimitación explícita del perímetro estratégico.** La organización necesita saber con anticipación qué decisiones requieren escrutinio reforzado y cuáles pueden fluir por canales normales. Sin esta claridad, iniciativas de alto impacto avanzan disfrazadas de proyectos piloto, fragmentadas artificialmente para mantenerse bajo los umbrales, o empujadas por canales informales que evaden cualquier revisión. La delimitación elimina estas rutas de escape: los equipos saben desde el inicio si su propuesta entra en el perímetro de gobernanza especial, y los sponsors no pueden evadir el escrutinio presentando su proyecto como "solo una prueba" o "una extensión natural de algo existente". Los umbrales se definen por exposición potencial, irreversibilidad, consumo de recursos y afectación de capacidad organizacional. La delimitación no busca controlar todo; busca que lo que debe controlarse no escape por indefinición. El error que previene es la amplificación ciega: iniciativas que comprometen capacidad significativa acumulando momentum hasta que detenerse se vuelve políticamente imposible.
 
-Que comportamiento habilita: permite identificar con anticipación cuales iniciativas requieren escrutinio reforzado antes de comprometer recursos significativos. Los equipos saben desde el inicio si su propuesta entra en el perimetro de gobernanza especial.
+**Segunda capacidad: Criterio codificado.** Las evaluaciones deben basarse en reglas observables, no en el peso político del sponsor. Cuando el criterio está escrito y aprobado por una instancia con autoridad, cualquier miembro del comité puede señalar incumplimiento sin que sea opinión personal descartable. El estándar es el mismo para el proyecto del CEO que para el del gerente junior; nadie puede ajustar los criterios mientras se evalúa su iniciativa. Sin criterio codificado, cada evaluación se convierte en negociación donde el sponsor con más influencia obtiene el resultado que busca. El criterio debe tener cuatro propiedades para funcionar: observabilidad, umbrales explícitos, consecuencias predefinidas y resistencia a excepción. Un criterio que dice que los riesgos deben ser "aceptables" es invitación a negociar. Un criterio que exige validación de supuestos con usuarios reales durante al menos noventa días es regla operativa que no admite interpretación. Modificarlo requiere proceso formal que deja rastro. El error que previene es la neutralización del disenso: con criterio codificado, quien señala incumplimiento está aplicando reglas que la organización aprobó previamente, no expresando opinión personal.
 
-Que comportamiento bloquea: impide que iniciativas de alto impacto avancen por canales informales, que se presenten como "proyectos piloto" para evadir revisión, que se fragmenten artificialmente para mantenerse bajo los umbrales.
+**Tercera capacidad: Gate institucional vinculante.** El gate produce un veredicto explícito que cambia el estatus institucional de una iniciativa. GO significa que los recursos se liberan y la ejecución puede comenzar. NO significa que permanecen bloqueados hasta que las condiciones cambien. Alguien debe firmar el veredicto; el anonimato de la aprobación implícita desaparece. Si la iniciativa falla después de recibir GO, existe registro de quién aprobó y con qué información. Sin gate vinculante, las iniciativas fluyen hacia ejecución porque el costo de detener activamente supera el costo de permitir que continúen pasivamente. El gate invierte esta asimetría. En la terminología de Cooper (2009), es un "gate con dientes"—un punto de decisión que genuinamente puede detener proyectos, no solo registrar observaciones. Si el veredicto puede ignorarse sin dejar rastro o reinterpretarse según el sponsor, el mecanismo es teatro institucional. El error que previene es la aceleración sin criterio.
 
-Que costo político introduce: los sponsors de iniciativas grandes no pueden evitar el escrutinio presentando su proyecto como "solo una prueba" o "una extensión natural de algo existente". La clasificación no es negociable.
+**Cuarta capacidad: Protección política del NO.** Producir un veredicto negativo no puede requerir heroísmo individual. Los operadores del gate y los sponsors que aceptan rechazos deben poder continuar operando sin daño a sus carreras. Esto exige inversión organizacional concreta: nombramiento por junta, mandato fijo, compensación independiente, derecho a reportar directamente al directorio. La protección también alcanza al ejecutivo que acepta el veredicto negativo; cuando un sponsor recibe NO y lo acepta, debe quedar protegido de la narrativa de que no pudo sacar adelante su iniciativa. El veredicto se comunica como resultado de proceso, no como fracaso personal. Sin esta protección, los operadores aprenden rápidamente que rechazar tiene costo personal alto, y racionalmente dejan de hacerlo. El gate se convierte en ceremonia de validación. El error que previene es, nuevamente, la neutralización del disenso—pero atacando la raíz del problema en lugar del síntoma.
 
-Que error estructural previene: amplificación ciega. Sin delimitación, iniciativas que comprometen capacidad organizacional significativa pueden avanzar sin que nadie con autoridad las evalúe formalmente, acumulando momentum hasta que detenerse es politicamente imposible.
+**Quinta capacidad: Separación entre patrocinio y veredicto.** Quien propone no puede determinar si su propuesta está lista. El evaluador debe poder aplicar criterios sin calcular consecuencias para su propia carrera, y los sponsors deben recibir feedback honesto en lugar de validación pre-negociada. Esto requiere estructura organizacional que otorgue autoridad a personas que no dependen del sponsor. Existen modelos viables según el contexto: un núcleo interno protegido con miembros nombrados por la junta; un modelo híbrido con observador externo cuyo disenso queda registrado aunque no tenga voto; una operación completamente externalizada donde la concentración de poder impide cualquier mecanismo interno. Lo que no es negociable en ningún modelo es el principio: el operador del gate no puede depender del sponsor que evalúa. Sin esta separación, el gate no evalúa sino que ratifica, y los criterios se aplican selectivamente según quién propone. El error que previene es la captura del mecanismo.
 
-Los umbrales no son arbitrarios: se definen por exposición potencial, irreversibilidad, consumo de recursos y afectación de capacidad organizacional. Una iniciativa que supera cualquiera de estos umbrales entra en el perimetro de gobernanza reforzado. Una que no los supera sigue los canales normales. La delimitación no busca controlar todo. Busca asegurar que lo que debe controlarse no escape por indefinición.
+**Sexta capacidad: Registro institucional irreversible.** Cada veredicto, cada condición, cada override queda documentado de manera que no puede modificarse posteriormente. Esto permite análisis retrospectivo, trazabilidad de quién aprobó qué y con qué información, y accountability real cuando las iniciativas fallan. Impide la revisión de historia, la negación de responsabilidad, y los overrides silenciosos donde iniciativas avanzan contra el veredicto sin que nadie asuma formalmente la decisión. Un presidente que quiere impulsar algo contra el veredicto puede hacerlo, pero su nombre queda en el registro asumiendo responsabilidad explícita por las consecuencias. El registro no es solo para auditoría retrospectiva; cambia el cálculo político en tiempo real. Los overrides explícitos son raros precisamente porque son visibles. El error que previene es la invisibilidad del riesgo: sin registro, las iniciativas problemáticas no avanzan porque alguien las impulsa activamente contra evidencia, sino porque nadie tiene mecanismo para detenerlas y nadie queda responsabilizado cuando fallan.
 
-La segunda capacidad es el criterio codificado no negociable.
+**Séptima capacidad: Aprendizaje procedural.** Cada iniciativa que pasa por el gate genera información sobre si el veredicto fue correcto. Las que recibieron GO y ejecutaron bien validan los criterios. Las que recibieron GO y fallaron cuestionan los criterios o su aplicación. Las que recibieron NO generan preguntas contrafácticas que merecen seguimiento. Este aprendizaje debe codificarse en actualizaciones a los criterios, en refinamiento de umbrales, en documentación de patrones. El aprendizaje que no cambia procedimientos no es aprendizaje organizacional; es anécdota. Esto tiene costo político: requiere admitir que los criterios anteriores eran imperfectos, lo cual incomoda a quienes diseñaron la versión previa. Sin aprendizaje procedural, la organización comete los mismos errores con iniciativas diferentes porque las lecciones nunca se codificaron en reglas actualizadas. El error que previene es la repetición de errores por ignorancia institucional.
 
-Que comportamiento habilita: permite que las evaluaciones se basen en reglas observables en lugar de en el peso político del sponsor. Cualquier miembro del comite puede senalar incumplimiento de criterio sin que sea opinion personal.
+**Octava capacidad: Revisión periódica de criterios.** Los criterios que funcionaron ayer pueden ser obsoletos mañana. Un criterio diseñado para iniciativas de transformación tecnológica en 2020 puede ser inadecuado para iniciativas que involucran inteligencia artificial en 2025. La revisión permite incorporar nuevas categorías de riesgo antes de que produzcan daño, y eliminar criterios que ya no son relevantes antes de que generen fricción innecesaria. Requiere cuestionar criterios diseñados por personas que siguen en la organización, lo cual puede revelar que decisiones anteriores se basaron en estándares hoy reconocidos como inadecuados. La revisión no es opcional ni espontánea: está calendarizada, tiene responsables asignados, produce documentación de qué cambió y por qué. Sin ella, el gate pierde relevancia gradualmente, evaluando iniciativas de 2025 con criterios diseñados para problemas de 2020. El error que previene es la obsolescencia del mecanismo.
 
-Que comportamiento bloquea: impide que cada evaluación se convierta en negociación donde el sponsor con más influencia obtiene el resultado que busca. Impide reinterpretación ad-hoc de lo que "suficientemente bueno" significa.
-
-Que costo político introduce: los sponsors no pueden ajustar los criterios mientras se evalua su iniciativa. El estandar es el mismo para el proyecto del CEO que para el del gerente junior.
-
-Que error estructural previene: neutralización del disenso. Sin criterio codificado, quien cuestiona una iniciativa está expresando opinion personal que puede descartarse. Con criterio codificado, quien senala incumplimiento está aplicando reglas que la organización aprobo previamente.
-
-El criterio existe fuera de la memoria de quienes lo aplican. Esta escrito. Esta aprobado por una instancia con autoridad sobre quienes presionan para ignorarlo. Modificarlo requiere proceso formal que deja rastro. El criterio tiene cuatro propiedades que determinan si funciona o falla: observabilidad, umbrales explicitos, consecuencias predefinidas y resistencia a excepción. Un criterio que dice que los riesgos deben ser aceptables no es criterio; es invitación a negociar. Un criterio que dice que ninguna iniciativa puede avanzar sin validación de supuestos con usuarios reales durante al menos noventa días es criterio operativo que no admite interpretación.
-
-La tercera capacidad es el gate institucional vinculante.
-
-Que comportamiento habilita: permite producir un veredicto explicito que cambia el estatus institucional de una iniciativa. GO significa que los recursos se liberan y la ejecución puede comenzar. NO significa que los recursos permanecen bloqueados hasta que las condiciones cambien.
-
-Que comportamiento bloquea: impide que iniciativas avancen por inercia porque nadie tiene autoridad formal para detenerlas. Impide la acumulación silenciosa de compromisos que después no pueden revertirse.
-
-Que costo político introduce: alguien debe firmar el veredicto. El anonimato de la aprobación implicita desaparece. Si la iniciativa falla después de recibir GO, existe registro de quien aprobo y con que información.
-
-Que error estructural previene: aceleración sin criterio. Sin gate vinculante, las iniciativas fluyen hacia ejecución porque el costo de detener activamente es mayor que el costo de permitir que continuen pasivamente. El gate invierte está asimetría.
-
-El DRG no es una metodología ni una lista de verificación ni un proceso de revisión. Es un mecanismo que cambia el estatus institucional de una iniciativa. Produce veredicto explicito con consecuencias reales. En la terminología de Cooper (2009), es un "gate con dientes"—un punto de decisión que genuinamente puede detener proyectos, no solo registrar observaciones. Si el veredicto puede ignorarse sin dejar rastro, el DRG no existe. Si puede reinterpretarse según el sponsor, es teatro institucional.
-
-La cuarta capacidad es la protección política del NO.
-
-Que comportamiento habilita: permite que los operadores del gate y los sponsors que aceptan veredictos negativos continuen operando sin dano a sus carreras. Producir un NO deja de requerir heroismo individual.
-
-Que comportamiento bloquea: impide que el costo personal de rechazar una iniciativa recaiga sobre individuos identificables que pueden ser objeto de retaliación futura.
-
-Que costo político introduce: la organización debe invertir recursos en proteger a quienes operan el gate. Nombramiento por junta, mandato fijo, compensación independiente, derecho a reportar directamente al directorio.
-
-Que error estructural previene: neutralización del disenso. Sin protección política, los operadores del gate aprenden rapidamente que producir veredictos negativos tiene costo personal alto. Racionalmente, dejan de producirlos. El gate se convierte en ceremonia de validación.
-
-La protección también alcanza al ejecutivo que acepta el veredicto negativo: cuando un sponsor recibe NO y lo acepta, debe quedar protegido de la narrativa de que no pudo sacar adelante su iniciativa. El veredicto se comunica como resultado de proceso, no como fracaso del sponsor.
-
-La quinta capacidad es la separación entre patrocinio y veredicto.
-
-Que comportamiento habilita: permite que las evaluaciones sean genuinamente independientes. El evaluador puede aplicar criterios sin calcular consecuencias para su propia carrera. Los sponsors reciben feedback honesto en lugar de validación pre-negociada.
-
-Que comportamiento bloquea: impide que sponsors poderosos capturen el proceso de evaluación. Impide el modelo implicito donde quien propone también determina si su propuesta está lista. Impide que la composición del comite garantice el resultado.
-
-Que costo político introduce: requiere estructura organizacional que otorga autoridad sobre decisiones a personas que no dependen del sponsor. En contextos de alta concentración patrimonial, esto puede requerir observadores externos o operación externalizada completa.
-
-Que error estructural previene: captura del mecanismo. Sin separación, el gate no evalua: ratifica. Los criterios se aplican selectivamente según quien propone. El sistema pierde la capacidad de producir veredictos negativos para iniciativas de sponsors poderosos.
-
-Existen modelos viables según el contexto: un nucleo interno protegido con miembros nombrados por la junta; un modelo hibrido con observador externo cuyo disenso queda registrado aunque no tenga voto; una operación completamente externalizada para situaciones donde la concentración de poder impide cualquier mecanismo interno. Lo que no es negociable en ningun modelo es que el operador del gate no dependa del sponsor que evalua.
-
-La sexta capacidad es el registro institucional irreversible.
-
-Que comportamiento habilita: permite análisis retrospectivo de decisiones, trazabilidad de quien aprobo que y con que información, y accountability real cuando iniciativas fallan. Los aprendizajes tienen base documental verificable en lugar de depender de memorias selectivas.
-
-Que comportamiento bloquea: impide revisión de historia, negación de responsabilidad, y overrides silenciosos donde iniciativas avanzan contra el veredicto sin que nadie asuma formalmente la decisión. Impide el patron donde nadie recuerda quien aprobo una iniciativa que fracaso.
-
-Que costo político introduce: visibilidad total. Cada decisión queda atribuida. Un presidente que quiere impulsar algo contra el veredicto puede hacerlo, pero su nombre queda en el registro asumiendo responsabilidad explicitia por las consecuencias.
-
-Que error estructural previene: invisibilidad del riesgo. Sin registro, las iniciativas problematicas no avanzan porque alguien las impulsa activamente contra evidencia. Avanzan porque nadie tiene mecanismo para detenerlas y nadie queda responsabilizado cuando fallan.
-
-Cada veredicto, cada condición, cada override queda documentado de manera que no puede modificarse posteriormente. Este registro no es para auditoría retrospectiva solamente. Es para cambiar el calculo político en tiempo real. Los overrides explicitos son raros precisamente porque son visibles. El registro convierte lo invisible en visible.
-
-La septima capacidad es el aprendizaje procedural ex-post.
-
-Que comportamiento habilita: permite mejora continua de los criterios basada en evidencia real. Cada iniciativa que pasa por el gate genera información sobre si el veredicto fue correcto. Los falsos positivos y negativos se detectan y alimentan refinamiento de umbrales.
-
-Que comportamiento bloquea: impide repetición de errores por ignorancia institucional. Impide cristalización de criterios que funcionaron en un contexto pero ya no aplican. Impide que el aprendizaje viva solo en la memoria de personas que eventualmente rotan.
-
-Que costo político introduce: requiere admitir que los criterios anteriores eran imperfectos. Cada actualización de criterios implica reconocer que el diseño previo tenía huecos. Esto es incomodo para quienes disenaron la versión anterior.
-
-Que error estructural previene: repetición de errores. Sin aprendizaje procedural, la organización comete los mismos errores con iniciativas diferentes porque las lecciones nunca se codificaron en reglas actualizadas.
-
-Las iniciativas que recibieron veredicto positivo y ejecutaron bien validan los criterios. Las que recibieron veredicto positivo y fallaron cuestionan los criterios o su aplicación. Las que recibieron veredicto negativo generan preguntas contrafacticas que merecen seguimiento. Este aprendizaje debe codificarse en actualizaciones a los criterios del gate, en refinamiento de umbrales, en documentación de patrones. El aprendizaje que no cambia procedimientos no es aprendizaje organizacional; es anecdota.
-
-La octava capacidad es la revisión periódica de criterios.
-
-Que comportamiento habilita: permite adaptación a contextos cambiantes. Nuevas categorías de riesgo se incorporan antes de que produzcan dano. Criterios que dejaron de ser relevantes se eliminan antes de que generen fricción innecesaria.
-
-Que comportamiento bloquea: impide obsolescencia progresiva donde el gate evalua contra estandares de hace cinco años. Impide acumulación de criterios que ya no capturan los riesgos reales. Impide que el gate se convierta en ritual que cumple forma pero pierde función.
-
-Que costo político introduce: requiere cuestionar criterios que fueron diseñados por personas que siguen en la organización. La revisión periódica puede revelar que decisiones anteriores se basaron en criterios que hoy se reconocen como inadecuados.
-
-Que error estructural previene: obsolescencia del mecanismo. Sin revisión periódica, el gate pierde relevancia gradualmente. Evalua iniciativas de 2025 con criterios diseñados para problemas de 2020. El sistema sigue funcionando formalmente pero deja de cumplir su propósito.
-
-Los criterios que funcionaron ayer pueden ser obsoletos manana. Un criterio diseñado para iniciativas de transformación tecnologica en 2020 puede ser inadecuado para iniciativas que involucran inteligencia artificial en 2025. La revisión no es opcional ni espontanea. Esta calendarizada, tiene responsables asignados, produce documentación de que cambio y por qué.
-
-Estas ocho capacidades no provienen de estudio empirico de organizaciones que las implementaron. Provienen de derivación lógica: si el sistema tiene las propiedades descritas en los capítulos anteriores, que componentes harian falta para contrarrestarlas. El lector puede verificar la lógica contra su experiencia; no hay casos externos que citar como autoridad.
+Estas ocho capacidades no provienen de estudio empírico de organizaciones que las implementaron. Provienen de derivación lógica: si el sistema tiene las propiedades descritas en los capítulos anteriores, qué componentes harían falta para contrarrestarlas. El lector puede verificar la lógica contra su experiencia; no hay casos externos que citar como autoridad.
 
 Las ocho capacidades se resumen en la siguiente tabla:
 
-| Capacidad | Función | Error estructural que previene |
-|-----------|---------|-------------------------------|
-| 1. Delimitación explicita | Define que decisiones requieren gobernanza reforzado | Amplificación ciega |
-| 2. Criterio codificado | Establece reglas observables con umbral y consecuencia | Neutralización del disenso |
-| 3. Gate vinculante (DRG) | Produce veredicto que cambia estatus institucional | Aceleración sin criterio |
-| 4. Protección política | Protege a operadores y sponsors de costo personal | Neutralización del disenso |
-| 5. Separación patrocinio/veredicto | Asegura que quien evalua no depende de quien propone | Captura del mecanismo |
-| 6. Registro irreversible | Documenta veredictos y overrides sin modificación posterior | Invisibilidad del riesgo |
-| 7. Aprendizaje procedural | Convierte experiencia en actualización de criterios | Repetición de errores |
-| 8. Revisión periódica | Actualiza criterios para mantener relevancia | Obsolescencia del mecanismo |
+Table: Resumen de las ocho capacidades de gerencia funcional
+
+-----------------------------------------------------------------------
+Capacidad                       Función                                                       Error que previene
+------------------------------- ------------------------------------------------------------- -------------------------
+1. Delimitación explícita       Define qué decisiones requieren gobernanza reforzada          Amplificación ciega
+
+2. Criterio codificado          Establece reglas observables con umbral y consecuencia        Neutralización del disenso
+
+3. Gate vinculante (DRG)        Produce veredicto que cambia estatus institucional            Aceleración sin criterio
+
+4. Protección política          Protege a operadores y sponsors de costo personal             Neutralización del disenso
+
+5. Separación patrocinio/       Asegura que quien evalúa no depende de quien propone          Captura del mecanismo
+   veredicto
+
+6. Registro irreversible        Documenta veredictos y overrides sin modificación posterior   Invisibilidad del riesgo
+
+7. Aprendizaje procedural       Convierte experiencia en actualización de criterios           Repetición de errores
+
+8. Revisión periódica           Actualiza criterios para mantener relevancia                  Obsolescencia del mecanismo
+-----------------------------------------------------------------------
 
 Estas ocho capacidades no son opcionales ni intercambiables. Son componentes de un sistema donde cada uno depende de los otros. El gate sin criterio codificado es teatro. El criterio sin protección política se erosiona. La protección sin registro irreversible es promesa sin enforcement. El registro sin aprendizaje procedural acumula datos que nadie usa. El aprendizaje sin revisión periódica se cristaliza en el pasado. La delimitación sin gate permite evasión. La separación sin las otras permite captura. El sistema funciona como sistema o no funciona.
 
