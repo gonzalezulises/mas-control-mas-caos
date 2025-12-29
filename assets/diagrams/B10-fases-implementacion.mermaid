@@ -1,35 +1,32 @@
-flowchart LR
-    subgraph F1[Fase 1: Piloto]
-        direction TB
-        A1[Caso doloroso] --> A2[Sesión sensemaking]
+%%{init: {'flowchart': {'curve': 'basis'}}}%%
+flowchart TB
+    subgraph F1["FASE 1: PILOTO (Meses 1-3)"]
+        A1[Caso doloroso] --> A2[Sesion sensemaking]
         A2 --> A3[Criterios emergen]
         A3 --> A4[Primer veredicto]
     end
-    
-    subgraph F2[Fase 2: Validación]
-        direction TB
+
+    subgraph F2["FASE 2: VALIDACION (Meses 4-6)"]
         B1[Criterios probados] --> B2[Troika mensual]
-        B2 --> B3[Segunda categoría]
-        B3 --> B4[Comunidad práctica]
+        B2 --> B3[Segunda categoria]
+        B3 --> B4[Comunidad practica]
     end
-    
-    subgraph F3[Fase 3: Institucionalización]
-        direction TB
+
+    subgraph F3["FASE 3: INSTITUCIONALIZACION (Meses 7-12)"]
         C1[Mandato formal] --> C2[Operadores protegidos]
         C2 --> C3[Registro irreversible]
-        C3 --> C4[Override explícito]
+        C3 --> C4[Override explicito]
     end
-    
-    subgraph F4[Fase 4: Maduración]
-        direction TB
+
+    subgraph F4["FASE 4: MADURACION (Año 2+)"]
         D1[Review 12 meses] --> D2[Criterios evolucionan]
         D2 --> D3[Cobertura expande]
         D3 --> D4[Open Space semestral]
     end
-    
-    F1 -->|"Veredicto documentado"| F2
-    F2 -->|"2 categorías validadas"| F3
-    F3 -->|"Sobrevive rotación"| F4
+
+    F1 -->|Veredicto documentado| F2
+    F2 -->|2 categorias validadas| F3
+    F3 -->|Sobrevive rotacion| F4
 
     style F1 fill:#e8f4f8,stroke:#0077b6
     style F2 fill:#e8f4f8,stroke:#0077b6
