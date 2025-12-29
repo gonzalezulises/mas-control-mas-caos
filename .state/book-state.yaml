@@ -902,8 +902,8 @@ ai:
 
 state:
   migration:
-    current_version: "v3.8"
-    source_version: "v3.7"
+    current_version: "v4.0"
+    source_version: "v3.9"
     progress:
       total_blueprints: 21
       drafted_chapters: 20
@@ -1013,6 +1013,28 @@ state:
       - "Template LaTeX: +xurl package, +breaklinks para corte de URLs largas"
       - "NUEVO: output/md/ - Carpeta con capítulos individuales para reutilización"
       - "PDF: 196 -> 263 páginas (+67)"
+    revision_v39_changes:
+      - "Mejoras de formato y navegación"
+      - "Portada: Imagen diseñada (portada.png) como página completa del PDF"
+      - "Template LaTeX: Página legal mejorada con posicionamiento correcto"
+      - "Apéndice C: +30 referencias académicas por framework teórico"
+      - "Apéndice F: Tabla convertida a LaTeX con anchos proporcionales"
+      - "B55: Diagrama gate en notación dinámica de sistemas (stocks, flujos, loops R+/B-)"
+      - "AppE: Radar de capacidades con capas concéntricas"
+    revision_v40_changes:
+      - "Paleta visual unificada con portada"
+      - "11 diagramas Graphviz actualizados con colores de portada"
+      - "  Fondo oscuro: #0a1628, #0d1f3c"
+      - "  Azul (control): #1e3a5f, #2d5a87, #3d7ab7"
+      - "  Rojo (caos): #8b0000, #dc143c"
+      - "  Gris neutro: #8899aa"
+      - "  Tipografía: Helvetica Neue"
+      - "Diagramas actualizados:"
+      - "  B1-loop-poder, B2-ley-variedad-ashby, B2-paradoja-control"
+      - "  B3-senales-trance, B3-secuencia-delegacion, B3-goodhart-loop"
+      - "  B4-requisitos-limite, B4-asimetria-costos, B4-fases-retraso"
+      - "  B55-estructura-gate, AppE-radar-capacidades"
+      - "Coherencia visual libro-portada establecida"
     next_actions:
-      - "Validar coherencia post-edicion"
-      - "Revisar renderizado PDF de URLs largas"
+      - "Revisar renderizado final del PDF"
+      - "Validar legibilidad de diagramas en impresión"
