@@ -1,6 +1,6 @@
 digraph DinamicaSistemas {
     graph [
-        bgcolor="#0a1628"
+        bgcolor="transparent"
         fontname="Helvetica Neue"
         fontcolor="#ffffff"
         rankdir=TB

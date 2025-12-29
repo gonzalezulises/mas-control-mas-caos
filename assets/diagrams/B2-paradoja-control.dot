@@ -2,7 +2,7 @@ digraph ParadojaControlEmbudo {
     // Layout
     layout=dot;
     rankdir=TB;
-    bgcolor="#0a1628";
+    bgcolor="transparent";
     pad=0.5;
     nodesep=0.6;
     ranksep=0.7;

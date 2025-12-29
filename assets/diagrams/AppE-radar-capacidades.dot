@@ -1,7 +1,7 @@
 digraph RadarCapacidades {
     // Configuración general - paleta portada
     graph [
-        bgcolor="#0a1628"
+        bgcolor="transparent"
         fontname="Helvetica Neue"
         fontsize=11
         fontcolor="#ffffff"

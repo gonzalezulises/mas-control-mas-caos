@@ -2,7 +2,7 @@ digraph FasesSemaforo {
     // Layout vertical
     layout=dot;
     rankdir=TB;
-    bgcolor="#0a1628";
+    bgcolor="transparent";
     pad=0.6;
     nodesep=0.4;
     ranksep=0.8;

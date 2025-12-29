@@ -2,7 +2,7 @@ digraph SecuenciaDelegacion {
     // Layout vertical tipo timeline
     layout=dot;
     rankdir=TB;
-    bgcolor="#0a1628";
+    bgcolor="transparent";
     pad=0.5;
     nodesep=0.5;
     ranksep=0.6;

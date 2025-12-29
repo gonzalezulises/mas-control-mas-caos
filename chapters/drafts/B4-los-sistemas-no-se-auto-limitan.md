@@ -41,7 +41,7 @@ La matemática política es brutal en su claridad. Detener tiene costo concentra
 
 Un actor racional dentro del sistema, sin importar cuánta experiencia tenga o cuánto criterio posea, elige continuar en la mayoría de los casos. No por defecto de carácter sino por cálculo correcto de la estructura de incentivos en la que opera.
 
-![Asimetría de costos en decisiones de límite](assets/figures/B4-asimetria-costos.png)
+![Asimetría de costos en decisiones de límite](assets/generated/diagrams/B4-asimetria-costos.png)
 
 Esta dinámica se agrava exponencialmente con el tiempo. Mientras más avanza una iniciativa, más inversión acumula en todas sus formas. Más personas han comprometido su reputación con su éxito. Más recursos se han desplegado que serían difíciles de recuperar. Más comunicaciones externas se han emitido que serían embarazosas de retractar. El costo de detener crece aceleradamente con cada mes que pasa. El punto óptimo para detener algo problemático es temprano, cuando la inversión acumulada es baja. Pero temprano es también cuando la información es ambigua y cuando detener parece prematuro e injustificado.
 
@@ -66,7 +66,7 @@ El riesgo específico de un sistema que no puede auto-limitarse es el retraso si
 
 El patrón resultante es que las organizaciones detienen las iniciativas problemáticas demasiado tarde, cuando el daño ya está materializado y cuando el costo de detener es solo marginalmente menor que el costo de continuar hasta el colapso. No porque las personas sean estúpidas sino porque la estructura hace que detenerse antes sea sistemáticamente más costoso que esperar.
 
-![Fases del retraso sistemático en decisiones de límite](assets/figures/B4-fases-retraso.png)
+![Fases del retraso sistemático en decisiones de límite](assets/generated/diagrams/B4-fases-retraso.png)
 
 Las crisis corporativas más devastadoras no se caracterizan por descubrimiento tardío sino por acción tardía. Las señales existían años antes en reportes internos, en alertas de mandos medios, en anomalías observadas durante operaciones normales. El sistema tenía la información necesaria para actuar temprano. No tenía la estructura de incentivos necesaria para hacer que alguien actuara cuando el costo de actuar todavía era manejable.
 
@@ -80,7 +80,7 @@ El límite tiene que venir de afuera. Y afuera significa algo específico: un me
 
 Este límite externo requiere cuatro características específicas y verificables para funcionar genuinamente.
 
-![Requisitos del límite externo efectivo](assets/figures/B4-requisitos-limite.png)
+![Requisitos del límite externo efectivo](assets/generated/diagrams/B4-requisitos-limite.png)
 
 Primera: fuente de autoridad independiente del sponsor. El límite no puede derivar su mandato de quien patrocina la iniciativa. Si el sponsor puede influir en quién evalúa, cómo evalúa, o cuándo evalúa, la independencia es nominal. La autoridad tiene que venir de arriba del sponsor o de fuera de su línea de influencia. Un comité nombrado por el CEO no puede evaluar efectivamente iniciativas patrocinadas por el CEO.
 

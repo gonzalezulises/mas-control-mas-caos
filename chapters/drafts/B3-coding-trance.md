@@ -25,7 +25,7 @@ El éxito se mide solo en términos que el sistema puede medir: las dimensiones 
 
 Las sorpresas son siempre negativas y siempre tardias: en una organización en Coding Trance, las sorpresas tienen un patron distintivo porque el sistema no busca lo que no está programado para buscar.
 
-![Señales observables del Coding Trance](assets/figures/B3-senales-trance.png)
+![Señales observables del Coding Trance](assets/generated/diagrams/B3-senales-trance.png)
 
 Si tu organización exhibe tres o más de estas señales simultaneamente, lo que sigue en este capítulo no es teoria abstracta. Es diagnostico.
 
@@ -57,7 +57,7 @@ El caso más documentado de esta dinámica es Wells Fargo. Entre 2002 y 2016, el
 
 Goodhart no describe un error de implementación que podría corregirse con mejores métricas. Describe una propiedad estructural de cualquier sistema donde las métricas tienen consecuencias. Cuando lo que se mide determina recompensas, promociones, presupuesto o supervivencia, los actores racionales optimizan para la métrica, no para lo que la métrica supuestamente representa. Esta optimización no es fraudulenta ni malintencionada. Es respuesta racional a incentivos. El resultado agregado es un sistema donde todas las métricas mejoran mientras la realidad subyacente se deteriora en dimensiones que las métricas no capturan.
 
-![Ley de Goodhart: el loop de la métrica-objetivo](assets/figures/B3-goodhart-loop.png)
+![Ley de Goodhart: el loop de la métrica-objetivo](assets/generated/diagrams/B3-goodhart-loop.png)
 
 El Coding Trance tiene una causa estructural simple de enunciar y difícil de ver cuando se está dentro: la organización delega progresivamente su criterio a sistemas que pueden ejecutar pero no pueden juzgar. Para entender esto, hay que distinguir entre dos cosas que habitualmente se confunden. Capacidad es la habilidad de hacer algo: procesar transacciones, clasificar tickets, generar reportes, evaluar candidatos, asignar recursos, detectar patrones, predecir resultados. Los sistemas automatizados tienen capacidad. Con frecuencia, tienen más capacidad que los humanos: procesan más rápido, cometen menos errores de ejecución, no se cansan, no se distraen, escalan sin límite aparente. Criterio es la habilidad de saber si lo que se hace tiene sentido en un contexto dado: determinar si una métrica que mejora indica progreso real o optimización local a expensas de algo más importante, reconocer cuándo las reglas establecidas no aplican, identificar que una situación nueva requiere respuesta diferente, percibir que algo relevante está quedando fuera del marco de análisis.
 
@@ -65,7 +65,7 @@ Los sistemas automatizados no tienen criterio. No porque sean defectuosos, sino 
 
 La delegación progresiva sigue un patrón reconocible. Primero, se automatiza una tarea operativa. La automatización funciona bien, libera tiempo, reduce errores, todos celebran. Como la automatización funcionó, se extiende. Más tareas pasan al sistema, más decisiones se codifican como reglas, más juicios humanos se convierten en algoritmos. Cada extensión tiene justificación válida y produce beneficios medibles. Gradualmente, el sistema empieza a determinar no solo cómo hacer las cosas, sino qué cosas hacer. La agenda la marca lo que el sistema puede procesar. Las prioridades las establecen las métricas disponibles. Los problemas que reciben atención son los que el sistema detecta. Los que no detecta, no existen. La capacidad de ejercer criterio humano se atrofia, no porque las personas se vuelvan menos capaces, sino porque las estructuras que permitían ejercer criterio desaparecen. No hay tiempo. No hay foro. No hay vocabulario. No hay legitimidad. Cuestionar lo que el sistema indica se percibe como fricción, resistencia al cambio, falta de confianza en los datos. Finalmente, la organización entra en trance. El sistema funciona. Las métricas son positivas. Nadie tiene razón para dudar. Y nadie tiene capacidad de dudar, porque la duda requiere acceso a información que el sistema no captura y atención a señales que el sistema no procesa.
 
-![Secuencia de instalación del Coding Trance](assets/figures/B3-secuencia-delegacion.png)
+![Secuencia de instalación del Coding Trance](assets/generated/diagrams/B3-secuencia-delegacion.png)
 
 Esta secuencia no toma décadas. En organizaciones que automatizan agresivamente, puede tomar meses. La velocidad es parte del problema: el trance se instala antes de que nadie note que algo cambió. El mecanismo causal es simple: cuando el criterio se delega a algo que no puede ejercer criterio, el criterio desaparece. No se transfiere. Se pierde. Y cuando el criterio desaparece, la organización queda ciega a todo lo que el sistema no fue diseñado para ver.
 

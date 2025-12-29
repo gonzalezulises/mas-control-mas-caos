@@ -1,7 +1,7 @@
 digraph AsimetriaBalanza {
     // Layout
     layout=neato;
-    bgcolor="#0a1628";
+    bgcolor="transparent";
     pad=0.8;
 
     // Estilo global - paleta portada

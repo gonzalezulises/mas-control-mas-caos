@@ -3,7 +3,7 @@ digraph LoopPoder {
     layout=neato;
 
     // Configuracion global - paleta portada
-    bgcolor="#0a1628";
+    bgcolor="transparent";
     pad=0.5;
     splines=curved;
 
