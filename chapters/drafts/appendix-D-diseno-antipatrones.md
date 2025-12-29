@@ -21,7 +21,7 @@ Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño
 
 ## Anti-patrones del gate {- .unlisted}
 
-![Flujo de degeneracion del gate](assets/generated/diagrams/AppD-antipatrones.svg)
+![Flujo de degeneracion del gate](assets/generated/diagrams/AppD-antipatrones.png)
 
 Un anti-patrón es una configuración que parece razonable pero produce disfunción predecible. Cada anti-patrón tiene lógica que lo hace atractivo y consecuencia que lo hace destructivo.
 

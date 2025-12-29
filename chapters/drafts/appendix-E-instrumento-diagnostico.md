@@ -537,7 +537,7 @@ Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus bre
 
 Transfiera los puntajes normalizados al siguiente diagrama radar para obtener una representacion visual del estado de las ocho capacidades.
 
-![Radar de capacidades de gerencia funcional](assets/generated/diagrams/AppE-radar-capacidades.svg)
+![Radar de capacidades de gerencia funcional](assets/generated/diagrams/AppE-radar-capacidades.png)
 
 ---
 
