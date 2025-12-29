@@ -1,5 +1,9 @@
 # Introducción: Volar más alla del sistema (y pagar el precio) {-}
 
+> "La mejor manera de predecir el futuro es crearlo."
+>
+> — Peter Drucker, *The Practice of Management* (1954)
+
 <!-- block: reconocimiento -->
 En Juan Salvador Gaviota, Richard Bach cuenta la historia de un sistema que no tolera desviaciones funcionales, incluso cuando esas desviaciones producen capacidad superior. Juan no es expulsado por fracasar. Es expulsado por volar demasiado bien para el sistema que lo contiene. Introduce una diferencia que el sistema no puede procesar sin poner en riesgo su equilibrio interno.
 

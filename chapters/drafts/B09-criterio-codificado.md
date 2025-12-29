@@ -1,6 +1,8 @@
 # Criterio codificado
 
-
+> "Las reglas son para la obediencia de los tontos y la guía de los sabios."
+>
+> — Douglas Bader, *Flying Colours* (atribuido)
 
 <!-- block: reconocimiento -->
 El Decisión Readiness Gate existe. El mandato está aprobado por el directorio. El comité evaluador tiene miembros asignados con dedicación protegida. Los umbrales de inversión que disparan evaluación obligatoria están definidos. El proceso de presentación está documentado. Las plantillas están disponibles. Los sponsors saben que sus iniciativas pasarán por el gate antes de entrar en ejecución. Todo el andamiaje institucional está en su lugar.

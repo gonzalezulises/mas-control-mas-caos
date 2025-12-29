@@ -1,6 +1,8 @@
 # El loop del poder
 
-
+> "El poder tiende a corromper, y el poder absoluto corrompe absolutamente."
+>
+> — Lord Acton, *Carta a Mandell Creighton* (1887)
 
 <!-- block: reconocimiento -->
 Conoces la secuencia. Una iniciativa estratégica arranca con energía visible. Hay presupuesto aprobado, hay sponsors comprometidos, hay expectativa en el comité ejecutivo. Los primeros reportes son positivos. El equipo acelera porque los indicadores tempranos lo justifican. Se agregan recursos porque los resultados iniciales sugieren que hay tracción. Se amplía el alcance porque parece que hay capacidad de sobra y el mercado lo demanda. Se prometen fechas agresivas porque el momentum lo permite y porque la competencia no espera. Se comprometen resultados frente a la junta porque la alternativa —pedir más tiempo, reducir expectativas, admitir incertidumbre— tiene un costo político inmediato que nadie quiere pagar.

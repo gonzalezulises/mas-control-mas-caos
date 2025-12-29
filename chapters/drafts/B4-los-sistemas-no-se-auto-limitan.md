@@ -1,5 +1,9 @@
 # Los sistemas no se auto-limitan
 
+> "Es difícil hacer que un hombre entienda algo cuando su salario depende de que no lo entienda."
+>
+> — Upton Sinclair, *I, Candidate for Governor* (1935)
+
 <!-- block: reconocimiento -->
 Antes de examinar por que los sistemas no se auto-limitan, conviene observar donde los límites externos si funcionan. La aviación comercial tiene una de las tasas de accidentes fatales más bajas de cualquier industria de transporte. No porque los pilotos sean más virtuosos ni porque las aerolineas tengan mejor cultura que otras empresas. Porque la FAA y sus equivalentes internacionales operan como límites externos con poder real. Pueden certificar o no certificar aeronaves. Pueden suspender operaciones. Pueden imponer cambios de diseño. Las aerolineas no tienen opción de ignorar estos límites aunque quisieran hacerlo.
 

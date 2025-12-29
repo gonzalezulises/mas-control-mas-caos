@@ -1,6 +1,8 @@
 # Capacidades de la Gerencia Funcional
 
-
+> "No nos elevamos al nivel de nuestras expectativas, caemos al nivel de nuestro entrenamiento."
+>
+> — Arquíloco, poeta griego (c. 650 a.C.)
 
 <!-- block: reconocimiento -->
 Cuando una empresa considera adquirir otra empresa, existe un proceso formal que nadie cuestiona. Hay due diligence estructurado con equipos dedicados. Hay comités de inversión con autoridad vinculante. Hay umbrales de aprobación escalonados según el monto involucrado. Hay documentación exhaustiva que registra quién aprobó, con qué información, bajo qué condiciones. Si la adquisición falla después, existe un registro claro que permite reconstruir el proceso de decisión. El capital financiero tiene gates porque los fracasos fueron suficientemente visibles como para forzar su creación. Este contraste entre gobernanza de capital financiero y gobernanza de iniciativas no-financieras está documentado en la literatura. La investigación de Robert Cooper sobre procesos Stage-Gate identificó que el problema más común es que "los gates carecen de dientes"—las iniciativas rara vez se detienen incluso cuando los problemas son visibles (Cooper, 2008).

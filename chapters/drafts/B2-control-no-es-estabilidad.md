@@ -1,5 +1,9 @@
 # Control ≠ estabilidad
 
+> "Cuanto más aprietas el puño, más sistemas estelares se escurrirán entre tus dedos."
+>
+> — Princesa Leia, *Star Wars: Episodio IV* (1977)
+
 <!-- block: reconocimiento -->
 Cuando el loop del poder empieza a mostrar síntomas —plazos que se estiran más allá de lo prometido, costos que crecen sin explicación clara, resultados que no coinciden con los reportes ejecutivos, equipos que parecen ocupados pero no productivos—, la respuesta instintiva del sistema es predecible y universal: más control. Más revisiones a cada etapa del proceso. Más checkpoints intermedios entre las aprobaciones. Más capas de aprobación antes de cualquier decisión significativa. Más reportes con mayor frecuencia y mayor granularidad. Más supervisión directa de los niveles superiores sobre los inferiores. Más reuniones de seguimiento con agendas más detalladas.
 

@@ -1,5 +1,9 @@
 # Coding Trance
 
+> "No todo lo que cuenta puede contarse, y no todo lo que puede contarse cuenta."
+>
+> — William Bruce Cameron, *Informal Sociology* (1963)
+
 <!-- block: reconocimiento -->
 Una aclaración terminologica antes de continuar. "Coding" en este contexto no refiere a programación ni a software. Refiere a codificación: el proceso por el cual juicios, criterios y decisiones humanas se convierten en reglas fijas, métricas automáticas, algoritmos de clasificación. El Coding Trance es fijación instrumental organizacional: un estado donde la organización confia tanto en sus instrumentos de medición que pierde contacto con la realidad que esos instrumentos supuestamente representan.
 
