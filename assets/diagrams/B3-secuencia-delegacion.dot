@@ -2,59 +2,61 @@ digraph SecuenciaDelegacion {
     // Layout vertical tipo timeline
     layout=dot;
     rankdir=TB;
-    bgcolor="white";
+    bgcolor="#0a1628";
     pad=0.5;
     nodesep=0.5;
     ranksep=0.6;
 
-    // Estilo global
+    // Estilo global - paleta portada
     node [
         shape=box,
         style="rounded,filled",
-        fontname="Arial",
+        fontname="Helvetica Neue",
         fontsize=10,
+        fontcolor="#ffffff",
         penwidth=2
     ];
 
     edge [
         penwidth=2,
-        color="#555555",
+        color="#3d7ab7",
+        fontcolor="#8899aa",
         arrowsize=0.8
     ];
 
     // Titulo
     title [label="SECUENCIA DE INSTALACION DEL TRANCE",
-           shape=plaintext, fontsize=13, fontname="Arial Bold"];
+           shape=plaintext, fontsize=13, fontname="Helvetica Neue Bold", fontcolor="#ffffff"];
 
-    // Fase 1 - Verde (beneficioso)
+    // Fase 1 - Azul claro (beneficioso)
     F1 [label="FASE 1: Automatizacion operativa\n\nTarea puntual se automatiza\nFunciona bien, libera tiempo, reduce errores\nTodos celebran",
-        fillcolor="#c8e6c9", color="#2e7d32", width=5, height=1.1];
+        fillcolor="#2d5a87", color="#3d7ab7", width=5, height=1.1];
 
-    // Fase 2 - Amarillo claro
+    // Fase 2 - Azul medio
     F2 [label="FASE 2: Extension\n\nMas tareas pasan al sistema\nMas decisiones se codifican como reglas\nMas juicios humanos se convierten en algoritmos",
-        fillcolor="#fff9c4", color="#f9a825", width=5, height=1.1];
+        fillcolor="#1e3a5f", color="#3d7ab7", width=5, height=1.1];
 
-    // Fase 3 - Naranja
+    // Fase 3 - Gris
     F3 [label="FASE 3: Inversion de control\n\nEl sistema determina QUE hacer, no solo COMO\nLa agenda la marca lo que el sistema puede procesar\nLos problemas que reciben atencion son los que el sistema detecta",
-        fillcolor="#ffe0b2", color="#ef6c00", width=5, height=1.1];
+        fillcolor="#0d1f3c", color="#8899aa", width=5, height=1.1];
 
     // Fase 4 - Rojo claro
     F4 [label="FASE 4: Atrofia del criterio\n\nNo hay tiempo, foro, vocabulario ni legitimidad\nCuestionar el sistema = friccion, resistencia\nCapacidad de ejercer criterio desaparece",
-        fillcolor="#ffcdd2", color="#d32f2f", width=5, height=1.1];
+        fillcolor="#5c0000", color="#dc143c", width=5, height=1.1];
 
-    // Fase 5 - Rojo oscuro
+    // Fase 5 - Rojo oscuro (trance)
     F5 [label="FASE 5: TRANCE\n\nEl sistema funciona. Las metricas son positivas.\nNadie tiene razon para dudar.\nNadie tiene CAPACIDAD de dudar.",
-        fillcolor="#c62828", color="#b71c1c", fontcolor="white", width=5, height=1.1];
+        fillcolor="#8b0000", color="#dc143c", fontcolor="white", width=5, height=1.1];
 
     // Tiempo
     tiempo [label="Meses, no decadas.\nLa velocidad es parte del problema.",
-            shape=plaintext, fontsize=9, fontcolor="#666666"];
+            shape=plaintext, fontsize=9, fontcolor="#8899aa"];
 
     // Conexiones
     title -> F1 [style=invis];
-    F1 -> F2 [label="  exito justifica  ", fontsize=8, fontcolor="#666666"];
-    F2 -> F3 [label="  cada paso es racional  ", fontsize=8, fontcolor="#666666"];
-    F3 -> F4 [label="  estructuras desaparecen  ", fontsize=8, fontcolor="#666666"];
-    F4 -> F5 [label="  el trance se instala  ", fontsize=8, fontcolor="#c62828", color="#c62828"];
+    F1 -> F2 [label="  exito justifica  ", fontsize=8];
+    F2 -> F3 [label="  cada paso es racional  ", fontsize=8];
+    F3 -> F4 [label="  estructuras desaparecen  ", fontsize=8];
+    F4 -> F5 [label="  el trance se instala  ", fontsize=8, fontcolor="#dc143c", color="#dc143c"];
     F5 -> tiempo [style=invis];
 }

@@ -148,32 +148,32 @@ $endif$
 
 \begin{document}
 
-% Portada
+% Portada con imagen
 \begin{titlepage}
-\centering
-\vspace*{3cm}
-{\Huge\bfseries $title$\par}
-\vspace{1cm}
-$if(subtitle)$
-{\Large\itshape $subtitle$\par}
-$endif$
-\vspace{2cm}
-{\Large $author$\par}
-\vfill
-{\large $date$\par}
+\newgeometry{margin=0pt}
+\noindent\includegraphics[width=\paperwidth,height=\paperheight]{assets/figures/portada.png}
+\restoregeometry
 \end{titlepage}
 
-% Página legal
+% Página legal (colofón)
 \thispagestyle{empty}
-\vspace*{\fill}
-\begin{center}
+\vspace*{5cm}
+\begin{flushleft}
 \small
-$rights$\\[1cm]
-Primera edición: $date$\\[0.5cm]
-$if(publisher)$
-$publisher$
+\textbf{$title$}\\
+$if(subtitle)$
+\textit{$subtitle$}\\[0.5cm]
 $endif$
-\end{center}
+\textbf{Autor:} $author$\\[0.5cm]
+$rights$\\[0.5cm]
+Primera edición: $date$\\[0.5cm]
+Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida, almacenada o transmitida en cualquier forma o por cualquier medio sin el permiso previo por escrito del autor.\\[0.5cm]
+$if(publisher)$
+\textbf{Editorial:} $publisher$\\[0.5cm]
+$endif$
+\textbf{Contacto:} ulises@rizo.ma\\[1cm]
+\textit{Diseñado y diagramado con Pandoc y \LaTeX}
+\end{flushleft}
 \newpage
 
 % Tabla de contenidos

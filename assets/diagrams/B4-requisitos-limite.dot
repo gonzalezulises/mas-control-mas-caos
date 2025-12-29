@@ -1,22 +1,23 @@
 digraph RequisitosLimite {
     // Layout
     layout=neato;
-    bgcolor="white";
+    bgcolor="#0a1628";
     pad=0.5;
     splines=curved;
 
-    // Estilo global
+    // Estilo global - paleta portada
     node [
         shape=box,
         style="rounded,filled",
-        fontname="Arial",
+        fontname="Helvetica Neue",
         fontsize=10,
+        fontcolor="#ffffff",
         penwidth=2
     ];
 
     edge [
         penwidth=2,
-        color="#888888",
+        color="#8899aa",
         style=dashed,
         arrowhead=none
     ];
@@ -24,8 +25,8 @@ digraph RequisitosLimite {
     // Centro
     centro [label="LIMITE\nEXTERNO\nEFECTIVO",
             shape=octagon,
-            fillcolor="#1565c0",
-            color="#0d47a1",
+            fillcolor="#3d7ab7",
+            color="#2d5a87",
             fontcolor="white",
             fontsize=12,
             width=2,
@@ -34,16 +35,16 @@ digraph RequisitosLimite {
 
     // 4 Requisitos en cruz
     r1 [label="1. FUENTE DE AUTORIDAD\nINDEPENDIENTE\n\nNo deriva mandato del sponsor\nViene de arriba o fuera\nde su linea de influencia",
-        fillcolor="#e3f2fd", color="#1976d2", width=3, height=1.3, pos="0,3.5!"];
+        fillcolor="#1e3a5f", color="#3d7ab7", width=3, height=1.3, pos="0,3.5!"];
 
     r2 [label="2. CRITERIOS NO\nMODIFICABLES\n\nCodificados ANTES de evaluar\nUmbral explicito\nConsecuencia predefinida",
-        fillcolor="#e8f5e9", color="#388e3c", width=3, height=1.3, pos="3.5,0!"];
+        fillcolor="#2d5a87", color="#3d7ab7", width=3, height=1.3, pos="3.5,0!"];
 
     r3 [label="3. ENFORCEMENT SIN\nCOOPERACION\n\nAcceso independiente a info\nEjecucion sin negociacion\nNo depende de que sponsor acepte",
-        fillcolor="#fff8e1", color="#f57c00", width=3, height=1.3, pos="0,-3.5!"];
+        fillcolor="#1e3a5f", color="#3d7ab7", width=3, height=1.3, pos="0,-3.5!"];
 
     r4 [label="4. SUPERVIVENCIA A\nROTACION\n\nFunciona sin importar quien\nocupe los roles\nCodificado en procedimientos\nno en personas",
-        fillcolor="#fce4ec", color="#c2185b", width=3, height=1.3, pos="-3.5,0!"];
+        fillcolor="#2d5a87", color="#3d7ab7", width=3, height=1.3, pos="-3.5,0!"];
 
     // Conexiones
     centro -> r1;
@@ -55,6 +56,6 @@ digraph RequisitosLimite {
     nota [label="Sin estas 4 caracteristicas,\nel limite es CEREMONIAL",
           shape=plaintext,
           fontsize=9,
-          fontcolor="#666666",
+          fontcolor="#dc143c",
           pos="0,-5.5!"];
 }

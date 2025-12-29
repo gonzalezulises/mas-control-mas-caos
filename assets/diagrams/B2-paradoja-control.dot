@@ -2,45 +2,46 @@ digraph ParadojaControlEmbudo {
     // Layout
     layout=dot;
     rankdir=TB;
-    bgcolor="white";
+    bgcolor="#0a1628";
     pad=0.5;
     nodesep=0.6;
     ranksep=0.7;
 
-    // Estilo global
+    // Estilo global - paleta portada
     node [
         shape=box,
         style="rounded,filled",
-        fontname="Arial",
+        fontname="Helvetica Neue",
         fontsize=11,
+        fontcolor="#ffffff",
         penwidth=2
     ];
 
     edge [
         penwidth=2,
-        color="#666666",
+        color="#3d7ab7",
         arrowsize=0.8
     ];
 
     // Nivel 1 - Mas ancho (control)
     A [label="MAS CONTROL\nreportes, checkpoints, aprobaciones",
-       fillcolor="#e3f2fd", color="#1976d2", width=4.5, height=0.7];
+       fillcolor="#1e3a5f", color="#3d7ab7", width=4.5, height=0.7];
 
     // Nivel 2
     B [label="MENOS VARIEDAD\nopciones limitadas",
-       fillcolor="#fff8e1", color="#f57c00", width=3.5, height=0.7];
+       fillcolor="#2d5a87", color="#3d7ab7", width=3.5, height=0.7];
 
     // Nivel 3
     C [label="RIGIDEZ\nincapacidad de adaptacion",
-       fillcolor="#ffecb3", color="#ff8f00", width=2.8, height=0.7];
+       fillcolor="#0d1f3c", color="#8899aa", width=2.8, height=0.7];
 
     // Nivel 4 - Mas estrecho
     D [label="FRAGILIDAD\nvulnerabilidad oculta",
-       fillcolor="#ffcdd2", color="#c62828", width=2.2, height=0.7];
+       fillcolor="#8b0000", color="#dc143c", width=2.2, height=0.7];
 
     // Nivel 5 - Punto critico
     E [label="CRISIS\nsintomas visibles",
-       fillcolor="#f3e5f5", color="#7b1fa2", width=1.6, height=0.6];
+       fillcolor="#5c0000", color="#dc143c", width=1.6, height=0.6];
 
     // Conexiones descendentes
     A -> B;
@@ -49,7 +50,7 @@ digraph ParadojaControlEmbudo {
     D -> E;
 
     // Flecha de retorno (el ciclo)
-    feedback [label="dispara\nmas control", shape=plaintext, fontsize=9, fontcolor="#c62828"];
-    E -> feedback [color="#c62828", style=bold, arrowhead=none];
-    feedback -> A [color="#c62828", style=bold, constraint=false];
+    feedback [label="dispara\nmas control", shape=plaintext, fontsize=9, fontcolor="#dc143c"];
+    E -> feedback [color="#dc143c", style=bold, arrowhead=none];
+    feedback -> A [color="#dc143c", style=bold, constraint=false];
 }

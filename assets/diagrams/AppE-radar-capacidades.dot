@@ -1,84 +1,86 @@
 digraph RadarCapacidades {
-    // Configuración general
+    // Configuración general - paleta portada
     graph [
-        bgcolor="white"
-        fontname="Helvetica"
+        bgcolor="#0a1628"
+        fontname="Helvetica Neue"
         fontsize=11
+        fontcolor="#ffffff"
         pad=0.5
         nodesep=0.4
         ranksep=0.6
     ];
-    node [fontname="Helvetica" fontsize=10];
-    edge [fontname="Helvetica" fontsize=9];
+    node [fontname="Helvetica Neue" fontsize=10 fontcolor="#ffffff"];
+    edge [fontname="Helvetica Neue" fontsize=9 fontcolor="#8899aa"];
 
     // Nodo central invisible para anclar
     center [label="" shape=point width=0.1 style=invis];
 
-    // === ZONA FUNCIONAL (anillo exterior - verde) ===
+    // === ZONA FUNCIONAL (anillo exterior - azul control) ===
     subgraph cluster_funcional {
         label="ZONA FUNCIONAL\n(Nivel > 3)"
         labelloc="b"
         style="rounded,filled"
-        fillcolor="#c8e6c9"
-        color="#388e3c"
+        fillcolor="#1e3a5f"
+        color="#3d7ab7"
         penwidth=2
-        fontcolor="#1b5e20"
+        fontcolor="#ffffff"
         fontsize=11
 
-        // Capacidades en zona funcional (ejemplos posicionados)
-        F1 [label="CAP-1\nDetección\nloops\n━━━━ 4" shape=box style="rounded,filled" fillcolor="#a5d6a7" color="#2e7d32" fontsize=9]
-        F2 [label="CAP-4\nCriterio\ncodificado\n━━━━ 4" shape=box style="rounded,filled" fillcolor="#a5d6a7" color="#2e7d32" fontsize=9]
+        // Capacidades en zona funcional
+        F1 [label="CAP-1\nDetección\nloops\n━━━━ 4" shape=box style="rounded,filled" fillcolor="#2d5a87" color="#3d7ab7" fontsize=9 fontcolor="#ffffff"]
+        F2 [label="CAP-4\nCriterio\ncodificado\n━━━━ 4" shape=box style="rounded,filled" fillcolor="#2d5a87" color="#3d7ab7" fontsize=9 fontcolor="#ffffff"]
     }
 
-    // === ZONA DESARROLLO (anillo medio - amarillo) ===
+    // === ZONA DESARROLLO (anillo medio - gris) ===
     subgraph cluster_desarrollo {
         label="ZONA DESARROLLO\n(Nivel 2-3)"
         labelloc="b"
         style="rounded,filled"
-        fillcolor="#fff9c4"
-        color="#f9a825"
+        fillcolor="#0d1f3c"
+        color="#8899aa"
         penwidth=2
-        fontcolor="#f57f17"
+        fontcolor="#8899aa"
         fontsize=11
 
-        D1 [label="CAP-2\nLímite\nDRG\n━━━░ 3" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
-        D2 [label="CAP-3\nAprendizaje\ngrupal\n━━░░ 2" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
-        D3 [label="CAP-5\nAbsorción\nfricción\n━━━░ 3" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
-        D4 [label="CAP-8\nDiferenciación\ndominio\n━━░░ 2" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
+        D1 [label="CAP-2\nLímite\nDRG\n━━━░ 3" shape=box style="rounded,filled" fillcolor="#1e3a5f" color="#8899aa" fontsize=9 fontcolor="#ffffff"]
+        D2 [label="CAP-3\nAprendizaje\ngrupal\n━━░░ 2" shape=box style="rounded,filled" fillcolor="#1e3a5f" color="#8899aa" fontsize=9 fontcolor="#ffffff"]
+        D3 [label="CAP-5\nAbsorción\nfricción\n━━━░ 3" shape=box style="rounded,filled" fillcolor="#1e3a5f" color="#8899aa" fontsize=9 fontcolor="#ffffff"]
+        D4 [label="CAP-8\nDiferenciación\ndominio\n━━░░ 2" shape=box style="rounded,filled" fillcolor="#1e3a5f" color="#8899aa" fontsize=9 fontcolor="#ffffff"]
     }
 
-    // === ZONA CRÍTICA (anillo interior - rojo) ===
+    // === ZONA CRÍTICA (anillo interior - rojo caos) ===
     subgraph cluster_critica {
         label="ZONA CRÍTICA\n(Nivel < 2)"
         labelloc="b"
         style="rounded,filled"
-        fillcolor="#ffcdd2"
-        color="#d32f2f"
+        fillcolor="#8b0000"
+        color="#dc143c"
         penwidth=2
-        fontcolor="#b71c1c"
+        fontcolor="#dc143c"
         fontsize=11
 
-        C1 [label="CAP-6\nOverride\nexplícito\n━░░░ 1" shape=box style="rounded,filled" fillcolor="#ef9a9a" color="#c62828" fontsize=9]
-        C2 [label="CAP-7\nGobernanza\nIA\n░░░░ 0" shape=box style="rounded,filled" fillcolor="#ef9a9a" color="#c62828" fontsize=9]
+        C1 [label="CAP-6\nOverride\nexplícito\n━░░░ 1" shape=box style="rounded,filled" fillcolor="#5c0000" color="#dc143c" fontsize=9 fontcolor="#ffffff"]
+        C2 [label="CAP-7\nGobernanza\nIA\n░░░░ 0" shape=box style="rounded,filled" fillcolor="#5c0000" color="#dc143c" fontsize=9 fontcolor="#ffffff"]
     }
 
     // === LEYENDA ===
     subgraph cluster_leyenda {
         label="ESCALA DE MADUREZ"
         labelloc="t"
-        style="rounded"
-        color="#616161"
-        fontcolor="#424242"
+        style="rounded,filled"
+        fillcolor="#0d1f3c"
+        color="#2d5a87"
+        fontcolor="#ffffff"
         fontsize=10
 
         leyenda [
             label=<
-            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">░░░░ = 0 Inexistente</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━░░░ = 1 Ad-hoc</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━━░░ = 2 Definido</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━━━░ = 3 Gestionado</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━━━━ = 4 Optimizado</FONT></TD></TR>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" BGCOLOR="#0d1f3c">
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">░░░░ = 0 Inexistente</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━░░░ = 1 Ad-hoc</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━━░░ = 2 Definido</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━━━░ = 3 Gestionado</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━━━━ = 4 Optimizado</FONT></TD></TR>
             </TABLE>
             >
             shape=none

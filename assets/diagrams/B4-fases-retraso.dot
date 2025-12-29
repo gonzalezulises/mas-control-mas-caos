@@ -2,21 +2,23 @@ digraph FasesSemaforo {
     // Layout vertical
     layout=dot;
     rankdir=TB;
-    bgcolor="white";
+    bgcolor="#0a1628";
     pad=0.6;
     nodesep=0.4;
     ranksep=0.8;
 
-    // Estilo global
+    // Estilo global - paleta portada
     node [
-        fontname="Arial",
+        fontname="Helvetica Neue",
         fontsize=11,
+        fontcolor="#ffffff",
         penwidth=3
     ];
 
     edge [
         penwidth=3,
-        color="#555555",
+        color="#3d7ab7",
+        fontcolor="#8899aa",
         arrowsize=0.9
     ];
 
@@ -24,39 +26,40 @@ digraph FasesSemaforo {
     titulo [label="FASES DEL RETRASO SISTEMICO",
             shape=plaintext,
             fontsize=14,
-            fontname="Arial Bold"];
+            fontcolor="#ffffff",
+            fontname="Helvetica Neue Bold"];
 
-    // Semaforo VERDE - Fase Temprana
+    // Semaforo AZUL - Fase Temprana (era verde)
     semaforo1 [label="",
                shape=circle,
                width=1.2,
                height=1.2,
-               fillcolor="#4caf50",
+               fillcolor="#3d7ab7",
                style=filled,
-               color="#2e7d32"];
+               color="#2d5a87"];
 
     fase1 [label="FASE TEMPRANA\n\nDetener seria BARATO\n\n• Informacion ambigua\n• Argumentos en ambas direcciones\n• Quien detiene parece\n  prematuro o pesimista",
            shape=box,
            style="rounded,filled",
-           fillcolor="#e8f5e9",
-           color="#2e7d32",
+           fillcolor="#1e3a5f",
+           color="#3d7ab7",
            width=4,
            height=1.8];
 
-    // Semaforo AMARILLO - Fase Intermedia
+    // Semaforo GRIS - Fase Intermedia (era amarillo)
     semaforo2 [label="",
                shape=circle,
                width=1.2,
                height=1.2,
-               fillcolor="#ffb300",
+               fillcolor="#8899aa",
                style=filled,
-               color="#ff8f00"];
+               color="#6b7a8a"];
 
     fase2 [label="FASE INTERMEDIA\n\nInversion acumulada crea argumento:\n\"Ya invertimos tanto que parar\nseria desperdiciar todo\"\n\n(Falacia de costos hundidos)",
            shape=box,
            style="rounded,filled",
-           fillcolor="#fff8e1",
-           color="#ff8f00",
+           fillcolor="#0d1f3c",
+           color="#8899aa",
            width=4,
            height=1.8];
 
@@ -65,15 +68,15 @@ digraph FasesSemaforo {
                shape=circle,
                width=1.2,
                height=1.2,
-               fillcolor="#e53935",
+               fillcolor="#dc143c",
                style=filled,
-               color="#c62828"];
+               color="#8b0000"];
 
     fase3 [label="FASE TARDIA\n\nEvidencia de fracaso innegable\n\n• Deshacer años de trabajo\n• Admitir error publico\n• Enfrentar stakeholders\n\nCosto detener ≈ Costo colapso",
            shape=box,
            style="rounded,filled",
-           fillcolor="#ffebee",
-           color="#c62828",
+           fillcolor="#5c0000",
+           color="#dc143c",
            width=4,
            height=1.8];
 
@@ -81,8 +84,8 @@ digraph FasesSemaforo {
     resultado [label="RESULTADO\n\nOrganizaciones detienen\nDEMASIADO TARDE\ncuando el daño ya\nesta materializado",
                shape=octagon,
                style="filled",
-               fillcolor="#b71c1c",
-               color="#7f0000",
+               fillcolor="#8b0000",
+               color="#5c0000",
                fontcolor="white",
                fontsize=11,
                width=3,
@@ -95,11 +98,11 @@ digraph FasesSemaforo {
     {rank=same; semaforo2; fase2}
     {rank=same; semaforo3; fase3}
 
-    semaforo1 -> fase1 [arrowhead=none, style=dashed, color="#2e7d32"];
-    semaforo2 -> fase2 [arrowhead=none, style=dashed, color="#ff8f00"];
-    semaforo3 -> fase3 [arrowhead=none, style=dashed, color="#c62828"];
+    semaforo1 -> fase1 [arrowhead=none, style=dashed, color="#3d7ab7"];
+    semaforo2 -> fase2 [arrowhead=none, style=dashed, color="#8899aa"];
+    semaforo3 -> fase3 [arrowhead=none, style=dashed, color="#dc143c"];
 
-    semaforo1 -> semaforo2 [label="  inversion\n  crece  ", fontsize=9, fontcolor="#666666"];
-    semaforo2 -> semaforo3 [label="  daño se\n  acumula  ", fontsize=9, fontcolor="#666666"];
-    semaforo3 -> resultado [label="  demasiado\n  tarde  ", fontsize=9, fontcolor="#c62828", color="#c62828"];
+    semaforo1 -> semaforo2 [label="  inversion\n  crece  ", fontsize=9];
+    semaforo2 -> semaforo3 [label="  daño se\n  acumula  ", fontsize=9];
+    semaforo3 -> resultado [label="  demasiado\n  tarde  ", fontsize=9, fontcolor="#dc143c", color="#dc143c"];
 }
