@@ -32,7 +32,7 @@ No fue negligencia individual ni ego personal. Fue el sistema operando según su
 Mas control reduce variedad y aumenta fragilidad. El caos que eventualmente emerge no es falla operativa ni error de ejecución: es respuesta sistemica inevitable a la reducción de capacidad adaptativa.
 
 <!-- DIAGRAMA: B2-paradoja-control - Loop de la paradoja del control -->
-![La paradoja del control](assets/generated/diagrams/B2-paradoja-control.png)
+![La paradoja del control](assets/generated/diagrams/B2-paradoja-control.png){width=65%}
 
 W. Ross Ashby formulo en 1956 lo que llamo la Ley de Variedad Requerida (Ashby, 1956), posteriormente aplicada a sistemas organizacionales por Stafford Beer (1972) en su Modelo de Sistema Viable: un sistema solo puede ser controlado si el controlador tiene al menos tanta variedad de respuestas como el sistema controlado tiene variedad de perturbaciones. Esta ley no es opinion ni teoria debatible. Es restricción matematica. Un termostato con dos estados (encender/apagar) puede controlar temperatura en un rango limitado. Un sistema de climatización con mil estados puede controlar con precisión mil veces mayor. Pero ningun sistema de control, por sofisticado que sea, puede manejar perturbaciones cuya variedad excede la variedad de respuestas disponibles. De Raadt (1987) validó empíricamente esta ley en organizaciones de seguros, confirmando que la variedad del sistema regulador debe corresponder con la variedad del sistema regulado para mantener estabilidad.
 
