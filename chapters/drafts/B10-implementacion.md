@@ -59,6 +59,8 @@ Si ninguna de las condiciones de viabilidad existe y ninguna táctica es aplicab
 
 La implementación tiene cuatro fases que no deben saltarse ni reordenarse. Cada fase produce resultado visible que justifica la siguiente. La acumulación de resultados construye credibilidad institucional que sostiene el mecanismo cuando enfrenta presión.
 
+![Secuencia de cuatro fases de implementacion](assets/generated/diagrams/B10-fases-implementacion.svg)
+
 ### Fase 1: Piloto con ownership distribuido (Meses 1-3)
 
 El objetivo de esta fase es demostrar que el mecanismo produce veredicto útil sobre una categoría específica de iniciativa, con participación de quienes serán afectados por él.
@@ -186,6 +188,8 @@ Este formato captura conocimiento tácito que el diseño formal no anticipó, pe
 No hay entregable final. Hay capacidad de mejora continua institucionalizada. El sistema aprende de cada ciclo y se ajusta. Las personas pueden rotar y el sistema sigue funcionando porque no depende de su memoria individual.
 
 ## La estructura de la sesión del gate
+
+![Estructura de sesion del gate (60 minutos)](assets/generated/diagrams/B10-sesion-gate.svg)
 
 El gate no es solo criterios más comité. Es una conversación estructurada. Sin estructura, la dinámica de poder en la sala determina el resultado: el más senior habla primero y ancla la discusión, los que tienen dudas callan para no generar conflicto, el veredicto refleja política más que análisis.
 

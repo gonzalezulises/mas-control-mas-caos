@@ -82,7 +82,7 @@ assets:
       title: "Secuencia de cuatro fases de implementación"
       caption: "Cada fase produce resultado visible antes de pasar a la siguiente."
       width: "100%"
-    status: pending
+    status: draft
     owner: ulises
 
   - id: diag-B10-sesion-gate

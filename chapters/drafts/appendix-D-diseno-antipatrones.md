@@ -21,6 +21,8 @@ Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño
 
 ## Anti-patrones del gate {- .unlisted}
 
+![Flujo de degeneracion del gate](assets/generated/diagrams/AppD-antipatrones.svg)
+
 Un anti-patrón es una configuración que parece razonable pero produce disfunción predecible. Cada anti-patrón tiene lógica que lo hace atractivo y consecuencia que lo hace destructivo.
 
 **Anti-patrón 1: Composición nombrada por patrocinadores.** Los operadores del gate son nombrados por el comité ejecutivo que patrocina las iniciativas más grandes. Parece razonable: queremos gente senior con credibilidad, y el comité ejecutivo sabe quién tiene el perfil. Falla porque los operadores deben su posición a quienes evalúan. La gratitud institucional es real aunque no se articule. La captura está arquitectada desde el nombramiento. Un gate cuyos operadores son nombrados por los sponsors es gate de los sponsors, independientemente del mandato formal.
