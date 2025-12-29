@@ -1,0 +1,18 @@
+gantt
+    title Estructura de sesión del gate (60 min)
+    dateFormat mm
+    axisFormat %M min
+    
+    section Apertura
+    Check-in: declarar sesgos potenciales    :a1, 00, 5m
+    
+    section Información
+    Solo preguntas, sin opiniones            :a2, after a1, 15m
+    
+    section Deliberación
+    Votación secreta preliminar              :a3, after a2, 5m
+    Discusión: junior primero, senior último :a4, after a3, 20m
+    Devil's advocate: mejor caso negativo    :a5, after a4, 10m
+    
+    section Cierre
+    Votación final y registro                :a6, after a5, 5m

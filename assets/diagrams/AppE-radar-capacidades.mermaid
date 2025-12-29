@@ -1,0 +1,38 @@
+%%{init: {'theme': 'base'}}%%
+flowchart TB
+    subgraph RADAR["Perfil de Capacidades Organizacionales"]
+        direction TB
+
+        subgraph CAP["8 Capacidades"]
+            C1["CAP-1: Deteccion de loops"]
+            C2["CAP-2: Limite previo DRG"]
+            C3["CAP-3: Aprendizaje grupal"]
+            C4["CAP-4: Criterio codificado"]
+            C5["CAP-5: Absorcion friccion"]
+            C6["CAP-6: Override explicito"]
+            C7["CAP-7: Gobernanza IA"]
+            C8["CAP-8: Diferenciacion dominio"]
+        end
+
+        subgraph NIVELES["Escala de madurez"]
+            N0["0 - Inexistente"]
+            N1["1 - Ad-hoc"]
+            N2["2 - Definido"]
+            N3["3 - Gestionado"]
+            N4["4 - Optimizado"]
+        end
+
+        subgraph ZONAS["Interpretacion"]
+            Z1["Zona critica: menor a 2 en cualquier capacidad"]
+            Z2["Zona desarrollo: 2-3 promedio"]
+            Z3["Zona funcional: mayor a 3 promedio"]
+        end
+    end
+
+    CAP --> NIVELES
+    NIVELES --> ZONAS
+
+    style RADAR fill:#fafafa
+    style CAP fill:#e3f2fd
+    style NIVELES fill:#fff8e1
+    style ZONAS fill:#f3e5f5

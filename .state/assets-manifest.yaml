@@ -1,0 +1,180 @@
+---
+# Assets Manifest - Gerencia Funcional
+# Registro centralizado de diagramas, tablas y figuras
+# Fuente de verdad para el build pipeline
+
+meta:
+  version: "1.0"
+  book_id: "gerencia-funcional"
+  updated: "2025-12-28"
+
+asset_types:
+  mermaid:
+    source_dir: "assets/diagrams"
+    output_dir: "assets/generated/diagrams"
+    output_format: "svg"
+    processor: "mmdc"
+    file_extension: ".mermaid"
+  
+  table:
+    source_dir: "assets/tables"
+    output_dir: "assets/generated/tables"
+    output_format: "latex"
+    processor: "yaml2latex"
+    file_extension: ".yaml"
+  
+  figure:
+    source_dir: "assets/figures"
+    output_dir: "assets/generated/figures"
+    processor: "copy"
+    allowed_extensions: [".png", ".jpg", ".svg", ".pdf"]
+
+# Convención de nombrado:
+# - ID: {tipo}-{capitulo}-{descriptor}
+# - Archivo: {capitulo}-{descriptor}.{ext}
+# Ejemplo: diag-B10-fases → B10-fases.mermaid
+
+assets:
+  # ============================================
+  # CAPÍTULO B5: Capacidades de Gerencia Funcional
+  # ============================================
+  
+  - id: tabla-B5-capacidades-errores
+    type: table
+    chapter: B5-capacidades-gerencia-funcional
+    source: "assets/tables/B5-capacidades-errores.yaml"
+    anchor:
+      after_text: "sistema de ocho capacidades interdependientes"
+    display:
+      title: "Capacidades y errores estructurales que previenen"
+      caption: "Cada capacidad bloquea un modo de falla específico del sistema organizacional."
+    status: pending
+    owner: ulises
+
+  # ============================================
+  # CAPÍTULO B5.5: Anatomía del Gate
+  # ============================================
+  
+  - id: diag-B55-estructura-gate
+    type: mermaid
+    chapter: B5.5-anatomia-del-gate
+    source: "assets/diagrams/B55-estructura-gate.mermaid"
+    anchor:
+      before_section: "Composición del gate"
+    display:
+      title: "Componentes estructurales del gate"
+      caption: "Elementos mínimos para un gate funcional vs. ceremonial."
+      width: "100%"
+    status: pending
+    owner: ulises
+
+  # ============================================
+  # CAPÍTULO B10: Implementación
+  # ============================================
+  
+  - id: diag-B10-fases-implementacion
+    type: mermaid
+    chapter: B10-implementacion
+    source: "assets/diagrams/B10-fases-implementacion.mermaid"
+    anchor:
+      before_section: "Fase 1: Piloto con ownership distribuido"
+    display:
+      title: "Secuencia de cuatro fases de implementación"
+      caption: "Cada fase produce resultado visible antes de pasar a la siguiente."
+      width: "100%"
+    status: pending
+    owner: ulises
+
+  - id: diag-B10-sesion-gate
+    type: mermaid
+    chapter: B10-implementacion
+    source: "assets/diagrams/B10-sesion-gate.mermaid"
+    anchor:
+      before_section: "Estructura de la sesión del gate"
+    display:
+      title: "Estructura de sesión del gate (60 minutos)"
+      caption: "Protocolo que minimiza anclaje jerárquico y maximiza disenso visible."
+      width: "100%"
+    status: pending
+    owner: ulises
+
+  - id: tabla-B10-metricas-operacion
+    type: table
+    chapter: B10-implementacion
+    source: "assets/tables/B10-metricas-operacion.yaml"
+    anchor:
+      after_text: "métricas de operación"
+    display:
+      title: "Métricas de operación del gate"
+      caption: "Indicadores que distinguen gate funcional de teatro organizacional."
+    status: pending
+    owner: ulises
+
+  - id: tabla-B10-resistencias-respuestas
+    type: table
+    chapter: B10-implementacion
+    source: "assets/tables/B10-resistencias-respuestas.yaml"
+    anchor:
+      after_text: "resistencias predecibles"
+    display:
+      title: "Resistencias predecibles y respuestas"
+      caption: "Objeciones comunes y cómo responderlas sin entrar en debate filosófico."
+    status: pending
+    owner: ulises
+
+  # ============================================
+  # APÉNDICE A: Criterios de Readiness
+  # ============================================
+  
+  - id: tabla-AppA-criterios-tecnologia
+    type: table
+    chapter: appendix-A-criterios-readiness
+    source: "assets/tables/AppA-criterios-tecnologia.yaml"
+    anchor:
+      before_section: "Iniciativas tecnológicas"
+    display:
+      title: "Criterios de readiness para iniciativas tecnológicas"
+      caption: "Cada criterio tiene umbral observable y consecuencia predefinida."
+    status: pending
+    owner: ulises
+
+  # ============================================
+  # APÉNDICE D: Diseño y Anti-patrones
+  # ============================================
+  
+  - id: diag-AppD-antipatrones
+    type: mermaid
+    chapter: appendix-D-diseno-antipatrones
+    source: "assets/diagrams/AppD-antipatrones.mermaid"
+    anchor:
+      before_section: "Anti-patrones del gate"
+    display:
+      title: "Flujo de degeneración del gate"
+      caption: "Cómo un gate funcional se convierte en teatro organizacional."
+      width: "100%"
+    status: pending
+    owner: ulises
+
+  # ============================================
+  # APÉNDICE E: Instrumento de Diagnóstico
+  # ============================================
+  
+  - id: diag-AppE-radar-capacidades
+    type: mermaid
+    chapter: appendix-E-instrumento-diagnostico
+    source: "assets/diagrams/AppE-radar-capacidades.mermaid"
+    anchor:
+      after_text: "visualización del diagnóstico"
+    display:
+      title: "Radar de capacidades de gerencia funcional"
+      caption: "Representación visual del estado de las 8 capacidades."
+      width: "80%"
+    status: pending
+    owner: ulises
+
+# Statuses válidos:
+# - pending: Asset definido pero no creado
+# - draft: Fuente existe, en desarrollo
+# - review: Listo para revisión
+# - ready: Validado, listo para build
+# - approved: Incluido en versión publicada

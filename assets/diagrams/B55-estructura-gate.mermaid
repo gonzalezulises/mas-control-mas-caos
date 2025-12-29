@@ -1,0 +1,32 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e1f5fe', 'secondaryColor': '#fff3e0', 'tertiaryColor': '#e8f5e9'}}}%%
+flowchart TB
+    subgraph GATE["GATE: Decision Readiness Gate"]
+        direction TB
+
+        subgraph COMP["Composicion 3-5 operadores"]
+            OP1["Operador tecnico<br/>Dominio especifico"]
+            OP2["Operador financiero<br/>Viabilidad economica"]
+            OP3["Operador de riesgo<br/>Exposicion organizacional"]
+            OP4["Facilitador<br/>Proceso y documentacion"]
+        end
+
+        subgraph CRIT["Criterios codificados"]
+            C1["Umbral observable"]
+            C2["Consecuencia predefinida"]
+            C3["Sin excepciones implicitas"]
+        end
+
+        subgraph VERD["Veredictos posibles"]
+            V1["GO<br/>Cumple criterios"]
+            V2["GO CONDICIONAL<br/>Requiere ajustes"]
+            V3["NO-GO<br/>No cumple minimos"]
+        end
+    end
+
+    COMP --> CRIT
+    CRIT --> VERD
+
+    style GATE fill:#f5f5f5,stroke:#333
+    style COMP fill:#e3f2fd
+    style CRIT fill:#fff8e1
+    style VERD fill:#e8f5e9

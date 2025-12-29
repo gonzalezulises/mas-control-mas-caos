@@ -1,0 +1,31 @@
+title: "Resistencias predecibles y respuestas"
+description: "Objeciones comunes y cómo responderlas sin entrar en debate filosófico"
+
+columns:
+  - key: resistencia
+    header: "Resistencia"
+  - key: logica_oculta
+    header: "Lógica oculta"
+  - key: respuesta
+    header: "Respuesta"
+
+rows:
+  - resistencia: "Esto ralentiza la ejecución"
+    logica_oculta: "Velocidad = competencia"
+    respuesta: "Mostrar datos del piloto: tiempo evaluación vs. tiempo recuperación de fracasos"
+  
+  - resistencia: "No tenemos tiempo para otro proceso"
+    logica_oculta: "Ocupación = productividad"
+    respuesta: "El gate reemplaza reuniones de revisión, no añade una nueva"
+  
+  - resistencia: "El CEO no va a aceptar un NO"
+    logica_oculta: "Autoridad = infalibilidad"
+    respuesta: "El override existe, pero es visible y costoso; protege al CEO de sí mismo"
+  
+  - resistencia: "Ya tenemos comités de revisión"
+    logica_oculta: "Existencia = funcionamiento"
+    respuesta: "Pregunta: ¿Cuántos rechazos definitivos en 24 meses? Si la respuesta es cero, no es un gate"
+  
+  - resistencia: "Aquí es diferente"
+    logica_oculta: "Excepcionalismo cultural"
+    respuesta: "La física organizacional no reconoce fronteras; los loops operan igual en todas partes"

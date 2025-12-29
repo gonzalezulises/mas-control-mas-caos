@@ -46,14 +46,22 @@ El libro presenta un sistema de capacidades interdependientes (no soluciones ais
 ## Estructura del Repositorio
 ```
 .state/              → YAML de estado del libro (fuente de verdad)
+  book-state.yaml    → Estado de capítulos, blueprints, capacidades
+  references.yaml    → Base de datos de referencias bibliográficas
+  assets-manifest.yaml → Registro de diagramas, tablas y figuras
 .github/workflows/   → CI/CD para validación automática
 chapters/drafts/     → Capítulos y apéndices en desarrollo
 chapters/published/  → Capítulos finalizados
 concepts/            → Nodos conceptuales (C1-C7)
 assets/
-  references/        → Referencias teóricas
-  cases/             → Casos de estudio
+  references/        → Referencias teóricas (Markdown)
+  cases/             → Casos de estudio (Markdown)
   fragments/         → Fragmentos reutilizables
+  diagrams/          → Fuentes Mermaid (.mermaid)
+  tables/            → Definiciones de tablas (YAML)
+  figures/           → Imágenes estáticas
+  generated/         → Outputs generados (gitignored)
+build/               → Scripts de procesamiento de assets
 scripts/             → Scripts de automatización (ortografía, etc.)
 templates/           → Plantillas LaTeX para PDF (reutilizable)
 tests/               → Tests de validación (ortografía, estructura, referencias)
@@ -61,6 +69,53 @@ output/
   pdf/               → PDF generado
   epub/              → EPUB generado
   md/                → Capítulos individuales en Markdown
+```
+
+## Sistema de Assets Visuales (OBLIGATORIO)
+
+### Manifest centralizado
+Todos los assets visuales (diagramas, tablas, figuras) se registran en `.state/assets-manifest.yaml`.
+
+### Tipos de assets
+- **mermaid**: Diagramas en formato Mermaid → SVG
+- **table**: Definiciones YAML → LaTeX/Markdown
+- **figure**: Imágenes estáticas (PNG, SVG, PDF)
+
+### Convención de nombrado
+- **ID**: `{tipo}-{capitulo}-{descriptor}` (ej: `diag-B10-fases`)
+- **Archivo**: `{capitulo}-{descriptor}.{ext}` (ej: `B10-fases.mermaid`)
+
+### Markers en capítulos
+Para insertar un asset en un capítulo, usar markers:
+```markdown
+{{diag:B10-fases-implementacion}}
+{{tabla:B10-metricas-operacion}}
+{{fig:AppE-radar-capacidades}}
+```
+
+### Estados de assets
+- `pending`: Definido en manifest, archivo no existe
+- `draft`: Archivo existe, en desarrollo
+- `review`: Listo para revisión
+- `ready`: Validado, listo para build
+- `approved`: Incluido en versión publicada
+
+### Agregar nuevo asset
+1. Crear archivo fuente en `assets/{tipo}/`
+2. Agregar entrada en `.state/assets-manifest.yaml`
+3. Insertar marker `{{tipo:id}}` en capítulo
+4. Ejecutar `python3 build/validate-assets.py`
+
+### Pipeline de generación
+```bash
+# Validar manifest
+python3 build/validate-assets.py
+
+# Generar assets (requiere mmdc para Mermaid)
+python3 build/generate-assets.py
+
+# Preprocesar capítulos (reemplaza markers)
+python3 build/preprocess-chapters.py --format markdown
 ```
 
 ## Estado Actual
@@ -335,9 +390,12 @@ python3 tests/test_references.py
 # 4. Validar estructura de capítulos
 python3 tests/test_chapter_structure_blocks.py chapters/
 
-# 5. Regenerar outputs
+# 5. Validar assets visuales
+python3 build/validate-assets.py
+
+# 6. Regenerar outputs
 ./build-book.sh full
 
-# 6. Commit
+# 7. Commit
 git add . && git commit -m "descripción"
 ```
