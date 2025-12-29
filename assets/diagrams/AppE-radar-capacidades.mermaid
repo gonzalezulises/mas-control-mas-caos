@@ -1,28 +1,28 @@
 %%{init: {'flowchart': {'curve': 'basis'}}}%%
 flowchart TB
-    subgraph CAP["8 CAPACIDADES DE GERENCIA FUNCIONAL"]
-        C1["CAP-1: Deteccion de loops"]
-        C2["CAP-2: Limite previo DRG"]
-        C3["CAP-3: Aprendizaje grupal"]
-        C4["CAP-4: Criterio codificado"]
-        C5["CAP-5: Absorcion friccion"]
-        C6["CAP-6: Override explicito"]
-        C7["CAP-7: Gobernanza IA"]
-        C8["CAP-8: Diferenciacion dominio"]
+    subgraph CAP["8 CAPACIDADES"]
+        C1[CAP-1 Deteccion loops]
+        C2[CAP-2 Limite DRG]
+        C3[CAP-3 Aprendizaje]
+        C4[CAP-4 Criterio codificado]
+        C5[CAP-5 Absorcion friccion]
+        C6[CAP-6 Override explicito]
+        C7[CAP-7 Gobernanza IA]
+        C8[CAP-8 Diferenciacion]
     end
 
-    subgraph NIVELES["ESCALA DE MADUREZ (0-4)"]
-        N0["0 - Inexistente"]
-        N1["1 - Ad-hoc"]
-        N2["2 - Definido"]
-        N3["3 - Gestionado"]
-        N4["4 - Optimizado"]
+    subgraph NIVELES["ESCALA 0-4"]
+        N0[0 Inexistente]
+        N1[1 Ad-hoc]
+        N2[2 Definido]
+        N3[3 Gestionado]
+        N4[4 Optimizado]
     end
 
-    subgraph ZONAS["INTERPRETACION DEL PUNTAJE"]
-        Z1["CRITICA: menor a 2 en cualquier capacidad"]
-        Z2["DESARROLLO: 2-3 promedio"]
-        Z3["FUNCIONAL: mayor a 3 promedio"]
+    subgraph ZONAS["INTERPRETACION"]
+        Z1[CRITICA: menor a 2]
+        Z2[DESARROLLO: 2-3]
+        Z3[FUNCIONAL: mayor 3]
     end
 
     CAP --> NIVELES
