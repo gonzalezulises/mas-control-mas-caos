@@ -14,7 +14,6 @@ Si no tiene información suficiente para responder una pregunta, seleccione la o
 
 El instrumento toma entre 15 y 25 minutos. Puede completarlo solo o con su equipo directivo. Las discrepancias entre evaluadores revelan tanto como los puntajes mismos.
 
----
 
 ## Sección 1: Delimitación explícita {- .unlisted}
 
@@ -74,7 +73,6 @@ Su respuesta: ____
 
 **Subtotal Sección 1:** ____ / 20
 
----
 
 ## Sección 2: Criterio codificado {- .unlisted}
 
@@ -134,7 +132,6 @@ Su respuesta: ____
 
 **Subtotal Sección 2:** ____ / 20
 
----
 
 ## Sección 3: Gate institucional vinculante {- .unlisted}
 
@@ -196,7 +193,6 @@ Su respuesta: ____
 
 **Subtotal Sección 3:** ____ / 20
 
----
 
 ## Sección 4: Protección política del NO {- .unlisted}
 
@@ -256,7 +252,6 @@ Su respuesta: ____
 
 **Subtotal Sección 4:** ____ / 20
 
----
 
 ## Sección 5: Separación patrocinio/veredicto {- .unlisted}
 
@@ -316,7 +311,6 @@ Su respuesta: ____
 
 **Subtotal Sección 5:** ____ / 20
 
----
 
 ## Sección 6: Registro irreversible {- .unlisted}
 
@@ -376,7 +370,6 @@ Su respuesta: ____
 
 **Subtotal Sección 6:** ____ / 20
 
----
 
 ## Sección 7: Aprendizaje procedural {- .unlisted}
 
@@ -436,7 +429,6 @@ Su respuesta: ____
 
 **Subtotal Sección 7:** ____ / 20
 
----
 
 ## Sección 8: Revisión periódica {- .unlisted}
 
@@ -496,7 +488,6 @@ Su respuesta: ____
 
 **Subtotal Sección 8:** ____ / 20
 
----
 
 ## Cálculo de resultados {- .unlisted}
 
@@ -539,7 +530,6 @@ Transfiera los puntajes normalizados al siguiente diagrama radar para obtener un
 
 ![Radar de capacidades de gerencia funcional](assets/generated/diagrams/AppE-radar-capacidades.png)
 
----
 
 ## Interpretación {- .unlisted}
 
@@ -557,7 +547,6 @@ Transfiera los puntajes normalizados al siguiente diagrama radar para obtener un
 
 Si la Capacidad 3 (Gate vinculante) tiene puntaje menor a 10, el puntaje global es irrelevante. Un gate sin consecuencias no es un límite, independientemente de qué tan bien estén las otras capacidades.
 
----
 
 ## Guía de acción por brecha {- .unlisted}
 
@@ -625,7 +614,6 @@ El problema es que el criterio no evoluciona. Los criterios que funcionaban hace
 
 **Señal de progreso:** La última revisión incorporó cambios en el contexto competitivo y ajustó criterios específicos.
 
----
 
 ## Uso del instrumento en equipo {- .unlisted}
 

@@ -367,3 +367,75 @@ Kydland, F. E., & Prescott, E. C. (1977). Rules rather than discretion: The inco
 Deloitte. (2024). *Getting decisión rights right: Navigating uncertainty and turbulence through better decisions*. Deloitte Insights.
 
 MIT CISR. (2021). *Designing effective decisión rights*. MIT Sloan Center for Information Systems Research.
+
+## Convergencias teóricas - HRO {- .unlisted}
+
+La Porte, T. R., & Consolini, P. M. (1991). Working in practice but not in theory: Theoretical challenges of "high-reliability organizations". *Journal of Public Administration Research and Theory*, 1(1), 19-48. https://doi.org/10.1093/oxfordjournals.jpart.a037070
+
+Roberts, K. H. (1989). New challenges to understanding organizations. *Academy of Management Review*, 14(2), 257-259. https://doi.org/10.5465/amr.1989.4282104
+
+Roberts, K. H., & Rousseau, D. M. (1989). Research in nearly failure-free, high-reliability organizations: Having the bubble. *IEEE Transactions on Engineering Management*, 36(2), 132-139. https://doi.org/10.1109/17.18830
+
+Rochlin, G. I., La Porte, T. R., & Roberts, K. H. (1987). The self-designing high-reliability organization: Aircraft carrier flight operations at sea. *Naval War College Review*, 40(4), 76-90.
+
+Weick, K. E., Sutcliffe, K. M., & Obstfeld, D. (1999). Organizing for high reliability: Processes of collective mindfulness. *Research in Organizational Behavior*, 21, 81-123.
+
+## Convergencias teóricas - Cynefin {- .unlisted}
+
+Holland, J. H. (1995). *Hidden order: How adaptation builds complexity*. Addison-Wesley.
+
+Kauffman, S. A. (1993). *The origins of order: Self-organization and selection in evolution*. Oxford University Press.
+
+Kurtz, C. F., & Snowden, D. J. (2003). The new dynamics of strategy: Sense-making in a complex and complicated world. *IBM Systems Journal*, 42(3), 462-483. https://doi.org/10.1147/sj.423.0462
+
+Snowden, D. J. (2010). Naturalizing sensemaking. In K. L. Mosier & U. M. Fischer (Eds.), *Informed by knowledge: Expert performance in complex situations* (pp. 223-234). Psychology Press.
+
+Weick, K. E. (1995). *Sensemaking in organizations*. Sage Publications.
+
+## Convergencias teóricas - Viable System Model {- .unlisted}
+
+Beer, S. (1985). *Diagnosing the system for organizations*. John Wiley & Sons.
+
+Espejo, R., Schuhmann, W., Schwaninger, M., & Bilello, U. (1996). *Organisational transformation and learning: A cybernetic approach to management*. John Wiley & Sons.
+
+Schwaninger, M. (2006). *Intelligent organizations: Powerful models for systemic management* (2nd ed.). Springer.
+
+von Foerster, H. (1984). Observing systems. *Intersystems Publications*.
+
+## Convergencias teóricas - Normal Accidents {- .unlisted}
+
+Hopkins, A. (2001). Was Three Mile Island a 'normal accident'? *Journal of Contingencies and Crisis Management*, 9(2), 65-72. https://doi.org/10.1111/1468-5973.00155
+
+Leveson, N. (2011). *Engineering a safer world: Systems thinking applied to safety*. MIT Press.
+
+Reason, J. (1997). *Managing the risks of organizational accidents*. Ashgate.
+
+Sagan, S. D. (1993). *The limits of safety: Organizations, accidents, and nuclear weapons*. Princeton University Press.
+
+Turner, B. A., & Pidgeon, N. F. (1997). *Man-made disasters* (2nd ed.). Butterworth-Heinemann.
+
+## Convergencias teóricas - Agile {- .unlisted}
+
+Beck, K., Beedle, M., van Bennekum, A., Cockburn, A., Cunningham, W., Fowler, M., ... Thomas, D. (2001). *Manifesto for Agile Software Development*. https://agilemanifesto.org
+
+Dingsøyr, T., Nerur, S., Balijepally, V., & Moe, N. B. (2012). A decade of agile methodologies: Towards explaining agile software development. *Journal of Systems and Software*, 85(6), 1213-1221. https://doi.org/10.1016/j.jss.2012.02.033
+
+Highsmith, J. (2013). *Adaptive leadership: Accelerating enterprise agility*. Addison-Wesley.
+
+Leffingwell, D. (2018). *SAFe 4.5 reference guide: Scaled agile framework for lean enterprises*. Addison-Wesley.
+
+Rigby, D. K., Sutherland, J., & Takeuchi, H. (2016). Embracing agile. *Harvard Business Review*, 94(5), 40-50.
+
+Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide: The definitive guide to Scrum*. Scrum.org.
+
+## Convergencias teóricas - Antifragilidad {- .unlisted}
+
+Aven, T. (2015). The concept of antifragility and its implications for the practice of risk analysis. *Risk Analysis*, 35(3), 476-483. https://doi.org/10.1111/risa.12279
+
+Hillson, D. (2023). Beyond resilience: Towards antifragility? *Risk Doctor Briefing*.
+
+Munoz, L., Ottenbacher, M., & Hambrick, D. C. (2022). Developing organizational antifragility: Lessons from the COVID-19 pandemic. *Journal of Management Studies*, 59(4), 968-1002.
+
+Taleb, N. N. (2018). *Skin in the game: Hidden asymmetries in daily life*. Random House.
+
+Taleb, N. N., & Douady, R. (2013). Mathematical definition, mapping, and detection of (anti)fragility. *Quantitative Finance*, 13(11), 1677-1689. https://doi.org/10.1080/14697688.2013.800219

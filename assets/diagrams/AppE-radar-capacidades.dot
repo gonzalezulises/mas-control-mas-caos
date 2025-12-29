@@ -1,0 +1,95 @@
+digraph RadarCapacidades {
+    // Configuración general
+    graph [
+        bgcolor="white"
+        fontname="Helvetica"
+        fontsize=11
+        pad=0.5
+        nodesep=0.4
+        ranksep=0.6
+    ];
+    node [fontname="Helvetica" fontsize=10];
+    edge [fontname="Helvetica" fontsize=9];
+
+    // Nodo central invisible para anclar
+    center [label="" shape=point width=0.1 style=invis];
+
+    // === ZONA FUNCIONAL (anillo exterior - verde) ===
+    subgraph cluster_funcional {
+        label="ZONA FUNCIONAL\n(Nivel > 3)"
+        labelloc="b"
+        style="rounded,filled"
+        fillcolor="#c8e6c9"
+        color="#388e3c"
+        penwidth=2
+        fontcolor="#1b5e20"
+        fontsize=11
+
+        // Capacidades en zona funcional (ejemplos posicionados)
+        F1 [label="CAP-1\nDetección\nloops\n━━━━ 4" shape=box style="rounded,filled" fillcolor="#a5d6a7" color="#2e7d32" fontsize=9]
+        F2 [label="CAP-4\nCriterio\ncodificado\n━━━━ 4" shape=box style="rounded,filled" fillcolor="#a5d6a7" color="#2e7d32" fontsize=9]
+    }
+
+    // === ZONA DESARROLLO (anillo medio - amarillo) ===
+    subgraph cluster_desarrollo {
+        label="ZONA DESARROLLO\n(Nivel 2-3)"
+        labelloc="b"
+        style="rounded,filled"
+        fillcolor="#fff9c4"
+        color="#f9a825"
+        penwidth=2
+        fontcolor="#f57f17"
+        fontsize=11
+
+        D1 [label="CAP-2\nLímite\nDRG\n━━━░ 3" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
+        D2 [label="CAP-3\nAprendizaje\ngrupal\n━━░░ 2" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
+        D3 [label="CAP-5\nAbsorción\nfricción\n━━━░ 3" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
+        D4 [label="CAP-8\nDiferenciación\ndominio\n━━░░ 2" shape=box style="rounded,filled" fillcolor="#fff59d" color="#fbc02d" fontsize=9]
+    }
+
+    // === ZONA CRÍTICA (anillo interior - rojo) ===
+    subgraph cluster_critica {
+        label="ZONA CRÍTICA\n(Nivel < 2)"
+        labelloc="b"
+        style="rounded,filled"
+        fillcolor="#ffcdd2"
+        color="#d32f2f"
+        penwidth=2
+        fontcolor="#b71c1c"
+        fontsize=11
+
+        C1 [label="CAP-6\nOverride\nexplícito\n━░░░ 1" shape=box style="rounded,filled" fillcolor="#ef9a9a" color="#c62828" fontsize=9]
+        C2 [label="CAP-7\nGobernanza\nIA\n░░░░ 0" shape=box style="rounded,filled" fillcolor="#ef9a9a" color="#c62828" fontsize=9]
+    }
+
+    // === LEYENDA ===
+    subgraph cluster_leyenda {
+        label="ESCALA DE MADUREZ"
+        labelloc="t"
+        style="rounded"
+        color="#616161"
+        fontcolor="#424242"
+        fontsize=10
+
+        leyenda [
+            label=<
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">░░░░ = 0 Inexistente</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━░░░ = 1 Ad-hoc</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━━░░ = 2 Definido</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━━━░ = 3 Gestionado</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9">━━━━ = 4 Optimizado</FONT></TD></TR>
+            </TABLE>
+            >
+            shape=none
+        ]
+    }
+
+    // Conexiones invisibles para layout
+    center -> C1 [style=invis]
+    center -> C2 [style=invis]
+    C1 -> D1 [style=invis]
+    C2 -> D2 [style=invis]
+    D1 -> F1 [style=invis]
+    D3 -> F2 [style=invis]
+}

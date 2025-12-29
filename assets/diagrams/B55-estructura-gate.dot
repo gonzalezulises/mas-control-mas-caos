@@ -1,0 +1,207 @@
+digraph DinamicaSistemas {
+    graph [
+        bgcolor="white"
+        fontname="Helvetica Neue"
+        rankdir=TB
+        splines=ortho
+        nodesep=0.6
+        ranksep=0.7
+        pad=0.3
+    ];
+    node [fontname="Helvetica Neue" fontsize=10];
+    edge [fontname="Helvetica Neue" fontsize=9];
+
+    // === STOCKS (rectángulos con doble borde) ===
+    iniciativa [
+        label="INICIATIVA"
+        shape=box
+        style="filled,bold"
+        fillcolor="#e3f2fd"
+        color="#1565c0"
+        penwidth=3
+    ]
+
+    criterios [
+        label="CRITERIOS\n(Umbral observable)"
+        shape=box
+        style="filled,bold"
+        fillcolor="#fff8e1"
+        color="#ff8f00"
+        penwidth=3
+    ]
+
+    veredicto [
+        label=<
+        <TABLE BORDER="0" CELLSPACING="2" CELLPADDING="4">
+            <TR><TD COLSPAN="3"><B>VEREDICTO</B></TD></TR>
+            <TR>
+                <TD BGCOLOR="#a5d6a7">GO</TD>
+                <TD BGCOLOR="#fff59d">COND</TD>
+                <TD BGCOLOR="#ef9a9a">NO-GO</TD>
+            </TR>
+        </TABLE>
+        >
+        shape=box
+        style="filled,bold"
+        fillcolor="#e8f5e9"
+        color="#388e3c"
+        penwidth=3
+    ]
+
+    // === VARIABLES AUXILIARES (círculos) ===
+    subgraph cluster_comp {
+        label="COMPOSICIÓN"
+        labelloc="t"
+        style="rounded,dashed"
+        color="#1976d2"
+        fontcolor="#1565c0"
+
+        tecnico [label="Técnico" shape=circle style=filled fillcolor="#bbdefb" width=0.8]
+        financiero [label="Financiero" shape=circle style=filled fillcolor="#bbdefb" width=0.8]
+        riesgo [label="Riesgo" shape=circle style=filled fillcolor="#bbdefb" width=0.8]
+    }
+
+    protecciones [
+        label=<
+        <TABLE BORDER="0" CELLSPACING="2" CELLPADDING="4">
+            <TR><TD COLSPAN="1"><B>PROTECCIONES</B></TD></TR>
+            <TR><TD>Mandato directorio</TD></TR>
+            <TR><TD>Registro inmutable</TD></TR>
+            <TR><TD>Override escalación</TD></TR>
+        </TABLE>
+        >
+        shape=box
+        style="filled,rounded"
+        fillcolor="#fce4ec"
+        color="#c62828"
+        penwidth=2
+    ]
+
+    // === RESULTADOS ===
+    ejecucion [
+        label="EJECUCIÓN"
+        shape=box
+        style="filled"
+        fillcolor="#e0e0e0"
+        color="#424242"
+    ]
+
+    detenido [
+        label="DETENIDO\n✗"
+        shape=box
+        style="filled"
+        fillcolor="#ffcdd2"
+        color="#b71c1c"
+    ]
+
+    ajuste [
+        label="AJUSTE"
+        shape=box
+        style="filled"
+        fillcolor="#fff9c4"
+        color="#f9a825"
+    ]
+
+    aprendizaje [
+        label="APRENDIZAJE\n(Feedback)"
+        shape=box
+        style="filled,rounded"
+        fillcolor="#e1bee7"
+        color="#7b1fa2"
+        penwidth=2
+    ]
+
+    // === LOOPS DE RETROALIMENTACIÓN ===
+    loopB [
+        label=<B<BR/><FONT POINT-SIZE="8">(−)</FONT>>
+        shape=circle
+        style=filled
+        fillcolor="#ffcdd2"
+        color="#c62828"
+        width=0.5
+        fontsize=12
+    ]
+
+    loopR [
+        label=<R<BR/><FONT POINT-SIZE="8">(+)</FONT>>
+        shape=circle
+        style=filled
+        fillcolor="#c8e6c9"
+        color="#388e3c"
+        width=0.5
+        fontsize=12
+    ]
+
+    // === FLUJOS Y CONEXIONES ===
+
+    // Flujo principal
+    iniciativa -> tecnico [label="  entra" color="#1976d2" fontcolor="#1565c0"]
+    iniciativa -> financiero [style=invis]
+    iniciativa -> riesgo [style=invis]
+
+    tecnico -> criterios [label="evalúa" color="#1976d2" fontcolor="#1565c0"]
+    financiero -> criterios [color="#1976d2"]
+    riesgo -> criterios [color="#1976d2"]
+
+    criterios -> veredicto [label="  determina" color="#ff8f00" fontcolor="#e65100"]
+
+    // Protecciones limitan
+    protecciones -> criterios [label="limita  " color="#c62828" fontcolor="#b71c1c" style=dashed]
+    protecciones -> loopB [style=invis]
+
+    // Veredictos a resultados
+    veredicto -> ejecucion [label="GO  " color="#388e3c" fontcolor="#2e7d32"]
+    veredicto -> ajuste [label="CONDICIONAL" color="#ffa000" fontcolor="#e65100"]
+    veredicto -> detenido [label="  NO-GO" color="#c62828" fontcolor="#b71c1c"]
+
+    ajuste -> criterios [label="reingresa" color="#ffa000" style=dashed constraint=false]
+
+    // Loop de refuerzo
+    ejecucion -> aprendizaje [color="#7b1fa2"]
+    aprendizaje -> loopR [style=invis]
+    aprendizaje -> iniciativa [label="informa nuevas" color="#7b1fa2" fontcolor="#6a1b9a" style=dashed constraint=false]
+
+    // Loop de balance
+    detenido -> loopB [style=invis]
+    veredicto -> protecciones [label="  activa" color="#c62828" style=dashed constraint=false]
+
+    // === LEYENDA ===
+    leyenda [
+        label=<
+        <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="4" CELLPADDING="6" BGCOLOR="#fafafa" COLOR="#9e9e9e">
+            <TR><TD COLSPAN="2" ALIGN="CENTER"><B><FONT POINT-SIZE="10">LEYENDA</FONT></B></TD></TR>
+            <TR>
+                <TD BORDER="1" STYLE="ROUNDED" BGCOLOR="#e3f2fd"><FONT POINT-SIZE="8">▭</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8">Stock (acumulador)</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT POINT-SIZE="10" COLOR="#1976d2">○</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8">Variable auxiliar</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT POINT-SIZE="8">→</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8">Flujo / relación causal</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT POINT-SIZE="8" COLOR="#9e9e9e">--→</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8">Retroalimentación</FONT></TD>
+            </TR>
+            <TR>
+                <TD BGCOLOR="#c8e6c9"><FONT POINT-SIZE="8">R(+)</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8">Loop refuerzo (amplifica)</FONT></TD>
+            </TR>
+            <TR>
+                <TD BGCOLOR="#ffcdd2"><FONT POINT-SIZE="8">B(−)</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8">Loop balance (limita)</FONT></TD>
+            </TR>
+        </TABLE>
+        >
+        shape=none
+    ]
+
+    // === LAYOUT ===
+    {rank=same; tecnico; financiero; riesgo}
+    {rank=same; criterios; protecciones}
+    {rank=same; ejecucion; ajuste; detenido}
+    {rank=same; aprendizaje; loopR; loopB; leyenda}
+}

@@ -345,6 +345,5 @@ Ese ciclo, repetido consistentemente, construye el sistema.
 
 No es necesario esperar a tener el sistema perfecto. No es necesario conseguir aprobación de toda la organización. No es necesario contratar consultores ni comprar software. Un criterio, una iniciativa, un veredicto documentado. El sistema se construye desde ahí, no desde un blueprint completo que nunca se implementa.
 
----
 
 Más poder crea más caos, no es una advertencia moral. Es una ley emergente. El caos no es el fallo del sistema. Es el síntoma de que el sistema ya superó la capacidad cognitiva de quienes lo controlan. Las ocho capacidades de gerencia funcional son la arquitectura que permite que la organización se gobierne a sí misma en lugar de ser gobernada por su propia inercia. La implementación no requiere transformación cultural previa. Requiere un caso, un criterio, un veredicto. Lo demás se construye desde ahí.

@@ -8,7 +8,6 @@ Lo que sí ofrecen estos casos es evidencia indirecta. Son reinterpretaciones de
 
 El lector puede verificar la lógica contra las fuentes citadas. Si la interpretación es correcta, debería ser posible predecir los modos de falla observados a partir del estado de las capacidades. Si no lo es, el framework necesita revisión.
 
----
 
 ## Caso 1: Toyota y el Sistema Andon {- .unlisted}
 
@@ -82,7 +81,6 @@ El Andon funciona cuando las ocho capacidades están arquitectadas en el sistema
 
 Para el lector: ¿El alcance de sus mecanismos de límite coincide con el alcance de sus riesgos actuales? ¿O hay categorías de decisión que escapan al escrutinio porque el límite fue diseñado para un contexto diferente?
 
----
 
 ## Caso 2: Johnson & Johnson y el Credo como criterio previo {- .unlisted}
 
@@ -161,7 +159,6 @@ Las crisis posteriores tenían características diferentes: problemas crónicos,
 
 Para el lector: ¿Su criterio de decisión fue diseñado para el tipo de problema que enfrenta hoy? ¿O está aplicando un criterio de otra época a un contexto diferente?
 
----
 
 ## Caso 3: Boeing 737 MAX — Erosión de límites existentes {- .unlisted}
 
@@ -244,7 +241,6 @@ Los límites externos que funcionan pueden ser erosionados gradualmente hasta vo
 
 Para el lector: ¿Sus mecanismos de governance independiente siguen siendo independientes? ¿O la "eficiencia" y la "confianza" han transferido gradualmente el poder de verificación a quienes se benefician de la aprobación?
 
----
 
 ## Caso 4: Odebrecht — Ausencia estructural de límites {- .unlisted}
 
@@ -323,18 +319,32 @@ En ausencia de límites internos, solo la intervención externa puede detener el
 
 Para el lector: ¿Existen decisiones en su organización que ningún mecanismo puede cuestionar? ¿Hay categorías de acción donde el poder ejecutivo opera sin checkpoint alguno? Esas son las zonas donde el riesgo es máximo.
 
----
 
 ## Síntesis comparativa {- .unlisted}
 
-| Caso | Resultado | Capacidades presentes | Capacidades ausentes/erosionadas | Lección principal |
-|------|-----------|----------------------|----------------------------------|-------------------|
-| Toyota Andon | Éxito parcial (funcionó por décadas, falló en 2009-2010) | 1, 2, 3, 4, 5, 7, 8 | 6 (parcial), 1 y 5 erosionadas en crisis | Los límites arquitectados funcionan mientras el alcance coincide con el riesgo |
-| J&J Tylenol | Éxito en crisis aguda, erosión posterior | 1, 2, 4, 6, 7 | 3, 5, 8 (parciales) | El criterio previo funciona si se mantiene operativo, no solo cultural |
-| Boeing 737 MAX | Fracaso catastrófico | Ninguna funcional al momento de la crisis | Todas erosionadas gradualmente | La erosión incremental es invisible hasta el colapso |
-| Odebrecht | Fracaso sistémico | Ninguna (6 y 7 presentes pero pervertidas) | Todas ausentes desde el diseño | Sin límites internos, solo la intervención externa detiene el sistema |
+\begin{footnotesize}
+\begin{longtable}{|p{0.12\textwidth}|p{0.20\textwidth}|p{0.12\textwidth}|p{0.20\textwidth}|p{0.26\textwidth}|}
+\hline
+\textbf{Caso} & \textbf{Resultado} & \textbf{Cap. presentes} & \textbf{Cap. ausentes} & \textbf{Lección principal} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Caso} & \textbf{Resultado} & \textbf{Cap. presentes} & \textbf{Cap. ausentes} & \textbf{Lección principal} \\
+\hline
+\endhead
+Toyota Andon & Éxito parcial (funcionó décadas, falló 2009-10) & 1, 2, 3, 4, 5, 7, 8 & 6 (parcial), 1 y 5 erosionadas & Límites arquitectados funcionan mientras alcance coincide con riesgo \\
+\hline
+J\&J Tylenol & Éxito en crisis aguda, erosión posterior & 1, 2, 4, 6, 7 & 3, 5, 8 (parciales) & Criterio previo funciona si se mantiene operativo, no solo cultural \\
+\hline
+Boeing 737 MAX & Fracaso catastrófico & Ninguna funcional & Todas erosionadas gradualmente & Erosión incremental es invisible hasta el colapso \\
+\hline
+Odebrecht & Fracaso sistémico & Ninguna (6 y 7 pervertidas) & Todas ausentes desde diseño & Sin límites internos, solo intervención externa detiene sistema \\
+\hline
+\end{longtable}
+\end{footnotesize}
 
----
+Table: Síntesis comparativa de casos de referencia
+
 
 ## Fuentes principales {- .unlisted}
 
