@@ -85,8 +85,26 @@ $endif$
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
 \makeatother
-\setkeys{Gin}{width=\maxwidth,keepaspectratio}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Compatibilidad con Pandoc 3.x - comando para imagenes acotadas
+\makeatletter
+\newsavebox\pandoc@teleport
+\newcommand\pandocbounded[1]{%
+  \sbox\pandoc@teleport{#1}%
+  \ifdim\wd\pandoc@teleport>\linewidth
+    \resizebox{\linewidth}{!}{\usebox\pandoc@teleport}%
+  \else
+    \usebox\pandoc@teleport
+  \fi
+}
+\makeatother
+
+% Figuras flotantes
+\usepackage{float}
+\floatplacement{figure}{H}
 
 % Código y bloques
 \usepackage{fancyvrb}
