@@ -1,0 +1,60 @@
+digraph RequisitosLimite {
+    // Layout
+    layout=neato;
+    bgcolor="white";
+    pad=0.5;
+    splines=curved;
+
+    // Estilo global
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Arial",
+        fontsize=10,
+        penwidth=2
+    ];
+
+    edge [
+        penwidth=2,
+        color="#888888",
+        style=dashed,
+        arrowhead=none
+    ];
+
+    // Centro
+    centro [label="LIMITE\nEXTERNO\nEFECTIVO",
+            shape=octagon,
+            fillcolor="#1565c0",
+            color="#0d47a1",
+            fontcolor="white",
+            fontsize=12,
+            width=2,
+            height=1.5,
+            pos="0,0!"];
+
+    // 4 Requisitos en cruz
+    r1 [label="1. FUENTE DE AUTORIDAD\nINDEPENDIENTE\n\nNo deriva mandato del sponsor\nViene de arriba o fuera\nde su linea de influencia",
+        fillcolor="#e3f2fd", color="#1976d2", width=3, height=1.3, pos="0,3.5!"];
+
+    r2 [label="2. CRITERIOS NO\nMODIFICABLES\n\nCodificados ANTES de evaluar\nUmbral explicito\nConsecuencia predefinida",
+        fillcolor="#e8f5e9", color="#388e3c", width=3, height=1.3, pos="3.5,0!"];
+
+    r3 [label="3. ENFORCEMENT SIN\nCOOPERACION\n\nAcceso independiente a info\nEjecucion sin negociacion\nNo depende de que sponsor acepte",
+        fillcolor="#fff8e1", color="#f57c00", width=3, height=1.3, pos="0,-3.5!"];
+
+    r4 [label="4. SUPERVIVENCIA A\nROTACION\n\nFunciona sin importar quien\nocupe los roles\nCodificado en procedimientos\nno en personas",
+        fillcolor="#fce4ec", color="#c2185b", width=3, height=1.3, pos="-3.5,0!"];
+
+    // Conexiones
+    centro -> r1;
+    centro -> r2;
+    centro -> r3;
+    centro -> r4;
+
+    // Nota
+    nota [label="Sin estas 4 caracteristicas,\nel limite es CEREMONIAL",
+          shape=plaintext,
+          fontsize=9,
+          fontcolor="#666666",
+          pos="0,-5.5!"];
+}

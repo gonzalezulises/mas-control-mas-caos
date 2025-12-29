@@ -1,5 +1,8 @@
 # Implementación
 
+![Implementación](assets/figures/B10-blueprint.jpg)
+
+
 <!-- block: reconocimiento -->
 El lector que termina el capítulo nueve tiene un problema nuevo. Entiende el loop del poder y por qué se auto-amplifica. Entiende que el control intensificado produce fragilidad, no estabilidad. Reconoce el trance organizacional y sus señales. Acepta que los sistemas no pueden auto-limitarse porque el costo político de aprobar siempre es menor que el de rechazar. Conoce las ocho capacidades de gerencia funcional y cómo operan como sistema interdependiente. Sabe que el criterio codificado convierte el NO en decisión institucional. Y sin embargo, cuando piensa en qué hacer el lunes a las nueve de la mañana, no sabe por dónde empezar.
 

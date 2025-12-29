@@ -1,5 +1,8 @@
 # Criterio codificado
 
+![Criterio codificado](assets/figures/B9-codigo.jpg)
+
+
 <!-- block: reconocimiento -->
 El Decisión Readiness Gate existe. El mandato está aprobado por el directorio. El comité evaluador tiene miembros asignados con dedicación protegida. Los umbrales de inversión que disparan evaluación obligatoria están definidos. El proceso de presentación está documentado. Las plantillas están disponibles. Los sponsors saben que sus iniciativas pasarán por el gate antes de entrar en ejecución. Todo el andamiaje institucional está en su lugar.
 

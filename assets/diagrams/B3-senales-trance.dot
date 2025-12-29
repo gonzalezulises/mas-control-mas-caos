@@ -1,0 +1,61 @@
+digraph SenalesTrance {
+    // Layout hexagonal
+    layout=neato;
+    bgcolor="white";
+    pad=0.5;
+    splines=curved;
+
+    // Estilo global
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Arial",
+        fontsize=10,
+        penwidth=2
+    ];
+
+    edge [
+        penwidth=1.5,
+        color="#888888",
+        style=dashed,
+        arrowhead=none
+    ];
+
+    // Titulo central
+    centro [label="CODING\nTRANCE\n\n≥3 señales\n= diagnóstico",
+            shape=hexagon,
+            fillcolor="#c62828",
+            color="#b71c1c",
+            fontcolor="white",
+            fontsize=11,
+            width=2.2,
+            height=2.2,
+            pos="0,0!"];
+
+    // 6 señales en circulo
+    S1 [label="Conversacion\nTECNICA cuando\ndeberia ser\nESTRATEGICA",
+        fillcolor="#e3f2fd", color="#1976d2", width=2, height=1, pos="0,3.2!"];
+
+    S2 [label="Excepciones\ntratadas como\nERRORES\na eliminar",
+        fillcolor="#fff8e1", color="#f57c00", width=2, height=1, pos="2.8,1.6!"];
+
+    S3 [label="Memoria\ninstitucional\nEXTERNALIZADA\nal sistema",
+        fillcolor="#e8f5e9", color="#388e3c", width=2, height=1, pos="2.8,-1.6!"];
+
+    S4 [label="Friccion humana\npercibida como\nINEFICIENCIA",
+        fillcolor="#fce4ec", color="#c2185b", width=2, height=1, pos="0,-3.2!"];
+
+    S5 [label="Exito medido\nSOLO en terminos\ncuantificables",
+        fillcolor="#f3e5f5", color="#7b1fa2", width=2, height=1, pos="-2.8,-1.6!"];
+
+    S6 [label="Sorpresas\nsiempre NEGATIVAS\ny TARDIAS",
+        fillcolor="#ffebee", color="#c62828", width=2, height=1, pos="-2.8,1.6!"];
+
+    // Conexiones al centro
+    S1 -> centro;
+    S2 -> centro;
+    S3 -> centro;
+    S4 -> centro;
+    S5 -> centro;
+    S6 -> centro;
+}

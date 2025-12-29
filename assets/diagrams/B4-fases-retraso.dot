@@ -1,0 +1,105 @@
+digraph FasesSemaforo {
+    // Layout vertical
+    layout=dot;
+    rankdir=TB;
+    bgcolor="white";
+    pad=0.6;
+    nodesep=0.4;
+    ranksep=0.8;
+
+    // Estilo global
+    node [
+        fontname="Arial",
+        fontsize=11,
+        penwidth=3
+    ];
+
+    edge [
+        penwidth=3,
+        color="#555555",
+        arrowsize=0.9
+    ];
+
+    // Titulo
+    titulo [label="FASES DEL RETRASO SISTEMICO",
+            shape=plaintext,
+            fontsize=14,
+            fontname="Arial Bold"];
+
+    // Semaforo VERDE - Fase Temprana
+    semaforo1 [label="",
+               shape=circle,
+               width=1.2,
+               height=1.2,
+               fillcolor="#4caf50",
+               style=filled,
+               color="#2e7d32"];
+
+    fase1 [label="FASE TEMPRANA\n\nDetener seria BARATO\n\n• Informacion ambigua\n• Argumentos en ambas direcciones\n• Quien detiene parece\n  prematuro o pesimista",
+           shape=box,
+           style="rounded,filled",
+           fillcolor="#e8f5e9",
+           color="#2e7d32",
+           width=4,
+           height=1.8];
+
+    // Semaforo AMARILLO - Fase Intermedia
+    semaforo2 [label="",
+               shape=circle,
+               width=1.2,
+               height=1.2,
+               fillcolor="#ffb300",
+               style=filled,
+               color="#ff8f00"];
+
+    fase2 [label="FASE INTERMEDIA\n\nInversion acumulada crea argumento:\n\"Ya invertimos tanto que parar\nseria desperdiciar todo\"\n\n(Falacia de costos hundidos)",
+           shape=box,
+           style="rounded,filled",
+           fillcolor="#fff8e1",
+           color="#ff8f00",
+           width=4,
+           height=1.8];
+
+    // Semaforo ROJO - Fase Tardia
+    semaforo3 [label="",
+               shape=circle,
+               width=1.2,
+               height=1.2,
+               fillcolor="#e53935",
+               style=filled,
+               color="#c62828"];
+
+    fase3 [label="FASE TARDIA\n\nEvidencia de fracaso innegable\n\n• Deshacer años de trabajo\n• Admitir error publico\n• Enfrentar stakeholders\n\nCosto detener ≈ Costo colapso",
+           shape=box,
+           style="rounded,filled",
+           fillcolor="#ffebee",
+           color="#c62828",
+           width=4,
+           height=1.8];
+
+    // Resultado
+    resultado [label="RESULTADO\n\nOrganizaciones detienen\nDEMASIADO TARDE\ncuando el daño ya\nesta materializado",
+               shape=octagon,
+               style="filled",
+               fillcolor="#b71c1c",
+               color="#7f0000",
+               fontcolor="white",
+               fontsize=11,
+               width=3,
+               height=1.5];
+
+    // Conexiones verticales
+    titulo -> semaforo1 [style=invis];
+
+    {rank=same; semaforo1; fase1}
+    {rank=same; semaforo2; fase2}
+    {rank=same; semaforo3; fase3}
+
+    semaforo1 -> fase1 [arrowhead=none, style=dashed, color="#2e7d32"];
+    semaforo2 -> fase2 [arrowhead=none, style=dashed, color="#ff8f00"];
+    semaforo3 -> fase3 [arrowhead=none, style=dashed, color="#c62828"];
+
+    semaforo1 -> semaforo2 [label="  inversion\n  crece  ", fontsize=9, fontcolor="#666666"];
+    semaforo2 -> semaforo3 [label="  daño se\n  acumula  ", fontsize=9, fontcolor="#666666"];
+    semaforo3 -> resultado [label="  demasiado\n  tarde  ", fontsize=9, fontcolor="#c62828", color="#c62828"];
+}

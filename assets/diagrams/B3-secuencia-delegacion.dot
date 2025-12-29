@@ -1,0 +1,60 @@
+digraph SecuenciaDelegacion {
+    // Layout vertical tipo timeline
+    layout=dot;
+    rankdir=TB;
+    bgcolor="white";
+    pad=0.5;
+    nodesep=0.5;
+    ranksep=0.6;
+
+    // Estilo global
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Arial",
+        fontsize=10,
+        penwidth=2
+    ];
+
+    edge [
+        penwidth=2,
+        color="#555555",
+        arrowsize=0.8
+    ];
+
+    // Titulo
+    title [label="SECUENCIA DE INSTALACION DEL TRANCE",
+           shape=plaintext, fontsize=13, fontname="Arial Bold"];
+
+    // Fase 1 - Verde (beneficioso)
+    F1 [label="FASE 1: Automatizacion operativa\n\nTarea puntual se automatiza\nFunciona bien, libera tiempo, reduce errores\nTodos celebran",
+        fillcolor="#c8e6c9", color="#2e7d32", width=5, height=1.1];
+
+    // Fase 2 - Amarillo claro
+    F2 [label="FASE 2: Extension\n\nMas tareas pasan al sistema\nMas decisiones se codifican como reglas\nMas juicios humanos se convierten en algoritmos",
+        fillcolor="#fff9c4", color="#f9a825", width=5, height=1.1];
+
+    // Fase 3 - Naranja
+    F3 [label="FASE 3: Inversion de control\n\nEl sistema determina QUE hacer, no solo COMO\nLa agenda la marca lo que el sistema puede procesar\nLos problemas que reciben atencion son los que el sistema detecta",
+        fillcolor="#ffe0b2", color="#ef6c00", width=5, height=1.1];
+
+    // Fase 4 - Rojo claro
+    F4 [label="FASE 4: Atrofia del criterio\n\nNo hay tiempo, foro, vocabulario ni legitimidad\nCuestionar el sistema = friccion, resistencia\nCapacidad de ejercer criterio desaparece",
+        fillcolor="#ffcdd2", color="#d32f2f", width=5, height=1.1];
+
+    // Fase 5 - Rojo oscuro
+    F5 [label="FASE 5: TRANCE\n\nEl sistema funciona. Las metricas son positivas.\nNadie tiene razon para dudar.\nNadie tiene CAPACIDAD de dudar.",
+        fillcolor="#c62828", color="#b71c1c", fontcolor="white", width=5, height=1.1];
+
+    // Tiempo
+    tiempo [label="Meses, no decadas.\nLa velocidad es parte del problema.",
+            shape=plaintext, fontsize=9, fontcolor="#666666"];
+
+    // Conexiones
+    title -> F1 [style=invis];
+    F1 -> F2 [label="  exito justifica  ", fontsize=8, fontcolor="#666666"];
+    F2 -> F3 [label="  cada paso es racional  ", fontsize=8, fontcolor="#666666"];
+    F3 -> F4 [label="  estructuras desaparecen  ", fontsize=8, fontcolor="#666666"];
+    F4 -> F5 [label="  el trance se instala  ", fontsize=8, fontcolor="#c62828", color="#c62828"];
+    F5 -> tiempo [style=invis];
+}

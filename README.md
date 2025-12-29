@@ -250,8 +250,10 @@ Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
 ## Estado Actual
 
 - **Versión**: v3.8
-- **Páginas PDF**: 263
+- **Páginas PDF**: ~280
 - **Capítulos**: 13
 - **Apéndices**: 7
+- **Diagramas**: 12 (Graphviz)
+- **Fotografías**: 10 (Unsplash, licencia libre)
 
 Ver `CLAUDE.md` para contexto completo del contenido.

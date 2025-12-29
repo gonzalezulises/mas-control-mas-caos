@@ -1,5 +1,8 @@
 # IA y los límites humanos
 
+![Inteligencia artificial y límites humanos](assets/figures/B8-robot-humano.jpg)
+
+
 <!-- block: reconocimiento -->
 Una organización implementa un modelo predictivo para optimizar decisiones de inventario. El modelo funciona exactamente según especificaciones: procesa datos históricos, identifica patrones, genera recomendaciones de reabastecimiento con precisión superior a la del equipo humano anterior. Los indicadores mejoran en los primeros trimestres. El costo de inventario baja. Los quiebres de stock se reducen. El éxito se celebra internamente y se presenta al directorio como validación de la estrategia de automatización. Nadie nota que el modelo está optimizando para condiciones de mercado que ya no existen porque los datos que lo entrenan tienen un rezago estructural que nadie definió como problema. Cuando el mercado cambia de manera que los patrones históricos dejan de predecir el futuro, el modelo sigue recomendando con la misma confianza de siempre. Este fenómeno se conoce en la literatura como *concept drift*: la degradación silenciosa de modelos cuando cambian las condiciones que los entrenaron. Bayram et al. (2022) documentan cómo los modelos continúan produciendo outputs con alta confianza aparente mientras su validez predictiva se deteriora—sin mecanismo interno para detectar su propia obsolescencia. Los indicadores tardan meses en reflejar el deterioro porque el modelo no tiene forma de saber que está equivocado. Para cuando el problema es visible, el inventario acumulado representa pérdidas que superan varios años de los ahorros que el modelo generó.
 

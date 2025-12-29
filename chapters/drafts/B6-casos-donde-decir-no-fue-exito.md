@@ -1,5 +1,8 @@
 # Casos donde decir NO fue éxito
 
+![Decisiones que protegen](assets/figures/B6-stop-sign.jpg)
+
+
 <!-- block: reconocimiento -->
 Hay iniciativas que nunca aparecen en los reportes de éxito porque nunca llegaron a ejecutarse. Nadie las menciona en las presentaciones anuales al directorio ni las celebra en los townhalls. No tienen dashboard de resultados porque no hay resultados que mostrar. No tienen equipo de proyecto que reciba reconocimiento porque el equipo nunca se formó. No tienen lecciones aprendidas documentadas porque no hubo ejecución de la cual extraerlas. Estas iniciativas existen en el silencio institucional, en decisiones que se tomaron y se archivaron, en propuestas que pasaron por un proceso formal y recibieron un veredicto que las detuvo antes de que consumieran recursos significativos.
 

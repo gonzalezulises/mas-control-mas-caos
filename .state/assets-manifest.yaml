@@ -36,6 +36,58 @@ asset_types:
 
 assets:
   # ============================================
+  # CAPÍTULO B3: Coding Trance
+  # ============================================
+
+  - id: fig-B3-senales-trance
+    type: figure
+    chapter: B3-coding-trance
+    source: "assets/figures/B3-senales-trance.png"
+    anchor:
+      after_text: "Si tu organización exhibe tres o más de estas señales"
+    display:
+      title: "Señales observables del Coding Trance"
+      caption: "Seis indicadores que, combinados (≥3), diagnostican una organización en trance."
+    status: ready
+    owner: ulises
+
+  - id: fig-B3-secuencia-delegacion
+    type: figure
+    chapter: B3-coding-trance
+    source: "assets/figures/B3-secuencia-delegacion.png"
+    anchor:
+      after_text: "La delegación progresiva sigue un patrón reconocible"
+    display:
+      title: "Secuencia de instalación del Coding Trance"
+      caption: "Cinco fases desde automatización operativa hasta pérdida de capacidad de dudar."
+    status: ready
+    owner: ulises
+
+  - id: fig-B3-goodhart-loop
+    type: figure
+    chapter: B3-coding-trance
+    source: "assets/figures/B3-goodhart-loop.png"
+    anchor:
+      after_text: "Ley de Goodhart"
+    display:
+      title: "Ley de Goodhart: el loop de la métrica-objetivo"
+      caption: "Cuando la métrica determina consecuencias, se optimiza para la métrica, no para la realidad."
+    status: ready
+    owner: ulises
+
+  - id: fig-B3-cockpit-instruments
+    type: figure
+    chapter: B3-coding-trance
+    source: "assets/figures/B3-cockpit-instruments.jpg"
+    anchor:
+      after_text: "fijación instrumental"
+    display:
+      title: "Panel de instrumentos de aviación"
+      caption: "Analogía del piloto: concentrarse en indicadores mientras se pierde conciencia situacional."
+    status: ready
+    owner: ulises
+
+  # ============================================
   # CAPÍTULO B5: Capacidades de Gerencia Funcional
   # ============================================
   

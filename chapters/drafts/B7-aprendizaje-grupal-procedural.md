@@ -1,5 +1,8 @@
 # El aprendizaje no es individual: es grupal y procedural
 
+![Aprendizaje grupal](assets/figures/B7-equipo-colaborando.jpg)
+
+
 <!-- block: reconocimiento -->
 La escena se repite con variaciones menores en cualquier organización con escala suficiente para tener proyectos que fallan. Algo salió mal de manera visible. Hubo impacto en clientes, en resultados, en reputación. La respuesta institucional es convocar una retrospectiva, un post-mortem, una sesión de lecciones aprendidas. Se reúnen las personas involucradas, se reconstruye la secuencia de eventos, se identifican los puntos donde las cosas empezaron a desviarse. Se documentan hallazgos en un formato estandarizado. Se generan acciones correctivas asignadas a responsables con fechas de cumplimiento. Se archiva el documento en un repositorio donde nadie volverá a consultarlo. Todos salen de la sala con la sensación de haber hecho algo constructivo.
 
