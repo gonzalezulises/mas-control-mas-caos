@@ -1,6 +1,5 @@
 # El loop del poder
 
-![El loop del poder](assets/figures/B1-espiral-escalera.jpg)
 
 
 <!-- block: reconocimiento -->

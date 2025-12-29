@@ -254,6 +254,5 @@ Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
 - **Capítulos**: 13
 - **Apéndices**: 7
 - **Diagramas**: 12 (Graphviz)
-- **Fotografías**: 10 (Unsplash, licencia libre)
 
 Ver `CLAUDE.md` para contexto completo del contenido.

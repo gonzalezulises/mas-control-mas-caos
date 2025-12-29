@@ -1,6 +1,5 @@
 # Casos donde decir NO fue éxito
 
-![Decisiones que protegen](assets/figures/B6-stop-sign.jpg)
 
 
 <!-- block: reconocimiento -->

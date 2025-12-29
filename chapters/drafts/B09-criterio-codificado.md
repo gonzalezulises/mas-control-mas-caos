@@ -1,6 +1,5 @@
 # Criterio codificado
 
-![Criterio codificado](assets/figures/B9-codigo.jpg)
 
 
 <!-- block: reconocimiento -->

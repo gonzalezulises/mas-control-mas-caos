@@ -1,6 +1,5 @@
 # Capacidades de la Gerencia Funcional
 
-![Capacidades organizacionales](assets/figures/B5-herramientas.jpg)
 
 
 <!-- block: reconocimiento -->

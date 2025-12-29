@@ -1,6 +1,5 @@
 # IA y los límites humanos
 
-![Inteligencia artificial y límites humanos](assets/figures/B8-robot-humano.jpg)
 
 
 <!-- block: reconocimiento -->

@@ -1,6 +1,5 @@
 # Implementación
 
-![Implementación](assets/figures/B10-blueprint.jpg)
 
 
 <!-- block: reconocimiento -->

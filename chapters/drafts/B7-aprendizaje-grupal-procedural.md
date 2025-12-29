@@ -1,6 +1,5 @@
 # El aprendizaje no es individual: es grupal y procedural
 
-![Aprendizaje grupal](assets/figures/B7-equipo-colaborando.jpg)
 
 
 <!-- block: reconocimiento -->
