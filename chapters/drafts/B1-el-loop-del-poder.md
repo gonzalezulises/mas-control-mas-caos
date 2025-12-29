@@ -53,19 +53,7 @@ El poder organizacional es un loop que se auto-amplifica. No existe el progreso 
 
 El loop tiene una estructura que puede describirse con precisión:
 
-    Energia inicial (financiera, política, operativa)
-           |
-           v
-    Resultados visibles (reales o aparentes)
-           |
-           v
-    Compromiso político de los involucrados
-           |
-           v
-    Demanda de más energía para sostener el compromiso
-           |
-           v
-    [retorno al inicio, amplificado]
+![El loop del poder](assets/generated/diagrams/B1-loop-poder.png)
 
 Esta secuencia no es metafora. Es descripción literal de como funcionan las organizaciones con capacidad real de acción en el mundo.
 
