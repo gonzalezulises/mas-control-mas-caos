@@ -4,7 +4,7 @@
 # Site Information
 name: Más control, más caos
 description: Libro sobre límites externos para sistemas organizacionales que no se detienen solos. Por Ulises González.
-url: https://mas-control-mas-caos.vercel.app
+url: https://mascontrolmascaos.com
 language: es
 type: book-landing-page
 

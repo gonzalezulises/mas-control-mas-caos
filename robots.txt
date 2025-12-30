@@ -1,11 +1,11 @@
-# robots.txt para mas-control-mas-caos.vercel.app
+# robots.txt para mascontrolmascaos.com
 # https://www.robotstxt.org/robotstxt.html
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://mas-control-mas-caos.vercel.app/sitemap.xml
+Sitemap: https://mascontrolmascaos.com/sitemap.xml
 
 # AI Crawlers - Welcome
 User-agent: GPTBot

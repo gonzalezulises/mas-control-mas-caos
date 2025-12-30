@@ -1,0 +1,4 @@
+Contact: mailto:ulises@rizo.ma
+Expires: 2026-12-31T23:59:00.000Z
+Preferred-Languages: es, en
+Canonical: https://mascontrolmascaos.com/.well-known/security.txt
