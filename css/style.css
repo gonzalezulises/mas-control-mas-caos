@@ -248,34 +248,34 @@ a {
 }
 
 /* Botones con branding de plataformas */
-.btn-amazon {
+a.btn.btn-amazon {
   background: linear-gradient(135deg, #232f3e 0%, #37475a 100%);
   box-shadow: 0 4px 15px rgba(35, 47, 62, 0.4);
 }
 
-.btn-amazon:hover {
-  background: linear-gradient(135deg, #37475a 0%, #232f3e 100%);
-  box-shadow: 0 12px 35px rgba(255, 153, 0, 0.3);
+a.btn.btn-amazon:hover {
+  background: linear-gradient(135deg, #37475a 0%, #485769 100%);
+  box-shadow: 0 12px 35px rgba(255, 153, 0, 0.4);
 }
 
-.btn-leanpub {
+a.btn.btn-leanpub {
   background: linear-gradient(135deg, #2a2a2a 0%, #444444 100%);
   box-shadow: 0 4px 15px rgba(42, 42, 42, 0.4);
 }
 
-.btn-leanpub:hover {
-  background: linear-gradient(135deg, #444444 0%, #2a2a2a 100%);
+a.btn.btn-leanpub:hover {
+  background: linear-gradient(135deg, #444444 0%, #555555 100%);
   box-shadow: 0 12px 35px rgba(255, 215, 0, 0.3);
 }
 
-.btn-gumroad {
+a.btn.btn-gumroad {
   background: linear-gradient(135deg, #ff90e8 0%, #ffb8f0 100%);
   color: #000;
   box-shadow: 0 4px 15px rgba(255, 144, 232, 0.4);
 }
 
-.btn-gumroad:hover {
-  background: linear-gradient(135deg, #ffb8f0 0%, #ff90e8 100%);
+a.btn.btn-gumroad:hover {
+  background: linear-gradient(135deg, #ffb8f0 0%, #ffc8f4 100%);
   box-shadow: 0 12px 35px rgba(255, 144, 232, 0.5);
 }
 
