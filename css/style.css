@@ -284,6 +284,8 @@ a {
   border: 2px solid #FF9900;
   color: #000;
   box-shadow: 0 4px 15px rgba(255, 153, 0, 0.4);
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
 }
 
 .comprar .btn.btn-amazon:hover {
@@ -297,6 +299,8 @@ a {
   border: 2px solid #FFD700;
   color: #000;
   box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 
 .comprar .btn.btn-leanpub:hover {
@@ -310,6 +314,8 @@ a {
   border: 2px solid #ff90e8;
   color: #000;
   box-shadow: 0 4px 15px rgba(255, 144, 232, 0.4);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
 }
 
 .comprar .btn.btn-gumroad:hover {
