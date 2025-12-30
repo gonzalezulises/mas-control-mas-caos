@@ -98,6 +98,25 @@ a {
   overflow: hidden;
 }
 
+/* Fade gradual del hero al contenido */
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(10, 10, 10, 0.3) 30%,
+    rgba(10, 10, 10, 0.7) 60%,
+    var(--bg) 100%
+  );
+  z-index: 5;
+  pointer-events: none;
+}
+
 .hero-background {
   position: absolute;
   top: 0;
@@ -163,6 +182,7 @@ a {
 
 .cta-primary,
 .btn {
+  position: relative;
   display: inline-block;
   padding: 16px 32px;
   background: var(--accent);
@@ -173,19 +193,70 @@ a {
   font-size: 1rem;
   border: none;
   cursor: pointer;
-  transition: background 0.2s ease;
-  will-change: transform;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform, box-shadow;
+}
+
+/* Efecto de brillo que pasa por el botón */
+.cta-primary::before,
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 100%
+  );
+  transition: left 0.5s ease;
+}
+
+.cta-primary:hover::before,
+.btn:hover::before {
+  left: 100%;
 }
 
 .cta-primary:hover,
 .btn:hover {
   background: var(--accent-hover);
+  box-shadow: 0 8px 25px rgba(139, 0, 0, 0.4);
 }
 
 .cta-primary:focus,
 .btn:focus {
   outline: 2px solid var(--text);
   outline-offset: 2px;
+}
+
+/* Efecto de borde brillante para el CTA principal */
+.cta-primary {
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+
+.cta-primary::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    45deg,
+    var(--accent),
+    var(--accent-bright),
+    var(--accent)
+  );
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cta-primary:hover::after {
+  opacity: 1;
 }
 
 .cta-buttons {

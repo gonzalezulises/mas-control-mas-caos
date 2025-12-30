@@ -261,31 +261,73 @@
   }
 
   // ==========================================================================
-  // 8. BUTTON HOVER - Interacción en botones
+  // 8. BUTTON HOVER - Interacción profesional en botones
   // ==========================================================================
 
   function initButtonAnimations() {
     const buttons = document.querySelectorAll('.btn, .cta-primary');
 
     buttons.forEach(btn => {
+      // Hover enter - efecto elástico profesional
       btn.addEventListener('mouseenter', () => {
+        anime.remove(btn); // Cancelar animaciones previas
         anime({
           targets: btn,
-          scale: 1.03,
-          duration: 200,
+          scale: [1, 1.05],
+          translateY: [0, -3],
+          duration: 400,
+          easing: 'easeOutElastic(1, .6)'
+        });
+      });
+
+      // Hover leave - retorno suave
+      btn.addEventListener('mouseleave', () => {
+        anime.remove(btn);
+        anime({
+          targets: btn,
+          scale: 1,
+          translateY: 0,
+          duration: 300,
           easing: 'easeOutQuad'
         });
       });
 
-      btn.addEventListener('mouseleave', () => {
+      // Click - efecto de presión
+      btn.addEventListener('mousedown', () => {
         anime({
           targets: btn,
-          scale: 1,
+          scale: 0.95,
+          duration: 100,
+          easing: 'easeInQuad'
+        });
+      });
+
+      btn.addEventListener('mouseup', () => {
+        anime({
+          targets: btn,
+          scale: 1.05,
           duration: 200,
-          easing: 'easeOutQuad'
+          easing: 'easeOutElastic(1, .5)'
         });
       });
     });
+
+    // Efecto especial para CTA principal del hero - pulso sutil
+    const heroCta = document.querySelector('.hero .cta-primary');
+    if (heroCta) {
+      anime({
+        targets: heroCta,
+        boxShadow: [
+          '0 0 0 0 rgba(139, 0, 0, 0.4)',
+          '0 0 0 15px rgba(139, 0, 0, 0)',
+          '0 0 0 0 rgba(139, 0, 0, 0)'
+        ],
+        duration: 2000,
+        easing: 'easeInOutQuad',
+        loop: true,
+        delay: 3000 // Empieza después de que aparece el título
+      });
+    }
   }
 
   // ==========================================================================
