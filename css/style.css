@@ -345,6 +345,23 @@ blockquote {
    CONTENIDO
    ========================================================================== */
 
+.contenido-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+}
+
+@media (min-width: 768px) {
+  .contenido-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+  }
+}
+
+.contenido-col h2 {
+  margin-bottom: 24px;
+}
+
 .contenido ul {
   list-style: none;
   padding: 0;
