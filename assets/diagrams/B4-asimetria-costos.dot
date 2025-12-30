@@ -2,7 +2,7 @@ digraph AsimetriaBalanza {
     // Layout
     layout=neato;
     bgcolor="transparent";
-    pad=0.8;
+    pad=0.3;
 
     // Estilo global - paleta portada
     node [
@@ -16,14 +16,6 @@ digraph AsimetriaBalanza {
         penwidth=3,
         color="#8899aa"
     ];
-
-    // Titulo
-    titulo [label="ASIMETRIA DE COSTOS\nEN DECISIONES DE LIMITE",
-            shape=plaintext,
-            fontsize=14,
-            fontname="Helvetica Neue Bold",
-            fontcolor="#ffffff",
-            pos="0,5!"];
 
     // Fulcro (punto de apoyo) - desplazado a la derecha para mostrar desequilibrio
     fulcro [label="",

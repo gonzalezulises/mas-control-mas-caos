@@ -3,14 +3,14 @@ digraph RadarCapacidades {
     graph [
         bgcolor="transparent"
         fontname="Helvetica Neue"
-        fontsize=11
+        fontsize=10
         fontcolor="#ffffff"
-        pad=0.5
-        nodesep=0.4
-        ranksep=0.6
+        pad=0.2
+        nodesep=0.3
+        ranksep=0.4
     ];
-    node [fontname="Helvetica Neue" fontsize=10 fontcolor="#ffffff"];
-    edge [fontname="Helvetica Neue" fontsize=9 fontcolor="#8899aa"];
+    node [fontname="Helvetica Neue" fontsize=9 fontcolor="#ffffff"];
+    edge [fontname="Helvetica Neue" fontsize=8 fontcolor="#8899aa"];
 
     // Nodo central invisible para anclar
     center [label="" shape=point width=0.1 style=invis];
@@ -67,20 +67,19 @@ digraph RadarCapacidades {
     subgraph cluster_leyenda {
         label="ESCALA DE MADUREZ"
         labelloc="t"
-        style="rounded,filled"
-        fillcolor="#0d1f3c"
+        style="rounded"
         color="#2d5a87"
-        fontcolor="#ffffff"
+        fontcolor="#000000"
         fontsize=10
 
         leyenda [
             label=<
-            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" BGCOLOR="#0d1f3c">
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">░░░░ = 0 Inexistente</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━░░░ = 1 Ad-hoc</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━━░░ = 2 Definido</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━━━░ = 3 Gestionado</FONT></TD></TR>
-                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#8899aa">━━━━ = 4 Optimizado</FONT></TD></TR>
+            <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2">
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">░░░░ = 0 Inexistente</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">━░░░ = 1 Ad-hoc</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">━━░░ = 2 Definido</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">━━━░ = 3 Gestionado</FONT></TD></TR>
+                <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">━━━━ = 4 Optimizado</FONT></TD></TR>
             </TABLE>
             >
             shape=none

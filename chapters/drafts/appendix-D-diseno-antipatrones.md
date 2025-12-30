@@ -19,9 +19,11 @@ Estos no son lista de verificación de cumplimiento. Son heurísticas de diseño
 
 **Principio 6: Carga de prueba en el sponsor.** La iniciativa debe demostrar readiness; el gate no debe demostrar que la iniciativa no está ready. Si el gate debe justificar cada rechazo mientras el sponsor solo debe presentar la iniciativa, la asimetría de esfuerzo favorece la aprobación. Rechazar requiere argumento; aprobar requiere solo ausencia de objeción. Esta asimetría ceremonializa el gate. El formato de sometimiento debe requerir evidencia de readiness según criterios publicados. La ausencia de evidencia es causa suficiente de rechazo; el gate no necesita probar que la evidencia faltante era necesaria. La carga de prueba invertida es el mecanismo más sutil de captura.
 
+\newpage
+
 ## Anti-patrones del gate {- .unlisted}
 
-![Flujo de degeneracion del gate](assets/generated/diagrams/AppD-antipatrones.png)
+![Flujo de degeneración del gate](assets/generated/diagrams/AppD-antipatrones.png){width=80%}
 
 Un anti-patrón es una configuración que parece razonable pero produce disfunción predecible. Cada anti-patrón tiene lógica que lo hace atractivo y consecuencia que lo hace destructivo.
 

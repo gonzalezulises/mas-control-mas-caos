@@ -42,6 +42,13 @@ $endif$
   \renewcommand{\headrulewidth}{0pt}
 }
 
+% Estilo para frontmatter (TOC, LOF, LOT) - sin encabezados
+\fancypagestyle{frontmatter}{
+  \fancyhf{}
+  \fancyfoot[LE,RO]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
 % Títulos de capítulo
 \usepackage{titlesec}
 \titleformat{\chapter}[display]
@@ -53,7 +60,12 @@ $endif$
 
 % Párrafos
 \setlength{\parindent}{1.5em}
-\setlength{\parskip}{0.5em}
+\setlength{\parskip}{0.3em}
+
+% Control de viudas y huérfanas (evitar líneas sueltas)
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
 
 % Links y URLs
 \usepackage{xurl}  % DEBE ir antes de hyperref
@@ -63,9 +75,14 @@ $endif$
   linkcolor=black,
   urlcolor=blue,
   breaklinks=true,
+  % === METADATOS PDF ===
   pdfauthor={$author$},
   pdftitle={$title$},
-  pdfsubject={$description$}
+  pdfsubject={$description$},
+  pdfcreator={$creator$},
+  pdfproducer={XeLaTeX via Pandoc - $if(publisher)$$publisher$$else$Rizo.ma$endif$},
+  pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
+  pdflang={$lang$}
 }
 
 % Corte agresivo de URLs largas
@@ -157,24 +174,47 @@ $endif$
 
 % Página legal (colofón)
 \thispagestyle{empty}
-\vspace*{5cm}
+\vspace*{4cm}
 \begin{flushleft}
 \small
 \textbf{$title$}\\
 $if(subtitle)$
 \textit{$subtitle$}\\[0.5cm]
 $endif$
-\textbf{Autor:} $author$\\[0.5cm]
-$rights$\\[0.5cm]
-Primera edición: $date$\\[0.5cm]
-Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida, almacenada o transmitida en cualquier forma o por cualquier medio sin el permiso previo por escrito del autor.\\[0.5cm]
+\textbf{Autor:} $author$\\[0.3cm]
 $if(publisher)$
-\textbf{Editorial:} $publisher$\\[0.5cm]
+\textbf{Editorial:} $publisher$\\[0.3cm]
 $endif$
-\textbf{Contacto:} ulises@rizo.ma\\[1cm]
+$if(edition)$
+$edition$, $date$\\[0.3cm]
+$else$
+Primera edición: $date$\\[0.3cm]
+$endif$
+$if(version)$
+\textbf{Versión:} $version$\\[0.3cm]
+$endif$
+$rights$\\[0.5cm]
+Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida, almacenada o transmitida en cualquier forma o por cualquier medio sin el permiso previo por escrito del autor.\\[0.5cm]
+$if(isbn)$
+\textbf{ISBN:} $isbn$\\[0.3cm]
+$endif$
+\textbf{Categorías:}\\
+$for(subject)$
+\hspace{1em}• $subject$\\
+$endfor$
+\vspace{0.3cm}
+\textbf{Contacto:} ulises@rizo.ma\\
+$if(author-url)$
+\textbf{Web:} $author-url$\\
+$endif$
+\vspace{0.5cm}
 \textit{Diseñado y diagramado con Pandoc y \LaTeX}
 \end{flushleft}
 \newpage
+
+% === FRONTMATTER (índices, sin encabezados) ===
+\frontmatter
+\pagestyle{frontmatter}
 
 % Tabla de contenidos
 \tableofcontents
@@ -184,12 +224,9 @@ $endif$
 \listoffigures
 \cleardoublepage
 
-% Lista de tablas
-\listoftables
-\cleardoublepage
-
-% Contenido principal
+% === CONTENIDO PRINCIPAL ===
 \mainmatter
+\pagestyle{fancy}
 $body$
 
 \end{document}

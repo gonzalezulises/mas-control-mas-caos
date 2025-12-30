@@ -1,20 +1,68 @@
 ---
+# === IDENTIFICACIÓN ===
 title: "Más control, más caos"
 subtitle: "Límites externos para sistemas que no se detienen solos"
 author: "Ulises González"
-lang: es-ES
-date: 2025
-rights: "© 2025 Ulises González. Todos los derechos reservados."
-publisher: ""
-description: |
-  Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder
-  para preservar adaptabilidad, sentido y supervivencia.
+creator: "Ulises González"
+date: 2025-01-15
+version: "1.0"
+edition: "Primera edición"
 
-# EPUB settings
+# === IDENTIFICADORES ===
+# isbn: "978-X-XXXX-XXXX-X"  # Pendiente: obtener de agencia nacional
+# doi: "10.XXXX/XXXXX"       # Opcional para libros
+
+# === CLASIFICACIÓN ===
+publisher: "Rizo.ma"
+subject:
+  - "Gestión empresarial"
+  - "Sistemas organizacionales"
+  - "Toma de decisiones"
+  - "Gobernanza corporativa"
+  - "Dinámica de sistemas"
+keywords:
+  - gerencia funcional
+  - decision readiness gate
+  - coding trance
+  - límites organizacionales
+  - runaway dynamics
+  - gobernanza
+  - sistemas complejos
+  - DRG
+
+# === CATEGORÍAS ESTÁNDAR ===
+# BISAC (Book Industry Standards and Communications)
+bisac:
+  - "BUS071000"  # Business / Decision-Making & Problem Solving
+  - "BUS085000"  # Business / Organizational Behavior
+# THEMA (clasificación internacional)
+thema:
+  - "KJM"   # Management decision making
+  - "KJMB"  # Management: leadership
+
+# === LEGAL ===
+lang: es-ES
+rights: "© 2025 Ulises González - Rizo.ma. Todos los derechos reservados."
+copyright-holder: "Ulises González"
+
+# === DESCRIPCIÓN ===
+description: |
+  Los sistemas organizacionales sanos renuncian deliberadamente a parte
+  de su poder para preservar adaptabilidad, sentido y supervivencia.
+  Este libro presenta un marco de 8 capacidades para implementar límites
+  externos en organizaciones que no se detienen solas, incluyendo el
+  Decision Readiness Gate (DRG) como mecanismo central de protección.
+
+# === CONTACTO ===
+author-url: "https://ulises-gonzalez-site.vercel.app"
+publisher-url: "https://rizo.ma"
+
+# === EPUB SETTINGS ===
 toc: true
 toc-depth: 1
+# cover-image: assets/figures/cover.png  # Descomentar cuando exista
 
-# PDF/LaTeX settings
+# === PDF/LATEX SETTINGS ===
 documentclass: book
 fontsize: 10.5pt
 geometry:
@@ -28,7 +76,7 @@ geometry:
 mainfont: "TeX Gyre Termes"
 sansfont: "TeX Gyre Heros"
 monofont: "DejaVu Sans Mono"
-linestretch: 1.35
+linestretch: 1.25
 links-as-notes: true
 colorlinks: true
 linkcolor: black

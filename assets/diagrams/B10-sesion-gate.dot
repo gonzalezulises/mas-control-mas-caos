@@ -1,0 +1,251 @@
+digraph SesionGate {
+    graph [
+        bgcolor="transparent"
+        fontname="Helvetica Neue"
+        fontcolor="#ffffff"
+        rankdir=TB
+        splines=ortho
+        nodesep=0.8
+        ranksep=0.8
+        pad=0.4
+    ];
+    node [fontname="Helvetica Neue" fontsize=10 fontcolor="#ffffff"];
+    edge [fontname="Helvetica Neue" fontsize=9 fontcolor="#8899aa"];
+
+    // === STOCKS (rectángulos con doble borde) ===
+    sesgos_ocultos [
+        label="SESGOS\nOCULTOS"
+        shape=box
+        style="filled,bold"
+        fillcolor="#8b0000"
+        color="#dc143c"
+        fontcolor="#ffffff"
+        penwidth=3
+    ]
+
+    informacion [
+        label="INFORMACIÓN\nDISPONIBLE"
+        shape=box
+        style="filled,bold"
+        fillcolor="#1e3a5f"
+        color="#3d7ab7"
+        fontcolor="#ffffff"
+        penwidth=3
+    ]
+
+    claridad [
+        label="CLARIDAD\nCOLECTIVA"
+        shape=box
+        style="filled,bold"
+        fillcolor="#2d5a87"
+        color="#3d7ab7"
+        fontcolor="#ffffff"
+        penwidth=3
+    ]
+
+    veredicto [
+        label=<
+        <TABLE BORDER="0" CELLSPACING="2" CELLPADDING="4">
+            <TR><TD COLSPAN="3"><B><FONT COLOR="#ffffff">VEREDICTO</FONT></B></TD></TR>
+            <TR>
+                <TD BGCOLOR="#3d7ab7"><FONT COLOR="#ffffff">GO</FONT></TD>
+                <TD BGCOLOR="#8899aa"><FONT COLOR="#0a1628">COND</FONT></TD>
+                <TD BGCOLOR="#dc143c"><FONT COLOR="#ffffff">NO-GO</FONT></TD>
+            </TR>
+        </TABLE>
+        >
+        shape=box
+        style="filled,bold"
+        fillcolor="#1e3a5f"
+        color="#3d7ab7"
+        penwidth=3
+    ]
+
+    // === FASES (variables auxiliares) ===
+    apertura [
+        label="APERTURA\n(5 min)"
+        shape=circle
+        style=filled
+        fillcolor="#2d5a87"
+        color="#3d7ab7"
+        fontcolor="#ffffff"
+        width=1.1
+    ]
+
+    info_fase [
+        label="INFO\n(15 min)"
+        shape=circle
+        style=filled
+        fillcolor="#2d5a87"
+        color="#3d7ab7"
+        fontcolor="#ffffff"
+        width=1.1
+    ]
+
+    deliberacion [
+        label="DELIBER.\n(35 min)"
+        shape=circle
+        style=filled
+        fillcolor="#2d5a87"
+        color="#3d7ab7"
+        fontcolor="#ffffff"
+        width=1.1
+    ]
+
+    cierre [
+        label="CIERRE\n(5 min)"
+        shape=circle
+        style=filled
+        fillcolor="#2d5a87"
+        color="#3d7ab7"
+        fontcolor="#ffffff"
+        width=1.1
+    ]
+
+    // === MECANISMOS DE PROTECCIÓN ===
+    declarar [
+        label="Declarar\nsesgos"
+        shape=box
+        style="filled,rounded"
+        fillcolor="#0d1f3c"
+        color="#3d7ab7"
+        fontcolor="#8899aa"
+        fontsize=9
+    ]
+
+    preguntas [
+        label="Solo\npreguntas"
+        shape=box
+        style="filled,rounded"
+        fillcolor="#0d1f3c"
+        color="#3d7ab7"
+        fontcolor="#8899aa"
+        fontsize=9
+    ]
+
+    junior [
+        label="Junior\nprimero"
+        shape=box
+        style="filled,rounded"
+        fillcolor="#0d1f3c"
+        color="#3d7ab7"
+        fontcolor="#8899aa"
+        fontsize=9
+    ]
+
+    devils [
+        label="Devil's\nadvocate"
+        shape=box
+        style="filled,rounded"
+        fillcolor="#8b0000"
+        color="#dc143c"
+        fontcolor="#ffffff"
+        fontsize=9
+    ]
+
+    votacion [
+        label="Votación\nregistrada"
+        shape=box
+        style="filled,rounded"
+        fillcolor="#0d1f3c"
+        color="#3d7ab7"
+        fontcolor="#8899aa"
+        fontsize=9
+    ]
+
+    // === LOOPS DE RETROALIMENTACIÓN ===
+    loopB [
+        label=<B<BR/><FONT POINT-SIZE="8">(−)</FONT>>
+        shape=circle
+        style=filled
+        fillcolor="#dc143c"
+        color="#8b0000"
+        fontcolor="#ffffff"
+        width=0.5
+        fontsize=12
+    ]
+
+    loopR [
+        label=<R<BR/><FONT POINT-SIZE="8">(+)</FONT>>
+        shape=circle
+        style=filled
+        fillcolor="#3d7ab7"
+        color="#2d5a87"
+        fontcolor="#ffffff"
+        width=0.5
+        fontsize=12
+    ]
+
+    // === LEYENDA ===
+    leyenda [
+        label=<
+        <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="4" CELLPADDING="6" COLOR="#2d5a87">
+            <TR><TD COLSPAN="2" ALIGN="CENTER"><B><FONT POINT-SIZE="10" COLOR="#000000">LEYENDA</FONT></B></TD></TR>
+            <TR>
+                <TD BORDER="1" BGCOLOR="#1e3a5f"><FONT POINT-SIZE="8" COLOR="#ffffff">▭</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8" COLOR="#000000">Stock (acumulador)</FONT></TD>
+            </TR>
+            <TR>
+                <TD><FONT POINT-SIZE="10" COLOR="#3d7ab7">○</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8" COLOR="#000000">Fase (60 min total)</FONT></TD>
+            </TR>
+            <TR>
+                <TD BORDER="1" COLOR="#3d7ab7"><FONT POINT-SIZE="8" COLOR="#000000">▢</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8" COLOR="#000000">Mecanismo protección</FONT></TD>
+            </TR>
+            <TR>
+                <TD BGCOLOR="#3d7ab7"><FONT POINT-SIZE="8" COLOR="#ffffff">R(+)</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8" COLOR="#000000">Loop refuerzo</FONT></TD>
+            </TR>
+            <TR>
+                <TD BGCOLOR="#dc143c"><FONT POINT-SIZE="8" COLOR="#ffffff">B(−)</FONT></TD>
+                <TD ALIGN="LEFT"><FONT POINT-SIZE="8" COLOR="#000000">Loop balance</FONT></TD>
+            </TR>
+        </TABLE>
+        >
+        shape=none
+    ]
+
+    // === FLUJOS PRINCIPALES ===
+    // Fase Apertura
+    apertura -> declarar [color="#3d7ab7"]
+    declarar -> sesgos_ocultos [label="reduce" color="#3d7ab7" fontcolor="#8899aa"]
+
+    // Fase Información
+    info_fase -> preguntas [color="#3d7ab7"]
+    preguntas -> informacion [label="aumenta" color="#3d7ab7" fontcolor="#8899aa"]
+
+    // Fase Deliberación
+    deliberacion -> junior [color="#3d7ab7"]
+    deliberacion -> devils [color="#dc143c"]
+    junior -> claridad [label="construye" color="#3d7ab7" fontcolor="#8899aa"]
+    devils -> sesgos_ocultos [label="expone" color="#dc143c" fontcolor="#dc143c" style=dashed]
+
+    // Fase Cierre
+    cierre -> votacion [color="#3d7ab7"]
+    votacion -> veredicto [label="produce" color="#3d7ab7" fontcolor="#8899aa"]
+
+    // Flujo de stocks
+    informacion -> claridad [label="informa" color="#3d7ab7" fontcolor="#8899aa"]
+    claridad -> veredicto [label="habilita" color="#3d7ab7" fontcolor="#8899aa"]
+    sesgos_ocultos -> claridad [label="distorsiona" color="#dc143c" fontcolor="#dc143c" style=dashed]
+
+    // Secuencia de fases
+    apertura -> info_fase [color="#8899aa" style=dashed constraint=false]
+    info_fase -> deliberacion [color="#8899aa" style=dashed constraint=false]
+    deliberacion -> cierre [color="#8899aa" style=dashed constraint=false]
+
+    // Loops
+    claridad -> loopR [style=invis]
+    informacion -> loopR [label="+" color="#3d7ab7" style=dashed constraint=false]
+    loopR -> claridad [label="+" color="#3d7ab7" style=dashed constraint=false]
+
+    devils -> loopB [style=invis]
+    sesgos_ocultos -> loopB [style=invis]
+
+    // === LAYOUT ===
+    {rank=same; apertura; info_fase; deliberacion; cierre}
+    {rank=same; declarar; preguntas; junior; devils; votacion}
+    {rank=same; sesgos_ocultos; informacion; claridad}
+    {rank=same; veredicto; loopR; loopB; leyenda}
+}

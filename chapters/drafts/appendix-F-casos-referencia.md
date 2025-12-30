@@ -2,7 +2,7 @@
 
 ## Nota metodológica {- .unlisted}
 
-Los casos que siguen no son implementaciones del Decisión Readiness Gate. El DRG, como se ha establecido en este libro, es una propuesta conceptual sin casos de implementación documentados.
+Los casos que siguen no son implementaciónes del Decisión Readiness Gate. El DRG, como se ha establecido en este libro, es una propuesta conceptual sin casos de implementación documentados.
 
 Lo que sí ofrecen estos casos es evidencia indirecta. Son reinterpretaciones de eventos públicos bajo el lente de las ocho capacidades. La pregunta no es "¿funcionó el DRG?" sino "¿qué capacidades estaban presentes o ausentes, y cómo se relaciona eso con el resultado?"
 
@@ -94,7 +94,7 @@ Esta decisión se ha presentado frecuentemente como ejemplo de liderazgo ético.
 
 Robert Wood Johnson, hijo del fundador, escribió el Credo en 1943, casi cuatro décadas antes de la crisis del Tylenol. El documento no era aspiracional ni decorativo. Era operativo: se usaba en decisiones de negocio, en entrenamiento de ejecutivos, en evaluación de opciones estratégicas.
 
-James Burke, CEO durante la crisis de 1982, había liderado años antes una serie de sesiones con ejecutivos senior para debatir si el Credo seguía siendo relevante. El resultado fue reafirmación del documento con ajustes menores. El ejercicio tuvo un efecto importante: cuando llegó la crisis, el criterio no solo existía sino que había sido discutido, cuestionado y revalidado por el equipo que tendría que aplicarlo.
+James Burke, CEO durante la crisis de 1982, había liderado años antes una serie de sesiónes con ejecutivos senior para debatir si el Credo seguía siendo relevante. El resultado fue reafirmación del documento con ajustes menores. El ejercicio tuvo un efecto importante: cuando llegó la crisis, el criterio no solo existía sino que había sido discutido, cuestionado y revalidado por el equipo que tendría que aplicarlo.
 
 La noche del 30 de septiembre de 1982, cuando llegaron los primeros reportes de muertes, Burke y su equipo enfrentaron una decisión con información incompleta. No sabían si el problema era de manufactura (lo cual implicaría recall masivo) o de sabotaje local (lo cual implicaría respuesta focalizada). Elegir mal en cualquier dirección tenía consecuencias graves.
 
@@ -130,7 +130,7 @@ La crisis resultó en innovación concreta: el packaging tamper-evident (con sel
 
 **Capacidad 8: Revisión periódica — PARCIAL**
 
-El Credo se mantenía pero no evolucionaba formalmente. Las sesiones de Burke en los años previos fueron excepción, no práctica institucionalizada.
+El Credo se mantenía pero no evolucionaba formalmente. Las sesiónes de Burke en los años previos fueron excepción, no práctica institucionalizada.
 
 ### La erosión posterior {- .unlisted}
 

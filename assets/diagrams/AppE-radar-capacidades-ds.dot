@@ -1,0 +1,244 @@
+digraph SistemaCapacidades {
+    graph [
+        bgcolor="transparent"
+        fontname="Helvetica Neue"
+        fontcolor="#ffffff"
+        rankdir=TB
+        splines=polyline
+        nodesep=0.6
+        ranksep=0.9
+        pad=0.4
+    ];
+    node [fontname="Helvetica Neue" fontsize=11 fontcolor="#ffffff"];
+    edge [fontname="Helvetica Neue" fontsize=9 fontcolor="#8899aa" penwidth=1.5];
+
+    // === ZONA FUNCIONAL ===
+    zona_func [
+        label=<
+        <TABLE BORDER="2" CELLBORDER="0" CELLSPACING="0" CELLPADDING="10" BGCOLOR="#1e3a5f" COLOR="#3d7ab7">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="13" COLOR="#ffffff">ZONA FUNCIONAL (nivel 3-4)</FONT></B></TD></TR>
+        </TABLE>
+        >
+        shape=none
+    ]
+
+    cap1 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-1</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#3d7ab7">Detección loops</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#8899aa">━━━━ 4</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#1e3a5f" color="#3d7ab7" penwidth=3
+    ]
+
+    cap4 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-4</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#3d7ab7">Criterio codificado</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#8899aa">━━━━ 4</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#1e3a5f" color="#3d7ab7" penwidth=3
+    ]
+
+    // === ZONA DESARROLLO ===
+    zona_des [
+        label=<
+        <TABLE BORDER="2" CELLBORDER="0" CELLSPACING="0" CELLPADDING="10" BGCOLOR="#2d5a87" COLOR="#8899aa">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="13" COLOR="#ffffff">ZONA DESARROLLO (nivel 2-3)</FONT></B></TD></TR>
+        </TABLE>
+        >
+        shape=none
+    ]
+
+    cap2 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-2</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#8899aa">Límite DRG</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#8899aa">━━━░ 3</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#2d5a87" color="#8899aa" penwidth=3
+    ]
+
+    cap3 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-3</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#8899aa">Aprendizaje grupal</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#8899aa">━━░░ 2</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#2d5a87" color="#8899aa" penwidth=3
+    ]
+
+    cap5 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-5</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#8899aa">Absorción fricción</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#8899aa">━━━░ 3</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#2d5a87" color="#8899aa" penwidth=3
+    ]
+
+    cap8 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-8</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#8899aa">Diferenciación dominio</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#8899aa">━━░░ 2</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#2d5a87" color="#8899aa" penwidth=3
+    ]
+
+    // === ZONA CRÍTICA ===
+    zona_crit [
+        label=<
+        <TABLE BORDER="2" CELLBORDER="0" CELLSPACING="0" CELLPADDING="10" BGCOLOR="#8b0000" COLOR="#dc143c">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="13" COLOR="#ffffff">ZONA CRÍTICA (nivel 0-2)</FONT></B></TD></TR>
+        </TABLE>
+        >
+        shape=none
+    ]
+
+    cap6 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-6</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#dc143c">Override explícito</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#dc143c">━░░░ 1</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#8b0000" color="#dc143c" penwidth=3
+    ]
+
+    cap7 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="6">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#ffffff">CAP-7</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="9" COLOR="#dc143c">Gobernanza IA</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#dc143c">░░░░ 0</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#8b0000" color="#dc143c" penwidth=3
+    ]
+
+    // === RESULTADO ===
+    zona_result [
+        label=<
+        <TABLE BORDER="2" CELLBORDER="0" CELLSPACING="0" CELLPADDING="10" BGCOLOR="#0d1f3c" COLOR="#3d7ab7">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="13" COLOR="#ffffff">RESULTADO SISTÉMICO</FONT></B></TD></TR>
+        </TABLE>
+        >
+        shape=none
+    ]
+
+    madurez [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="8">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="12" COLOR="#ffffff">MADUREZ</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="10" COLOR="#3d7ab7">Sistémica</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#1e3a5f" color="#3d7ab7" penwidth=3
+    ]
+
+    vulnerabilidad [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="8">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="12" COLOR="#ffffff">VULNERABILIDAD</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="10" COLOR="#dc143c">Organizacional</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box style="filled,rounded" fillcolor="#8b0000" color="#dc143c" penwidth=3
+    ]
+
+    // === LOOPS ===
+    loopR [
+        label=<R<BR/><FONT POINT-SIZE="8">(+)</FONT>>
+        shape=circle style=filled fillcolor="#3d7ab7" color="#2d5a87" fontcolor="#ffffff" width=0.5 fontsize=12
+    ]
+
+    loopB [
+        label=<B<BR/><FONT POINT-SIZE="8">(−)</FONT>>
+        shape=circle style=filled fillcolor="#dc143c" color="#8b0000" fontcolor="#ffffff" width=0.5 fontsize=12
+    ]
+
+    // === LEYENDA ===
+    leyenda [
+        label=<
+        <TABLE BORDER="2" CELLBORDER="0" CELLSPACING="3" CELLPADDING="6" COLOR="#2d5a87">
+            <TR><TD COLSPAN="2" ALIGN="CENTER"><B><FONT POINT-SIZE="11" COLOR="#000000">ESCALA</FONT></B></TD></TR>
+            <TR><TD><FONT POINT-SIZE="9" COLOR="#000000">━━━━</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">4 Optimizado</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="9" COLOR="#000000">━━━░</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">3 Gestionado</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="9" COLOR="#000000">━━░░</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">2 Definido</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="9" COLOR="#000000">━░░░</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">1 Ad-hoc</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="9" COLOR="#000000">░░░░</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">0 Inexistente</FONT></TD></TR>
+            <TR><TD COLSPAN="2"><FONT POINT-SIZE="4" COLOR="#ffffff">.</FONT></TD></TR>
+            <TR><TD BGCOLOR="#3d7ab7"><FONT POINT-SIZE="9" COLOR="#ffffff">R+</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">Virtuoso</FONT></TD></TR>
+            <TR><TD BGCOLOR="#dc143c"><FONT POINT-SIZE="9" COLOR="#ffffff">B−</FONT></TD><TD ALIGN="LEFT"><FONT POINT-SIZE="9" COLOR="#000000">Limitante</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=none
+    ]
+
+    // === CONEXIONES VERTICALES ===
+    zona_func -> cap1 [style=invis weight=10]
+    zona_func -> cap4 [style=invis weight=10]
+
+    cap1 -> zona_des [style=invis weight=10]
+    cap4 -> zona_des [style=invis weight=10]
+
+    zona_des -> cap2 [style=invis weight=10]
+    zona_des -> cap3 [style=invis weight=10]
+    zona_des -> cap5 [style=invis weight=10]
+    zona_des -> cap8 [style=invis weight=10]
+
+    cap2 -> zona_crit [style=invis weight=10]
+    cap5 -> zona_crit [style=invis weight=10]
+
+    zona_crit -> cap6 [style=invis weight=10]
+    zona_crit -> cap7 [style=invis weight=10]
+
+    cap6 -> zona_result [style=invis weight=10]
+    cap7 -> zona_result [style=invis weight=10]
+
+    zona_result -> madurez [style=invis weight=10]
+    zona_result -> vulnerabilidad [style=invis weight=10]
+
+    // === FLUJOS ENTRE CAPACIDADES ===
+    cap1 -> cap2 [label="habilita" color="#3d7ab7" fontcolor="#3d7ab7"]
+    cap4 -> cap2 [label="estructura" color="#3d7ab7" fontcolor="#3d7ab7"]
+    cap2 -> cap5 [label="requiere" color="#8899aa" fontcolor="#8899aa"]
+    cap3 -> cap4 [label="mejora" color="#8899aa" fontcolor="#8899aa" style=dashed constraint=false]
+
+    cap6 -> cap2 [label="protege" color="#dc143c" fontcolor="#dc143c" style=dashed constraint=false]
+    cap7 -> cap1 [label="amplifica" color="#dc143c" fontcolor="#dc143c" style=dashed constraint=false]
+
+    // === HACIA RESULTADOS ===
+    cap2 -> madurez [color="#3d7ab7"]
+    cap3 -> madurez [color="#3d7ab7"]
+    cap5 -> madurez [color="#3d7ab7"]
+
+    cap6 -> vulnerabilidad [color="#dc143c"]
+    cap7 -> vulnerabilidad [color="#dc143c"]
+
+    vulnerabilidad -> madurez [label="limita" color="#dc143c" fontcolor="#dc143c" style=dashed]
+
+    // === LAYOUT ===
+    {rank=same; zona_func; leyenda}
+    {rank=same; cap1; cap4}
+    {rank=same; zona_des}
+    {rank=same; cap2; cap3; cap5; cap8}
+    {rank=same; zona_crit}
+    {rank=same; cap6; cap7}
+    {rank=same; zona_result}
+    {rank=same; madurez; loopR; loopB; vulnerabilidad}
+}

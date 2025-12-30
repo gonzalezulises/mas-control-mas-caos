@@ -1,0 +1,99 @@
+digraph FasesImplementacion {
+    graph [
+        bgcolor="transparent"
+        fontname="Helvetica Neue"
+        fontcolor="#ffffff"
+        rankdir=LR
+        splines=polyline
+        nodesep=0.3
+        ranksep=0.5
+        pad=0.2
+    ];
+    node [fontname="Helvetica Neue" fontsize=9 fontcolor="#ffffff" width=1.8 height=2.2 fixedsize=true];
+    edge [fontname="Helvetica Neue" fontsize=8 fontcolor="#8899aa"];
+
+    // === FASE 1: PILOTO ===
+    fase1 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="3">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="10" COLOR="#ffffff">FASE 1</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#3d7ab7">PILOTO</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="7" COLOR="#8899aa">━━━━━━━</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Caso doloroso</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Sesión sensemaking</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Criterios emergen</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Primer veredicto</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box
+        style="filled,rounded"
+        fillcolor="#2d5a87"
+        color="#3d7ab7"
+        penwidth=2
+    ]
+
+    // === FASE 2: VALIDACIÓN ===
+    fase2 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="3">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="10" COLOR="#ffffff">FASE 2</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#3d7ab7">VALIDACIÓN</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="7" COLOR="#8899aa">━━━━━━━</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Criterios probados</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Troika mensual</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Segunda categoría</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Comunidad práctica</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box
+        style="filled,rounded"
+        fillcolor="#1e3a5f"
+        color="#3d7ab7"
+        penwidth=2
+    ]
+
+    // === FASE 3: INSTITUCIÓN ===
+    fase3 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="3">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="10" COLOR="#ffffff">FASE 3</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#3d7ab7">INSTITUCIÓN</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="7" COLOR="#8899aa">━━━━━━━</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Mandato formal</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Operadores protegidos</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Registro irreversible</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Override explícito</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box
+        style="filled,rounded"
+        fillcolor="#2d5a87"
+        color="#3d7ab7"
+        penwidth=2
+    ]
+
+    // === FASE 4: MADURACIÓN ===
+    fase4 [
+        label=<
+        <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="2" CELLPADDING="3">
+            <TR><TD ALIGN="CENTER"><B><FONT POINT-SIZE="10" COLOR="#ffffff">FASE 4</FONT></B></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="8" COLOR="#3d7ab7">MADURACIÓN</FONT></TD></TR>
+            <TR><TD ALIGN="CENTER"><FONT POINT-SIZE="7" COLOR="#8899aa">━━━━━━━</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Review 12 meses</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Criterios evolucionan</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Cobertura expande</FONT></TD></TR>
+            <TR><TD ALIGN="LEFT"><FONT POINT-SIZE="7" COLOR="#ffffff">Open Space semestral</FONT></TD></TR>
+        </TABLE>
+        >
+        shape=box
+        style="filled,rounded"
+        fillcolor="#1e3a5f"
+        color="#3d7ab7"
+        penwidth=2
+    ]
+
+    // === CONEXIONES ===
+    fase1 -> fase2 [color="#3d7ab7" penwidth=2 arrowsize=0.8]
+    fase2 -> fase3 [color="#3d7ab7" penwidth=2 arrowsize=0.8]
+    fase3 -> fase4 [color="#3d7ab7" penwidth=2 arrowsize=0.8]
+}

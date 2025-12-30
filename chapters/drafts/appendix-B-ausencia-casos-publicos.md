@@ -20,13 +20,13 @@ La primera razon es que el éxito invisible no se pública. Las organizaciones c
 
 La segunda razon es que la protección silenciosa permanece silenciosa. Cuando el gate detiene una iniciativa, el sponsor no quiere publicitar que su proyecto fue rechazado. La organización no quiere revelar que estaba considerando algo que ahora parece error obvio. El directorio no quiere explicar que la administración trajo propuestas que el mecanismo considero inadecuadas. Todos tienen incentivo a la discreción.
 
-La tercera razon es que los casos con nombre vienen del fracaso. Boeing, Enron, Theranos, Odebrecht, OGX son casos públicos porque colapsaron visiblemente. Las organizaciones que evitaron errores equivalentes no tienen caso que documentar porque la historia nunca ocurrio. El banco que no entro al mercado de hipotecas subprime no aparece en ningun estudio del colapso de 2008.
+La tercera razon es que los casos con nombre vienen del fracasó. Boeing, Enron, Theranos, Odebrecht, OGX son casos públicos porque colapsaron visiblemente. Las organizaciones que evitaron errores equivalentes no tienen caso que documentar porque la historia nunca ocurrio. El banco que no entro al mercado de hipotecas subprime no aparece en ningun estudio del colapso de 2008.
 
 La implicación para el lector es incomoda pero honesta. No hay caso público que citar para convencer a un esceptico. No hay organización que visitar para ver el mecanismo en operación. No hay paper academico con grupo de control y medición de impacto.
 
 La Introducción de este libro declaro explicitamente este estatus: lo que sigue es propuesta, no práctica establecida. Este apendice desarrolla por qué esa ausencia de casos públicos es consistente con la tesis en lugar de contradecirla.
 
-El lector debe decidir basandose en la lógica estructural. Si el costo político de aprobar es estructuralmente menor que el de rechazar, los mecanismos internos produciran aprobación sistemática. Si el criterio negociable colapsa bajo presión política, solo el criterio codificado resiste. Si el gate sin veredicto vinculante produce recomendaciones que el sponsor ignora, solo el veredicto vinculante detiene.
+El lector debe decidir basandose en la lógica estructural. Si el costo político de aprobar es estructuralmente menor que el de rechazar, los mecanismos internos producirán aprobación sistemática. Si el criterio negociable colapsa bajo presión política, solo el criterio codificado resiste. Si el gate sin veredicto vinculante produce recomendaciones que el sponsor ignora, solo el veredicto vinculante detiene.
 
 La evidencia de reguladores latinoamericanos muestra que el principio funciona cuando se implementa correctamente. La ausencia de casos corporativos voluntarios muestra que las organizaciones no publicitan sus éxitos de no-ejecución. Estas dos observaciones son consistentes, no contradictorias. El Apéndice F ofrece reinterpretaciones de casos públicos —Toyota, Johnson & Johnson, Boeing, Odebrecht— bajo el lente del framework, como evidencia indirecta de cómo las capacidades presentes o ausentes determinan resultados.
 

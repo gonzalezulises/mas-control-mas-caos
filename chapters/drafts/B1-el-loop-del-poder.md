@@ -38,9 +38,9 @@ Esta secuencia no es exclusiva de Boeing, OGX ni WeWork. No es un problema de la
 <!-- block: alivio -->
 Esto no ocurrió porque alguien fuera incompetente. Ocurrió porque el sistema funcionó exactamente como estaba diseñado para funcionar: amplificando su propia energía hasta que encontró un límite externo —en este caso, catastrófico.
 
-Hay una narrativa cómoda que aparece después de cada fracaso corporativo visible: la narrativa del villano. Alguien tomó una mala decisión por codicia o por estupidez. Alguien fue negligente en sus responsabilidades básicas. Alguien priorizó el bono trimestral sobre la seguridad de largo plazo. Alguien sabía y no actuó. Esta narrativa es útil para los reguladores que necesitan responsables individuales, conveniente para la prensa que necesita historias con antagonistas claros, y reconfortante para quienes observan desde afuera y quieren creer que a ellos no les pasaría porque ellos sí son competentes y éticos.
+Hay una narrativa cómoda que aparece después de cada fracasó corporativo visible: la narrativa del villano. Alguien tomó una mala decisión por codicia o por estupidez. Alguien fue negligente en sus responsabilidades básicas. Alguien priorizó el bono trimestral sobre la seguridad de largo plazo. Alguien sabía y no actuó. Esta narrativa es útil para los reguladores que necesitan responsables individuales, conveniente para la prensa que necesita historias con antagonistas claros, y reconfortante para quienes observan desde afuera y quieren creer que a ellos no les pasaría porque ellos sí son competentes y éticos.
 
-Pero la narrativa del villano es falsa. Es una simplificación que oscurece la dinámica real y, peor aún, impide aprender algo útil del fracaso.
+Pero la narrativa del villano es falsa. Es una simplificación que oscurece la dinámica real y, peor aún, impide aprender algo útil del fracasó.
 
 Las organizaciones no fallan por falta de talento. Las personas en Boeing eran ingenieros de primer nivel mundial, graduados de las universidades técnicas más prestigiosas, con décadas de experiencia diseñando y construyendo los aviones más seguros de la historia. Los gerentes tenían trayectorias impecables navegando proyectos complejos bajo presión. Los ejecutivos habían liderado a la compañía a través de crisis anteriores con éxito demostrado. No había déficit de capacidad técnica ni de experiencia gerencial ni de compromiso profesional.
 
@@ -65,7 +65,7 @@ El loop es amoral. No distingue entre iniciativas valiosas y destructivas. Ampli
 
 La dinámica fundamental: energía inicial genera resultados visibles. Puede ser energía financiera, política u operativa. El tipo específico importa menos que su efecto universal: produce movimiento organizacional. Y el movimiento genera resultados que, en el corto plazo, son indistinguibles entre reales y aparentes para quienes observan desde arriba.
 
-Los resultados generan compromiso político de los involucrados. El sponsor tiene su reputación vinculada al resultado final. El equipo ha invertido esfuerzo y quiere ver retorno. Los stakeholders que apoyaron la aprobación necesitan que funcione para validar su juicio. Nadie quiere ser asociado con un fracaso visible.
+Los resultados generan compromiso político de los involucrados. El sponsor tiene su reputación vinculada al resultado final. El equipo ha invertido esfuerzo y quiere ver retorno. Los stakeholders que apoyaron la aprobación necesitan que funcione para validar su juicio. Nadie quiere ser asociado con un fracasó visible.
 
 El compromiso acumulado demanda más energía para sostenerse. Se justifican más recursos, se amplía el alcance, se aceleran los plazos, se agregan funcionalidades. Cada adición parece marginal cuando se presenta individualmente. La suma es exponencial. El ciclo se acelera otra vez. Y otra vez.
 
@@ -104,7 +104,7 @@ Desde dentro del loop, ambos tipos se sienten exactamente igual: como progreso l
 
 Este es el riesgo que nunca aparece en los dashboards ejecutivos ni en los reportes al directorio: la incapacidad estructural de distinguir, desde adentro del sistema mientras opera, entre aceleración productiva que construye valor y aceleración destructiva que acumula catástrofe.
 
-<!-- block: proteccion -->
+<!-- block: protección -->
 Existen casos donde organizaciones frenaron internamente. Intel abandonó el negocio de memorias DRAM cuando aún era rentable. IBM pivoteó de hardware a servicios cuando la alternativa era el declive terminal. Microsoft reinventó su modelo de negocio hacia la nube cuando sus mercados tradicionales se erosionaban. Estos casos son reales y están documentados.
 
 Pero comparten una característica que raramente se menciona cuando se citan como contraejemplos: dependieron de individuos específicos en posiciones específicas en momentos específicos. Andy Grove en Intel tomando una decisión que contradecía la identidad histórica de la empresa. Lou Gerstner en IBM imponiendo una visión que la organización resistía activamente. Satya Nadella en Microsoft desmantelando feudos internos que habían paralizado transformaciones anteriores. Cuando esos individuos se fueron, las organizaciones no retuvieron la capacidad estructural de frenar. Retuvieron la leyenda de haberlo hecho una vez.

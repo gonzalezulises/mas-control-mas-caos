@@ -16,9 +16,9 @@ La diferencia es igualmente directa. HRO describe propiedades observadas en orga
 HRO resuelve algo que este libro no intenta: comprensión profunda de cómo funciona la cognición distribuida en equipos de alta confiabilidad, cómo se construye cultura de seguridad psicológica, cómo operan los sistemas de reporte de errores sin culpa. Este libro resuelve algo que HRO no aborda: cómo una organización típica instala capacidad de límite cuando no tiene la historia evolutiva que produjo las propiedades HRO. Si HRO describe el destino, este libro propone un vehículo.
 ### Cynefin {- .unlisted}
 
-Cynefin es marco de sensemaking desarrollado por Dave Snowden que distingue cinco dominios: simple, complicado, complejo, caótico y confuso. El marco emerge de investigación en gestión del conocimiento en IBM (Kurtz & Snowden, 2003) y fue refinado en publicaciones posteriores (Snowden & Boone, 2007; Snowden, 2010). Sus raíces teóricas conectan con la teoría de sistemas complejos adaptativos (Holland, 1995; Kauffman, 1993) y la tradición de sensemaking organizacional (Weick, 1995). El argumento central es que cada dominio requiere respuestas diferentes, y que aplicar prácticas apropiadas para un dominio en otro produce fracaso sistemático.
+Cynefin es marco de sensemaking desarrollado por Dave Snowden que distingue cinco dominios: simple, complicado, complejo, caótico y confuso. El marco emerge de investigación en gestión del conocimiento en IBM (Kurtz & Snowden, 2003) y fue refinado en publicaciones posteriores (Snowden & Boone, 2007; Snowden, 2010). Sus raíces teóricas conectan con la teoría de sistemas complejos adaptativos (Holland, 1995; Kauffman, 1993) y la tradición de sensemaking organizacional (Weick, 1995). El argumento central es que cada dominio requiere respuestas diferentes, y que aplicar prácticas apropiadas para un dominio en otro produce fracasó sistemático.
 
-La convergencia con este libro opera en varios niveles. Cynefin argumenta que aplicar prácticas del dominio complicado (análisis exhaustivo, planificación detallada, predicción basada en expertise) al dominio complejo produce fracaso porque en lo complejo la relación causa-efecto solo es visible en retrospectiva. Este libro documenta ese fracaso como consecuencia estructural del control intensificado. La distinción entre complicado (expertos pueden predecir si tienen suficiente información) y complejo (nadie puede predecir porque el sistema cambia mientras se analiza) es central para entender por qué más control no produce más estabilidad. El concepto de safe-to-fail probes en Cynefin, donde se lanzan múltiples experimentos pequeños para ver cuáles funcionan, resuena con la lógica de que las pruebas de concepto deben preceder a la aprobación de ejecución a escala.
+La convergencia con este libro opera en varios niveles. Cynefin argumenta que aplicar prácticas del dominio complicado (análisis exhaustivo, planificación detallada, predicción basada en expertise) al dominio complejo produce fracasó porque en lo complejo la relación causa-efecto solo es visible en retrospectiva. Este libro documenta ese fracasó como consecuencia estructural del control intensificado. La distinción entre complicado (expertos pueden predecir si tienen suficiente información) y complejo (nadie puede predecir porque el sistema cambia mientras se analiza) es central para entender por qué más control no produce más estabilidad. El concepto de safe-to-fail probes en Cynefin, donde se lanzan múltiples experimentos pequeños para ver cuáles funcionan, resuena con la lógica de que las pruebas de concepto deben preceder a la aprobación de ejecución a escala.
 
 La diferencia es de función. Cynefin es marco de sensemaking: ayuda a entender en qué dominio está el problema para elegir respuesta apropiada. No prescribe qué mecanismo organizacional instalar una vez que sabes en qué dominio operas. Este libro asume que las iniciativas estratégicas operan predominantemente en dominio complejo y propone mecanismo específico para ese contexto. La pregunta que Cynefin responde es en qué dominio estoy. La pregunta que este libro responde es qué arquitectura organizacional instalar dado que estoy en dominio complejo.
 
@@ -37,7 +37,7 @@ VSM resuelve algo que este libro no intenta: teoría completa de cómo debe estr
 
 Charles Perrow desarrolló la teoría de accidentes normales estudiando el accidente de Three Mile Island y otros fracasos en sistemas tecnológicos complejos. El argumento original aparece en *Normal Accidents: Living with High-Risk Technologies* (Perrow, 1984), actualizado en una segunda edición con análisis de desastres posteriores (Perrow, 1999). El debate académico que generó incluye la respuesta crítica de Sagan sobre sistemas nucleares (Sagan, 1993), la síntesis de Hopkins sobre cultura de seguridad (Hopkins, 2001), y las extensiones de Leveson sobre ingeniería de sistemas seguros (Leveson, 2011). La teoría generó un campo completo de investigación sobre accidentes organizacionales (Reason, 1997; Turner & Pidgeon, 1997). Su argumento central es incómodo: en sistemas con acoplamiento estrecho e interacción compleja, los accidentes son inevitables independientemente de la competencia de los operadores. Son normales en el sentido estadístico, no moral.
 
-La convergencia con este libro es de diagnóstico compartido. Perrow documenta que los accidentes en sistemas complejos no son falla de componentes individuales sino propiedad emergente de la arquitectura. No importa cuán competente sea cada operador; la interacción entre componentes produce resultados que nadie anticipó ni pudo anticipar. Este libro aplica la misma lógica al fracaso de iniciativas estratégicas: no son falla de ejecutivos incompetentes sino propiedad emergente de sistemas que amplifican sin límite. La distinción de Perrow entre sistemas loosely coupled (donde las fallas quedan contenidas) y tightly coupled (donde las fallas se propagan) conecta con el argumento de que más integración organizacional no siempre produce más confiabilidad. Perrow argumenta que la redundancia en sistemas complejos puede aumentar riesgo en lugar de reducirlo; este libro documenta cómo más capas de gobernanza pueden producir más ceremonia sin más filtro efectivo.
+La convergencia con este libro es de diagnóstico compartido. Perrow documenta que los accidentes en sistemas complejos no son falla de componentes individuales sino propiedad emergente de la arquitectura. No importa cuán competente sea cada operador; la interacción entre componentes produce resultados que nadie anticipó ni pudo anticipar. Este libro aplica la misma lógica al fracasó de iniciativas estratégicas: no son falla de ejecutivos incompetentes sino propiedad emergente de sistemas que amplifican sin límite. La distinción de Perrow entre sistemas loosely coupled (donde las fallas quedan contenidas) y tightly coupled (donde las fallas se propagan) conecta con el argumento de que más integración organizacional no siempre produce más confiabilidad. Perrow argumenta que la redundancia en sistemas complejos puede aumentar riesgo en lugar de reducirlo; este libro documenta cómo más capas de gobernanza pueden producir más ceremonia sin más filtro efectivo.
 
 La diferencia es de conclusión. Perrow diagnostica inevitabilidad. Su análisis es brillante pero su conclusión es pesimista: en ciertos sistemas, los accidentes ocurrirán sin importar qué hagas. La única solución genuina es no operar esos sistemas, o aceptar que operarlos implica aceptar accidentes periódicos. Este libro propone contramedida: no eliminar el riesgo, que es estructuralmente imposible, sino instalar mecanismo que detecte acumulación de riesgo antes del colapso. El DRG no pretende hacer que los sistemas complejos se comporten como sistemas simples. Pretende crear punto de verificación donde la complejidad acumulada pueda hacerse visible antes de que produzca consecuencias irreversibles.
 
@@ -70,12 +70,21 @@ El Decisión Readiness Gate no reemplaza ninguno de estos marcos. Los presupone 
 
 Table: Convergencias y diferencias con marcos teóricos establecidos
 
-| Marco | Convergencia | Diferencia | Este libro aporta |
-|-------|--------------|------------|-------------------|
-| HRO | Confiabilidad como propiedad de diseño, no de intención | HRO describe organizaciones que ya son confiables | Mecanismo para adquirir propiedades HRO sin historia evolutiva |
-| Cynefin | Respuestas diferentes para dominios diferentes | Cynefin diagnostica dominio; no prescribe arquitectura | Arquitectura específica para dominio complejo |
-| VSM | Variedad requerida; gobernanza como sistema | VSM es abstracto y asume que lo formal funciona | Condiciones para que gobernanza funcione sustantivamente |
-| Normal Accidents | Accidentes como propiedad sistémica, no falla individual | Perrow diagnostica inevitabilidad sin contramedida | Detección temprana, no eliminación del riesgo |
-| Agile Gobernanza | Iteración, feedback, adaptación continua | Agile optimiza ejecución post-aprobación | Filtro antes de entrar en ejecución |
-| Antifragilidad | Fragilidad oculta, skin in the game | Taleb da principios generales abstractos | Implementación específica en gobernanza de iniciativas |
+**Marcos de confiabilidad y complejidad**
+
+| Marco | Convergencia | Diferencia |
+|-------|--------------|------------|
+| HRO | Confiabilidad como propiedad de diseño | Describe organizaciones ya confiables |
+| Cynefin | Respuestas diferentes por dominio | Diagnostica, no prescribe arquitectura |
+| VSM | Variedad requerida; gobernanza sistémica | Abstracto; asume que lo formal funciona |
+
+**Marcos de riesgo y adaptación**
+
+| Marco | Convergencia | Diferencia |
+|-------|--------------|------------|
+| Perrow | Accidentes como propiedad sistémica | Diagnostica inevitabilidad sin contramedida |
+| Agile | Iteración, feedback, adaptación | Optimiza ejecución post-aprobación |
+| Taleb | Fragilidad oculta, skin in the game | Principios generales abstractos |
+
+**Aporte de este libro:** mecanismo operativo específico para instalar capacidad de límite en gobernanza de iniciativas estratégicas.
 

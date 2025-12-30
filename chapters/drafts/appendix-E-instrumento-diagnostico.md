@@ -395,7 +395,7 @@ Su respuesta: ____
 |--------|-------------|
 | 1 | No — los criterios son estáticos |
 | 2 | Informalmente — si alguien recuerda |
-| 3 | A veces — cuando hay fracaso grande |
+| 3 | A veces — cuando hay fracasó grande |
 | 4 | Sí — hay proceso de actualización basado en data |
 | 5 | Sí — con análisis estadístico de predictores |
 
@@ -526,10 +526,10 @@ Ordene las capacidades de menor a mayor puntaje. Las tres más bajas son sus bre
 
 ### Paso 4: Visualice el estado de capacidades {- .unlisted}
 
-Transfiera los puntajes normalizados al siguiente diagrama radar para obtener una representacion visual del estado de las ocho capacidades.
+Transfiera los puntajes normalizados al siguiente diagrama radar para obtener una representación visual del estado de las ocho capacidades.
+![Radar de capacidades de gerencia funcional](assets/generated/diagrams/AppE-radar-capacidades.png){width=75%}
 
-![Radar de capacidades de gerencia funcional](assets/generated/diagrams/AppE-radar-capacidades.png)
-
+\newpage
 
 ## Interpretación {- .unlisted}
 

@@ -162,7 +162,7 @@ Hyman, M. (2010). Why Functional Medicine? *UltraWellness Center*.
 
 Institute for Functional Medicine. (2020). What is Functional Medicine? IFM.
 
-## Transformación digital - Tasas de fracaso {- .unlisted}
+## Transformación digital - Tasas de fracasó {- .unlisted}
 
 McKinsey & Company. (2018). Unlocking Success in Digital Transformations. *McKinsey Global Survey*.
 

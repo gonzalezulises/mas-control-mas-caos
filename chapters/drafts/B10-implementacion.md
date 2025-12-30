@@ -37,7 +37,7 @@ La tercera fuente de parálisis es la creencia de que se necesita consenso ampli
 <!-- block: causa -->
 ## Precondiciones políticas
 
-El libro hasta aquí asume que existe voluntad de instalar el mecanismo. Esa voluntad no es automática. Los beneficiarios del sistema actual—sponsors con acceso discrecional a recursos, ejecutivos cuyas iniciativas no enfrentan escrutinio—tienen incentivo racional de resistir. Instalar un gate es redistribución de poder. Toda redistribución de poder genera resistencia. Ignorar esta realidad es garantizar fracaso.
+El libro hasta aquí asume que existe voluntad de instalar el mecanismo. Esa voluntad no es automática. Los beneficiarios del sistema actual—sponsors con acceso discrecional a recursos, ejecutivos cuyas iniciativas no enfrentan escrutinio—tienen incentivo racional de resistir. Instalar un gate es redistribución de poder. Toda redistribución de poder genera resistencia. Ignorar esta realidad es garantizar fracasó.
 
 El gate puede instalarse cuando existe al menos una de estas condiciones.
 
@@ -63,7 +63,7 @@ Si ninguna de las condiciones de viabilidad existe y ninguna táctica es aplicab
 
 La implementación tiene cuatro fases que no deben saltarse ni reordenarse. Cada fase produce resultado visible que justifica la siguiente. La acumulación de resultados construye credibilidad institucional que sostiene el mecanismo cuando enfrenta presión.
 
-![Secuencia de cuatro fases de implementacion](assets/generated/diagrams/B10-fases-implementacion.png)
+![Secuencia de cuatro fases de implementación](assets/generated/diagrams/B10-fases-implementacion.png)
 
 ### Fase 1: Piloto con ownership distribuido (Meses 1-3)
 
@@ -75,7 +75,7 @@ No empiece diseñando criterios abstractos. Empiece con el caso más doloroso qu
 
 **Sesión de sensemaking colectivo**
 
-El piloto no debe ser diseñado por el sponsor del gate en aislamiento. Antes de proponer el gate, convoque a 10-15 personas afectadas por el fracaso reciente para una sesión de dos horas con el siguiente formato:
+El piloto no debe ser diseñado por el sponsor del gate en aislamiento. Antes de proponer el gate, convoque a 10-15 personas afectadas por el fracasó reciente para una sesión de dos horas con el siguiente formato:
 
 Primera hora: procesamiento estructurado del caso. Use la secuencia "Qué pasó / Qué significa / Qué debe cambiar". Cada participante escribe individualmente durante tres minutos respondiendo "Qué pasó". Después, en pares, comparten durante cuatro minutos. Luego, cuartetos consolidan las observaciones más importantes. Finalmente, cada cuarteto reporta al grupo completo. Repita la secuencia para "Qué significa" y "Qué debe cambiar".
 
@@ -131,7 +131,7 @@ El objetivo es convertir el experimento en infraestructura permanente que sobrev
 
 **Formalización de autoridad**
 
-El gate requiere mandato de directorio o comité ejecutivo que le dé autoridad oficial. Este mandato debe especificar: qué categorías de iniciativa pasan por el gate (Capacidad 1: delimitación explícita), qué consecuencias tiene el veredicto (Capacidad 3: gate vinculante), y qué protecciones tienen los operadores (Capacidad 4: protección política del NO).
+El gate requiere mandato de directorio o comité ejecutivo que le dé autoridad oficial. Este mandato debe especificar: qué categorías de iniciativa pasan por el gate (Capacidad 1: delimitación explícita), qué consecuencias tiene el veredicto (Capacidad 3: gate vinculante), y qué protecciónes tienen los operadores (Capacidad 4: protección política del NO).
 
 El mandato se documenta en acta de directorio que no puede modificarse sin proceso formal equivalente. Esto convierte el gate de práctica voluntaria en infraestructura de gobernanza.
 
@@ -139,7 +139,7 @@ El mandato se documenta en acta de directorio que no puede modificarse sin proce
 
 Los operadores del gate requieren protección política explícita. Los elementos mínimos incluyen: nombramiento por junta (no por ejecutivos que serán evaluados), mandato fijo de dos a tres años con rotación escalonada, compensación independiente del desempeño de iniciativas específicas, evaluación de desempeño que valora los NO producidos tanto como los SÍ, y derecho a reportar directamente al directorio si hay presión indebida.
 
-La protección también alcanza al ejecutivo que acepta el veredicto negativo: cuando un sponsor recibe NO y lo acepta, debe quedar protegido de la narrativa de que "no pudo sacar adelante su iniciativa". El veredicto se comunica como resultado de proceso, no como fracaso del sponsor.
+La protección también alcanza al ejecutivo que acepta el veredicto negativo: cuando un sponsor recibe NO y lo acepta, debe quedar protegido de la narrativa de que "no pudo sacar adelante su iniciativa". El veredicto se comunica como resultado de proceso, no como fracasó del sponsor.
 
 **Establecimiento de registro irreversible**
 
@@ -173,7 +173,7 @@ Establezca calendario de revisión semestral de criterios. La revisión no es op
 
 La revisión debe incorporar: resultados de iniciativas pasadas (Capacidad 7: aprendizaje procedural), cambios en el contexto competitivo, nuevas categorías de riesgo que no existían cuando se diseñaron los criterios originales, y feedback de los operadores sobre casos límite que los criterios actuales no resuelven bien.
 
-Establezca también triggers que disparen revisión extraordinaria: cambio regulatorio significativo, crisis en la industria, fracaso de iniciativa que pasó el gate, o feedback de operadores que indica problema sistemático.
+Establezca también triggers que disparen revisión extraordinaria: cambio regulatorio significativo, crisis en la industria, fracasó de iniciativa que pasó el gate, o feedback de operadores que indica problema sistemático.
 
 **Expansión de cobertura**
 
@@ -193,7 +193,7 @@ No hay entregable final. Hay capacidad de mejora continua institucionalizada. El
 
 ## La estructura de la sesión del gate
 
-![Estructura de sesion del gate (60 minutos)](assets/generated/diagrams/B10-sesion-gate.png)
+![Estructura de sesión del gate (60 minutos)](assets/generated/diagrams/B10-sesion-gate.png)
 
 El gate no es solo criterios más comité. Es una conversación estructurada. Sin estructura, la dinámica de poder en la sala determina el resultado: el más senior habla primero y ancla la discusión, los que tienen dudas callan para no generar conflicto, el veredicto refleja política más que análisis.
 
@@ -322,11 +322,11 @@ Treinta minutos donde el comité revisa iniciativas que el gate detuvo y qué ha
 
 Reconocimiento explícito cuando un rechazo evitó problema. Este ritual contrabalancea el incentivo cultural a aprobar. Los operadores que producen rechazos bien fundamentados reciben el mismo reconocimiento que quienes aprueban iniciativas exitosas.
 
-**Storytelling del fracaso fundacional**
+**Storytelling del fracasó fundacional**
 
 Cada trimestre, recordar el caso que motivó el piloto. Este ritual mantiene viva la razón de ser del sistema. Sin él, la memoria institucional se erosiona y las nuevas personas no entienden por qué existe el gate.
 
-<!-- block: proteccion -->
+<!-- block: protección -->
 ## El primer movimiento
 
 El primer movimiento para el lunes requiere una hora, no una iniciativa corporativa.
