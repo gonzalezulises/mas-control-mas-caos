@@ -395,6 +395,35 @@ blockquote {
   margin-top: 24px;
 }
 
+/* Botón de descarga */
+.cta-download {
+  margin-top: 24px;
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: 2px solid var(--control-blue);
+  color: var(--text);
+  padding: 14px 28px;
+}
+
+.btn-download:hover {
+  background: var(--control-blue);
+  border-color: var(--control-blue);
+  box-shadow: 0 8px 25px rgba(61, 122, 183, 0.3);
+}
+
+.btn-download svg {
+  transition: transform 0.3s ease;
+}
+
+.btn-download:hover svg {
+  transform: translateY(3px);
+}
+
 /* ==========================================================================
    FOOTER
    ========================================================================== */
