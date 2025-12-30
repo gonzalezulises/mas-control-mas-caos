@@ -30,34 +30,137 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Hero -->
+  <!-- Hero con portada animada -->
   <section id="hero" class="hero">
-    <div class="container">
-      <h1 class="title">Más control, más caos</h1>
-      <p class="subtitle">Límites externos para sistemas que no se detienen solos</p>
-      <a href="#comprar" class="cta-primary">Obtener el libro</a>
+    <div class="hero-background">
+      <!-- Portada SVG inline para animación -->
+      <svg class="cover-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0a1628"/>
+            <stop offset="50%" style="stop-color:#0d1f3c"/>
+            <stop offset="100%" style="stop-color:#051020"/>
+          </linearGradient>
+          <linearGradient id="chaosGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#8b0000"/>
+            <stop offset="100%" style="stop-color:#dc143c"/>
+          </linearGradient>
+          <linearGradient id="controlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1e3a5f"/>
+            <stop offset="100%" style="stop-color:#2d5a87"/>
+          </linearGradient>
+          <filter id="glow">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+              <feMergeNode in="coloredBlur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+          <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a3050" stroke-width="0.5" opacity="0.3"/>
+          </pattern>
+        </defs>
+
+        <!-- Fondo -->
+        <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+        <rect width="100%" height="100%" fill="url(#gridPattern)"/>
+
+        <!-- Círculos concéntricos (control) - Animación: Concentric Pulse -->
+        <g class="concentric-circles" transform="translate(512, 750)" opacity="0.6">
+          <circle class="pulse-circle" r="300" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+          <circle class="pulse-circle" r="250" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+          <circle class="pulse-circle" r="200" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+          <circle class="pulse-circle" r="150" fill="none" stroke="#2d5a87" stroke-width="2"/>
+          <circle class="pulse-circle" r="100" fill="none" stroke="#3d7ab7" stroke-width="2"/>
+        </g>
+
+        <!-- Espiral de caos - Animación: Runaway Spiral -->
+        <g class="chaos-spiral" transform="translate(512, 750)" filter="url(#glow)">
+          <path class="spiral-path spiral-1" d="M 0,0 Q 50,-30 80,-80 T 140,-180 Q 180,-250 250,-320 T 380,-400 Q 420,-430 480,-420 T 500,-350"
+                fill="none" stroke="url(#chaosGrad)" stroke-width="4" stroke-linecap="round"/>
+          <path class="spiral-path spiral-2" d="M 0,0 Q -60,40 -100,100 T -180,220 Q -220,300 -300,380 T -420,480"
+                fill="none" stroke="url(#chaosGrad)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+        </g>
+
+        <!-- Nodos del sistema - Animación: Node Cascade -->
+        <g class="system-nodes" filter="url(#glow)">
+          <circle class="node node-center" cx="512" cy="750" r="12" fill="#3d7ab7"/>
+          <circle class="node node-blue" cx="420" cy="650" r="8" fill="#2d5a87"/>
+          <circle class="node node-blue" cx="600" cy="680" r="8" fill="#2d5a87"/>
+          <circle class="node node-blue" cx="350" cy="800" r="6" fill="#1e3a5f"/>
+          <circle class="node node-blue" cx="680" cy="820" r="6" fill="#1e3a5f"/>
+          <!-- Nodos rojos (puntos de falla) -->
+          <circle class="node node-red" cx="580" cy="580" r="10" fill="#dc143c"/>
+          <circle class="node node-red" cx="320" cy="900" r="8" fill="#8b0000"/>
+          <circle class="node node-red" cx="700" cy="950" r="6" fill="#8b0000" opacity="0.7"/>
+        </g>
+
+        <!-- Conexiones entre nodos -->
+        <g class="connections" stroke="#2d5a87" stroke-width="1" opacity="0.5">
+          <line class="connection" x1="512" y1="750" x2="420" y2="650"/>
+          <line class="connection" x1="512" y1="750" x2="600" y2="680"/>
+          <line class="connection" x1="512" y1="750" x2="350" y2="800"/>
+          <line class="connection" x1="512" y1="750" x2="680" y2="820"/>
+          <line class="connection" x1="420" y1="650" x2="350" y2="800"/>
+          <line class="connection" x1="600" y1="680" x2="680" y2="820"/>
+        </g>
+
+        <!-- Conexiones rotas - Animación: Breaking Connections -->
+        <g class="broken-connections" stroke="#dc143c" stroke-width="1.5" stroke-dasharray="5,5" opacity="0.6">
+          <line class="broken-line" x1="580" y1="580" x2="600" y2="680"/>
+          <line class="broken-line" x1="320" y1="900" x2="350" y2="800"/>
+        </g>
+
+        <!-- Elementos geométricos decorativos -->
+        <g class="decorative" opacity="0.15">
+          <rect x="100" y="400" width="80" height="80" fill="none" stroke="#3d7ab7" stroke-width="1" transform="rotate(15 140 440)"/>
+          <rect x="850" y="500" width="60" height="60" fill="none" stroke="#3d7ab7" stroke-width="1" transform="rotate(-20 880 530)"/>
+          <polygon points="180,1100 220,1050 260,1100" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+          <polygon points="800,1150 850,1100 900,1150 850,1200" fill="none" stroke="#8b0000" stroke-width="1" opacity="0.5"/>
+        </g>
+
+        <!-- Partículas flotantes - Animación: Particle Drift -->
+        <g class="particles">
+          <circle class="particle" cx="150" cy="600" r="2" fill="#3d7ab7" opacity="0.4"/>
+          <circle class="particle" cx="880" cy="700" r="2" fill="#3d7ab7" opacity="0.4"/>
+          <circle class="particle" cx="200" cy="950" r="1.5" fill="#3d7ab7" opacity="0.4"/>
+          <circle class="particle" cx="820" cy="1000" r="1.5" fill="#3d7ab7" opacity="0.4"/>
+          <circle class="particle" cx="300" cy="550" r="1" fill="#3d7ab7" opacity="0.4"/>
+          <circle class="particle" cx="750" cy="600" r="1" fill="#3d7ab7" opacity="0.4"/>
+          <circle class="particle" cx="450" cy="450" r="1.5" fill="#3d7ab7" opacity="0.3"/>
+          <circle class="particle" cx="650" cy="1100" r="2" fill="#3d7ab7" opacity="0.3"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <div class="container">
+        <h1 class="title">
+          <span class="title-line title-control">Más control,</span>
+          <span class="title-line title-chaos">más caos</span>
+        </h1>
+        <p class="subtitle">Límites externos para sistemas que no se detienen solos</p>
+        <a href="#comprar" class="cta-primary">Obtener el libro</a>
+      </div>
     </div>
   </section>
 
   <!-- Tensión -->
   <section id="tension" class="tension">
     <div class="container">
-      <p>Cada trimestre apruebas iniciativas que sabes que van a fracasar. No por incompetencia—por inercia. El sistema genera proyectos más rápido de lo que puede digerirlos.</p>
+      <p class="tension-lead">Cada trimestre apruebas iniciativas que sabes que van a fracasar. No por incompetencia—por inercia. El sistema genera proyectos más rápido de lo que puede digerirlos.</p>
       <p>Los dashboards muestran verde. Las juntas aplauden. Y tú llevas meses sin dormir bien la noche previa a cada board meeting.</p>
-      <p>No es un problema de ejecución. Es un sistema sin frenos.</p>
+      <p class="tension-conclusion">No es un problema de ejecución. Es un sistema sin frenos.</p>
+
+      <!-- Loop visual mejorado -->
       <div class="loop-visual" aria-hidden="true">
         <svg viewBox="0 0 200 200" width="200" height="200">
-          <!-- Círculo base -->
           <circle cx="100" cy="100" r="60" fill="none" stroke="#333" stroke-width="2"/>
-          <!-- Flechas de ciclo -->
-          <g class="arrows">
-            <!-- Flecha 1 -->
+          <g class="loop-arrows">
             <path d="M100 40 L100 30 L110 40 L100 40" fill="#8b0000"/>
             <path d="M100 40 Q140 40 155 75" fill="none" stroke="#8b0000" stroke-width="2"/>
-            <!-- Flecha 2 -->
             <path d="M155 125 L165 125 L155 135 L155 125" fill="#8b0000"/>
             <path d="M155 125 Q155 165 115 175" fill="none" stroke="#8b0000" stroke-width="2"/>
-            <!-- Flecha 3 -->
             <path d="M45 100 L35 100 L45 90 L45 100" fill="#8b0000"/>
             <path d="M85 175 Q45 165 45 125" fill="none" stroke="#8b0000" stroke-width="2"/>
           </g>

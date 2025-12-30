@@ -1,14 +1,18 @@
 /* ==========================================================================
-   Más control, más caos — Estilos brutalist
+   Más control, más caos — Estilos brutalist con animaciones
    © 2025 Ulises González - Rizo.ma
    ========================================================================== */
 
 :root {
   --bg: #0a0a0a;
+  --bg-deep: #0a1628;
   --text: #f5f5f5;
   --text-muted: #a0a0a0;
   --accent: #8b0000;
+  --accent-bright: #dc143c;
   --accent-hover: #a00000;
+  --control-blue: #3d7ab7;
+  --control-dark: #1e3a5f;
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-serif: 'Literata', Georgia, serif;
 }
@@ -33,6 +37,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 /* Container */
@@ -81,23 +86,59 @@ a {
 }
 
 /* ==========================================================================
-   HERO
+   HERO - Full viewport con portada animada
    ========================================================================== */
 
 .hero {
+  position: relative;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 120px 0;
-}
-
-.hero .title {
+  justify-content: center;
   overflow: hidden;
 }
 
-.hero .title .letter {
-  display: inline-block;
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.cover-svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.hero .title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.title-line {
+  display: block;
   opacity: 0;
+  transform: translateY(30px);
+}
+
+.title-control {
+  color: var(--text);
+}
+
+.title-chaos {
+  color: var(--accent-bright);
 }
 
 .hero .subtitle {
@@ -106,12 +147,14 @@ a {
   color: var(--text-muted);
   margin-bottom: 48px;
   opacity: 0;
+  transform: translateY(20px);
 }
 
-/* Fallback si JS no carga */
-.no-js .hero .title .letter,
+/* Fallback sin JS */
+.no-js .title-line,
 .no-js .hero .subtitle {
   opacity: 1;
+  transform: none;
 }
 
 /* ==========================================================================
@@ -156,13 +199,24 @@ a {
    TENSIÓN
    ========================================================================== */
 
+.tension {
+  background: var(--bg);
+}
+
 .tension p {
   font-size: clamp(1rem, 2.5vw, 1.25rem);
   max-width: 600px;
 }
 
-.tension p:first-of-type {
+.tension-lead {
   color: var(--text);
+  font-weight: 400;
+}
+
+.tension-conclusion {
+  color: var(--accent-bright);
+  font-weight: 700;
+  font-family: var(--font-sans);
 }
 
 .loop-visual {
@@ -172,7 +226,7 @@ a {
 }
 
 .loop-visual svg {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 /* ==========================================================================
@@ -180,7 +234,10 @@ a {
    ========================================================================== */
 
 .tesis {
-  background: linear-gradient(180deg, transparent 0%, rgba(139, 0, 0, 0.05) 50%, transparent 100%);
+  background: linear-gradient(180deg,
+    var(--bg) 0%,
+    rgba(139, 0, 0, 0.08) 50%,
+    var(--bg) 100%);
 }
 
 blockquote {
@@ -242,6 +299,7 @@ blockquote {
 
 .comprar {
   text-align: center;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
 }
 
 .comprar h2 {
@@ -273,6 +331,7 @@ blockquote {
 footer {
   padding: 48px 0;
   border-top: 1px solid #222;
+  background: var(--bg-deep);
 }
 
 footer .container {
@@ -300,6 +359,36 @@ footer a:hover {
 }
 
 /* ==========================================================================
+   ANIMACIONES SVG - Estados base
+   ========================================================================== */
+
+/* Espiral de caos */
+.spiral-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+
+/* Nodos */
+.node {
+  transform-origin: center;
+}
+
+/* Partículas */
+.particle {
+  transform-origin: center;
+}
+
+/* Conexiones rotas */
+.broken-line {
+  opacity: 0;
+}
+
+/* Círculos concéntricos */
+.pulse-circle {
+  transform-origin: center;
+}
+
+/* ==========================================================================
    RESPONSIVE - Desktop
    ========================================================================== */
 
@@ -309,7 +398,7 @@ footer a:hover {
   }
 
   .hero {
-    padding: 160px 0;
+    min-height: 100vh;
   }
 
   h1 {
@@ -322,6 +411,10 @@ footer a:hover {
 
   blockquote {
     padding-left: 32px;
+  }
+
+  .title-line {
+    font-size: clamp(3rem, 10vw, 6rem);
   }
 }
 
@@ -342,9 +435,14 @@ footer a:hover {
     scroll-behavior: auto;
   }
 
-  .hero .title .letter,
+  .title-line,
   .hero .subtitle {
     opacity: 1;
+    transform: none;
+  }
+
+  .spiral-path {
+    stroke-dashoffset: 0;
   }
 }
 
