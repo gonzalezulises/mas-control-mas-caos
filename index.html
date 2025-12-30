@@ -85,6 +85,8 @@
         "name": "Más control, más caos",
         "alternateName": "Límites externos para sistemas que no se detienen solos",
         "description": "Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder para preservar adaptabilidad, sentido y supervivencia. Este libro explora por qué más control genera más caos y cómo construir capacidades de auto-limitación en organizaciones.",
+        "url": "https://mascontrolmascaos.com",
+        "image": "https://mascontrolmascaos.com/assets/og-image.png",
         "author": {
           "@type": "Person",
           "@id": "https://mascontrolmascaos.com/#author"
@@ -109,7 +111,14 @@
         },
         "datePublished": "2025",
         "bookFormat": ["EBook", "Paperback"],
-        "numberOfPages": 263
+        "numberOfPages": 263,
+        "offers": {
+          "@type": "Offer",
+          "price": "29.95",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://mascontrolmascaos.com/#comprar"
+        }
       },
       {
         "@type": "Person",
@@ -151,8 +160,8 @@
         "@type": "WebPage",
         "@id": "https://mascontrolmascaos.com/",
         "url": "https://mascontrolmascaos.com/",
-        "name": "Más control, más caos — Libro de Ulises González",
-        "description": "Landing page del libro sobre límites organizacionales",
+        "name": "Más control, más caos — Límites organizacionales",
+        "description": "Libro sobre límites externos para sistemas organizacionales que no se detienen solos.",
         "isPartOf": {
           "@type": "WebSite",
           "name": "Más control, más caos",
@@ -160,6 +169,10 @@
         },
         "about": {
           "@id": "https://mascontrolmascaos.com/#book"
+        },
+        "mainEntity": {
+          "@type": "Book",
+          "name": "Más control, más caos"
         },
         "author": {
           "@id": "https://mascontrolmascaos.com/#author"
@@ -439,5 +452,11 @@
   <!-- anime.js local -->
   <script src="js/anime.min.js"></script>
   <script src="js/main.js"></script>
+
+  <!-- Vercel Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
