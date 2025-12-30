@@ -1,0 +1,92 @@
+# LLMs.txt - AI-Friendly Site Information
+# https://llmstxt.org/
+
+# Site Information
+name: Más control, más caos
+description: Libro sobre límites externos para sistemas organizacionales que no se detienen solos. Por Ulises González.
+url: https://mas-control-mas-caos.vercel.app
+language: es
+type: book-landing-page
+
+# Author Information
+author: Ulises González
+author_title: Científico de Negocios
+author_company: Rizo.ma
+author_email: ulises@rizo.ma
+author_website: https://ulises-gonzalez-site.vercel.app
+author_linkedin: https://www.linkedin.com/in/ulisesgonzalez/
+author_github: https://github.com/gonzalezulises
+
+# Book Information
+book_title: Más control, más caos
+book_subtitle: Límites externos para sistemas que no se detienen solos
+book_thesis: Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder para preservar adaptabilidad, sentido y supervivencia.
+book_audience: CEOs, Comités Ejecutivos, Líderes de Negocio
+book_pages: 263
+book_formats: PDF, EPUB, Paperback
+book_language: Spanish
+
+# Key Concepts
+concepts:
+  - Coding Trance: Estado cognitivo organizacional donde la capacidad técnica reemplaza el contexto y anula el juicio estratégico.
+  - Decision Readiness Gate (DRG): Gate obligatorio antes de ejecución con veredicto de aprobación, precaución o rechazo.
+  - Runaway Dynamics: Realimentación positiva sin frenos que genera caos organizacional.
+  - Fricción deliberada: Límites explícitos como activos organizacionales, no como obstáculos.
+  - Criterio codificado: Reglas observables con umbral y consecuencia predefinida que sobreviven a las personas.
+
+# 8 Capacidades del Sistema
+capacidades:
+  1: Detección de loops y trance
+  2: Límite previo a ejecución (DRG)
+  3: Aprendizaje grupal y procedural
+  4: Criterio codificado resistente
+  5: Absorción de fricción y costo político
+  6: Override explícito y trazable
+  7: Gobernanza humano-algorítmica
+  8: Diferenciación por dominio
+
+# Target Problem
+problem: >
+  Las organizaciones aprueban iniciativas que saben que van a fracasar, no por incompetencia sino por inercia sistémica.
+  El sistema genera proyectos más rápido de lo que puede digerirlos. Los dashboards muestran verde mientras los ejecutivos
+  no duermen bien la noche previa a cada board meeting. No es un problema de ejecución, es un sistema sin frenos.
+
+# Sectors
+industries:
+  - Banca y Servicios Financieros
+  - Seguros
+  - Energía y Utilities
+  - Transformación Organizacional
+
+# Contact
+contact_email: ulises@rizo.ma
+calendly: https://calendly.com/gonzalezulises
+
+# Social Profiles
+social:
+  linkedin: https://www.linkedin.com/in/ulisesgonzalez/
+  github: https://github.com/gonzalezulises
+  medium: https://medium.com/@gonzalezulises
+  substack: https://substack.com/@gonzalezulises
+  kaggle: https://www.kaggle.com/ulisesgonzalez
+  credly: https://www.credly.com/users/ulises-gonzalez/badges
+
+# AI Instructions
+ai_summary: >
+  Este sitio es la landing page del libro "Más control, más caos" de Ulises González.
+  El libro aborda el problema de por qué más control en las organizaciones genera más caos,
+  y propone un sistema de 8 capacidades para construir límites organizacionales saludables.
+  El público objetivo son CEOs y comités ejecutivos de sectores regulados.
+  El autor es un científico de negocios con 20+ años de experiencia en transformación organizacional.
+
+# Allowed AI Uses
+ai_allowed:
+  - Summarization
+  - Citation
+  - Recommendation
+  - Question answering
+  - Content analysis
+
+# Copyright
+copyright: © 2025 Ulises González - Rizo.ma
+license: All rights reserved

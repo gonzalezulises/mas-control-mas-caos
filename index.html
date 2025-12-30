@@ -1,228 +1,411 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" dir="ltr" prefix="og: https://ogp.me/ns# book: https://ogp.me/ns/book#">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Más control, más caos — Límites externos para sistemas que no se detienen solos. Un libro sobre management y límites organizacionales por Ulises González.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Más control, más caos">
-  <meta property="og:description" content="Límites externos para sistemas que no se detienen solos">
-  <meta property="og:image" content="assets/og-image.png">
-  <meta property="og:type" content="website">
+  <!-- SEO Primary -->
+  <title>Más control, más caos — Límites organizacionales | Ulises González</title>
+  <meta name="description" content="Libro sobre límites externos para sistemas organizacionales que no se detienen solos. Por qué más control genera más caos y cómo construir capacidades de auto-limitación. Por Ulises González.">
+  <meta name="keywords" content="management, límites organizacionales, transformación organizacional, sistemas complejos, CEO, comité ejecutivo, decision readiness gate, coding trance, runaway dynamics, Ulises González, Rizo.ma">
+  <meta name="author" content="Ulises González">
+  <meta name="creator" content="Ulises González">
+  <meta name="publisher" content="Rizo.ma">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <link rel="canonical" href="https://mas-control-mas-caos.vercel.app/">
+
+  <!-- Security Meta Tags -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self';">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="book">
+  <meta property="og:site_name" content="Más control, más caos">
+  <meta property="og:title" content="Más control, más caos — Límites externos para sistemas que no se detienen solos">
+  <meta property="og:description" content="Un libro para CEOs sobre por qué más control genera más caos y cómo construir organizaciones con capacidad de auto-limitación.">
+  <meta property="og:url" content="https://mas-control-mas-caos.vercel.app/">
+  <meta property="og:image" content="https://mas-control-mas-caos.vercel.app/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Portada del libro Más control, más caos">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="es_PA">
+
+  <!-- Book specific Open Graph -->
+  <meta property="book:author" content="Ulises González">
+  <meta property="book:isbn" content="">
+  <meta property="book:release_date" content="2025">
+  <meta property="book:tag" content="management">
+  <meta property="book:tag" content="organizational transformation">
+  <meta property="book:tag" content="systems thinking">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Más control, más caos">
-  <meta name="twitter:description" content="Límites externos para sistemas que no se detienen solos">
+  <meta name="twitter:site" content="@gonzalezulises">
+  <meta name="twitter:creator" content="@gonzalezulises">
+  <meta name="twitter:title" content="Más control, más caos — Ulises González">
+  <meta name="twitter:description" content="Límites externos para sistemas organizacionales que no se detienen solos. Un libro para CEOs.">
+  <meta name="twitter:image" content="https://mas-control-mas-caos.vercel.app/assets/og-image.png">
+  <meta name="twitter:image:alt" content="Portada del libro Más control, más caos">
 
-  <title>Más control, más caos — Ulises González</title>
+  <!-- Favicon & Icons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-TileColor" content="#0a0a0a">
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
-
-  <!-- Google Fonts -->
+  <!-- Preconnect for Performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Literata:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Book",
+        "@id": "https://mas-control-mas-caos.vercel.app/#book",
+        "name": "Más control, más caos",
+        "alternateName": "Límites externos para sistemas que no se detienen solos",
+        "description": "Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder para preservar adaptabilidad, sentido y supervivencia. Este libro explora por qué más control genera más caos y cómo construir capacidades de auto-limitación en organizaciones.",
+        "author": {
+          "@type": "Person",
+          "@id": "https://mas-control-mas-caos.vercel.app/#author"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Rizo.ma",
+          "url": "https://rizo.ma"
+        },
+        "inLanguage": "es",
+        "genre": ["Business", "Management", "Organizational Development"],
+        "about": [
+          "Organizational transformation",
+          "Systems thinking",
+          "Management",
+          "Decision making",
+          "Corporate governance"
+        ],
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "CEOs, Executive Committees, Business Leaders"
+        },
+        "datePublished": "2025",
+        "bookFormat": ["EBook", "Paperback"],
+        "numberOfPages": 263
+      },
+      {
+        "@type": "Person",
+        "@id": "https://mas-control-mas-caos.vercel.app/#author",
+        "name": "Ulises González",
+        "givenName": "Ulises",
+        "familyName": "González",
+        "jobTitle": "Científico de Negocios",
+        "description": "Consultor de transformación organizacional con más de 20 años de experiencia en banca, seguros y energía. Fundador de Rizo.ma.",
+        "url": "https://ulises-gonzalez-site.vercel.app",
+        "email": "ulises@rizo.ma",
+        "image": "https://ulises-gonzalez-site.vercel.app/profile.jpg",
+        "sameAs": [
+          "https://www.linkedin.com/in/ulisesgonzalez/",
+          "https://github.com/gonzalezulises",
+          "https://medium.com/@gonzalezulises",
+          "https://substack.com/@gonzalezulises",
+          "https://www.kaggle.com/ulisesgonzalez",
+          "https://www.credly.com/users/ulises-gonzalez/badges"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Rizo.ma",
+          "url": "https://rizo.ma"
+        },
+        "alumniOf": {
+          "@type": "Organization",
+          "name": "IESA"
+        },
+        "knowsAbout": [
+          "Organizational Transformation",
+          "Data Science",
+          "Business Agility",
+          "Change Management",
+          "Machine Learning"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://mas-control-mas-caos.vercel.app/",
+        "url": "https://mas-control-mas-caos.vercel.app/",
+        "name": "Más control, más caos — Libro de Ulises González",
+        "description": "Landing page del libro sobre límites organizacionales",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Más control, más caos",
+          "url": "https://mas-control-mas-caos.vercel.app/"
+        },
+        "about": {
+          "@id": "https://mas-control-mas-caos.vercel.app/#book"
+        },
+        "author": {
+          "@id": "https://mas-control-mas-caos.vercel.app/#author"
+        },
+        "inLanguage": "es",
+        "datePublished": "2025-01-01",
+        "dateModified": "2025-12-30"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://mas-control-mas-caos.vercel.app/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/WebPage">
+  <!-- Skip to main content for accessibility -->
+  <a href="#main" class="sr-only sr-only-focusable">Saltar al contenido principal</a>
+
   <!-- Hero con portada animada -->
-  <section id="hero" class="hero">
-    <div class="hero-background">
-      <!-- Portada SVG inline para animación -->
-      <svg class="cover-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMid slice">
-        <defs>
-          <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#0a1628"/>
-            <stop offset="50%" style="stop-color:#0d1f3c"/>
-            <stop offset="100%" style="stop-color:#051020"/>
-          </linearGradient>
-          <linearGradient id="chaosGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#8b0000"/>
-            <stop offset="100%" style="stop-color:#dc143c"/>
-          </linearGradient>
-          <linearGradient id="controlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#1e3a5f"/>
-            <stop offset="100%" style="stop-color:#2d5a87"/>
-          </linearGradient>
-          <filter id="glow">
-            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-            <feMerge>
-              <feMergeNode in="coloredBlur"/>
-              <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-          </filter>
-          <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
-            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a3050" stroke-width="0.5" opacity="0.3"/>
-          </pattern>
-        </defs>
+  <main id="main" role="main">
+    <section id="hero" class="hero" aria-label="Presentación del libro">
+      <div class="hero-background" aria-hidden="true">
+        <!-- Portada SVG inline para animación -->
+        <svg class="cover-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustración abstracta de sistemas y caos">
+          <defs>
+            <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#0a1628"/>
+              <stop offset="50%" style="stop-color:#0d1f3c"/>
+              <stop offset="100%" style="stop-color:#051020"/>
+            </linearGradient>
+            <linearGradient id="chaosGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#8b0000"/>
+              <stop offset="100%" style="stop-color:#dc143c"/>
+            </linearGradient>
+            <linearGradient id="controlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#1e3a5f"/>
+              <stop offset="100%" style="stop-color:#2d5a87"/>
+            </linearGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+              <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+            <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a3050" stroke-width="0.5" opacity="0.3"/>
+            </pattern>
+          </defs>
 
-        <!-- Fondo -->
-        <rect width="100%" height="100%" fill="url(#bgGrad)"/>
-        <rect width="100%" height="100%" fill="url(#gridPattern)"/>
+          <!-- Fondo -->
+          <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+          <rect width="100%" height="100%" fill="url(#gridPattern)"/>
 
-        <!-- Círculos concéntricos (control) - Animación: Concentric Pulse -->
-        <g class="concentric-circles" transform="translate(512, 750)" opacity="0.6">
-          <circle class="pulse-circle" r="300" fill="none" stroke="#1e3a5f" stroke-width="1"/>
-          <circle class="pulse-circle" r="250" fill="none" stroke="#1e3a5f" stroke-width="1"/>
-          <circle class="pulse-circle" r="200" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
-          <circle class="pulse-circle" r="150" fill="none" stroke="#2d5a87" stroke-width="2"/>
-          <circle class="pulse-circle" r="100" fill="none" stroke="#3d7ab7" stroke-width="2"/>
-        </g>
+          <!-- Círculos concéntricos (control) -->
+          <g class="concentric-circles" transform="translate(512, 750)" opacity="0.6">
+            <circle class="pulse-circle" r="300" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+            <circle class="pulse-circle" r="250" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+            <circle class="pulse-circle" r="200" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+            <circle class="pulse-circle" r="150" fill="none" stroke="#2d5a87" stroke-width="2"/>
+            <circle class="pulse-circle" r="100" fill="none" stroke="#3d7ab7" stroke-width="2"/>
+          </g>
 
-        <!-- Espiral de caos - Animación: Runaway Spiral -->
-        <g class="chaos-spiral" transform="translate(512, 750)" filter="url(#glow)">
-          <path class="spiral-path spiral-1" d="M 0,0 Q 50,-30 80,-80 T 140,-180 Q 180,-250 250,-320 T 380,-400 Q 420,-430 480,-420 T 500,-350"
-                fill="none" stroke="url(#chaosGrad)" stroke-width="4" stroke-linecap="round"/>
-          <path class="spiral-path spiral-2" d="M 0,0 Q -60,40 -100,100 T -180,220 Q -220,300 -300,380 T -420,480"
-                fill="none" stroke="url(#chaosGrad)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
-        </g>
+          <!-- Espiral de caos -->
+          <g class="chaos-spiral" transform="translate(512, 750)" filter="url(#glow)">
+            <path class="spiral-path spiral-1" d="M 0,0 Q 50,-30 80,-80 T 140,-180 Q 180,-250 250,-320 T 380,-400 Q 420,-430 480,-420 T 500,-350"
+                  fill="none" stroke="url(#chaosGrad)" stroke-width="4" stroke-linecap="round"/>
+            <path class="spiral-path spiral-2" d="M 0,0 Q -60,40 -100,100 T -180,220 Q -220,300 -300,380 T -420,480"
+                  fill="none" stroke="url(#chaosGrad)" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+          </g>
 
-        <!-- Nodos del sistema - Animación: Node Cascade -->
-        <g class="system-nodes" filter="url(#glow)">
-          <circle class="node node-center" cx="512" cy="750" r="12" fill="#3d7ab7"/>
-          <circle class="node node-blue" cx="420" cy="650" r="8" fill="#2d5a87"/>
-          <circle class="node node-blue" cx="600" cy="680" r="8" fill="#2d5a87"/>
-          <circle class="node node-blue" cx="350" cy="800" r="6" fill="#1e3a5f"/>
-          <circle class="node node-blue" cx="680" cy="820" r="6" fill="#1e3a5f"/>
-          <!-- Nodos rojos (puntos de falla) -->
-          <circle class="node node-red" cx="580" cy="580" r="10" fill="#dc143c"/>
-          <circle class="node node-red" cx="320" cy="900" r="8" fill="#8b0000"/>
-          <circle class="node node-red" cx="700" cy="950" r="6" fill="#8b0000" opacity="0.7"/>
-        </g>
+          <!-- Nodos del sistema -->
+          <g class="system-nodes" filter="url(#glow)">
+            <circle class="node node-center" cx="512" cy="750" r="12" fill="#3d7ab7"/>
+            <circle class="node node-blue" cx="420" cy="650" r="8" fill="#2d5a87"/>
+            <circle class="node node-blue" cx="600" cy="680" r="8" fill="#2d5a87"/>
+            <circle class="node node-blue" cx="350" cy="800" r="6" fill="#1e3a5f"/>
+            <circle class="node node-blue" cx="680" cy="820" r="6" fill="#1e3a5f"/>
+            <circle class="node node-red" cx="580" cy="580" r="10" fill="#dc143c"/>
+            <circle class="node node-red" cx="320" cy="900" r="8" fill="#8b0000"/>
+            <circle class="node node-red" cx="700" cy="950" r="6" fill="#8b0000" opacity="0.7"/>
+          </g>
 
-        <!-- Conexiones entre nodos -->
-        <g class="connections" stroke="#2d5a87" stroke-width="1" opacity="0.5">
-          <line class="connection" x1="512" y1="750" x2="420" y2="650"/>
-          <line class="connection" x1="512" y1="750" x2="600" y2="680"/>
-          <line class="connection" x1="512" y1="750" x2="350" y2="800"/>
-          <line class="connection" x1="512" y1="750" x2="680" y2="820"/>
-          <line class="connection" x1="420" y1="650" x2="350" y2="800"/>
-          <line class="connection" x1="600" y1="680" x2="680" y2="820"/>
-        </g>
+          <!-- Conexiones entre nodos -->
+          <g class="connections" stroke="#2d5a87" stroke-width="1" opacity="0.5">
+            <line class="connection" x1="512" y1="750" x2="420" y2="650"/>
+            <line class="connection" x1="512" y1="750" x2="600" y2="680"/>
+            <line class="connection" x1="512" y1="750" x2="350" y2="800"/>
+            <line class="connection" x1="512" y1="750" x2="680" y2="820"/>
+            <line class="connection" x1="420" y1="650" x2="350" y2="800"/>
+            <line class="connection" x1="600" y1="680" x2="680" y2="820"/>
+          </g>
 
-        <!-- Conexiones rotas - Animación: Breaking Connections -->
-        <g class="broken-connections" stroke="#dc143c" stroke-width="1.5" stroke-dasharray="5,5" opacity="0.6">
-          <line class="broken-line" x1="580" y1="580" x2="600" y2="680"/>
-          <line class="broken-line" x1="320" y1="900" x2="350" y2="800"/>
-        </g>
+          <!-- Conexiones rotas -->
+          <g class="broken-connections" stroke="#dc143c" stroke-width="1.5" stroke-dasharray="5,5" opacity="0.6">
+            <line class="broken-line" x1="580" y1="580" x2="600" y2="680"/>
+            <line class="broken-line" x1="320" y1="900" x2="350" y2="800"/>
+          </g>
 
-        <!-- Elementos geométricos decorativos -->
-        <g class="decorative" opacity="0.15">
-          <rect x="100" y="400" width="80" height="80" fill="none" stroke="#3d7ab7" stroke-width="1" transform="rotate(15 140 440)"/>
-          <rect x="850" y="500" width="60" height="60" fill="none" stroke="#3d7ab7" stroke-width="1" transform="rotate(-20 880 530)"/>
-          <polygon points="180,1100 220,1050 260,1100" fill="none" stroke="#1e3a5f" stroke-width="1"/>
-          <polygon points="800,1150 850,1100 900,1150 850,1200" fill="none" stroke="#8b0000" stroke-width="1" opacity="0.5"/>
-        </g>
+          <!-- Elementos decorativos -->
+          <g class="decorative" opacity="0.15">
+            <rect x="100" y="400" width="80" height="80" fill="none" stroke="#3d7ab7" stroke-width="1" transform="rotate(15 140 440)"/>
+            <rect x="850" y="500" width="60" height="60" fill="none" stroke="#3d7ab7" stroke-width="1" transform="rotate(-20 880 530)"/>
+            <polygon points="180,1100 220,1050 260,1100" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+            <polygon points="800,1150 850,1100 900,1150 850,1200" fill="none" stroke="#8b0000" stroke-width="1" opacity="0.5"/>
+          </g>
 
-        <!-- Partículas flotantes - Animación: Particle Drift -->
-        <g class="particles">
-          <circle class="particle" cx="150" cy="600" r="2" fill="#3d7ab7" opacity="0.4"/>
-          <circle class="particle" cx="880" cy="700" r="2" fill="#3d7ab7" opacity="0.4"/>
-          <circle class="particle" cx="200" cy="950" r="1.5" fill="#3d7ab7" opacity="0.4"/>
-          <circle class="particle" cx="820" cy="1000" r="1.5" fill="#3d7ab7" opacity="0.4"/>
-          <circle class="particle" cx="300" cy="550" r="1" fill="#3d7ab7" opacity="0.4"/>
-          <circle class="particle" cx="750" cy="600" r="1" fill="#3d7ab7" opacity="0.4"/>
-          <circle class="particle" cx="450" cy="450" r="1.5" fill="#3d7ab7" opacity="0.3"/>
-          <circle class="particle" cx="650" cy="1100" r="2" fill="#3d7ab7" opacity="0.3"/>
-        </g>
-      </svg>
-    </div>
-
-    <div class="hero-content">
-      <div class="container">
-        <h1 class="title">
-          <span class="title-line title-control">Más control,</span>
-          <span class="title-line title-chaos">más caos</span>
-        </h1>
-        <p class="subtitle">Límites externos para sistemas que no se detienen solos</p>
-        <a href="#comprar" class="cta-primary">Obtener el libro</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Tensión -->
-  <section id="tension" class="tension">
-    <div class="container">
-      <p class="tension-lead">Cada trimestre apruebas iniciativas que sabes que van a fracasar. No por incompetencia—por inercia. El sistema genera proyectos más rápido de lo que puede digerirlos.</p>
-      <p>Los dashboards muestran verde. Las juntas aplauden. Y tú llevas meses sin dormir bien la noche previa a cada board meeting.</p>
-      <p class="tension-conclusion">No es un problema de ejecución. Es un sistema sin frenos.</p>
-
-      <!-- Loop visual mejorado -->
-      <div class="loop-visual" aria-hidden="true">
-        <svg viewBox="0 0 200 200" width="200" height="200">
-          <circle cx="100" cy="100" r="60" fill="none" stroke="#333" stroke-width="2"/>
-          <g class="loop-arrows">
-            <path d="M100 40 L100 30 L110 40 L100 40" fill="#8b0000"/>
-            <path d="M100 40 Q140 40 155 75" fill="none" stroke="#8b0000" stroke-width="2"/>
-            <path d="M155 125 L165 125 L155 135 L155 125" fill="#8b0000"/>
-            <path d="M155 125 Q155 165 115 175" fill="none" stroke="#8b0000" stroke-width="2"/>
-            <path d="M45 100 L35 100 L45 90 L45 100" fill="#8b0000"/>
-            <path d="M85 175 Q45 165 45 125" fill="none" stroke="#8b0000" stroke-width="2"/>
+          <!-- Partículas flotantes -->
+          <g class="particles">
+            <circle class="particle" cx="150" cy="600" r="2" fill="#3d7ab7" opacity="0.4"/>
+            <circle class="particle" cx="880" cy="700" r="2" fill="#3d7ab7" opacity="0.4"/>
+            <circle class="particle" cx="200" cy="950" r="1.5" fill="#3d7ab7" opacity="0.4"/>
+            <circle class="particle" cx="820" cy="1000" r="1.5" fill="#3d7ab7" opacity="0.4"/>
+            <circle class="particle" cx="300" cy="550" r="1" fill="#3d7ab7" opacity="0.4"/>
+            <circle class="particle" cx="750" cy="600" r="1" fill="#3d7ab7" opacity="0.4"/>
+            <circle class="particle" cx="450" cy="450" r="1.5" fill="#3d7ab7" opacity="0.3"/>
+            <circle class="particle" cx="650" cy="1100" r="2" fill="#3d7ab7" opacity="0.3"/>
           </g>
         </svg>
       </div>
-    </div>
-  </section>
 
-  <!-- Tesis -->
-  <section id="tesis" class="tesis">
-    <div class="container">
-      <blockquote>
-        Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder para preservar adaptabilidad, sentido y supervivencia.
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- Contenido -->
-  <section id="contenido" class="contenido">
-    <div class="container">
-      <h2>Qué encontrarás</h2>
-      <ul>
-        <li><strong>Coding Trance</strong> — Por qué la capacidad técnica anula el juicio estratégico</li>
-        <li><strong>Decision Readiness Gate</strong> — El límite que falta antes de cada ejecución</li>
-        <li><strong>Criterio codificado</strong> — Reglas que sobreviven a las personas</li>
-        <li><strong>8 capacidades</strong> — Sistema completo, no recetas aisladas</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Autor -->
-  <section id="autor" class="autor">
-    <div class="container">
-      <h2>Sobre el autor</h2>
-      <p>Ulises González es consultor de transformación organizacional con más de 20 años de experiencia en banca, seguros y energía. Profesor en IESA. Su trabajo combina rigor analítico con intervención sistémica.</p>
-    </div>
-  </section>
-
-  <!-- Comprar -->
-  <section id="comprar" class="comprar">
-    <div class="container">
-      <h2>Obtén el libro</h2>
-      <p class="precio">$XX USD</p>
-      <div class="cta-buttons">
-        <a href="URL_AMAZON" class="btn" target="_blank" rel="noopener">Amazon</a>
-        <a href="URL_LEANPUB" class="btn" target="_blank" rel="noopener">Leanpub</a>
-        <a href="URL_GUMROAD" class="btn" target="_blank" rel="noopener">Gumroad</a>
+      <div class="hero-content">
+        <div class="container">
+          <h1 class="title" itemprop="name">
+            <span class="title-line title-control">Más control,</span>
+            <span class="title-line title-chaos">más caos</span>
+          </h1>
+          <p class="subtitle" itemprop="description">Límites externos para sistemas que no se detienen solos</p>
+          <a href="#comprar" class="cta-primary" role="button">Obtener el libro</a>
+        </div>
       </div>
-      <p class="formatos">Disponible en PDF, EPUB y tapa blanda</p>
-    </div>
-  </section>
+    </section>
+
+    <!-- Tensión -->
+    <section id="tension" class="tension" aria-labelledby="tension-heading">
+      <h2 id="tension-heading" class="sr-only">El problema</h2>
+      <div class="container">
+        <p class="tension-lead">Cada trimestre apruebas iniciativas que sabes que van a fracasar. No por incompetencia—por inercia. El sistema genera proyectos más rápido de lo que puede digerirlos.</p>
+        <p>Los dashboards muestran verde. Las juntas aplauden. Y tú llevas meses sin dormir bien la noche previa a cada board meeting.</p>
+        <p class="tension-conclusion">No es un problema de ejecución. Es un sistema sin frenos.</p>
+
+        <div class="loop-visual" aria-hidden="true">
+          <svg viewBox="0 0 200 200" width="200" height="200" role="img">
+            <circle cx="100" cy="100" r="60" fill="none" stroke="#333" stroke-width="2"/>
+            <g class="loop-arrows">
+              <path d="M100 40 L100 30 L110 40 L100 40" fill="#8b0000"/>
+              <path d="M100 40 Q140 40 155 75" fill="none" stroke="#8b0000" stroke-width="2"/>
+              <path d="M155 125 L165 125 L155 135 L155 125" fill="#8b0000"/>
+              <path d="M155 125 Q155 165 115 175" fill="none" stroke="#8b0000" stroke-width="2"/>
+              <path d="M45 100 L35 100 L45 90 L45 100" fill="#8b0000"/>
+              <path d="M85 175 Q45 165 45 125" fill="none" stroke="#8b0000" stroke-width="2"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tesis -->
+    <section id="tesis" class="tesis" aria-labelledby="tesis-heading">
+      <h2 id="tesis-heading" class="sr-only">Tesis central</h2>
+      <div class="container">
+        <blockquote cite="https://mas-control-mas-caos.vercel.app/">
+          <p>Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder para preservar adaptabilidad, sentido y supervivencia.</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Contenido -->
+    <section id="contenido" class="contenido" aria-labelledby="contenido-heading">
+      <div class="container">
+        <h2 id="contenido-heading">Qué encontrarás</h2>
+        <ul role="list">
+          <li><strong>Coding Trance</strong> — Por qué la capacidad técnica anula el juicio estratégico</li>
+          <li><strong>Decision Readiness Gate</strong> — El límite que falta antes de cada ejecución</li>
+          <li><strong>Criterio codificado</strong> — Reglas que sobreviven a las personas</li>
+          <li><strong>8 capacidades</strong> — Sistema completo, no recetas aisladas</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Autor -->
+    <section id="autor" class="autor" aria-labelledby="autor-heading" itemscope itemtype="https://schema.org/Person" itemprop="author">
+      <div class="container">
+        <h2 id="autor-heading">Sobre el autor</h2>
+        <p><span itemprop="name">Ulises González</span> es <span itemprop="jobTitle">consultor de transformación organizacional</span> con más de 20 años de experiencia en banca, seguros y energía. Profesor en <span itemprop="alumniOf">IESA</span>. Su trabajo combina rigor analítico con intervención sistémica.</p>
+        <meta itemprop="email" content="ulises@rizo.ma">
+        <link itemprop="url" href="https://ulises-gonzalez-site.vercel.app">
+      </div>
+    </section>
+
+    <!-- Comprar -->
+    <section id="comprar" class="comprar" aria-labelledby="comprar-heading">
+      <div class="container">
+        <h2 id="comprar-heading">Obtén el libro</h2>
+        <p class="precio">$XX USD</p>
+        <div class="cta-buttons" role="group" aria-label="Opciones de compra">
+          <a href="URL_AMAZON" class="btn" target="_blank" rel="noopener noreferrer">Amazon</a>
+          <a href="URL_LEANPUB" class="btn" target="_blank" rel="noopener noreferrer">Leanpub</a>
+          <a href="URL_GUMROAD" class="btn" target="_blank" rel="noopener noreferrer">Gumroad</a>
+        </div>
+        <p class="formatos">Disponible en PDF, EPUB y tapa blanda</p>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer>
+  <footer role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
     <div class="container">
-      <p>© 2025 Ulises González</p>
-      <a href="mailto:contacto@rizo.ma">contacto@rizo.ma</a>
+      <div class="footer-main">
+        <p class="copyright">© 2025 <a href="https://ulises-gonzalez-site.vercel.app" rel="author">Ulises González</a> · <a href="https://rizo.ma" rel="external">Rizo.ma</a></p>
+        <a href="mailto:ulises@rizo.ma" class="footer-email" itemprop="email">ulises@rizo.ma</a>
+      </div>
+
+      <nav class="footer-social" aria-label="Redes sociales">
+        <ul role="list">
+          <li><a href="https://www.linkedin.com/in/ulisesgonzalez/" target="_blank" rel="noopener noreferrer me" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a></li>
+          <li><a href="https://github.com/gonzalezulises" target="_blank" rel="noopener noreferrer me" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a></li>
+          <li><a href="https://medium.com/@gonzalezulises" target="_blank" rel="noopener noreferrer me" aria-label="Medium">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+          </a></li>
+          <li><a href="https://substack.com/@gonzalezulises" target="_blank" rel="noopener noreferrer me" aria-label="Substack">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+          </a></li>
+          <li><a href="https://calendly.com/gonzalezulises" target="_blank" rel="noopener noreferrer" aria-label="Agendar consulta">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11zM9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm-8 4H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/></svg>
+          </a></li>
+        </ul>
+      </nav>
     </div>
   </footer>
 
   <!-- anime.js via CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-XVhc7bQBGpPLeg6gp3q2DqpBqDlpXmSIFVhvSqXB8Q5u/Y6d5m3ZdJmzqHANPdTQJ/UtZ2gPOgAMxmFMxplqKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

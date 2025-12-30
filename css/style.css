@@ -407,26 +407,93 @@ footer {
 
 footer .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 16px;
+  gap: 24px;
 }
 
-footer p {
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.footer-main .copyright {
   margin: 0;
   font-size: 0.875rem;
   color: var(--text-muted);
 }
 
-footer a {
+.footer-main .copyright a {
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+.footer-main .copyright a:hover {
+  color: var(--text);
+}
+
+.footer-email {
   font-size: 0.875rem;
   color: var(--text-muted);
   transition: color 0.2s ease;
 }
 
-footer a:hover {
+.footer-email:hover {
+  color: var(--accent-bright);
+}
+
+/* Social links */
+.footer-social ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
   color: var(--text);
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.footer-social a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.footer-social svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-width: 768px) {
+  footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-main {
+    flex-direction: row;
+    gap: 16px;
+    text-align: left;
+  }
 }
 
 /* ==========================================================================
@@ -537,4 +604,18 @@ footer a:hover {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  background: var(--accent);
+  color: var(--text);
+  z-index: 9999;
 }
