@@ -163,10 +163,17 @@ a {
 .hero .subtitle {
   font-family: var(--font-serif);
   font-size: clamp(1rem, 3vw, 1.25rem);
-  color: var(--text-muted);
+  color: var(--text);
   margin-bottom: 48px;
   opacity: 0;
   transform: translateY(20px);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.9), 0 0 40px rgba(10, 22, 40, 0.95);
+  background: linear-gradient(90deg, transparent 0%, rgba(10, 22, 40, 0.7) 20%, rgba(10, 22, 40, 0.7) 80%, transparent 100%);
+  padding: 12px 24px;
+  border-radius: 4px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Fallback sin JS */
