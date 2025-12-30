@@ -280,27 +280,29 @@ a {
 
 /* Botones con branding de plataformas */
 .comprar .btn.btn-amazon {
-  background: linear-gradient(135deg, #232f3e 0%, #37475a 100%);
-  border: 2px solid #37475a;
-  box-shadow: 0 4px 15px rgba(35, 47, 62, 0.4);
+  background: linear-gradient(135deg, #FF9900 0%, #FFB347 100%);
+  border: 2px solid #FF9900;
+  color: #000;
+  box-shadow: 0 4px 15px rgba(255, 153, 0, 0.4);
 }
 
 .comprar .btn.btn-amazon:hover {
-  background: linear-gradient(135deg, #37475a 0%, #485769 100%);
-  border-color: #FF9900;
-  box-shadow: 0 12px 35px rgba(255, 153, 0, 0.4);
+  background: linear-gradient(135deg, #FFB347 0%, #FFCC66 100%);
+  border-color: #232F3E;
+  box-shadow: 0 12px 35px rgba(255, 153, 0, 0.5);
 }
 
 .comprar .btn.btn-leanpub {
-  background: linear-gradient(135deg, #2a2a2a 0%, #444444 100%);
-  border: 2px solid #444444;
-  box-shadow: 0 4px 15px rgba(42, 42, 42, 0.4);
+  background: linear-gradient(135deg, #FFD700 0%, #FFE44D 100%);
+  border: 2px solid #FFD700;
+  color: #000;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
 }
 
 .comprar .btn.btn-leanpub:hover {
-  background: linear-gradient(135deg, #444444 0%, #555555 100%);
-  border-color: #FFD700;
-  box-shadow: 0 12px 35px rgba(255, 215, 0, 0.3);
+  background: linear-gradient(135deg, #FFE44D 0%, #FFF066 100%);
+  border-color: #B8860B;
+  box-shadow: 0 12px 35px rgba(255, 215, 0, 0.5);
 }
 
 .comprar .btn.btn-gumroad {
