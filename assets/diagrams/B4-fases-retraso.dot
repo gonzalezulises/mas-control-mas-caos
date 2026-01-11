@@ -38,7 +38,7 @@ digraph FasesSemaforo {
                style=filled,
                color="#2d5a87"];
 
-    fase1 [label="FASE TEMPRANA\n\nDetener seria BARATO\n\n• Informacion ambigua\n• Argumentos en ambas direcciones\n• Quien detiene parece\n  prematuro o pesimista",
+    fase1 [label="FASE TEMPRANA\n\nDetener sería BARATO\n\n• Información ambigua\n• Argumentos en ambas direcciones\n• Quien detiene parece\n  prematuro o pesimista",
            shape=box,
            style="rounded,filled",
            fillcolor="#1e3a5f",
@@ -55,7 +55,7 @@ digraph FasesSemaforo {
                style=filled,
                color="#6b7a8a"];
 
-    fase2 [label="FASE INTERMEDIA\n\nInversion acumulada crea argumento:\n\"Ya invertimos tanto que parar\nseria desperdiciar todo\"\n\n(Falacia de costos hundidos)",
+    fase2 [label="FASE INTERMEDIA\n\nInversión acumulada crea argumento:\n\"Ya invertimos tanto que parar\nsería desperdiciar todo\"\n\n(Falacia de costos hundidos)",
            shape=box,
            style="rounded,filled",
            fillcolor="#0d1f3c",
@@ -72,7 +72,7 @@ digraph FasesSemaforo {
                style=filled,
                color="#8b0000"];
 
-    fase3 [label="FASE TARDIA\n\nEvidencia de fracaso innegable\n\n• Deshacer años de trabajo\n• Admitir error publico\n• Enfrentar stakeholders\n\nCosto detener ≈ Costo colapso",
+    fase3 [label="FASE TARDÍA\n\nEvidencia de fracaso innegable\n\n• Deshacer años de trabajo\n• Admitir error público\n• Enfrentar stakeholders\n\nCosto detener ≈ Costo colapso",
            shape=box,
            style="rounded,filled",
            fillcolor="#5c0000",
@@ -81,7 +81,7 @@ digraph FasesSemaforo {
            height=1.8];
 
     // Resultado
-    resultado [label="RESULTADO\n\nOrganizaciones detienen\nDEMASIADO TARDE\ncuando el daño ya\nesta materializado",
+    resultado [label="RESULTADO\n\nOrganizaciones detienen\nDEMASIADO TARDE\ncuando el daño ya\nestá materializado",
                shape=octagon,
                style="filled",
                fillcolor="#8b0000",
@@ -102,7 +102,7 @@ digraph FasesSemaforo {
     semaforo2 -> fase2 [arrowhead=none, style=dashed, color="#8899aa"];
     semaforo3 -> fase3 [arrowhead=none, style=dashed, color="#dc143c"];
 
-    semaforo1 -> semaforo2 [label="  inversion\n  crece  ", fontsize=9];
+    semaforo1 -> semaforo2 [label="  inversión\n  crece  ", fontsize=9];
     semaforo2 -> semaforo3 [label="  daño se\n  acumula  ", fontsize=9];
     semaforo3 -> resultado [label="  demasiado\n  tarde  ", fontsize=9, fontcolor="#dc143c", color="#dc143c"];
 }
