@@ -1,0 +1,104 @@
+name: Validar Libro (Solo Reporte)
+
+# Este workflow SOLO DETECTA Y REPORTA errores.
+# NO modifica archivos ni aplica correcciones automáticas.
+# Las correcciones deben hacerse manualmente con: ./scripts/fix_orthography.sh
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'chapters/**'
+      - 'tests/**'
+      - 'assets/**'
+      - '.state/**'
+      - 'build/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'chapters/**'
+      - 'tests/**'
+      - 'assets/**'
+      - '.state/**'
+      - 'build/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validar ortografia (solo reporte)
+        id: ortografia
+        run: |
+          echo "## Validacion Ortografica" >> $GITHUB_STEP_SUMMARY
+          if python3 tests/test_orthography.py 2>&1 | tee ortografia.log; then
+            echo "OK - Sin errores ortograficos" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "WARN - Se encontraron errores ortograficos (ver log)" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat ortografia.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+        continue-on-error: true
+
+      - name: Validar estructura de capitulos (solo reporte)
+        id: estructura
+        run: |
+          echo "## Validacion de Estructura" >> $GITHUB_STEP_SUMMARY
+          if python3 tests/test_chapter_structure_blocks.py chapters/ 2>&1 | tee estructura.log; then
+            echo "OK - Estructura correcta" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "WARN - Se encontraron problemas de estructura" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            head -50 estructura.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+        continue-on-error: true
+
+      - name: Validar lenguaje prohibido (solo reporte)
+        id: lenguaje
+        run: |
+          echo "## Validacion de Lenguaje" >> $GITHUB_STEP_SUMMARY
+          if python3 tests/test_forbidden_language.py chapters/ 2>&1 | tee lenguaje.log; then
+            echo "OK - Sin lenguaje prohibido" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "WARN - Se encontro lenguaje prohibido" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            head -50 lenguaje.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+        continue-on-error: true
+
+      - name: Instalar PyYAML para validacion de assets
+        run: pip install pyyaml
+
+      - name: Validar assets manifest (solo reporte)
+        id: assets
+        run: |
+          echo "## Validacion de Assets" >> $GITHUB_STEP_SUMMARY
+          if python3 build/validate-assets.py 2>&1 | tee assets.log; then
+            echo "OK - Assets manifest valido" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "WARN - Se encontraron problemas en assets" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            head -50 assets.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+        continue-on-error: true
+
+      - name: Resumen final
+        run: |
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "**Nota**: Este workflow solo reporta. Para corregir:" >> $GITHUB_STEP_SUMMARY
+          echo '```bash' >> $GITHUB_STEP_SUMMARY
+          echo "./scripts/fix_orthography.sh  # Corrección ortográfica" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY

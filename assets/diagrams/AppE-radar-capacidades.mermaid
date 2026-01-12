@@ -1,0 +1,33 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e3a5f', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#3d7ab7', 'lineColor': '#8899aa', 'secondaryColor': '#2d5a87', 'tertiaryColor': '#0d1f3c', 'background': 'transparent' }}}%%
+flowchart TB
+    subgraph CAP["8 CAPACIDADES"]
+        C1[CAP-1 Deteccion loops]
+        C2[CAP-2 Limite DRG]
+        C3[CAP-3 Aprendizaje]
+        C4[CAP-4 Criterio codificado]
+        C5[CAP-5 Absorcion friccion]
+        C6[CAP-6 Override explicito]
+        C7[CAP-7 Gobernanza IA]
+        C8[CAP-8 Diferenciacion]
+    end
+
+    subgraph NIVELES["ESCALA 0-4"]
+        N0[0 Inexistente]
+        N1[1 Ad-hoc]
+        N2[2 Definido]
+        N3[3 Gestionado]
+        N4[4 Optimizado]
+    end
+
+    subgraph ZONAS["INTERPRETACION"]
+        Z1[CRITICA: menor a 2]
+        Z2[DESARROLLO: 2-3]
+        Z3[FUNCIONAL: mayor 3]
+    end
+
+    CAP --> NIVELES
+    NIVELES --> ZONAS
+
+    style CAP fill:#1e3a5f,stroke:#3d7ab7,color:#ffffff
+    style NIVELES fill:#2d5a87,stroke:#8899aa,color:#ffffff
+    style ZONAS fill:#0d1f3c,stroke:#3d7ab7,color:#ffffff

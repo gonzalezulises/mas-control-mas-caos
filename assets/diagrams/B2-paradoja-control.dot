@@ -1,0 +1,56 @@
+digraph ParadojaControlEmbudo {
+    // Layout
+    layout=dot;
+    rankdir=TB;
+    bgcolor="transparent";
+    pad=0.5;
+    nodesep=0.6;
+    ranksep=0.7;
+
+    // Estilo global - paleta portada
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Helvetica Neue",
+        fontsize=11,
+        fontcolor="#ffffff",
+        penwidth=2
+    ];
+
+    edge [
+        penwidth=2,
+        color="#3d7ab7",
+        arrowsize=0.8
+    ];
+
+    // Nivel 1 - Mas ancho (control)
+    A [label="MAS CONTROL\nreportes, checkpoints, aprobaciones",
+       fillcolor="#1e3a5f", color="#3d7ab7", width=4.5, height=0.7];
+
+    // Nivel 2
+    B [label="MENOS VARIEDAD\nopciones limitadas",
+       fillcolor="#2d5a87", color="#3d7ab7", width=3.5, height=0.7];
+
+    // Nivel 3
+    C [label="RIGIDEZ\nincapacidad de adaptacion",
+       fillcolor="#0d1f3c", color="#8899aa", width=2.8, height=0.7];
+
+    // Nivel 4 - Mas estrecho
+    D [label="FRAGILIDAD\nvulnerabilidad oculta",
+       fillcolor="#8b0000", color="#dc143c", width=2.2, height=0.7];
+
+    // Nivel 5 - Punto critico
+    E [label="CRISIS\nsintomas visibles",
+       fillcolor="#5c0000", color="#dc143c", width=1.6, height=0.6];
+
+    // Conexiones descendentes
+    A -> B;
+    B -> C;
+    C -> D;
+    D -> E;
+
+    // Flecha de retorno (el ciclo)
+    feedback [label="dispara\nmas control", shape=plaintext, fontsize=9, fontcolor="#dc143c"];
+    E -> feedback [color="#dc143c", style=bold, arrowhead=none];
+    feedback -> A [color="#dc143c", style=bold, constraint=false];
+}

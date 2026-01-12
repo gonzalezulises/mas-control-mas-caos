@@ -1,0 +1,1040 @@
+---
+book:
+  id: "gerencia-funcional"
+  working_title: "Gerencia Funcional"
+  thesis:
+    option: "B"
+    statement: >
+      Los sistemas organizacionales sanos renuncian deliberadamente a parte de su poder
+      para preservar adaptabilidad, sentido y supervivencia.
+  north_star_reader:
+    persona: "CEO / Comité Ejecutivo"
+    job_to_be_done: >
+      Evitar que iniciativas estratégicas mal planteadas entren en ejecución y quemen dinero,
+      credibilidad y capital político.
+  tone:
+    stance: "incómodo, riguroso, sistémico"
+    anti_patterns:
+      - "framework genérico"
+      - "checklists sin trade-offs"
+      - "narrativa lineal sin loops"
+  canon_terms:
+    - "Coding Trance"
+    - "Decision Readiness Gate (DRG)"
+    - "feedback loop"
+    - "control ≠ estabilidad"
+    - "fricción deliberada"
+  glossary:
+    DRG: "Gate obligatorio previo a ejecución con veredicto GO/ALERTA/RECHAZO."
+    CodingTrance: "Estado cognitivo organizacional: capacidad sin contexto; lo medible reemplaza lo real."
+    RunawayDynamics: "Realimentación positiva sin frenos; acelera hacia colapso o cambio de régimen."
+  narrative_contract:
+    reader_reality:
+      persona: "CEO / Comité Ejecutivo"
+      buys:
+        - "alivio"
+        - "protección"
+        - "legitimidad"
+        - "cobertura política"
+      does_not_buy:
+        - "sofisticación"
+        - "madurez"
+        - "frameworks"
+        - "evangelización"
+    core_promise: >
+      Este libro no busca hacerte "más maduro". Busca evitar que apruebes iniciativas
+      mal planteadas que quemen dinero, credibilidad y capital político frente a tu junta.
+    dual_language:
+      internal_thinking: ["estructuras", "causalidad", "loops", "efectos de segundo orden", "fragilidad sistémica"]
+      external_writing: ["tranquilidad ejecutiva", "riesgo evitado", "cobertura", "legitimidad", "protección"]
+    mandatory_section_flow:
+      - "reconocimiento: esto ya te pasó"
+      - "alivio: no fue incompetencia"
+      - "causa estructural breve"
+      - "riesgo invisible (segundo orden)"
+      - "protección: mecanismo/cobertura"
+    prohibitions:
+      - "vender sofisticación como beneficio"
+      - "moralizar (deberíamos / es importante)"
+      - "ética genérica o humanismo abstracto"
+      - "cultura tech superficial"
+      - "prometer performance sin trade-offs"
+    translation_dictionary:
+      "complejidad": "esto se descontrola sin avisar"
+      "feedback loop": "esto se acelera solo"
+      "efectos de segundo orden": "el problema aparece cuando ya es tarde"
+      "control excesivo": "fragilidad invisible"
+      "Coding Trance": "todo parecía correcto hasta que fue demasiado tarde"
+      "DRG": "esto no pasa a ejecución sin cobertura"
+      "aprendizaje": "cambiar procedimientos; dejar de hacer lo peligroso"
+      "IA": "capacidad que elimina fricción y acelera errores"
+    provocation:
+      rule: "Cada capítulo debe contener al menos 1 afirmación incómoda, no negociable, formulada como sentencia verificable (no retórica)."
+      examples:
+        - "Más control puede aumentar el caos."
+        - "Confiar en tu criterio no te protege."
+        - "La mayoría de las iniciativas fallidas nunca debieron iniciar."
+  writing_tests:
+    executive_sleep_test: >
+      ¿Este texto ayuda a un CEO a no quedar expuesto frente a su junta y a dormir mejor
+      la noche previa? Si no, reescribir hasta que sí.
+
+concepts:
+  nodes:
+    - id: "C1-loop-power"
+      label: "Loop de poder (runaway dynamics)"
+      description: "Más poder → más energía → más emoción → más poder (realimentación positiva)."
+      tags: ["systems", "feedback", "collapse"]
+    - id: "C2-control-chaos"
+      label: "Control invita caos"
+      description: "Más control reduce variedad y aumenta fragilidad; el caos emerge como respuesta."
+      tags: ["cybernetics", "ashby", "complexity"]
+    - id: "C3-coding-trance"
+      label: "Coding Trance organizacional"
+      description: "Foco en capacidad, pérdida de contexto, automatizar/escalar como reflejo."
+      tags: ["org-cognition", "tech", "governance"]
+    - id: "C4-deliberate-friction"
+      label: "Fricción deliberada"
+      description: "Límites explícitos, desaceleración consciente, espacios no optimizados."
+      tags: ["governance", "resilience"]
+    - id: "C5-drg"
+      label: "Decision Readiness Gate (DRG)"
+      description: "Mecanismo externo que decide si una iniciativa está lista para ejecutarse."
+      tags: ["product", "decision", "risk"]
+    - id: "C6-learning-procedural"
+      label: "Aprendizaje organizacional grupal y procedural"
+      description: "El aprendizaje que transforma sistemas no es individual: es grupal, embebido en procesos y ritualizado en prácticas."
+      tags: ["org-learning", "procedural", "collective"]
+    - id: "C7-ai-human-limits"
+      label: "IA como amplificador de asimetría poder/límites"
+      description: "La IA amplifica capacidad técnica sin amplificar los límites humanos; acelera la brecha entre lo que se puede hacer y lo que se debería."
+      tags: ["ai", "power-asymmetry", "human-limits", "governance"]
+
+  edges:
+    - from: "C1-loop-power"
+      to: "C2-control-chaos"
+      type: "implies"
+      note: "El loop acelera y la respuesta típica es aumentar control."
+    - from: "C2-control-chaos"
+      to: "C3-coding-trance"
+      type: "reinforces"
+      note: "La búsqueda de control rigidiza, y el trance normaliza esa rigidez."
+    - from: "C3-coding-trance"
+      to: "C4-deliberate-friction"
+      type: "opposed_by"
+      note: "El trance rechaza límites; la fricción deliberada los introduce."
+    - from: "C4-deliberate-friction"
+      to: "C5-drg"
+      type: "implemented_by"
+      note: "El DRG es fricción institucionalizada."
+    - from: "C3-coding-trance"
+      to: "C7-ai-human-limits"
+      type: "reinforces"
+      note: "El trance organizacional encuentra en la IA su acelerador perfecto: más capacidad, menos contexto."
+    - from: "C6-learning-procedural"
+      to: "C5-drg"
+      type: "enables"
+      note: "El aprendizaje grupal/procedural es condición para que el DRG funcione: sin él, el gate es ritual vacío."
+
+capabilities:
+  description: >
+    Sistema de capacidades de gerencia funcional. El DRG es una capacidad crítica,
+    pero no la solución única. Cada capacidad tiene costo, requiere decisión explícita
+    de construirla, y ninguna funciona aislada de las demás.
+  items:
+    - id: "CAP-1"
+      label: "Detección de loops y trance"
+      description: "Ver el sistema antes de que sea demasiado tarde."
+      supported_by: ["B1", "B2", "B3", "B8"]
+    - id: "CAP-2"
+      label: "Límite previo a ejecución"
+      description: "Producir NO vinculante antes de comprometer recursos."
+      supported_by: ["B5", "B6"]
+    - id: "CAP-3"
+      label: "Aprendizaje grupal y procedural"
+      description: "Codificar conocimiento en procesos, no en cabezas."
+      supported_by: ["B7"]
+    - id: "CAP-4"
+      label: "Criterio codificado resistente"
+      description: "Convertir juicio en reglas que sobrevivan presión política."
+      supported_by: ["B09"]
+    - id: "CAP-5"
+      label: "Absorción de fricción y costo político"
+      description: "Institucionalizar el costo de decir NO."
+      supported_by: ["B4", "B6"]
+    - id: "CAP-6"
+      label: "Override explícito y trazable"
+      description: "Mecanismo para excepciones documentadas."
+      supported_by: ["B5"]
+    - id: "CAP-7"
+      label: "Gobernanza humano-algorítmica"
+      description: "Límites humanos explícitos sobre capacidad técnica."
+      supported_by: ["B8"]
+    - id: "CAP-8"
+      label: "Diferenciación por dominio"
+      description: "Criterios distintos para exploración vs. explotación."
+      supported_by: ["B5"]
+
+assets:
+  references:
+    - id: "R-ashby"
+      type: "theory"
+      title: "Law of Requisite Variety (Ashby)"
+      status: "to-validate"
+      notes: "Sostiene la tesis control→inestabilidad si el controlador no tiene variedad suficiente."
+    - id: "R-systems-dynamics"
+      type: "theory"
+      title: "System Dynamics: reinforcing loops / runaway"
+      status: "to-validate"
+  cases:
+    - id: "CASE-ia-sin-gobernanza"
+      title: "IA aplicada sin gobernanza"
+      pattern: "capacidad > madurez sistémica"
+      mapped_concepts: ["C3-coding-trance", "C2-control-chaos", "C7-ai-human-limits"]
+    - id: "CASE-agile-teatro"
+      title: "Agilidad sin operating model"
+      pattern: "rituales > adaptabilidad real"
+      mapped_concepts: ["C3-coding-trance", "C1-loop-power"]
+
+architecture_versions:
+  - version: "v1"
+    created: "2025-12-01"
+    status: "baseline"
+    intent: "Libro original: Gerencia Funcional (estructura tradicional)."
+    chapters:
+      - slug: "v1-intro"
+        title: "Introducción"
+      - slug: "v1-gerencia-funcional"
+        title: "Qué es Gerencia Funcional"
+      - slug: "v1-modelo"
+        title: "Modelo / Componentes"
+  - version: "v2"
+    created: "2025-12-15"
+    status: "superseded"
+    intent: "Primera reestructuración: de libro lineal a sistema de loops y capacidades."
+    notes: "Evolucionó a v3 con sistema de 8 capacidades."
+    chapter_blueprints: []
+  - version: "v3"
+    created: "2025-12-27"
+    updated: "2025-12-27"
+    status: "working"
+    intent: "Sistema de 8 capacidades de gerencia funcional; DRG como capacidad crítica, no solución única."
+    principles:
+      - "no narrativa lineal: loops"
+      - "control ≠ estabilidad"
+      - "sistema de capacidades interdependientes"
+      - "DRG es CAP-2, no la solución completa"
+      - "trade-offs explícitos por capacidad"
+      - "ninguna capacidad funciona aislada"
+    chapter_blueprints:
+      - id: "B1"
+        sequence: 1
+        title: "El loop del poder"
+        role: "diagnostic"
+        thesis: "Las organizaciones no progresan: se auto-amplifican."
+        required_concepts: ["C1-loop-power"]
+        required_assets: ["R-systems-dynamics"]
+        supports_capabilities: ["CAP-1"]
+        exit_criteria:
+          - "El lector puede describir el loop sin metáforas."
+          - "Se explican señales de runaway dynamics."
+          - "Se establece el límite como única salida viable del loop."
+        loop_closure: "Instala el loop como dinámica inevitable; prepara el mito del control como respuesta típica."
+        nonnegotiable_claim: "El poder organizacional es un loop que se auto-amplifica; no existe el progreso lineal."
+        feeds_into: ["B2"]
+        executive_relief: "Reduce tu exposición frente a la junta al entender por qué las iniciativas se aceleran sin control visible."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B2"
+        sequence: 2
+        title: "Control ≠ estabilidad"
+        role: "diagnostic"
+        thesis: "Más control reduce variedad y aumenta fragilidad."
+        required_concepts: ["C2-control-chaos"]
+        required_assets: ["R-ashby"]
+        supports_capabilities: ["CAP-1"]
+        exit_criteria:
+          - "Quedan explícitos trade-offs de control."
+          - "Se explica caos como respuesta emergente."
+          - "Se identifica la cobertura frente a fragilidad como necesidad estructural."
+        loop_closure: "Demuestra que el aumento de control alimenta fragilidad y acelera el loop; prepara el trance como normalización."
+        nonnegotiable_claim: "Más control reduce variedad y aumenta fragilidad; el caos es respuesta sistémica, no falla operativa."
+        feeds_into: ["B3"]
+        executive_relief: "Obtén cobertura al demostrar que el riesgo de fragilidad no pasa desapercibido en tu gestión."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B3"
+        sequence: 3
+        title: "Coding Trance"
+        role: "diagnostic"
+        thesis: "La organización entra en trance cuando capacidad reemplaza contexto."
+        required_concepts: ["C3-coding-trance"]
+        required_assets: ["CASE-ia-sin-gobernanza", "CASE-agile-teatro"]
+        supports_capabilities: ["CAP-1"]
+        exit_criteria:
+          - "Hay criterios observables del trance."
+          - "Hay señales tempranas (leading indicators)."
+          - "Se expone la necesidad de protección externa cuando el trance impide auto-diagnóstico."
+        loop_closure: "El trance es el loop normalizado; la organización ya no ve el loop porque está dentro de él."
+        nonnegotiable_claim: "El Coding Trance elimina la capacidad de ver el problema; todo parece correcto hasta que es demasiado tarde."
+        feeds_into: ["B4"]
+        executive_relief: "Identifica el riesgo invisible antes de que la junta pregunte por qué nadie lo vio venir."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B7"
+        sequence: 5
+        title: "El aprendizaje no es individual: es grupal y procedural"
+        role: "enabler"
+        thesis: "Las organizaciones no aprenden porque las personas aprenden; aprenden cuando el conocimiento se embebe en procesos, no en cabezas."
+        required_concepts: ["C6-learning-procedural"]
+        supports_capabilities: ["CAP-3"]
+        exit_criteria:
+          - "Se distingue aprendizaje individual de aprendizaje organizacional."
+          - "Se identifican mecanismos procedurales de retención de conocimiento."
+          - "Se explica por qué capacitación individual no escala a cambio sistémico."
+          - "Se establece el límite procedural como condición de protección organizacional."
+        loop_closure: "Sin aprendizaje procedural, el loop reinicia tras cada intento de corrección; prepara la necesidad de un mecanismo externo."
+        nonnegotiable_claim: "La capacitación individual es insuficiente para el cambio sistémico; las organizaciones aprenden cuando cambian procedimientos, no personas."
+        feeds_into: ["B8"]
+        executive_relief: "Reduce exposición al demostrar que los errores repetidos no pasan por falta de capacitación sino de procedimientos."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B8"
+        sequence: 6
+        title: "IA y los límites humanos"
+        role: "diagnostic-enabler"
+        thesis: "La IA amplifica el poder técnico sin amplificar la capacidad humana de establecer límites; el resultado es aceleración sin gobernanza."
+        required_concepts: ["C7-ai-human-limits", "C3-coding-trance"]
+        supports_capabilities: ["CAP-1", "CAP-7"]
+        exit_criteria:
+          - "Se demuestra la asimetría capacidad/límites con ejemplos concretos."
+          - "Se evita discurso ético genérico o apocalíptico."
+          - "Se conecta explícitamente con la necesidad de fricción deliberada."
+        loop_closure: "La IA acelera el loop sin añadir frenos; hace inevitable la necesidad de fricción deliberada externa."
+        nonnegotiable_claim: "La IA amplifica capacidad técnica sin amplificar límites humanos; el resultado es aceleración sin gobernanza."
+        feeds_into: ["B5"]
+        executive_relief: "Obtén cobertura frente a la junta al anticipar el riesgo de IA sin gobernanza antes de que explote."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B4"
+        sequence: 4
+        title: "Los sistemas no se auto-limitan"
+        role: "bridge"
+        thesis: "Los mecanismos internos de governance fallan estructuralmente; el límite debe ser externo."
+        required_concepts: ["C4-deliberate-friction"]
+        supports_capabilities: ["CAP-5"]
+        include_in_print: true
+        lifecycle_state: "active"
+        exit_criteria:
+          - "Se demuestra por qué los comités internos no producen NO vinculante."
+          - "Se expone la asimetría de costos políticos entre aprobar y rechazar."
+          - "Se justifica la necesidad de límites externos con autoridad independiente."
+        loop_closure: "Explica por qué el diagnóstico no basta: el sistema que ve el problema no puede detenerse a sí mismo."
+        nonnegotiable_claim: "Los sistemas organizacionales no pueden auto-limitarse; el costo político de decir NO supera estructuralmente al de aprobar."
+        feeds_into: ["B5"]
+        executive_relief: "La incapacidad de auto-limitación no es falla de personas sino propiedad estructural; saberlo te protege de buscar culpables."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B5"
+        sequence: 7
+        title: "Capacidades de la Gerencia Funcional"
+        role: "prescriptive"
+        thesis: "Decir NO requiere arquitectura institucional, no carácter individual; las 8 capacidades de gerencia funcional proveen esa arquitectura."
+        required_concepts: ["C5-drg", "C4-deliberate-friction", "C6-learning-procedural"]
+        supports_capabilities: ["CAP-1", "CAP-2", "CAP-3", "CAP-4", "CAP-5", "CAP-6", "CAP-7", "CAP-8"]
+        exit_criteria:
+          - "Las 8 capacidades de gerencia funcional quedan articuladas como sistema interdependiente."
+          - "El DRG se presenta como capacidad de gate vinculante, no como solución única."
+          - "El lector entiende qué capacidades faltan en su organización y el costo de no tenerlas."
+          - "Se responden las preguntas operativas: quién opera, cómo se protege, cómo se evita captura."
+        loop_closure: "Introduce el sistema de capacidades que corta el loop; ninguna capacidad funciona aislada."
+        nonnegotiable_claim: "Las organizaciones que dependen del carácter de sus líderes para decir NO ya han renunciado a gobernarse; decir NO requiere arquitectura, no heroísmo."
+        feeds_into: ["B6"]
+        executive_relief: "Las capacidades de gerencia funcional te protegen: el NO deja de ser tu opinión personal y se convierte en resultado de arquitectura institucional que tú no inventaste."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B6"
+        sequence: 8
+        title: "Casos donde decir NO fue éxito"
+        role: "evidence"
+        thesis: "Evitar ejecución puede ser el mayor ROI."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-5"]
+        exit_criteria:
+          - "Casos muestran capital político preservado."
+          - "Se cuantifica costo evitado (aunque sea por rangos)."
+          - "Se demuestra que la protección del DRG generó cobertura ejecutiva real."
+        loop_closure: "Muestra que cortar el loop temprano preserva capital; el DRG funciona cuando produce ⛔ a tiempo."
+        nonnegotiable_claim: "Evitar ejecución es el mayor ROI posible; el capital político preservado supera cualquier beneficio de una iniciativa mal planteada."
+        feeds_into: ["B09"]
+        executive_relief: "El NO documentado es tu mejor cobertura; cuando la junta pregunte, tendrás evidencia de por qué no se ejecutó."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa_estructural
+            - riesgo_invisible
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "B09"
+        sequence: 9
+        title: "Criterio codificado"
+        role: "closing_integrator"
+        thesis: "El DRG funciona solo si el criterio de decisión es explícito, observable y no negociable."
+        required_concepts: ["C5-drg", "C6-learning-procedural"]
+        supports_capabilities: ["CAP-4", "ALL"]
+        exit_criteria:
+          - "Se define estructura del criterio A-D."
+          - "Se muestran ejemplos de criterios mal codificados vs. bien codificados."
+          - "El criterio codificado determina el estatus de la iniciativa sin ambigüedad."
+          - "Se sintetizan las 8 capacidades como sistema interdependiente."
+          - "El lector entiende qué capacidades priorizar según su contexto."
+          - "El capítulo cierra el libro sin introducir conceptos nuevos."
+        loop_closure: "El loop del poder no se rompe con conciencia, valores ni liderazgo individual. Se rompe cuando el criterio deja de ser negociable. Aquí termina la discusión conceptual."
+        nonnegotiable_claim: "Sin criterio codificado, todo límite es político y por tanto frágil; solo el criterio explícito convierte el NO en una decisión institucional."
+        feeds_into: ["B10"]
+        executive_relief: "El criterio codificado te da cobertura política, trazabilidad y protección frente a la junta. Tu decisión está respaldada por reglas explícitas, no por juicio personal. Legitimidad para decir NO sin quedar expuesto."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+          mandatory_tests:
+            - circularity_test
+            - inevitability_test
+            - depersonalization_test
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+          closing_chapter_rules:
+            - "No usar subtítulos visibles"
+            - "No usar listas"
+            - "Prosa continua, densa, ejecutiva"
+            - "No introducir nuevos frameworks ni mecanismos"
+            - "Hablar desde inevitabilidad institucional, no desde recomendación"
+            - "Debe sentirse como: Aquí termina la discusión. A partir de aquí, solo queda decidir si se implementa o no."
+      - id: "B10"
+        sequence: 10
+        title: "Implementación"
+        role: "operational"
+        thesis: "La implementación es iterativa: un criterio, una decisión, un veredicto documentado."
+        required_concepts: ["C5-drg", "C6-learning-procedural"]
+        supports_capabilities: ["ALL"]
+        exit_criteria:
+          - "El lector sabe exactamente qué hacer el lunes."
+          - "Las resistencias predecibles están anticipadas con respuestas."
+          - "Las métricas de funcionamiento vs. teatro están explícitas."
+          - "La secuencia de 4 fases produce veredicto documentado y protección política."
+        loop_closure: "El libro cierra con acción, no con reflexión. El lector tiene secuencia operativa."
+        nonnegotiable_claim: "El sistema se construye caso por caso, no de una vez; esperar el diseño perfecto es la forma más común de no implementar nada."
+        feeds_into: ["APP-A"]
+        executive_relief: "No necesitas permiso de toda la organización. Un criterio, una iniciativa, un veredicto documentado. Puedes empezar el lunes."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+          mandatory_tests:
+            - executive_sleep_test
+          forbidden_closings:
+            - "pregunta abierta"
+            - "llamado a reflexión"
+            - "inspiración"
+      - id: "APP-A"
+        sequence: 11
+        title: "Apéndice A: Criterios de Readiness por Tipo de Iniciativa"
+        role: "tool"
+        thesis: "El criterio codificado debe ser usable, no solo argumentable."
+        supports_capabilities: ["CAP-4"]
+        exit_criteria:
+          - "Cada tipo de iniciativa tiene criterios con las 4 propiedades (observable, umbral, consecuencia, anti-gaming)."
+          - "Los criterios determinan veredicto del gate para cada categoría."
+          - "Se incluye guía de calibración y detección de manipulación."
+        loop_closure: "Convierte el criterio codificado abstracto en herramienta operativa; cierra el ciclo de implementación con artefactos usables."
+        nonnegotiable_claim: "Los criterios sin umbral explícito y consecuencia predefinida no son criterios; son invitaciones a negociar."
+        feeds_into: ["APP-B"]
+        executive_relief: "Tienes criterios operativos que reducen tu exposición y protegen tu estatus frente a la junta."
+      - id: "APP-B"
+        sequence: 12
+        title: "Apéndice B: Por qué no hay casos públicos"
+        role: "meta-evidence"
+        thesis: "La ausencia de casos públicos es consecuencia del mecanismo funcionando, no evidencia de que no funciona."
+        supports_capabilities: []
+        exit_criteria:
+          - "La debilidad de ausencia de casos se aborda frontalmente."
+          - "Se explican las 3 razones estructurales de la invisibilidad."
+          - "Se presenta evidencia indirecta de límites externos efectivos (HRO, reguladores)."
+          - "Se propone documentar el propio caso."
+        loop_closure: "Cierra la objeción epistemológica que el crítico podría usar; la ausencia de evidencia pública valida la tesis en lugar de refutarla."
+        nonnegotiable_claim: "Las organizaciones que evitan errores no tienen historia que contar; el éxito del mecanismo produce ausencia de evidencia pública."
+        feeds_into: []
+        executive_relief: "La falta de casos públicos no es riesgo para tu cobertura; es consecuencia predecible del mecanismo funcionando."
+      - id: "B5.5"
+        sequence: 7.5
+        title: "Anatomía del Gate"
+        role: "operational"
+        thesis: "Un gate que funciona tiene componentes específicos que operan como sistema; modificar uno afecta a los demás."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-5", "CAP-6"]
+        exit_criteria:
+          - "Se describe la composición óptima del gate (3-5 operadores)."
+          - "Se especifica el mecanismo de nombramiento independiente."
+          - "Se detallan los tipos de veredicto (GO/RECHAZO/CONDICIONAL)."
+          - "Se explica el protocolo de override explícito."
+          - "Se definen métricas de operación del gate."
+        loop_closure: "Convierte el DRG conceptual en objeto organizacional operable; conecta capacidades abstractas con arquitectura concreta."
+        nonnegotiable_claim: "Un comité que no puede producir un NO vinculante no es gate; es asesor."
+        feeds_into: ["B5.6"]
+        executive_relief: "Tienes arquitectura específica que protege tu estatus con un gate que produce veredicto vinculante."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "B5.6"
+        sequence: 7.6
+        title: "Cuando el límite falla"
+        role: "diagnostic"
+        thesis: "Los modos de falla de los límites externos son predecibles; conocerlos permite diseñar contra ellos."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-5"]
+        exit_criteria:
+          - "Se identifican los 6 patrones de falla: captura, ceremonialización, parálisis, volatilidad, divorcio, atrofia."
+          - "Se documentan casos análogos (FAA/Boeing, comités pre-Enron, Interbolsa)."
+          - "Se listan señales de alerta observables."
+          - "La honestidad epistemológica queda establecida: el DRG es propuesta sin casos implementados."
+        loop_closure: "Anticipa las objeciones sobre fragilidad del mecanismo; cierra el loop de diseño mostrando que las fallas son predecibles y detectables."
+        nonnegotiable_claim: "El límite externo que depende del limitado para información, nombramiento o compensación será capturado; no hay excepción conocida."
+        feeds_into: ["B6"]
+        executive_relief: "Conocer los modos de falla reduce tu exposición y te protege de riesgo invisible."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-C"
+        sequence: 13
+        title: "Apéndice C: Convergencias"
+        role: "meta-evidence"
+        thesis: "La convergencia de múltiples tradiciones teóricas en el diagnóstico es evidencia de que el problema es real."
+        required_concepts: ["C1-loop-power", "C2-control-chaos", "C3-coding-trance", "C4-deliberate-friction"]
+        supports_capabilities: []
+        exit_criteria:
+          - "Se posiciona el libro frente a HRO, Cynefin, VSM, Normal Accidents, Agile Governance, Antifragilidad."
+          - "Para cada marco: dónde converge, dónde diverge, qué aporta este libro sobre límites externos."
+          - "La convergencia se presenta como validación, no como argumento de autoridad."
+        loop_closure: "Posiciona el libro en contexto teórico; la convergencia de tradiciones diversas valida que el problema es real y reconocido."
+        nonnegotiable_claim: "El diagnóstico está hecho repetidamente desde múltiples ángulos; lo que falta es mecanismo operativo."
+        feeds_into: ["APP-D"]
+        executive_relief: "El libro te da cobertura teórica; está fundamentado en tradiciones que protegen tu exposición."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-D"
+        sequence: 14
+        title: "Apéndice D: Diseño y anti-patrones del gate"
+        role: "tool"
+        thesis: "El gate bien diseñado dificulta la captura; el gate mal diseñado la invita."
+        required_concepts: ["C5-drg", "C4-deliberate-friction"]
+        supports_capabilities: ["CAP-2", "CAP-4", "CAP-5"]
+        exit_criteria:
+          - "Se documentan 6 principios de diseño del gate."
+          - "Se identifican 6 anti-patrones con lógica y consecuencia."
+          - "Se listan 5 señales tempranas de captura."
+          - "Se describen 5 indicadores de falsa estabilidad."
+          - "Se incluye tabla resumen diagnóstica."
+        loop_closure: "Cierra el libro con herramientas de auditoría; permite al lector verificar si su gate es funcional o ceremonial."
+        nonnegotiable_claim: "Un gate sin las protecciones estructurales descritas será capturado o ceremonializado; el diseño determina el destino."
+        feeds_into: []
+        executive_relief: "Tienes checklist que protege tu estatus al verificar si el gate reduce riesgo real."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-E"
+        sequence: 15
+        title: "Apéndice E: Instrumento de Diagnóstico"
+        role: "tool"
+        thesis: "La evaluación de capacidades requiere indicadores observables, no percepciones."
+        supports_capabilities: ["CAP-1", "CAP-2", "CAP-3", "CAP-4", "CAP-5", "CAP-6", "CAP-7", "CAP-8"]
+        exit_criteria:
+          - "32 preguntas cubren las 8 capacidades incluyendo gate y protección política."
+          - "Cada pregunta tiene escala 1-5 con descripciones observables."
+          - "Sistema de puntuación e interpretación incluido."
+          - "Identificación de brechas críticas."
+        loop_closure: "Convierte el diagnóstico conceptual en herramienta de auditoría; el lector puede evaluar su propia organización."
+        nonnegotiable_claim: "Sin medición observable, el diagnóstico es opinión; el instrumento convierte percepción en dato."
+        feeds_into: ["APP-F"]
+        executive_relief: "Tienes herramienta que te protege al medir riesgo de exposición en cada capacidad."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-F"
+        sequence: 16
+        title: "Apéndice F: Casos de Referencia"
+        role: "evidence"
+        thesis: "Los casos históricos validan la lógica del framework cuando se analizan bajo el lente de las 8 capacidades."
+        supports_capabilities: []
+        exit_criteria:
+          - "4 casos analizados: Toyota, J&J, Boeing, Odebrecht."
+          - "Cada caso evaluado contra las 8 capacidades incluyendo gate y protección."
+          - "Patrones de éxito y fracaso identificados."
+          - "Conexión explícita con capítulos del libro."
+        loop_closure: "Valida el framework con evidencia histórica; los casos demuestran que las capacidades presentes o ausentes determinan resultados."
+        nonnegotiable_claim: "Los casos no prueban el framework, lo ilustran; la lógica estructural es lo que valida, no la evidencia histórica."
+        feeds_into: ["APP-G"]
+        executive_relief: "Tienes casos que te dan cobertura y protección al demostrar que el mecanismo funciona."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - causa
+            - riesgo
+            - proteccion
+      - id: "APP-G"
+        sequence: 17
+        title: "Apéndice G: Bibliografía"
+        role: "reference"
+        thesis: "Las fuentes citadas validan el fundamento teórico y empírico del libro."
+        supports_capabilities: []
+        exit_criteria:
+          - "Todas las referencias en references.yaml están listadas."
+          - "Formato APA 7 correcto con cobertura de fuentes sobre límites y gate."
+          - "URLs verificables donde disponible."
+          - "Organización por categoría temática."
+        loop_closure: "Cierra el libro con transparencia sobre fuentes; permite al lector profundizar en tradiciones teóricas citadas."
+        nonnegotiable_claim: "Todo dato verificable tiene fuente; toda teoría citada tiene referencia completa."
+        feeds_into: []
+        executive_relief: "Tienes respaldo documental que te protege ante la junta cuando cuestionen las fuentes."
+        writing_guardrails:
+          required_blocks:
+            - reconocimiento
+            - alivio
+            - referencias
+            - riesgo
+            - proteccion
+
+chapters:
+  - chapter_id: "CH-001"
+    blueprint_id: "B1"
+    title: "El loop del poder"
+    status: "draft"
+    owner_intent: "Instalar el loop como fundamento, no metáfora."
+    linked_concepts: ["C1-loop-power", "C2-control-chaos"]
+    dependencies:
+      must_precede: []
+      must_follow: []
+    writing:
+      current_outline:
+        - "La letra como loop"
+        - "Runaway dynamics"
+        - "Señales de aceleración"
+      open_questions:
+        - "¿Qué ejemplo organizacional usar como apertura?"
+      do_not_break:
+        - "No convertirlo en narrativa de progreso."
+        - "No moralizar tecnología."
+    context_memory:
+      decisions:
+        - date: "2025-12-26"
+          decision: "Usar el loop energía→emoción→poder como apertura."
+          rationale: "Instala feedback positivo y prepara el giro control≠estabilidad."
+      assumptions:
+        - "El lector tolera una tesis confrontacional desde el inicio."
+      risks:
+        - "Quedar demasiado abstracto sin señales observables."
+
+mappings:
+  chapter_map:
+    - from_version: "v1"
+      from_slug: "v1-intro"
+      to_version: "v2"
+      to_blueprint_id: "B1"
+      mapping_type: "merge"
+      notes: "La intro se convierte en apertura loop; eliminar definiciones genéricas."
+    - from_version: "v1"
+      from_slug: "v1-modelo"
+      to_version: "v2"
+      to_blueprint_id: "B5"
+      mapping_type: "refactor"
+      notes: "Componentes pasan a DRG como mecanismo operativo."
+    - from_version: "v2"
+      from_slug: null
+      to_version: "v2"
+      to_blueprint_id: "B7"
+      mapping_type: "new"
+      mapping_status: "to-be-mapped"
+      notes: "Capítulo nuevo: aprendizaje grupal/procedural. Sin origen en v1."
+    - from_version: "v2"
+      from_slug: null
+      to_version: "v2"
+      to_blueprint_id: "B8"
+      mapping_type: "new"
+      mapping_status: "to-be-mapped"
+      notes: "Capítulo nuevo: IA y límites humanos. Sin origen en v1."
+    - from_version: "v2"
+      from_slug: null
+      to_version: "v2"
+      to_blueprint_id: "B09"
+      mapping_type: "new"
+      mapping_status: "mapped"
+      notes: "Capítulo de cierre: criterio codificado. Renombrado de B10."
+  content_fragments:
+    - frag_id: "F-012"
+      origin: { version: "v1", chapter: "v1-gerencia-funcional", section: "definicion" }
+      summary: "Definición original de gerencia funcional."
+      keep: "conditional"
+      target:
+        version: "v2"
+        blueprints: ["B5"]
+      transform_notes: "Reescribir como 'sistema de límites', no como estructura funcional."
+
+ai:
+  editing_contract:
+    invariants:
+      - "Mantener option B como tesis central."
+      - "Evitar narrativa lineal; privilegiar loops."
+      - "Trade-offs explícitos, no consejos."
+      - "DRG debe producir estatus GO/ALERTA/RECHAZO, no recomendaciones."
+      - "El DRG es una capacidad crítica, no la solución única."
+      - "Cada capítulo debe declarar qué capacidades habilita."
+      - "El cierre debe sintetizar capacidades como sistema, no cerrar sobre una sola."
+      - "No existe capacidad que funcione aislada de las demás."
+      - "Los capítulos de aprendizaje (B7) y de IA (B8) deben preparar la inevitabilidad del DRG; evitar ética genérica, cultura tech superficial o humanismo abstracto."
+      - "No vender sofisticación; traducir a alivio/protección/cobertura."
+      - "Aplicar mandatory_section_flow en capítulos y secciones clave."
+      - "Pasar executive_sleep_test antes de entregar texto."
+      - "Cada capítulo debe incluir al menos una afirmación incómoda (sentencia verificable), sin moralina ni retórica."
+      - "Todo dato numérico específico (porcentajes, cantidades, fechas) debe tener entrada en .state/references.yaml"
+      - "Toda mención de autor/teoría académica debe incluir (Autor, año) en el texto"
+      - "Toda referencia en references.yaml debe aparecer en appendix-E-bibliografia.md"
+      - "Ejecutar python3 tests/test_references.py antes de commit con cambios en citas"
+    allowed_actions:
+      - "proponer reordenamiento de blueprints"
+      - "detectar incoherencias entre conceptos y capítulos"
+      - "sugerir cortes (qué eliminar) para aumentar tensión"
+      - "convertir 'ideas' en criterios observables"
+    forbidden_actions:
+      - "inventar casos o datos"
+      - "diluir tesis para agradar"
+      - "convertir DRG en checklist superficial"
+  prompts:
+    chapter_architecture_assistant: >
+      Actúa como editor sistémico. Usa architecture_versions[v2] como fuente de verdad.
+      Revisa consistencia: cada blueprint debe cumplir exit_criteria y required_concepts.
+      Propón una secuencia de capítulos que maximice tensión conceptual y claridad.
+      Señala huecos, redundancias y conceptos no anclados en mecanismos.
+  writing_modes:
+    editor_exec_rhythm_v1:
+      role:
+        persona: "editor ejecutivo senior"
+        anti_persona:
+          - "escritor creativo"
+          - "pedagogo"
+      purpose:
+        - "re-estructurar visual y rítmicamente un capítulo para que se lea como B1"
+        - "eliminar patrones visibles de escritura generativa sin cambiar el contenido conceptual"
+      scope:
+        allowed_ops:
+          - "restructure"
+          - "rewrite_for_rhythm"
+          - "merge_paragraphs"
+          - "convert_lists_to_prose"
+          - "remove_visible_headings"
+        forbidden_ops:
+          - "add_new_concepts"
+          - "remove_core_ideas"
+          - "modify_yaml"
+          - "touch_other_chapters"
+      format_contract:
+        keep_required_blocks: true
+        required_blocks_order:
+          - reconocimiento
+          - alivio
+          - causa
+          - riesgo
+          - proteccion
+        forbid_visible_subtitles: true
+        forbid_bullets_and_numbered_lists: true
+        prefer_prose_over_enumeration: true
+        paragraph_rhythm:
+          discourage_very_short_paragraphs: true
+          target_lines_per_paragraph_min: 4
+          target_lines_per_paragraph_max: 8
+          allow_longer_when_needed: true
+        anti_formula:
+          avoid_pattern: "afirmación -> explicación -> cierre explícito"
+          allow_implicit_conclusions: true
+      reference_chapter:
+        mimic_visual_rhythm_from: "chapters/drafts/B1-el-loop-del-poder.md"
+      validation:
+        must_pass_tests:
+          - "python3 tests/test_chapter_structure_blocks.py chapters/"
+          - "python3 tests/test_forbidden_language.py chapters/"
+        must_not_end_with_question: true
+
+state:
+  migration:
+    current_version: "v4.0"
+    source_version: "v3.9"
+    progress:
+      total_blueprints: 21
+      drafted_chapters: 20
+      chapters_with_content: 20
+      appendices: 7
+      capabilities_defined: 8
+      latam_cases_added: 7
+      categories_in_appendix_a: 7
+      pages_pdf: 263
+    revision_v32_changes:
+      - "B1: +Caso OGX Brasil, +definicion fisica organizacional, -15% redundancia"
+      - "B2: +Caso Odebrecht, +transicion mejorada a Coding Trance"
+      - "B3: +Ejemplo retail no-tech, +anticipacion capitulo IA"
+      - "B4: -20% condensado, +4 caracteristicas limite externo"
+      - "B5: +Seccion errores gate, +financiamiento expandido, +tabla 8 capacidades"
+      - "B6: +5 casos LATAM exito (Copa Airlines, Bimbo, Interbolsa, SBP)"
+      - "B7: +Ejemplo ciclo completo aprendizaje e-commerce"
+      - "B8: +Referencia Apendice A, +seccion visibilidad IA expandida"
+      - "B09: +Ejemplo criterio con 4 propiedades, +transicion mejorada a B10"
+      - "B10: +Resistencias LATAM especificas, +recuperacion piloto fallido"
+      - "Apendice A: +Notas calibracion, +categoria transformacion cultural"
+      - "Apendice B: Estructura invertida, +reguladores LATAM (Panama, Chile, Brasil)"
+    revision_v33_changes:
+      - "B0-Introduccion: Metafora reducida a 2.5 paginas, +dato duro McKinsey/BCG 60-70% fracaso, +mapa de ruta capitulos"
+      - "B1: +Diagrama del loop (texto), +declaracion loop es amoral, +caso WeWork tech/startup"
+      - "B2: +Ley de Ashby Variedad Requerida (1956), +expansion Perrow sistemas complejos vs complicados"
+      - "B3: +Aclaracion terminologica Coding Trance al inicio, +Ley de Goodhart (1975), +senales movidas al primer tercio"
+      - "B4: +Ejemplos tempranos limites externos que funcionan (FAA, FDA, ingenieria civil), +recuadro 4 condiciones"
+      - "B5: 8 capacidades reestructuradas con formato obligatorio (habilita/bloquea/costo politico/error estructural)"
+    revision_v34_changes:
+      - "B5.5-Anatomia del Gate (NUEVO): Operacionalizacion del gate como objeto organizacional"
+      - "  Composicion, nombramiento, mandato, protecciones formales"
+      - "  Mecanica deliberacion, tipos veredicto, protocolo override"
+      - "  Integracion governance existente, metricas operacion"
+      - "  Modelos segun contexto (nucleo interno, hibrido, externalizado)"
+      - "  4,223 palabras"
+      - "B5.6-Cuando el limite falla (NUEVO): Modos de falla del limite externo"
+      - "  Honestidad epistemologica: DRG es propuesta sin casos implementados"
+      - "  6 patrones falla: captura, ceremonializacion, paralisis, volatilidad, divorcio, atrofia"
+      - "  Casos analogos: FAA/Boeing 737 MAX, comites auditoria pre-Enron, Interbolsa Colombia"
+      - "  Senales alerta observables"
+      - "  4,046 palabras"
+    revision_v35_changes:
+      - "Correccion de audit estructural"
+      - "B0: Agregados 5 bloques HTML obligatorios (reconocimiento, alivio, causa, riesgo, proteccion)"
+      - "APP-C: Agregados 5 bloques HTML obligatorios"
+      - "APP-D: Agregados 5 bloques HTML obligatorios"
+      - "YAML: Agregados blueprints para B5.5, B5.6, APP-C, APP-D"
+      - "YAML: Corregido feeds_into de B4 (B7 -> B5)"
+      - "YAML: Actualizado total_blueprints a 18, appendices a 4"
+    revision_v36_changes:
+      - "Blindaje de vulnerabilidades argumentales (~1,250 palabras)"
+      - "B6: +Declaracion epistemologica casos de exito (~250 palabras)"
+      - "  Asimetria documental explicita: fracasos publicos vs exitos invisibles"
+      - "  Fuentes: experiencia directa, testimonios, reconstrucciones"
+      - "  Lector evalua por plausibilidad estructural, no verificabilidad externa"
+      - "B10: +Seccion 'Precondiciones politicas' (~650 palabras)"
+      - "  4 condiciones viabilidad: crisis, cambio liderazgo, presion externa, legado"
+      - "  Quien puede proponer (directorio, CEO nuevo, CFO/CRO)"
+      - "  Quien no puede (gerentes medios, consultores sin sponsor, perdedores politicos)"
+      - "  Tacticas: framing como proteccion, piloto acotado, coalicion previa"
+      - "  Que hacer cuando no hay condiciones (esperar, crear, aceptar)"
+      - "B5.6: +Seccion 'Cuando el poder decide no aceptar limites' (~350 palabras)"
+      - "  Destruccion activa vs captura gradual"
+      - "  Formas legales de eliminar gate (remocion, reconfiguracion, vaciado, ignorar)"
+      - "  Lo unico que puede hacer el gate: documentar"
+      - "  Limite explicito del mecanismo ante poder que rechaza limites"
+      - "PDF: 192 -> 196 paginas (+4)"
+    revision_v37_changes:
+      - "Sistema integral de referencias implementado"
+      - "NUEVO: .state/references.yaml - Base de datos centralizada de referencias"
+      - "  16 referencias iniciales (libros, reportes, noticias, reguladores)"
+      - "  Estructura: id, type, citation_key, authors, title, year, url, verified, used_in, apa_formatted"
+      - "NUEVO: chapters/drafts/appendix-E-bibliografia.md - Bibliografia APA 7"
+      - "  Organizada por categoria tematica"
+      - "  URLs verificables donde disponible"
+      - "NUEVO: tests/test_references.py - Validacion automatica"
+      - "  Verifica estructura references.yaml"
+      - "  Valida formato APA"
+      - "  Cuenta referencias verificadas vs pendientes"
+      - "ACTUALIZADO: build-book.sh - Incluye appendix-E en orden de capitulos"
+      - "ACTUALIZADO: CLAUDE.md - Seccion 'Sistema de Referencias (OBLIGATORIO)'"
+      - "  Proceso para agregar nuevas citas"
+      - "  Formato de citas en texto"
+      - "  Criterios que citar vs no citar"
+      - "ACTUALIZADO: book-state.yaml"
+      - "  Blueprint APP-E agregado (sequence 15)"
+      - "  4 invariantes de referencias agregadas"
+      - "  total_blueprints: 18 -> 19"
+      - "  appendices: 4 -> 5"
+    revision_v38_changes:
+      - "Referencias académicas y rediseño de capítulos"
+      - "B7: +7 referencias académicas (Argyris/Schön, Nelson/Winter, Wegner TMS, Nonaka/Takeuchi, KLT, post-mortems)"
+      - "B8: +8 referencias académicas (concept drift, bias ML, automation bias, opacidad algorítmica, deskilling, Bainbridge)"
+      - "B09: +6 referencias académicas (Tetlock, Janis groupthink, Kydland/Prescott, accountability)"
+      - "B10: Rediseño completo (5,042 palabras)"
+      - "  +Diagnóstico previo (3 preguntas)"
+      - "  +Tres fuentes de parálisis"
+      - "  +Precondiciones políticas detalladas"
+      - "  +Secuencia 4 fases con metodologías (1-2-4-All, Troika, Open Space)"
+      - "  +Estructura sesión gate (60 min)"
+      - "  +Resistencias LATAM específicas"
+      - "  +Escenarios fallo piloto"
+      - "  +Métricas y rituales"
+      - "Apéndice D: Tablas diagnósticas reestructuradas (4 secciones para mejor renderizado PDF)"
+      - "Apéndice G: +21 referencias bibliográficas nuevas organizadas por tema"
+      - "Template LaTeX: +xurl package, +breaklinks para corte de URLs largas"
+      - "NUEVO: output/md/ - Carpeta con capítulos individuales para reutilización"
+      - "PDF: 196 -> 263 páginas (+67)"
+    revision_v39_changes:
+      - "Mejoras de formato y navegación"
+      - "Portada: Imagen diseñada (portada.png) como página completa del PDF"
+      - "Template LaTeX: Página legal mejorada con posicionamiento correcto"
+      - "Apéndice C: +30 referencias académicas por framework teórico"
+      - "Apéndice F: Tabla convertida a LaTeX con anchos proporcionales"
+      - "B55: Diagrama gate en notación dinámica de sistemas (stocks, flujos, loops R+/B-)"
+      - "AppE: Radar de capacidades con capas concéntricas"
+    revision_v40_changes:
+      - "Paleta visual unificada con portada"
+      - "11 diagramas Graphviz actualizados con colores de portada"
+      - "  Fondo oscuro: #0a1628, #0d1f3c"
+      - "  Azul (control): #1e3a5f, #2d5a87, #3d7ab7"
+      - "  Rojo (caos): #8b0000, #dc143c"
+      - "  Gris neutro: #8899aa"
+      - "  Tipografía: Helvetica Neue"
+      - "Diagramas actualizados:"
+      - "  B1-loop-poder, B2-ley-variedad-ashby, B2-paradoja-control"
+      - "  B3-senales-trance, B3-secuencia-delegacion, B3-goodhart-loop"
+      - "  B4-requisitos-limite, B4-asimetria-costos, B4-fases-retraso"
+      - "  B55-estructura-gate, AppE-radar-capacidades"
+      - "Coherencia visual libro-portada establecida"
+    next_actions:
+      - "Revisar renderizado final del PDF"
+      - "Validar legibilidad de diagramas en impresión"

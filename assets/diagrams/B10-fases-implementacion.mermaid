@@ -1,0 +1,42 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e3a5f', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#3d7ab7', 'lineColor': '#8899aa', 'secondaryColor': '#2d5a87', 'tertiaryColor': '#0d1f3c', 'background': 'transparent' }}}%%
+flowchart TB
+    subgraph F1["FASE 1: PILOTO"]
+        A1[Caso doloroso]
+        A2[Sesion sensemaking]
+        A3[Criterios emergen]
+        A4[Primer veredicto]
+        A1 --> A2 --> A3 --> A4
+    end
+
+    subgraph F2["FASE 2: VALIDACION"]
+        B1[Criterios probados]
+        B2[Troika mensual]
+        B3[Segunda categoria]
+        B4[Comunidad practica]
+        B1 --> B2 --> B3 --> B4
+    end
+
+    subgraph F3["FASE 3: INSTITUCION"]
+        C1[Mandato formal]
+        C2[Operadores protegidos]
+        C3[Registro irreversible]
+        C4[Override explicito]
+        C1 --> C2 --> C3 --> C4
+    end
+
+    subgraph F4["FASE 4: MADURACION"]
+        D1[Review 12 meses]
+        D2[Criterios evolucionan]
+        D3[Cobertura expande]
+        D4[Open Space semestral]
+        D1 --> D2 --> D3 --> D4
+    end
+
+    F1 --> F2
+    F2 --> F3
+    F3 --> F4
+
+    style F1 fill:#2d5a87,stroke:#3d7ab7,color:#ffffff
+    style F2 fill:#1e3a5f,stroke:#3d7ab7,color:#ffffff
+    style F3 fill:#2d5a87,stroke:#3d7ab7,color:#ffffff
+    style F4 fill:#1e3a5f,stroke:#3d7ab7,color:#ffffff

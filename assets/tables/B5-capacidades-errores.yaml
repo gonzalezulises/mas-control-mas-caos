@@ -1,0 +1,43 @@
+title: "Capacidades y errores estructurales que previenen"
+description: "Cada capacidad bloquea un modo de falla específico del sistema organizacional"
+
+columns:
+  - key: capacidad
+    header: "Capacidad"
+  - key: error_previene
+    header: "Error que previene"
+  - key: sintoma_ausencia
+    header: "Síntoma de ausencia"
+
+rows:
+  - capacidad: "CAP-1: Detección de loops y trance"
+    error_previene: "Amplificación ciega"
+    sintoma_ausencia: "Todo parece correcto hasta que es tarde"
+  
+  - capacidad: "CAP-2: Límite previo a ejecución"
+    error_previene: "Iniciativas mal planteadas entran en ejecución"
+    sintoma_ausencia: "Nunca se dice NO antes de comprometer recursos"
+  
+  - capacidad: "CAP-3: Aprendizaje grupal y procedural"
+    error_previene: "Repetición de errores"
+    sintoma_ausencia: "Capacitación sin cambio de comportamiento"
+  
+  - capacidad: "CAP-4: Criterio codificado resistente"
+    error_previene: "Neutralización del disenso"
+    sintoma_ausencia: "Cada decisión se negocia desde cero"
+  
+  - capacidad: "CAP-5: Absorción de fricción política"
+    error_previene: "Parálisis por costo político"
+    sintoma_ausencia: "Nadie quiere ser quien diga NO"
+  
+  - capacidad: "CAP-6: Override explícito y trazable"
+    error_previene: "Excepciones invisibles"
+    sintoma_ausencia: "El gate se ignora sin consecuencia"
+  
+  - capacidad: "CAP-7: Gobernanza humano-algorítmica"
+    error_previene: "Automatización de sesgos"
+    sintoma_ausencia: "La IA decide sin supervisión humana"
+  
+  - capacidad: "CAP-8: Diferenciación por dominio"
+    error_previene: "Criterios uniformes para contextos distintos"
+    sintoma_ausencia: "Exploración evaluada como explotación"

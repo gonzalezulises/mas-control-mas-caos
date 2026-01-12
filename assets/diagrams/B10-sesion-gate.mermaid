@@ -1,0 +1,27 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e3a5f', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#3d7ab7', 'lineColor': '#8899aa', 'secondaryColor': '#2d5a87', 'tertiaryColor': '#0d1f3c', 'background': 'transparent' }}}%%
+flowchart TB
+    subgraph A["APERTURA 5 min"]
+        A1[Declarar sesgos]
+    end
+
+    subgraph B["INFORMACION 15 min"]
+        B1[Solo preguntas]
+    end
+
+    subgraph C["DELIBERACION 35 min"]
+        C1[Votacion secreta]
+        C2[Junior primero]
+        C3[Devils advocate]
+        C1 --> C2 --> C3
+    end
+
+    subgraph D["CIERRE 5 min"]
+        D1[Votacion final]
+    end
+
+    A --> B --> C --> D
+
+    style A fill:#1e3a5f,stroke:#3d7ab7,color:#ffffff
+    style B fill:#2d5a87,stroke:#3d7ab7,color:#ffffff
+    style C fill:#0d1f3c,stroke:#8899aa,color:#ffffff
+    style D fill:#1e3a5f,stroke:#3d7ab7,color:#ffffff

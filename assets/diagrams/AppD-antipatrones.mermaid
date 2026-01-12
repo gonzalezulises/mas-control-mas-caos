@@ -1,0 +1,30 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e3a5f', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#3d7ab7', 'lineColor': '#8899aa', 'secondaryColor': '#2d5a87', 'tertiaryColor': '#0d1f3c', 'background': 'transparent' }}}%%
+flowchart TB
+    subgraph FUNCIONAL["GATE FUNCIONAL"]
+        F1[Criterios explicitos]
+        F2[Operadores protegidos]
+        F3[Veredictos vinculantes]
+    end
+
+    subgraph DEGENERACION["DEGENERACION"]
+        D1[Presion velocidad]
+        D2[Excepciones urgentes]
+        D3[Criterios flexibles]
+    end
+
+    subgraph TEATRO["TEATRO"]
+        T1[Sin poder real]
+        T2[Aprobacion automatica]
+        T3[Responsabilidad difusa]
+    end
+
+    F1 --> D1
+    D1 --> D2
+    D2 --> D3
+    D3 --> T1
+    T1 --> T2
+    T2 --> T3
+
+    style FUNCIONAL fill:#1e3a5f,stroke:#3d7ab7,color:#ffffff
+    style DEGENERACION fill:#2d5a87,stroke:#8899aa,color:#ffffff
+    style TEATRO fill:#8b0000,stroke:#dc143c,color:#ffffff

@@ -1,0 +1,713 @@
+# Referencias - Gerencia Funcional
+# Sistema de gestión de citas y bibliografía
+# Formato: APA 7ma edición
+
+metadata:
+  version: "1.0"
+  last_updated: "2025-12-27"
+  apa_edition: 7
+  total_references: 0  # Se actualiza automáticamente
+
+# Tipos válidos: book | article | report | web | news | legal
+# verified: true = URL/datos confirmados | false = pendiente verificar
+
+references:
+  # ============================================
+  # TEORÍA DE SISTEMAS Y CIBERNÉTICA
+  # ============================================
+
+  - id: REF-001
+    type: book
+    citation_key: ashby1956
+    authors:
+      - family: Ashby
+        given: W. Ross
+    title: "An Introduction to Cybernetics"
+    year: 1956
+    publisher: Chapman & Hall
+    location: London
+    url: "https://archive.org/details/introductiontocy00ashb"
+    isbn: null
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Ley de Variedad Requerida"
+      - file: appendix-C-convergencias.md
+        context: "VSM y variedad requerida"
+    apa_formatted: "Ashby, W. R. (1956). *An Introduction to Cybernetics*. Chapman & Hall."
+
+  - id: REF-002
+    type: book
+    citation_key: beer1972
+    authors:
+      - family: Beer
+        given: Stafford
+    title: "Brain of the Firm"
+    year: 1972
+    publisher: Allen Lane
+    location: London
+    url: null
+    isbn: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Viable System Model"
+    apa_formatted: "Beer, S. (1972). *Brain of the Firm*. Allen Lane."
+
+  # ============================================
+  # ORGANIZACIONES DE ALTA CONFIABILIDAD (HRO)
+  # ============================================
+
+  - id: REF-003
+    type: book
+    citation_key: weick2015
+    authors:
+      - family: Weick
+        given: Karl E.
+      - family: Sutcliffe
+        given: Kathleen M.
+    title: "Managing the Unexpected: Sustained Performance in a Complex World"
+    edition: 3
+    year: 2015
+    publisher: Wiley
+    location: Hoboken, NJ
+    url: null
+    isbn: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "High Reliability Organizations"
+    apa_formatted: "Weick, K. E., & Sutcliffe, K. M. (2015). *Managing the Unexpected: Sustained Performance in a Complex World* (3ra ed.). Wiley."
+
+  # ============================================
+  # ACCIDENTES Y SISTEMAS COMPLEJOS
+  # ============================================
+
+  - id: REF-004
+    type: book
+    citation_key: perrow1984
+    authors:
+      - family: Perrow
+        given: Charles
+    title: "Normal Accidents: Living with High-Risk Technologies"
+    year: 1984
+    publisher: Basic Books
+    location: New York
+    url: "https://press.princeton.edu/books/paperback/9780691004129/normal-accidents"
+    isbn: "978-0691004129"
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Teoría de accidentes normales"
+    apa_formatted: "Perrow, C. (1984). *Normal Accidents: Living with High-Risk Technologies*. Basic Books."
+
+  # ============================================
+  # ANTIFRAGILIDAD Y RIESGO
+  # ============================================
+
+  - id: REF-005
+    type: book
+    citation_key: taleb2012
+    authors:
+      - family: Taleb
+        given: Nassim Nicholas
+    title: "Antifragile: Things That Gain from Disorder"
+    year: 2012
+    publisher: Random House
+    location: New York
+    url: null
+    isbn: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Antifragilidad y skin in the game"
+    apa_formatted: "Taleb, N. N. (2012). *Antifragile: Things That Gain from Disorder*. Random House."
+
+  # ============================================
+  # FRAMEWORKS DE COMPLEJIDAD
+  # ============================================
+
+  - id: REF-006
+    type: article
+    citation_key: snowden2007
+    authors:
+      - family: Snowden
+        given: David J.
+      - family: Boone
+        given: Mary E.
+    title: "A Leader's Framework for Decision Making"
+    year: 2007
+    journal: "Harvard Business Review"
+    volume: 85
+    issue: 11
+    pages: "68-76"
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-C-convergencias.md
+        context: "Cynefin Framework"
+    apa_formatted: "Snowden, D. J., & Boone, M. E. (2007). A Leader's Framework for Decision Making. *Harvard Business Review*, 85(11), 68-76."
+
+  # ============================================
+  # LEYES Y PRINCIPIOS
+  # ============================================
+
+  - id: REF-007
+    type: article
+    citation_key: goodhart1984
+    authors:
+      - family: Goodhart
+        given: Charles A. E.
+    title: "Problems of Monetary Management: The U.K. Experience"
+    year: 1984
+    journal: "Monetary Theory and Practice"
+    publisher: Macmillan
+    pages: "91-121"
+    url: null
+    note: "Formulación original de la Ley de Goodhart (1975, reformulada 1984)"
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Ley de Goodhart"
+    apa_formatted: "Goodhart, C. A. E. (1984). Problems of Monetary Management: The U.K. Experience. En *Monetary Theory and Practice* (pp. 91-121). Macmillan."
+
+  # ============================================
+  # REPORTES CORPORATIVOS
+  # ============================================
+
+  - id: REF-008
+    type: report
+    citation_key: mckinsey2019
+    authors:
+      - organization: McKinsey & Company
+    title: "Why do most transformations fail? A conversation with Harry Robinson"
+    year: 2019
+    url: "https://www.mckinsey.com/capabilities/transformation/our-insights/why-do-most-transformations-fail-a-conversation-with-harry-robinson"
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: B0-introduccion.md
+        context: "60-70% de iniciativas fracasan"
+    apa_formatted: "McKinsey & Company. (2019). *Why do most transformations fail? A conversation with Harry Robinson*. https://www.mckinsey.com/capabilities/transformation/our-insights/why-do-most-transformations-fail-a-conversation-with-harry-robinson"
+
+  # ============================================
+  # CASOS EMPRESARIALES - FRACASOS
+  # ============================================
+
+  - id: REF-009
+    type: news
+    citation_key: reuters2013ogx
+    authors:
+      - organization: Reuters
+    title: "OGX files for Brazil's largest-ever bankruptcy protection"
+    year: 2013
+    date: "2013-10-30"
+    publication: "Reuters"
+    url: null  # Pendiente verificar
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Caso OGX Brasil"
+    apa_formatted: "Reuters. (2013, 30 de octubre). OGX files for Brazil's largest-ever bankruptcy protection. *Reuters*. URL"
+
+  - id: REF-010
+    type: legal
+    citation_key: doj2016odebrecht
+    authors:
+      - organization: U.S. Department of Justice
+    title: "Odebrecht and Braskem Plead Guilty and Agree to Pay at Least $3.5 Billion in Global Penalties"
+    year: 2016
+    date: "2016-12-21"
+    url: "https://www.justice.gov/archives/opa/pr/odebrecht-and-braskem-plead-guilty-and-agree-pay-least-35-billion-global-penalties-resolve"
+    verified: true
+    verification_date: "2025-12-27"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Caso Odebrecht"
+    apa_formatted: "U.S. Department of Justice. (2016, 21 de diciembre). *Odebrecht and Braskem Plead Guilty and Agree to Pay at Least $3.5 Billion in Global Penalties*. https://www.justice.gov/archives/opa/pr/odebrecht-and-braskem-plead-guilty-and-agree-pay-least-35-billion-global-penalties-resolve"
+
+  - id: REF-011
+    type: report
+    citation_key: superfinanciera2012
+    authors:
+      - organization: Superintendencia Financiera de Colombia
+    title: "Resolución de intervención Interbolsa S.A."
+    year: 2012
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B6-casos-donde-decir-no-fue-exito.md
+        context: "Caso Interbolsa Colombia"
+      - file: appendix-B-ausencia-casos-publicos.md
+        context: "Falla regulador Colombia"
+    apa_formatted: "Superintendencia Financiera de Colombia. (2012). *Resolución de intervención Interbolsa S.A.* URL"
+
+  # ============================================
+  # CASOS EMPRESARIALES - ÉXITOS
+  # ============================================
+
+  - id: REF-012
+    type: report
+    citation_key: copa2023
+    authors:
+      - organization: Copa Holdings, S.A.
+    title: "Annual Report 2023"
+    year: 2023
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B6-casos-donde-decir-no-fue-exito.md
+        context: "Copa Airlines margen operativo"
+    apa_formatted: "Copa Holdings, S.A. (2023). *Annual Report 2023*. URL"
+
+  # ============================================
+  # CASOS HISTÓRICOS
+  # ============================================
+
+  - id: REF-013
+    type: news
+    citation_key: nyt1982tylenol
+    authors:
+      - family: Carvajal
+        given: Doreen
+    title: "Tylenol Maker Recalls Capsules After New Deaths"
+    year: 1982
+    date: "1982-10-01"
+    publication: "The New York Times"
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B4-los-sistemas-no-se-auto-limitan.md
+        context: "J&J Tylenol 31 millones de frascos"
+    apa_formatted: "The New York Times. (1982, 1 de octubre). Tylenol Maker Recalls Capsules After New Deaths. URL"
+
+  - id: REF-014
+    type: report
+    citation_key: fda2020
+    authors:
+      - organization: U.S. Food and Drug Administration
+    title: "The Drug Development Process"
+    year: 2020
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: B4-los-sistemas-no-se-auto-limitan.md
+        context: "FDA costo y tiempo desarrollo medicamentos"
+    apa_formatted: "U.S. Food and Drug Administration. (2020). *The Drug Development Process*. URL"
+
+  # ============================================
+  # REGULADORES LATAM
+  # ============================================
+
+  - id: REF-015
+    type: web
+    citation_key: sbp2024
+    authors:
+      - organization: Superintendencia de Bancos de Panamá
+    title: "Marco regulatorio bancario"
+    year: 2024
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-B-ausencia-casos-publicos.md
+        context: "Regulador Panamá como límite externo"
+    apa_formatted: "Superintendencia de Bancos de Panamá. (2024). *Marco regulatorio bancario*. URL"
+
+  - id: REF-016
+    type: web
+    citation_key: cmf2024
+    authors:
+      - organization: Comisión para el Mercado Financiero de Chile
+    title: "Normativa y regulación"
+    year: 2024
+    url: null
+    verified: false
+    verification_date: null
+    used_in:
+      - file: appendix-B-ausencia-casos-publicos.md
+        context: "CMF Chile como límite externo"
+    apa_formatted: "Comisión para el Mercado Financiero de Chile. (2024). *Normativa y regulación*. URL"
+
+  # ============================================
+  # VOICE Y SILENCIO ORGANIZACIONAL
+  # ============================================
+
+  - id: REF-017
+    type: article
+    citation_key: burris2012
+    authors:
+      - family: Burris
+        given: Ethan R.
+    title: "The Risks and Rewards of Speaking Up: Managerial Responses to Employee Voice"
+    year: 2012
+    journal: "Academy of Management Journal"
+    volume: 55
+    issue: 4
+    pages: "851-875"
+    url: "https://doi.org/10.5465/amj.2010.0562"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B0-introduccion.md
+        context: "Voice y represalias organizacionales"
+    apa_formatted: "Burris, E. R. (2012). The Risks and Rewards of Speaking Up: Managerial Responses to Employee Voice. *Academy of Management Journal*, 55(4), 851-875."
+
+  - id: REF-018
+    type: article
+    citation_key: detert2007
+    authors:
+      - family: Detert
+        given: James R.
+      - family: Burris
+        given: Ethan R.
+    title: "Leadership Behavior and Employee Voice: Is the Door Really Open?"
+    year: 2007
+    journal: "Academy of Management Journal"
+    volume: 50
+    issue: 4
+    pages: "869-884"
+    url: "https://doi.org/10.5465/amj.2007.26279183"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B0-introduccion.md
+        context: "Challenging voice y evaluaciones de desempeño"
+    apa_formatted: "Detert, J. R., & Burris, E. R. (2007). Leadership Behavior and Employee Voice: Is the Door Really Open? *Academy of Management Journal*, 50(4), 869-884."
+
+  - id: REF-019
+    type: article
+    citation_key: morrison2000
+    authors:
+      - family: Morrison
+        given: Elizabeth W.
+      - family: Milliken
+        given: Frances J.
+    title: "Organizational Silence: A Barrier to Change and Development in a Pluralistic World"
+    year: 2000
+    journal: "Academy of Management Review"
+    volume: 25
+    issue: 4
+    pages: "706-725"
+    url: "https://doi.org/10.5465/amr.2000.3707697"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B0-introduccion.md
+        context: "Silencio organizacional como fenómeno sistémico"
+    apa_formatted: "Morrison, E. W., & Milliken, F. J. (2000). Organizational Silence: A Barrier to Change and Development in a Pluralistic World. *Academy of Management Review*, 25(4), 706-725."
+
+  # ============================================
+  # ESCALATION OF COMMITMENT
+  # ============================================
+
+  - id: REF-020
+    type: article
+    citation_key: staw1976
+    authors:
+      - family: Staw
+        given: Barry M.
+    title: "Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action"
+    year: 1976
+    journal: "Organizational Behavior and Human Performance"
+    volume: 16
+    issue: 1
+    pages: "27-44"
+    url: "https://doi.org/10.1016/0030-5073(76)90005-2"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Escalation of commitment - paper seminal"
+    apa_formatted: "Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. *Organizational Behavior and Human Performance*, 16(1), 27-44."
+
+  - id: REF-021
+    type: article
+    citation_key: brockner1992
+    authors:
+      - family: Brockner
+        given: Joel
+    title: "The escalation of commitment to a failing course of action: Toward theoretical progress"
+    year: 1992
+    journal: "Academy of Management Review"
+    volume: 17
+    issue: 1
+    pages: "39-61"
+    url: "https://doi.org/10.5465/amr.1992.4279568"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Revisión teórica de dinámicas de escalación"
+    apa_formatted: "Brockner, J. (1992). The escalation of commitment to a failing course of action: Toward theoretical progress. *Academy of Management Review*, 17(1), 39-61."
+
+  - id: REF-022
+    type: article
+    citation_key: fang2014
+    authors:
+      - family: Fang
+        given: Christina
+      - family: Kim
+        given: Jungho
+      - family: Milliken
+        given: Frances J.
+    title: "When bad news is sugarcoated: Information distortion, organizational search, and the behavioral theory of the firm"
+    year: 2014
+    journal: "Strategic Management Journal"
+    volume: 35
+    issue: 8
+    pages: "1186-1201"
+    url: "https://doi.org/10.1002/smj.2146"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Upward information distortion - evidencia empírica"
+    apa_formatted: "Fang, C., Kim, J., & Milliken, F. J. (2014). When bad news is sugarcoated: Information distortion, organizational search, and the behavioral theory of the firm. *Strategic Management Journal*, 35(8), 1186-1201."
+
+  # ============================================
+  # BOEING 737 MAX - FUENTES PRIMARIAS
+  # ============================================
+
+  - id: REF-023
+    type: report
+    citation_key: house2020boeing
+    authors:
+      - organization: U.S. House Committee on Transportation and Infrastructure
+    title: "Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX"
+    year: 2020
+    pages: 238
+    url: "https://democrats-transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Fuente primaria dinámicas organizacionales Boeing"
+    apa_formatted: "U.S. House Committee on Transportation and Infrastructure. (2020). *Final Committee Report on the Design, Development, and Certification of the Boeing 737 MAX*. 116th Congress."
+
+  - id: REF-024
+    type: news
+    citation_key: gates2019
+    authors:
+      - family: Gates
+        given: Dominic
+      - family: Baker
+        given: Mike
+    title: "The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards"
+    year: 2019
+    date: "2019-06-22"
+    publication: "The Seattle Times"
+    url: "https://www.seattletimes.com/seattle-news/times-watchdog/the-inside-story-of-mcas-how-boeings-737-max-system-gained-power-and-lost-safeguards/"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B1-el-loop-del-poder.md
+        context: "Periodismo investigativo presiones internas Boeing"
+    apa_formatted: "Gates, D., & Baker, M. (2019, June 22). The inside story of MCAS: How Boeing's 737 MAX system gained power and lost safeguards. *The Seattle Times*."
+
+  # ============================================
+  # VALIDACIÓN EMPÍRICA LEY DE ASHBY
+  # ============================================
+
+  - id: REF-025
+    type: article
+    citation_key: deraadt1987
+    authors:
+      - family: de Raadt
+        given: J. Donald R.
+    title: "Ashby's Law of Requisite Variety: An Empirical Study"
+    year: 1987
+    journal: "Cybernetics and Systems"
+    volume: 18
+    issue: 6
+    pages: "517-536"
+    url: "https://doi.org/10.1080/01onal969708936759"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Validación empírica Ley de Variedad Requerida en organizaciones"
+    apa_formatted: "de Raadt, J. D. R. (1987). Ashby's Law of Requisite Variety: An Empirical Study. *Cybernetics and Systems*, 18(6), 517-536."
+
+  # ============================================
+  # ANÁLISIS ACADÉMICO ODEBRECHT
+  # ============================================
+
+  - id: REF-026
+    type: article
+    citation_key: campos2021
+    authors:
+      - family: Campos
+        given: Nauro
+      - family: Engel
+        given: Eduardo
+      - family: Fischer
+        given: Ronald D.
+      - family: Galetovic
+        given: Alexander
+    title: "The Ways of Corruption in Infrastructure: Lessons from the Odebrecht Case"
+    year: 2021
+    journal: "Journal of Economic Perspectives"
+    volume: 35
+    issue: 2
+    pages: "171-190"
+    url: "https://doi.org/10.1257/jep.35.2.171"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B2-control-no-es-estabilidad.md
+        context: "Análisis académico mecánicas de corrupción Odebrecht"
+    apa_formatted: "Campos, N., Engel, E., Fischer, R. D., & Galetovic, A. (2021). The Ways of Corruption in Infrastructure: Lessons from the Odebrecht Case. *Journal of Economic Perspectives*, 35(2), 171-190."
+
+  # ============================================
+  # CODING TRANCE - CAPÍTULO 3
+  # ============================================
+
+  - id: REF-027
+    type: article
+    citation_key: campbell1976
+    authors:
+      - family: Campbell
+        given: Donald T.
+    title: "Assessing the Impact of Planned Social Change"
+    year: 1976
+    journal: "Evaluation and Program Planning"
+    volume: 2
+    issue: 1
+    pages: "67-90"
+    url: "https://doi.org/10.1016/0149-7189(79)90048-X"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Formulación paralela a Goodhart - corrupción de indicadores"
+    apa_formatted: "Campbell, D. T. (1976). Assessing the Impact of Planned Social Change. *Evaluation and Program Planning*, 2(1), 67-90."
+
+  - id: REF-028
+    type: article
+    citation_key: parasuraman2010
+    authors:
+      - family: Parasuraman
+        given: Raja
+      - family: Manzey
+        given: Dietrich H.
+    title: "Complacency and Bias in Human Use of Automation: An Attentional Integration"
+    year: 2010
+    journal: "Human Factors"
+    volume: 52
+    issue: 3
+    pages: "381-410"
+    url: "https://doi.org/10.1177/0018720810376055"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Automation bias - revisión seminal"
+    apa_formatted: "Parasuraman, R., & Manzey, D. H. (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. *Human Factors*, 52(3), 381-410."
+
+  - id: REF-029
+    type: article
+    citation_key: bahner2008
+    authors:
+      - family: Bahner
+        given: J. Elin
+      - family: Hüper
+        given: Anke-Dorothea
+      - family: Manzey
+        given: Dietrich
+    title: "Misuse of Automated Decision Aids: Complacency, Automation Bias and the Impact of Training Experience"
+    year: 2008
+    journal: "International Journal of Human-Computer Studies"
+    volume: 66
+    issue: 9
+    pages: "688-699"
+    url: "https://doi.org/10.1016/j.ijhcs.2008.06.001"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Automation complacency se intensifica con confiabilidad percibida"
+    apa_formatted: "Bahner, J. E., Hüper, A.-D., & Manzey, D. (2008). Misuse of Automated Decision Aids: Complacency, Automation Bias and the Impact of Training Experience. *International Journal of Human-Computer Studies*, 66(9), 688-699."
+
+  - id: REF-030
+    type: book
+    citation_key: muller2018
+    authors:
+      - family: Muller
+        given: Jerry Z.
+    title: "The Tyranny of Metrics"
+    year: 2018
+    publisher: "Princeton University Press"
+    location: "Princeton, NJ"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Tiranía de las métricas en múltiples sectores"
+    apa_formatted: "Muller, J. Z. (2018). *The Tyranny of Metrics*. Princeton University Press."
+
+  - id: REF-031
+    type: web
+    citation_key: cfpb2016
+    authors:
+      - organization: Consumer Financial Protection Bureau
+    title: "CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts"
+    year: 2016
+    date: "2016-09-08"
+    url: "https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-fines-wells-fargo-100-million-widespread-illegal-practice-secretly-opening-unauthorized-accounts/"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "Wells Fargo cross-selling scandal - fuente primaria"
+    apa_formatted: "Consumer Financial Protection Bureau. (2016, September 8). *CFPB Fines Wells Fargo $100 Million for Widespread Illegal Practice of Secretly Opening Unauthorized Accounts*."
+
+  - id: REF-032
+    type: web
+    citation_key: sec2020wellsfargo
+    authors:
+      - organization: U.S. Securities and Exchange Commission
+    title: "Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit"
+    year: 2020
+    date: "2020-02-21"
+    url: "https://www.sec.gov/newsroom/press-releases/2020-38"
+    verified: true
+    verification_date: "2025-12-28"
+    used_in:
+      - file: B3-coding-trance.md
+        context: "SEC action - cross-sell metric usado para engañar inversores"
+    apa_formatted: "U.S. Securities and Exchange Commission. (2020, February 21). *Wells Fargo to Pay $500 Million for Misleading Investors About the Success of Its Largest Business Unit*."
+
+# ============================================
+# ÍNDICE DE VERIFICACIÓN
+# ============================================
+#
+# Pendientes de verificar (verified: false):
+# - REF-001: Ashby 1956 - buscar URL archive.org
+# - REF-002: Beer 1972 - verificar editorial
+# - REF-003: Weick 2015 - confirmar edición
+# - REF-004: Perrow 1984 - verificar ISBN
+# - REF-005: Taleb 2012 - verificar editorial
+# - REF-006: Snowden 2007 - buscar URL HBR
+# - REF-007: Goodhart 1984 - verificar fuente original
+# - REF-008: McKinsey 2021 - encontrar URL exacta
+# - REF-009: Reuters 2013 OGX - buscar URL
+# - REF-010: DOJ 2016 Odebrecht - buscar URL
+# - REF-011: Superfinanciera 2012 - buscar URL
+# - REF-012: Copa 2023 - buscar reporte anual
+# - REF-013: NYT 1982 Tylenol - buscar URL archivo
+# - REF-014: FDA 2020 - buscar URL oficial
+# - REF-015: SBP 2024 - buscar URL
+# - REF-016: CMF 2024 - buscar URL

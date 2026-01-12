@@ -1,0 +1,34 @@
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e3a5f', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#3d7ab7', 'lineColor': '#8899aa', 'secondaryColor': '#2d5a87', 'tertiaryColor': '#0d1f3c', 'background': 'transparent' }}}%%
+flowchart TB
+    subgraph COMP["COMPOSICION"]
+        OP1["Operador tecnico"]
+        OP2["Operador financiero"]
+        OP3["Operador de riesgo"]
+    end
+
+    subgraph CRIT["CRITERIOS"]
+        C1["Umbral observable"]
+        C2["Consecuencia predefinida"]
+        C3["Sin excepciones"]
+    end
+
+    subgraph VERD["VEREDICTOS"]
+        V1["GO"]
+        V2["GO CONDICIONAL"]
+        V3["NO-GO"]
+    end
+
+    subgraph PROT["PROTECCIONES"]
+        P1["Mandato de directorio"]
+        P2["Registro inmutable"]
+        P3["Override con escalacion"]
+    end
+
+    COMP --> CRIT
+    CRIT --> VERD
+    VERD --> PROT
+
+    style COMP fill:#2d5a87,stroke:#3d7ab7,color:#ffffff
+    style CRIT fill:#1e3a5f,stroke:#8899aa,color:#ffffff
+    style VERD fill:#2d5a87,stroke:#3d7ab7,color:#ffffff
+    style PROT fill:#8b0000,stroke:#dc143c,color:#ffffff

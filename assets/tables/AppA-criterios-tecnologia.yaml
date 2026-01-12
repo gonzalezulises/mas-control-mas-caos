@@ -1,0 +1,49 @@
+id: tabla-AppA-criterios-tecnologia
+title: "Criterios de readiness para iniciativas tecnologicas"
+description: "Cada criterio tiene umbral observable y consecuencia predefinida"
+
+columns:
+  - key: criterio
+    header: "Criterio"
+    width: "25%"
+  - key: umbral
+    header: "Umbral observable"
+    width: "35%"
+  - key: consecuencia
+    header: "Consecuencia si no cumple"
+    width: "40%"
+
+rows:
+  - criterio: "Sponsor ejecutivo"
+    umbral: "Nombre especifico con autoridad presupuestaria documentada"
+    consecuencia: "NO-GO hasta designacion formal"
+
+  - criterio: "Caso de negocio"
+    umbral: "ROI proyectado con supuestos explicitos y escenario pesimista"
+    consecuencia: "GO CONDICIONAL con revision trimestral obligatoria"
+
+  - criterio: "Capacidad de integracion"
+    umbral: "Evaluacion tecnica firmada por arquitectura"
+    consecuencia: "NO-GO hasta completar evaluacion"
+
+  - criterio: "Plan de migracion"
+    umbral: "Documento con fases, rollback y criterios de exito por fase"
+    consecuencia: "NO-GO para proyectos con sistemas legacy afectados"
+
+  - criterio: "Recursos humanos"
+    umbral: "Equipo asignado con disponibilidad confirmada mayor al 80 porciento"
+    consecuencia: "GO CONDICIONAL con monitoreo semanal de dedicacion"
+
+  - criterio: "Gestion de cambio"
+    umbral: "Plan de comunicacion y capacitacion con responsables nombrados"
+    consecuencia: "NO-GO para proyectos con mas de 50 usuarios afectados"
+
+  - criterio: "Seguridad"
+    umbral: "Evaluacion de riesgo completada y aprobada por CISO"
+    consecuencia: "NO-GO absoluto sin excepcion posible"
+
+  - criterio: "Proveedores"
+    umbral: "Contrato revisado por legal con SLAs y clausulas de salida"
+    consecuencia: "NO-GO hasta firma de contrato"
+
+footer_note: "Los criterios se aplican acumulativamente. Un solo NO-GO bloquea la iniciativa completa."

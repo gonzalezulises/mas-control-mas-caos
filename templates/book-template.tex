@@ -1,0 +1,232 @@
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(papersize)$$papersize$paper,$endif$twoside,openright]{book}
+
+% Español
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+% Renombrar índices
+\addto\captionsspanish{%
+  \renewcommand{\listtablename}{Índice de tablas}%
+  \renewcommand{\tablename}{Tabla}%
+}
+
+% Fuentes y tipografía
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Termes}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{DejaVu Sans Mono}[Scale=0.85]
+
+% Geometría de página
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+
+% Espaciado
+\usepackage{setspace}
+$if(linestretch)$
+\setstretch{$linestretch$}
+$endif$
+
+% Encabezados y pies de página
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\small\leftmark}
+\fancyhead[RO]{\small\rightmark}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Páginas de capítulo sin encabezado
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[LE,RO]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% Estilo para frontmatter (TOC, LOF, LOT) - sin encabezados
+\fancypagestyle{frontmatter}{
+  \fancyhf{}
+  \fancyfoot[LE,RO]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% Títulos de capítulo
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\raggedright}
+  {\chaptertitlename\ \thechapter}
+  {20pt}
+  {\Huge\raggedright}
+\titlespacing*{\chapter}{0pt}{50pt}{20pt}
+
+% Párrafos
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0.3em}
+
+% Control de viudas y huérfanas (evitar líneas sueltas)
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+
+% Links y URLs
+\usepackage{xurl}  % DEBE ir antes de hyperref
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  breaklinks=true,
+  % === METADATOS PDF ===
+  pdfauthor={$author$},
+  pdftitle={$title$},
+  pdfsubject={$description$},
+  pdfcreator={$creator$},
+  pdfproducer={XeLaTeX via Pandoc - $if(publisher)$$publisher$$else$Rizo.ma$endif$},
+  pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
+  pdflang={$lang$}
+}
+
+% Corte agresivo de URLs largas
+\makeatletter
+\g@addto@macro\UrlBreaks{\UrlOrds}
+\g@addto@macro\UrlBreaks{%
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+  \do\u\do\v\do\w\do\x\do\y\do\z%
+  \do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J%
+  \do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T%
+  \do\U\do\V\do\W\do\X\do\Y\do\Z%
+  \do\0\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9%
+}
+\makeatother
+
+% Permitir más flexibilidad en el corte de líneas
+\emergencystretch=3em
+\tolerance=1000
+\hbadness=10000
+
+% Gráficos
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Compatibilidad con Pandoc 3.x - comando para imagenes acotadas
+\makeatletter
+\newsavebox\pandoc@teleport
+\newcommand\pandocbounded[1]{%
+  \sbox\pandoc@teleport{#1}%
+  \ifdim\wd\pandoc@teleport>\linewidth
+    \resizebox{\linewidth}{!}{\usebox\pandoc@teleport}%
+  \else
+    \usebox\pandoc@teleport
+  \fi
+}
+\makeatother
+
+% Figuras flotantes
+\usepackage{float}
+\floatplacement{figure}{H}
+
+% Código y bloques
+\usepackage{fancyvrb}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\},fontsize=\small}
+
+% Epígrafes y citas
+\usepackage{csquotes}
+\renewcommand{\mkbegdispquote}[2]{\itshape}
+
+% Notas al pie
+\usepackage[bottom]{footmisc}
+
+% Tabla de contenidos
+\setcounter{tocdepth}{1}
+
+% Listas compactas (requerido por pandoc)
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Listas
+\usepackage{enumitem}
+
+% Símbolos matemáticos
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+% Tablas largas
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{calc}
+
+% Fix para contador 'none' en tablas de pandoc
+\newcounter{none}
+
+\begin{document}
+
+% Portada con imagen
+\begin{titlepage}
+\newgeometry{margin=0pt}
+\noindent\includegraphics[width=\paperwidth,height=\paperheight]{assets/figures/portada.png}
+\restoregeometry
+\end{titlepage}
+
+% Página legal (colofón)
+\thispagestyle{empty}
+\vspace*{4cm}
+\begin{flushleft}
+\small
+\textbf{$title$}\\
+$if(subtitle)$
+\textit{$subtitle$}\\[0.5cm]
+$endif$
+\textbf{Autor:} $author$\\[0.3cm]
+$if(publisher)$
+\textbf{Editorial:} $publisher$\\[0.3cm]
+$endif$
+$if(edition)$
+$edition$, $date$\\[0.3cm]
+$else$
+Primera edición: $date$\\[0.3cm]
+$endif$
+$if(version)$
+\textbf{Versión:} $version$\\[0.3cm]
+$endif$
+$rights$\\[0.5cm]
+Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida, almacenada o transmitida en cualquier forma o por cualquier medio sin el permiso previo por escrito del autor.\\[0.5cm]
+$if(isbn)$
+\textbf{ISBN:} $isbn$\\[0.3cm]
+$endif$
+\textbf{Categorías:}\\
+$for(subject)$
+\hspace{1em}• $subject$\\
+$endfor$
+\vspace{0.3cm}
+\textbf{Contacto:} ulises@rizo.ma\\
+$if(author-url)$
+\textbf{Web:} $author-url$\\
+$endif$
+\vspace{0.5cm}
+\textit{Diseñado y diagramado con Pandoc y \LaTeX}
+\end{flushleft}
+\newpage
+
+% === FRONTMATTER (índices, sin encabezados) ===
+\frontmatter
+\pagestyle{frontmatter}
+
+% Tabla de contenidos
+\tableofcontents
+\cleardoublepage
+
+% Lista de figuras
+\listoffigures
+\cleardoublepage
+
+% === CONTENIDO PRINCIPAL ===
+\mainmatter
+\pagestyle{fancy}
+$body$
+
+\end{document}

@@ -1,0 +1,139 @@
+digraph AsimetriaBalanza {
+    // Layout
+    layout=neato;
+    bgcolor="transparent";
+    pad=0.3;
+
+    // Estilo global - paleta portada
+    node [
+        fontname="Helvetica Neue",
+        fontsize=11,
+        fontcolor="#ffffff",
+        penwidth=2
+    ];
+
+    edge [
+        penwidth=3,
+        color="#8899aa"
+    ];
+
+    // Fulcro (punto de apoyo) - desplazado a la derecha para mostrar desequilibrio
+    fulcro [label="",
+            shape=triangle,
+            width=0.8,
+            height=0.6,
+            fillcolor="#8899aa",
+            style=filled,
+            pos="1,0!"];
+
+    // Barra de la balanza - inclinada (DETENER pesa más = baja)
+    // Lado DETENER (izquierda, más abajo porque pesa más)
+    plato_detener [label="",
+                   shape=circle,
+                   width=0.3,
+                   fillcolor="#dc143c",
+                   style=filled,
+                   pos="-3.5,-1.5!"];
+
+    // Lado CONTINUAR (derecha, más arriba porque pesa menos)
+    plato_continuar [label="",
+                     shape=circle,
+                     width=0.3,
+                     fillcolor="#3d7ab7",
+                     style=filled,
+                     pos="5.5,0.5!"];
+
+    // Barra inclinada (línea)
+    barra1 [label="", shape=point, width=0, pos="-3.5,-1.5!"];
+    barra2 [label="", shape=point, width=0, pos="5.5,0.5!"];
+
+    // Etiquetas de los lados
+    label_detener [label="DETENER",
+                   shape=plaintext,
+                   fontsize=13,
+                   fontname="Helvetica Neue Bold",
+                   fontcolor="#dc143c",
+                   pos="-3.5,-2.3!"];
+
+    label_continuar [label="CONTINUAR",
+                     shape=plaintext,
+                     fontsize=13,
+                     fontname="Helvetica Neue Bold",
+                     fontcolor="#3d7ab7",
+                     pos="5.5,-0.3!"];
+
+    // Pesos lado DETENER (cajas rojas apiladas - pesadas)
+    d1 [label="Costo\nCONCENTRADO\nen quien detiene",
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#5c0000",
+        color="#dc143c",
+        width=2.2,
+        height=0.9,
+        pos="-3.5,-4!"];
+
+    d2 [label="Costo\nINMEDIATO\nvisible para todos",
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#5c0000",
+        color="#dc143c",
+        width=2.2,
+        height=0.9,
+        pos="-3.5,-5.2!"];
+
+    d3 [label="Beneficio\nINCIERTO\nen futuro lejano",
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#5c0000",
+        color="#dc143c",
+        width=2.2,
+        height=0.9,
+        pos="-3.5,-6.4!"];
+
+    // Pesos lado CONTINUAR (cajas azules - livianas)
+    c1 [label="Costo\nDISTRIBUIDO\nentre todos",
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#1e3a5f",
+        color="#3d7ab7",
+        width=2.2,
+        height=0.9,
+        pos="5.5,-1.8!"];
+
+    c2 [label="Costo\nDIFERIDO\na futuro incierto",
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#1e3a5f",
+        color="#3d7ab7",
+        width=2.2,
+        height=0.9,
+        pos="5.5,-3!"];
+
+    c3 [label="Beneficio\nINMEDIATO\nevitar conflicto",
+        shape=box,
+        style="rounded,filled",
+        fillcolor="#1e3a5f",
+        color="#3d7ab7",
+        width=2.2,
+        height=0.9,
+        pos="5.5,-4.2!"];
+
+    // Conexiones de la balanza
+    plato_detener -> fulcro [arrowhead=none, color="#8899aa", penwidth=4];
+    fulcro -> plato_continuar [arrowhead=none, color="#8899aa", penwidth=4];
+
+    // Lineas a los pesos
+    plato_detener -> d1 [arrowhead=none, style=dashed, color="#dc143c"];
+    plato_continuar -> c1 [arrowhead=none, style=dashed, color="#3d7ab7"];
+
+    // Conclusion
+    conclusion [label="La balanza siempre se inclina hacia CONTINUAR\nNo por defecto de caracter, sino por estructura de incentivos",
+                shape=box,
+                style="rounded,filled",
+                fillcolor="#0d1f3c",
+                color="#8899aa",
+                fontsize=10,
+                width=5,
+                height=0.7,
+                pos="1,-8!"];
+}

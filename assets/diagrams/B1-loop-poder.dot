@@ -1,0 +1,41 @@
+digraph LoopPoder {
+    // Layout circular
+    layout=neato;
+
+    // Configuracion global - paleta portada
+    bgcolor="transparent";
+    pad=0.5;
+    splines=curved;
+
+    // Estilo de nodos
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Helvetica Neue",
+        fontsize=11,
+        fontcolor="#ffffff",
+        width=2.2,
+        height=0.8,
+        penwidth=2
+    ];
+
+    // Estilo de flechas
+    edge [
+        penwidth=2,
+        color="#3d7ab7",
+        fontcolor="#8899aa",
+        arrowsize=0.8
+    ];
+
+    // Nodos con posiciones fijas (energia arriba)
+    A [label="ENERGIA INICIAL\n(financiera, politica,\noperativa)", fillcolor="#1e3a5f", color="#3d7ab7", pos="0,3!"];
+    B [label="RESULTADOS\nVISIBLES\n(reales o aparentes)", fillcolor="#2d5a87", color="#3d7ab7", pos="3,0!"];
+    C [label="COMPROMISO\nPOLITICO\nde los involucrados", fillcolor="#1e3a5f", color="#3d7ab7", pos="0,-3!"];
+    D [label="DEMANDA DE\nMAS ENERGIA\npara sostener", fillcolor="#8b0000", color="#dc143c", pos="-3,0!"];
+
+    // Conexiones del loop (sentido horario desde arriba)
+    A -> B [label="genera", fontsize=9];
+    B -> C [label="produce", fontsize=9];
+    C -> D [label="requiere", fontsize=9];
+    D -> A [label="amplifica", fontsize=9, style=bold, color="#dc143c", fontcolor="#dc143c"];
+}
